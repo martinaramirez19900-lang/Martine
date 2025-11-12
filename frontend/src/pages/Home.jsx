@@ -452,7 +452,7 @@ const Home = () => {
                 </div>
                 <div className="relative">
                   <img 
-                    src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=800&q=80" 
+                    src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800&q=80" 
                     alt="FC Barcelona - Football Team" 
                     className="rounded-xl shadow-xl w-full h-80 object-cover"
                   />
