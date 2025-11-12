@@ -83,6 +83,7 @@ function App() {
             <Route path="/security" element={<Security />} />
             <Route path="/careers" element={<Careers />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/privacy" element={<Privacy />} />
             <Route path="*" element={<Home />} />
           </Routes>
           <Footer />
