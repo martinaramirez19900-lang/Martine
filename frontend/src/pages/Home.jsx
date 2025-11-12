@@ -476,16 +476,40 @@ const Home = () => {
                     Learn More About Partnership
                   </Button>
                 </div>
-                <div className="relative">
-                  <img 
-                    src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800&q=80" 
-                    alt="FC Barcelona - Football Team" 
-                    className="rounded-xl shadow-xl w-full h-80 object-cover"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-blue-900/60 to-transparent rounded-xl flex items-end p-6">
-                    <div className="text-white">
-                      <div className="text-2xl font-bold mb-1">FC Barcelona</div>
-                      <div className="text-sm">Official Trading Partner</div>
+                <div className="space-y-4">
+                  {/* Main Barcelona Image */}
+                  <div className="relative rounded-xl overflow-hidden shadow-2xl border-4 border-blue-600">
+                    <img 
+                      src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800&q=80" 
+                      alt="FC Barcelona - Football Team" 
+                      className="w-full h-80 object-cover"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-blue-900/80 to-transparent rounded-xl flex items-end p-8">
+                      <div className="text-white">
+                        <Badge className="bg-yellow-400 text-blue-900 mb-3 text-xs font-bold">
+                          OFFICIAL PARTNER
+                        </Badge>
+                        <div className="text-4xl font-bold mb-2">FC Barcelona</div>
+                        <div className="text-lg text-blue-200">Més que un club - More than a club</div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Stadium and Trophy Images */}
+                  <div className="grid grid-cols-2 gap-4">
+                    <div className="relative rounded-lg overflow-hidden shadow-lg">
+                      <img 
+                        src="https://images.unsplash.com/photo-1459865264687-595d652de67e?w=400&q=80" 
+                        alt="Football Stadium" 
+                        className="w-full h-32 object-cover"
+                      />
+                    </div>
+                    <div className="relative rounded-lg overflow-hidden shadow-lg">
+                      <img 
+                        src="https://images.unsplash.com/photo-1614632537423-1e6c2e0ef252?w=400&q=80" 
+                        alt="Football Trophy" 
+                        className="w-full h-32 object-cover"
+                      />
                     </div>
                   </div>
                 </div>
