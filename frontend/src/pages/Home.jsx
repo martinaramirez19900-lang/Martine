@@ -394,9 +394,9 @@ const Home = () => {
             <div className="relative">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1554068865-24cecd4e34b8?w=800&q=80" 
+                  src="https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?w=800&q=80" 
                   alt="Rafael Nadal - Tennis Champion" 
-                  className="w-full h-[600px] object-cover"
+                  className="w-full h-[600px] object-cover object-top"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent"></div>
                 <div className="absolute bottom-8 left-8 right-8">
