@@ -159,8 +159,26 @@ const OpenAccount = () => {
         </div>
       </section>
 
+      {/* Success Stories with Images */}
+      <section className="py-20 px-4 bg-white">
+        <div className="container mx-auto">
+          <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">Join Successful Traders</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+            <div className="relative rounded-2xl overflow-hidden shadow-xl">
+              <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?w=600" alt="Team Success" className="w-full h-64 object-cover" />
+            </div>
+            <div className="relative rounded-2xl overflow-hidden shadow-xl">
+              <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600" alt="Professional Trader" className="w-full h-64 object-cover" />
+            </div>
+            <div className="relative rounded-2xl overflow-hidden shadow-xl">
+              <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?w=600" alt="Trading Floor" className="w-full h-64 object-cover" />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Benefits */}
-      <section className="py-20 px-4 bg-gray-50">
+      <section className="py-20 px-4 bg-green-50">
         <div className="container mx-auto">
           <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">Why Trade with SMH Markets?</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
