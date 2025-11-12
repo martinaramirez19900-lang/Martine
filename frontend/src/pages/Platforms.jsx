@@ -30,7 +30,7 @@ const Platforms = () => {
                     <h3 className="text-3xl font-bold text-gray-900 mb-2">{platform.name}</h3>
                     <p className="text-gray-600">{platform.description}</p>
                   </div>
-                  <div className="w-16 h-16 bg-gradient-to-br from-red-600 to-red-700 rounded-2xl flex items-center justify-center flex-shrink-0">
+                  <div className="w-16 h-16 bg-gradient-to-br from-green-600 to-green-700 rounded-2xl flex items-center justify-center flex-shrink-0">
                     <Monitor className="w-8 h-8 text-white" />
                   </div>
                 </div>
@@ -48,7 +48,7 @@ const Platforms = () => {
                   <ul className="grid grid-cols-2 gap-3">
                     {platform.features.map((feature, idx) => (
                       <li key={idx} className="flex items-start">
-                        <span className="w-2 h-2 bg-red-600 rounded-full mr-2 mt-1.5 flex-shrink-0"></span>
+                        <span className="w-2 h-2 bg-green-600 rounded-full mr-2 mt-1.5 flex-shrink-0"></span>
                         <span className="text-gray-700 text-sm">{feature}</span>
                       </li>
                     ))}
@@ -63,7 +63,7 @@ const Platforms = () => {
                   </TabsList>
                   <TabsContent value="desktop" className="mt-4">
                     <div className="space-y-3">
-                      <Button className="w-full bg-red-600 hover:bg-red-700 text-white">
+                      <Button className="w-full bg-green-600 hover:bg-green-700 text-white">
                         <Download className="w-4 h-4 mr-2" />
                         Download for Windows
                       </Button>
@@ -74,14 +74,14 @@ const Platforms = () => {
                     </div>
                   </TabsContent>
                   <TabsContent value="web" className="mt-4">
-                    <Button className="w-full bg-red-600 hover:bg-red-700 text-white">
+                    <Button className="w-full bg-green-600 hover:bg-green-700 text-white">
                       <Globe className="w-4 h-4 mr-2" />
                       Launch Web Platform
                     </Button>
                   </TabsContent>
                   <TabsContent value="mobile" className="mt-4">
                     <div className="space-y-3">
-                      <Button className="w-full bg-red-600 hover:bg-red-700 text-white">
+                      <Button className="w-full bg-green-600 hover:bg-green-700 text-white">
                         <Download className="w-4 h-4 mr-2" />
                         Download for iOS
                       </Button>

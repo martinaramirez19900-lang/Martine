@@ -30,7 +30,7 @@ const Tools = () => {
       icon: BarChart3,
       title: 'Technical Analysis Tools',
       description: 'Advanced charting tools with 100+ indicators and drawing tools',
-      color: 'from-red-500 to-red-600'
+      color: 'from-green-500 to-green-600'
     },
     {
       icon: PieChart,
@@ -69,7 +69,7 @@ const Tools = () => {
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-3">{tool.title}</h3>
                 <p className="text-gray-600 mb-6">{tool.description}</p>
-                <Button className="w-full bg-red-600 hover:bg-red-700 text-white">
+                <Button className="w-full bg-green-600 hover:bg-green-700 text-white">
                   Launch Tool
                 </Button>
               </Card>
@@ -114,7 +114,7 @@ const Tools = () => {
                   </select>
                 </div>
               </div>
-              <Button className="w-full mt-6 bg-red-600 hover:bg-red-700 text-white py-6 text-lg">
+              <Button className="w-full mt-6 bg-green-600 hover:bg-green-700 text-white py-6 text-lg">
                 Calculate
               </Button>
               <div className="mt-8 p-6 bg-gray-50 rounded-lg">

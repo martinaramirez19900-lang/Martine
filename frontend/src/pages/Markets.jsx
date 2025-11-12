@@ -61,7 +61,7 @@ const Markets = () => {
                   <Card key={instrument.id} className="p-6 hover:shadow-xl transition-all duration-300 cursor-pointer group">
                     <div className="flex items-start justify-between mb-4">
                       <div>
-                        <h3 className="text-2xl font-bold text-gray-900 mb-1 group-hover:text-red-600 transition-colors">
+                        <h3 className="text-2xl font-bold text-gray-900 mb-1 group-hover:text-green-600 transition-colors">
                           {instrument.symbol}
                         </h3>
                         <p className="text-sm text-gray-600">{instrument.name}</p>
@@ -70,7 +70,7 @@ const Markets = () => {
                         {instrument.change.startsWith('+') ? (
                           <TrendingUp className="w-6 h-6 text-green-600" />
                         ) : (
-                          <TrendingDown className="w-6 h-6 text-red-600" />
+                          <TrendingDown className="w-6 h-6 text-green-600" />
                         )}
                       </div>
                     </div>
@@ -79,7 +79,7 @@ const Markets = () => {
                       <div>
                         <div className="text-3xl font-bold text-gray-900 mb-1">{instrument.price}</div>
                         <div className={`text-sm font-medium ${
-                          instrument.change.startsWith('+') ? 'text-green-600' : 'text-red-600'
+                          instrument.change.startsWith('+') ? 'text-green-600' : 'text-green-600'
                         }`}>
                           {instrument.change}
                         </div>
@@ -95,7 +95,7 @@ const Markets = () => {
                       <Button className="flex-1 bg-green-600 hover:bg-green-700 text-white">
                         Buy
                       </Button>
-                      <Button variant="outline" className="flex-1 border-red-600 text-red-600 hover:bg-red-50">
+                      <Button variant="outline" className="flex-1 border-green-600 text-green-600 hover:bg-green-50">
                         Sell
                       </Button>
                     </div>
@@ -177,7 +177,7 @@ const Markets = () => {
                       <div className="font-bold text-gray-900">{category.spread}</div>
                     </div>
                   </div>
-                  <Button className="w-full bg-red-600 hover:bg-red-700 text-white">
+                  <Button className="w-full bg-green-600 hover:bg-green-700 text-white">
                     Start Trading
                   </Button>
                 </div>

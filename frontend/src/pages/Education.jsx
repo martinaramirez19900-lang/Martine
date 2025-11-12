@@ -29,7 +29,7 @@ const Education = () => {
               { icon: BookOpen, title: 'Trading Guides', count: '50+ Guides', color: 'from-blue-500 to-blue-600' },
               { icon: Video, title: 'Video Tutorials', count: '100+ Videos', color: 'from-purple-500 to-purple-600' },
               { icon: FileText, title: 'E-Books', count: '20+ Books', color: 'from-green-500 to-green-600' },
-              { icon: Award, title: 'Webinars', count: 'Weekly Live', color: 'from-red-500 to-red-600' }
+              { icon: Award, title: 'Webinars', count: 'Weekly Live', color: 'from-green-500 to-green-600' }
             ].map((item, idx) => (
               <Card key={idx} className="p-6 text-center hover:shadow-xl transition-all duration-300 cursor-pointer group">
                 <div className={`w-16 h-16 bg-gradient-to-br ${item.color} rounded-2xl mx-auto mb-4 flex items-center justify-center group-hover:scale-110 transition-transform`}>
@@ -56,7 +56,7 @@ const Education = () => {
                   </div>
                   <h3 className="text-lg font-bold text-gray-900 mb-2">{course.title}</h3>
                   <p className="text-sm text-gray-600 mb-4">{course.description}</p>
-                  <Button className="w-full bg-red-600 hover:bg-red-700 text-white">
+                  <Button className="w-full bg-green-600 hover:bg-green-700 text-white">
                     Start Learning
                   </Button>
                 </div>
@@ -106,7 +106,7 @@ const Education = () => {
                       <span>{path.time}</span>
                     </div>
                   </div>
-                  <Button className="bg-red-600 hover:bg-red-700 text-white ml-6">
+                  <Button className="bg-green-600 hover:bg-green-700 text-white ml-6">
                     Enroll Now
                   </Button>
                 </div>

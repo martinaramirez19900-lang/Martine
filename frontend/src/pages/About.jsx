@@ -94,8 +94,8 @@ const About = () => {
               }
             ].map((value, idx) => (
               <Card key={idx} className="p-8 hover:shadow-xl transition-all duration-300">
-                <div className="w-16 h-16 bg-red-50 rounded-2xl flex items-center justify-center mb-6">
-                  <value.icon className="w-8 h-8 text-red-600" />
+                <div className="w-16 h-16 bg-green-50 rounded-2xl flex items-center justify-center mb-6">
+                  <value.icon className="w-8 h-8 text-green-600" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">{value.title}</h3>
                 <p className="text-gray-600">{value.description}</p>
@@ -121,7 +121,7 @@ const About = () => {
               { number: '99.9%', label: 'Uptime' }
             ].map((stat, idx) => (
               <div key={idx} className="text-center">
-                <div className="text-5xl font-bold text-red-600 mb-2">{stat.number}</div>
+                <div className="text-5xl font-bold text-green-600 mb-2">{stat.number}</div>
                 <div className="text-gray-600">{stat.label}</div>
               </div>
             ))}

@@ -27,18 +27,18 @@ const Accounts = () => {
               <Card
                 key={account.id}
                 className={`p-8 hover:shadow-2xl transition-all duration-300 relative ${
-                  account.recommended ? 'border-2 border-red-600 shadow-xl scale-105' : ''
+                  account.recommended ? 'border-2 border-green-600 shadow-xl scale-105' : ''
                 }`}
               >
                 {account.recommended && (
-                  <Badge className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-red-600 text-white px-4 py-1">
+                  <Badge className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-green-600 text-white px-4 py-1">
                     Recommended
                   </Badge>
                 )}
 
                 <div className="text-center mb-6">
                   <h3 className="text-2xl font-bold text-gray-900 mb-2">{account.name}</h3>
-                  <div className="text-4xl font-bold text-red-600 mb-4">{account.minDeposit}</div>
+                  <div className="text-4xl font-bold text-green-600 mb-4">{account.minDeposit}</div>
                   <p className="text-sm text-gray-600">{t.accounts.minDeposit}</p>
                 </div>
 
@@ -68,7 +68,7 @@ const Accounts = () => {
                 <Button
                   className={`w-full ${
                     account.recommended
-                      ? 'bg-red-600 hover:bg-red-700 text-white'
+                      ? 'bg-green-600 hover:bg-green-700 text-white'
                       : 'bg-gray-900 hover:bg-gray-800 text-white'
                   }`}
                 >
@@ -176,13 +176,13 @@ const Accounts = () => {
       </section>
 
       {/* CTA */}
-      <section className="py-20 px-4 bg-gradient-to-br from-red-600 to-red-700">
+      <section className="py-20 px-4 bg-gradient-to-br from-green-600 to-green-700">
         <div className="container mx-auto text-center">
           <h2 className="text-5xl font-bold text-white mb-6">Ready to Get Started?</h2>
-          <p className="text-xl text-red-100 mb-10 max-w-2xl mx-auto">
+          <p className="text-xl text-green-100 mb-10 max-w-2xl mx-auto">
             Open your trading account today and join thousands of satisfied traders
           </p>
-          <Button size="lg" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-6 text-lg">
+          <Button size="lg" className="bg-white text-green-600 hover:bg-gray-100 px-8 py-6 text-lg">
             Open Account Now
             <ArrowRight className="ml-2 w-5 h-5" />
           </Button>

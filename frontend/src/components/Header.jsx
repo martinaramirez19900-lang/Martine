@@ -30,7 +30,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gradient-to-br from-red-600 to-red-700 rounded-lg flex items-center justify-center">
+            <div className="w-10 h-10 bg-gradient-to-br from-green-600 to-green-700 rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-xl">S</span>
             </div>
             <div>
@@ -41,22 +41,22 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-8">
-            <Link to="/platforms" className="text-gray-700 hover:text-red-600 transition-colors font-medium">
+            <Link to="/platforms" className="text-gray-700 hover:text-green-600 transition-colors font-medium">
               {t.nav.platforms}
             </Link>
-            <Link to="/markets" className="text-gray-700 hover:text-red-600 transition-colors font-medium">
+            <Link to="/markets" className="text-gray-700 hover:text-green-600 transition-colors font-medium">
               {t.nav.markets}
             </Link>
-            <Link to="/accounts" className="text-gray-700 hover:text-red-600 transition-colors font-medium">
+            <Link to="/accounts" className="text-gray-700 hover:text-green-600 transition-colors font-medium">
               {t.nav.accounts}
             </Link>
-            <Link to="/tools" className="text-gray-700 hover:text-red-600 transition-colors font-medium">
+            <Link to="/tools" className="text-gray-700 hover:text-green-600 transition-colors font-medium">
               {t.nav.tools}
             </Link>
-            <Link to="/education" className="text-gray-700 hover:text-red-600 transition-colors font-medium">
+            <Link to="/education" className="text-gray-700 hover:text-green-600 transition-colors font-medium">
               {t.nav.education}
             </Link>
-            <Link to="/about" className="text-gray-700 hover:text-red-600 transition-colors font-medium">
+            <Link to="/about" className="text-gray-700 hover:text-green-600 transition-colors font-medium">
               {t.nav.about}
             </Link>
           </nav>
@@ -89,7 +89,7 @@ const Header = () => {
             <Button variant="outline" className="border-gray-300">
               {t.nav.login}
             </Button>
-            <Button className="bg-red-600 hover:bg-red-700 text-white">
+            <Button className="bg-green-600 hover:bg-green-700 text-white">
               {t.nav.signup}
             </Button>
           </div>
@@ -107,22 +107,22 @@ const Header = () => {
         {mobileMenuOpen && (
           <div className="lg:hidden py-4 border-t border-gray-200">
             <nav className="flex flex-col space-y-4">
-              <Link to="/platforms" className="text-gray-700 hover:text-red-600 transition-colors font-medium">
+              <Link to="/platforms" className="text-gray-700 hover:text-green-600 transition-colors font-medium">
                 {t.nav.platforms}
               </Link>
-              <Link to="/markets" className="text-gray-700 hover:text-red-600 transition-colors font-medium">
+              <Link to="/markets" className="text-gray-700 hover:text-green-600 transition-colors font-medium">
                 {t.nav.markets}
               </Link>
-              <Link to="/accounts" className="text-gray-700 hover:text-red-600 transition-colors font-medium">
+              <Link to="/accounts" className="text-gray-700 hover:text-green-600 transition-colors font-medium">
                 {t.nav.accounts}
               </Link>
-              <Link to="/tools" className="text-gray-700 hover:text-red-600 transition-colors font-medium">
+              <Link to="/tools" className="text-gray-700 hover:text-green-600 transition-colors font-medium">
                 {t.nav.tools}
               </Link>
-              <Link to="/education" className="text-gray-700 hover:text-red-600 transition-colors font-medium">
+              <Link to="/education" className="text-gray-700 hover:text-green-600 transition-colors font-medium">
                 {t.nav.education}
               </Link>
-              <Link to="/about" className="text-gray-700 hover:text-red-600 transition-colors font-medium">
+              <Link to="/about" className="text-gray-700 hover:text-green-600 transition-colors font-medium">
                 {t.nav.about}
               </Link>
               <div className="pt-4 space-y-3">
@@ -140,7 +140,7 @@ const Header = () => {
                 <Button variant="outline" className="w-full border-gray-300">
                   {t.nav.login}
                 </Button>
-                <Button className="w-full bg-red-600 hover:bg-red-700 text-white">
+                <Button className="w-full bg-green-600 hover:bg-green-700 text-white">
                   {t.nav.signup}
                 </Button>
               </div>
