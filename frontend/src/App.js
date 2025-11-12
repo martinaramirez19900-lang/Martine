@@ -41,6 +41,7 @@ import Regulation from './pages/company/Regulation';
 import Security from './pages/company/Security';
 import Careers from './pages/company/Careers';
 import Contact from './pages/company/Contact';
+import Privacy from './pages/company/Privacy';
 
 function App() {
   return (
