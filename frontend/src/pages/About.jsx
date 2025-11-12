@@ -32,7 +32,7 @@ const About = () => {
       </section>
 
       {/* Our Story */}
-      <section className="py-20 px-4 bg-gray-50">
+      <section className="py-20 px-4 bg-green-50">
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl font-bold text-gray-900 mb-8 text-center">Our Story</h2>
