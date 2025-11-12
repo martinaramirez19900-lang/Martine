@@ -26,8 +26,12 @@ const MT5 = () => {
                 </Button>
               </div>
             </div>
-            <div>
-              <img src="https://images.unsplash.com/photo-1649003515353-c58a239cf662?w=800" alt="MT5" className="rounded-2xl shadow-2xl" />
+            <div className="space-y-4">
+              <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800" alt="MT5 Platform" className="rounded-2xl shadow-2xl" />
+              <div className="grid grid-cols-2 gap-4">
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400" alt="Charts" className="rounded-xl shadow-lg" />
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400" alt="Trading" className="rounded-xl shadow-lg" />
+              </div>
             </div>
           </div>
         </div>
