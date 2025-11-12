@@ -48,6 +48,7 @@ function App() {
       <BrowserRouter>
         <div className="App">
           <HeaderNew />
+          <CookieConsent />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/open-account" element={<OpenAccount />} />
