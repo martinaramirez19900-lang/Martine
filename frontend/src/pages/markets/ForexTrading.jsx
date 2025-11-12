@@ -58,7 +58,7 @@ const ForexTrading = () => {
         </div>
       </section>
 
-      <section className="py-20 px-4 bg-gray-50">
+      <section className="py-20 px-4 bg-green-50">
         <div className="container mx-auto max-w-4xl">
           <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">Why Trade Forex with SMH Markets?</h2>
           <div className="space-y-6">
