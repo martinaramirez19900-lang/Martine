@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section with Video Background */}
-      <section className="relative pt-32 pb-20 px-4 overflow-hidden">
+      <section className="relative pt-32 pb-20 px-4 overflow-hidden min-h-[600px]">
         {/* Video Background */}
         <div className="absolute inset-0">
           <video
@@ -21,11 +21,13 @@ const Home = () => {
             muted
             playsInline
             className="absolute inset-0 w-full h-full object-cover"
+            poster="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1920"
           >
-            <source src="https://cdn.pixabay.com/video/2022/01/18/104389-668189805_large.mp4" type="video/mp4" />
+            <source src="https://assets.mixkit.co/videos/preview/mixkit-businessman-working-on-a-laptop-in-an-office-52534-large.mp4" type="video/mp4" />
+            <source src="https://cdn.coverr.co/videos/coverr-trading-charts-on-a-monitor-6301/1080p.mp4" type="video/mp4" />
           </video>
           {/* Dark overlay for better text readability */}
-          <div className="absolute inset-0 bg-gradient-to-br from-gray-900/70 to-gray-900/50"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-gray-900/75 to-green-900/60"></div>
         </div>
         <div className="container mx-auto relative z-10">
           <div className="max-w-4xl mx-auto text-center">
