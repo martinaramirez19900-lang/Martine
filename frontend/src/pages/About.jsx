@@ -106,7 +106,7 @@ const About = () => {
       </section>
 
       {/* Achievements */}
-      <section className="py-20 px-4 bg-gray-50">
+      <section className="py-20 px-4 bg-green-50">
         <div className="container mx-auto">
           <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">Our Achievements</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
