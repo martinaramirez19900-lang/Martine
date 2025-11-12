@@ -54,6 +54,11 @@ function App() {
             <Route path="/education" element={<Education />} />
             <Route path="/education/guides" element={<Education />} />
             <Route path="/about" element={<About />} />
+            <Route path="/why-us" element={<WhyUs />} />
+            <Route path="/regulation" element={<Regulation />} />
+            <Route path="/security" element={<Security />} />
+            <Route path="/careers" element={<Careers />} />
+            <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<Home />} />
           </Routes>
           <Footer />
