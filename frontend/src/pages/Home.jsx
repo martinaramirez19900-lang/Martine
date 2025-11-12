@@ -11,23 +11,30 @@ const Home = () => {
 
   return (
     <div className="min-h-screen">
-      {/* Hero Section with Video Background */}
-      <section className="relative pt-32 pb-20 px-4 overflow-hidden min-h-[600px]">
-        {/* Video Background */}
+      {/* Hero Section with Success Image Background */}
+      <section className="relative pt-32 pb-20 px-4 overflow-hidden min-h-[700px]">
+        {/* Background Image with Successful People, Skyscrapers, Bull */}
         <div className="absolute inset-0">
-          <video
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="absolute inset-0 w-full h-full object-cover"
-            poster="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1920"
-          >
-            <source src="https://assets.mixkit.co/videos/preview/mixkit-businessman-working-on-a-laptop-in-an-office-52534-large.mp4" type="video/mp4" />
-            <source src="https://cdn.coverr.co/videos/coverr-trading-charts-on-a-monitor-6301/1080p.mp4" type="video/mp4" />
-          </video>
-          {/* Dark overlay for better text readability */}
-          <div className="absolute inset-0 bg-gradient-to-br from-gray-900/75 to-green-900/60"></div>
+          <div 
+            className="absolute inset-0 w-full h-full bg-cover bg-center"
+            style={{
+              backgroundImage: `url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&q=80')`
+            }}
+          ></div>
+          {/* Overlay with bull market theme */}
+          <div className="absolute inset-0">
+            <div className="absolute inset-0 bg-gradient-to-r from-gray-900/85 via-gray-900/70 to-green-900/75"></div>
+            {/* Bull silhouette overlay */}
+            <div 
+              className="absolute bottom-0 right-0 w-96 h-96 opacity-10"
+              style={{
+                backgroundImage: `url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBmaWxsPSIjZmZmIiBkPSJNNTYgMzM2YzAtMTYuNiA0LjctMTAuNCAxMi42LTE0LjRMMTI4IDE4NEMyMjQgOTYgMjU2IDY0IDM1MiAxNjBjNDguIDQ4IDkyIDEwNCAxMjYgMTY2IDkgMTYuNiAxMCAzNyAxMCA1NyAwIDE2LTMwIDI1LjItNDggMjUuMi0yNSAwLTQzLTE5LjItNDgtMzQuOC0xMC03Mi0yMy0xMzYtNDktMTk2LTI2LTYwLTYzLTExMi0xMTgtMTQ5LTU1LTM3LTExOC01OC0xODUtNTgtNjcgMC0xMzAgMjEtMTg1IDU4LTU1IDM3LTkyIDg5LTExOCAxNDktMjYgNjAtMzkgMTI0LTQ5IDE5Ni01IDE1LjYtMjMgMzQuOC00OCAzNC44LTE4IDAtNDgtOS4yLTQ4LTI1LjJ6Ii8+PC9zdmc+')`,
+                backgroundSize: 'contain',
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: 'bottom right'
+              }}
+            ></div>
+          </div>
         </div>
         <div className="container mx-auto relative z-10">
           <div className="max-w-4xl mx-auto text-center">
