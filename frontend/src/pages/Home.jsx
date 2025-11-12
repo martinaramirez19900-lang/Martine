@@ -396,24 +396,46 @@ const Home = () => {
               </Button>
             </div>
             <div className="relative">
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-                <img 
-                  src="https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?w=800&q=80" 
-                  alt="Rafael Nadal - Tennis Champion" 
-                  className="w-full h-[600px] object-cover object-top"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent"></div>
-                <div className="absolute bottom-8 left-8 right-8">
-                  <div className="bg-white/90 backdrop-blur-sm rounded-xl p-6">
-                    <div className="flex items-center space-x-4">
-                      <div className="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center">
-                        <Award className="w-8 h-8 text-white" />
-                      </div>
-                      <div>
-                        <div className="text-sm text-gray-600">Official Partner</div>
-                        <div className="text-2xl font-bold text-gray-900">Rafael Nadal</div>
+              <div className="grid grid-cols-1 gap-6">
+                {/* Main Tennis Player Image */}
+                <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-green-500">
+                  <img 
+                    src="https://images.unsplash.com/photo-1554068865-24cecd4e34b8?w=800&q=80" 
+                    alt="Professional Tennis Player" 
+                    className="w-full h-[500px] object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-gray-900/90 via-gray-900/40 to-transparent"></div>
+                  <div className="absolute bottom-8 left-8 right-8">
+                    <div className="bg-white/95 backdrop-blur-sm rounded-xl p-6 shadow-xl">
+                      <div className="flex items-center space-x-4">
+                        <div className="w-20 h-20 bg-gradient-to-br from-green-600 to-green-700 rounded-full flex items-center justify-center shadow-lg">
+                          <Award className="w-10 h-10 text-white" />
+                        </div>
+                        <div>
+                          <div className="text-sm text-gray-600 font-semibold uppercase tracking-wide">Official Brand Ambassador</div>
+                          <div className="text-3xl font-bold text-gray-900">Rafael Nadal</div>
+                          <div className="text-sm text-green-600 font-semibold">Tennis Legend & Champion</div>
+                        </div>
                       </div>
                     </div>
+                  </div>
+                </div>
+                
+                {/* Tennis Action Shot */}
+                <div className="grid grid-cols-2 gap-4">
+                  <div className="relative rounded-xl overflow-hidden shadow-lg">
+                    <img 
+                      src="https://images.unsplash.com/photo-1622163642998-1ea32b0bbc67?w=400&q=80" 
+                      alt="Tennis Action" 
+                      className="w-full h-48 object-cover"
+                    />
+                  </div>
+                  <div className="relative rounded-xl overflow-hidden shadow-lg">
+                    <img 
+                      src="https://images.unsplash.com/photo-1595435742656-5272d0b2c14f?w=400&q=80" 
+                      alt="Tennis Court" 
+                      className="w-full h-48 object-cover"
+                    />
                   </div>
                 </div>
               </div>
