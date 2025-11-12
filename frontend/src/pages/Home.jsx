@@ -397,12 +397,12 @@ const Home = () => {
             </div>
             <div className="relative">
               <div className="grid grid-cols-1 gap-6">
-                {/* Main Tennis Player Image */}
+                {/* Main Tennis Player Image - Rafael Nadal */}
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-green-500">
                   <img 
-                    src="https://images.unsplash.com/photo-1554068865-24cecd4e34b8?w=800&q=80" 
-                    alt="Professional Tennis Player" 
-                    className="w-full h-[500px] object-cover"
+                    src="https://customer-assets.emergentagent.com/job_forex-exchange-18/artifacts/rx1szg1p_image.png" 
+                    alt="Rafael Nadal - Tennis Champion" 
+                    className="w-full h-[500px] object-cover object-center"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-gray-900/90 via-gray-900/40 to-transparent"></div>
                   <div className="absolute bottom-8 left-8 right-8">
