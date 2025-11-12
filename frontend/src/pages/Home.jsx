@@ -11,17 +11,22 @@ const Home = () => {
 
   return (
     <div className="min-h-screen">
-      {/* Hero Section */}
+      {/* Hero Section with Video Background */}
       <section className="relative pt-32 pb-20 px-4 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-50 to-white"></div>
-        <div 
-          className="absolute inset-0 opacity-5"
-          style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1639917714192-557a6143f788?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzd8MHwxfHNlYXJjaHwxfHx0cmFkaW5nJTIwZGVza3xlbnwwfHx8fDE3NjI5MzkyODZ8MA&ixlib=rb-4.1.0&q=85')`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center'
-          }}
-        ></div>
+        {/* Video Background */}
+        <div className="absolute inset-0">
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="absolute inset-0 w-full h-full object-cover"
+          >
+            <source src="https://cdn.pixabay.com/video/2022/01/18/104389-668189805_large.mp4" type="video/mp4" />
+          </video>
+          {/* Dark overlay for better text readability */}
+          <div className="absolute inset-0 bg-gradient-to-br from-gray-900/70 to-gray-900/50"></div>
+        </div>
         <div className="container mx-auto relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-block mb-6">
