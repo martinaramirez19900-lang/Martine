@@ -186,6 +186,117 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Trading Experience Section with Images */}
+      <section className="py-24 px-4 bg-white">
+        <div className="container mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-5xl font-bold text-gray-900 mb-4">Professional Trading Experience</h2>
+            <p className="text-xl text-gray-600">Advanced tools and technology for modern traders</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+              <img 
+                src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800" 
+                alt="Trading Charts" 
+                className="w-full h-80 object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-gray-900/70 to-transparent flex items-end p-8">
+                <div>
+                  <h3 className="text-2xl font-bold text-white mb-2">Advanced Analytics</h3>
+                  <p className="text-gray-200">Real-time market data and technical analysis</p>
+                </div>
+              </div>
+            </div>
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+              <img 
+                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800" 
+                alt="Trading Platform" 
+                className="w-full h-80 object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-gray-900/70 to-transparent flex items-end p-8">
+                <div>
+                  <h3 className="text-2xl font-bold text-white mb-2">Multiple Platforms</h3>
+                  <p className="text-gray-200">Trade on MT4, MT5, cTrader, and WebTrader</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="relative rounded-2xl overflow-hidden shadow-xl">
+              <img 
+                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600" 
+                alt="Market Analysis" 
+                className="w-full h-64 object-cover"
+              />
+            </div>
+            <div className="relative rounded-2xl overflow-hidden shadow-xl">
+              <img 
+                src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=600" 
+                alt="Professional Trader" 
+                className="w-full h-64 object-cover"
+              />
+            </div>
+            <div className="relative rounded-2xl overflow-hidden shadow-xl">
+              <img 
+                src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=600" 
+                alt="Trading Success" 
+                className="w-full h-64 object-cover"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonials with Images */}
+      <section className="py-24 px-4 bg-green-50">
+        <div className="container mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-5xl font-bold text-gray-900 mb-4">Trusted by Traders Worldwide</h2>
+            <p className="text-xl text-gray-600">See what our clients say about us</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {[
+              {
+                image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400',
+                name: 'Michael Anderson',
+                role: 'Professional Trader',
+                text: 'SMH Markets has transformed my trading experience. The execution speed is incredible!'
+              },
+              {
+                image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400',
+                name: 'Sarah Johnson',
+                role: 'Day Trader',
+                text: 'Best spreads in the industry. I have been trading here for 3 years and never disappointed.'
+              },
+              {
+                image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400',
+                name: 'David Martinez',
+                role: 'Forex Trader',
+                text: 'Excellent customer support and reliable platform. Highly recommended for serious traders.'
+              }
+            ].map((testimonial, idx) => (
+              <Card key={idx} className="p-8 hover:shadow-2xl transition-all">
+                <div className="flex items-center mb-6">
+                  <img 
+                    src={testimonial.image} 
+                    alt={testimonial.name}
+                    className="w-16 h-16 rounded-full object-cover mr-4"
+                  />
+                  <div>
+                    <h4 className="font-bold text-gray-900">{testimonial.name}</h4>
+                    <p className="text-sm text-gray-600">{testimonial.role}</p>
+                  </div>
+                </div>
+                <p className="text-gray-700 italic">"{testimonial.text}"</p>
+                <div className="flex mt-4 text-yellow-500">
+                  {'★★★★★'}
+                </div>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-24 px-4 bg-gradient-to-br from-green-600 to-green-700">
         <div className="container mx-auto text-center">
