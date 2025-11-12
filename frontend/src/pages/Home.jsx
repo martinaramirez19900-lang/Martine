@@ -99,7 +99,7 @@ const Home = () => {
       </section>
 
       {/* Features Section */}
-      <section className="py-24 px-4">
+      <section className="py-24 px-4 bg-green-50">
         <div className="container mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold text-gray-900 mb-4">{t.features.title}</h2>
