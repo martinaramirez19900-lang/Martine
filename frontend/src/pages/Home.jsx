@@ -46,42 +46,83 @@ const Home = () => {
                   <span className="text-sm font-medium">Award-Winning Broker 2025</span>
                 </div>
               </div>
-            <h1 className="text-6xl md:text-7xl font-bold text-white mb-6 leading-tight drop-shadow-lg">
-              {t.hero.title}
-            </h1>
-            <p className="text-xl md:text-2xl text-green-100 mb-4 font-light">
-              {t.hero.subtitle}
-            </p>
-            <p className="text-lg text-gray-200 mb-10 max-w-2xl mx-auto">
-              {t.hero.description}
-            </p>
-            <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white px-8 py-6 text-lg">
-                {t.hero.cta1}
-                <ArrowRight className="ml-2 w-5 h-5" />
-              </Button>
-              <Button size="lg" variant="outline" className="border-2 border-gray-300 px-8 py-6 text-lg">
-                {t.hero.cta2}
-              </Button>
+              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight drop-shadow-lg">
+                {t.hero.title}
+              </h1>
+              <p className="text-xl md:text-2xl text-green-100 mb-4 font-light">
+                {t.hero.subtitle}
+              </p>
+              <p className="text-lg text-gray-200 mb-10">
+                {t.hero.description}
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white px-8 py-6 text-lg">
+                  {t.hero.cta1}
+                  <ArrowRight className="ml-2 w-5 h-5" />
+                </Button>
+                <Button size="lg" variant="outline" className="border-2 border-white text-white hover:bg-white/10 px-8 py-6 text-lg">
+                  {t.hero.cta2}
+                </Button>
+              </div>
+
+              {/* Stats */}
+              <div className="grid grid-cols-2 gap-6 mt-12">
+                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
+                  <div className="text-4xl font-bold text-white mb-1">500K+</div>
+                  <div className="text-sm text-gray-200">Active Traders</div>
+                </div>
+                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
+                  <div className="text-4xl font-bold text-white mb-1">2000+</div>
+                  <div className="text-sm text-gray-200">Instruments</div>
+                </div>
+                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
+                  <div className="text-4xl font-bold text-green-400 mb-1">0.0</div>
+                  <div className="text-sm text-gray-200">Spreads from</div>
+                </div>
+                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
+                  <div className="text-4xl font-bold text-white mb-1">24/7</div>
+                  <div className="text-sm text-gray-200">Support</div>
+                </div>
+              </div>
             </div>
 
-            {/* Stats */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16">
-              <div>
-                <div className="text-4xl font-bold text-gray-900 mb-2">500K+</div>
-                <div className="text-sm text-gray-600">Active Traders</div>
-              </div>
-              <div>
-                <div className="text-4xl font-bold text-gray-900 mb-2">2000+</div>
-                <div className="text-sm text-gray-600">Instruments</div>
-              </div>
-              <div>
-                <div className="text-4xl font-bold text-gray-900 mb-2">0.0</div>
-                <div className="text-sm text-gray-600">Spreads from</div>
-              </div>
-              <div>
-                <div className="text-4xl font-bold text-gray-900 mb-2">24/7</div>
-                <div className="text-sm text-gray-600">Support</div>
+            {/* Right side - Success imagery */}
+            <div className="hidden lg:block">
+              <div className="relative">
+                {/* Main success image */}
+                <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white/20">
+                  <img 
+                    src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=600&q=80" 
+                    alt="Successful Team" 
+                    className="w-full h-96 object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-green-900/60 to-transparent"></div>
+                </div>
+                
+                {/* Floating cards */}
+                <div className="absolute -bottom-6 -left-6 bg-white rounded-xl shadow-xl p-4 border-2 border-green-500">
+                  <div className="flex items-center space-x-3">
+                    <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
+                      <TrendingUp className="w-6 h-6 text-green-600" />
+                    </div>
+                    <div>
+                      <div className="text-2xl font-bold text-green-600">+235%</div>
+                      <div className="text-xs text-gray-600">Avg. Returns</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="absolute -top-6 -right-6 bg-white rounded-xl shadow-xl p-4 border-2 border-green-500">
+                  <div className="flex items-center space-x-3">
+                    <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
+                      <Users className="w-6 h-6 text-green-600" />
+                    </div>
+                    <div>
+                      <div className="text-2xl font-bold text-gray-900">500K+</div>
+                      <div className="text-xs text-gray-600">Happy Clients</div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
