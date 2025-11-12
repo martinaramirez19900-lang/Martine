@@ -347,6 +347,138 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Brand Ambassador - Rafael Nadal */}
+      <section className="py-24 px-4 bg-gradient-to-br from-gray-900 to-gray-800 relative overflow-hidden">
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute inset-0" style={{
+            backgroundImage: `url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZGVmcz48cGF0dGVybiBpZD0iZ3JpZCIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9uVXNlIj48cGF0aCBkPSJNIDQwIDAgTCAwIDAgMCA0MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjEiLz48L3BhdHRlcm4+PC9kZWZzPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JpZCkiLz48L3N2Zz4=')`,
+            backgroundSize: '40px 40px'
+          }}></div>
+        </div>
+        <div className="container mx-auto relative z-10">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="text-white">
+              <Badge className="bg-green-600 text-white mb-6 text-sm px-4 py-2">
+                Official Brand Ambassador
+              </Badge>
+              <h2 className="text-5xl md:text-6xl font-bold mb-6">
+                Rafael Nadal
+              </h2>
+              <p className="text-2xl text-green-400 font-semibold mb-6">
+                Tennis Legend & SMH Markets Ambassador
+              </p>
+              <p className="text-xl text-gray-300 mb-8 leading-relaxed">
+                "Excellence, precision, and dedication - values that define both champions and successful traders. 
+                I'm proud to represent SMH Markets, a broker that shares my commitment to achieving greatness."
+              </p>
+              <div className="flex flex-wrap gap-6 mb-8">
+                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
+                  <div className="text-3xl font-bold text-green-400 mb-1">22</div>
+                  <div className="text-sm text-gray-300">Grand Slam Titles</div>
+                </div>
+                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
+                  <div className="text-3xl font-bold text-green-400 mb-1">92</div>
+                  <div className="text-sm text-gray-300">ATP Titles</div>
+                </div>
+                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
+                  <div className="text-3xl font-bold text-green-400 mb-1">#1</div>
+                  <div className="text-sm text-gray-300">ATP Ranking</div>
+                </div>
+              </div>
+              <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white px-8 py-6 text-lg">
+                Trade Like a Champion
+                <ArrowRight className="ml-2 w-5 h-5" />
+              </Button>
+            </div>
+            <div className="relative">
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+                <img 
+                  src="https://images.unsplash.com/photo-1554068865-24cecd4e34b8?w=800&q=80" 
+                  alt="Rafael Nadal - Tennis Champion" 
+                  className="w-full h-[600px] object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent"></div>
+                <div className="absolute bottom-8 left-8 right-8">
+                  <div className="bg-white/90 backdrop-blur-sm rounded-xl p-6">
+                    <div className="flex items-center space-x-4">
+                      <div className="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center">
+                        <Award className="w-8 h-8 text-white" />
+                      </div>
+                      <div>
+                        <div className="text-sm text-gray-600">Official Partner</div>
+                        <div className="text-2xl font-bold text-gray-900">Rafael Nadal</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Sponsorships - FC Barcelona */}
+      <section className="py-20 px-4 bg-white">
+        <div className="container mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Official Sponsors</h2>
+            <p className="text-xl text-gray-600">Proud partners of world-class organizations</p>
+          </div>
+          
+          <div className="max-w-5xl mx-auto">
+            <Card className="overflow-hidden hover:shadow-2xl transition-all">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center p-8">
+                <div>
+                  <Badge className="bg-blue-600 text-white mb-4">Official Trading Partner</Badge>
+                  <h3 className="text-4xl font-bold text-gray-900 mb-4">FC Barcelona</h3>
+                  <p className="text-lg text-gray-600 mb-6">
+                    SMH Markets is the Official Trading Partner of FC Barcelona, one of the world's most successful 
+                    football clubs. This partnership represents our commitment to excellence and global reach.
+                  </p>
+                  <div className="grid grid-cols-2 gap-4 mb-6">
+                    <div className="bg-blue-50 rounded-lg p-4">
+                      <div className="text-3xl font-bold text-blue-600 mb-1">26</div>
+                      <div className="text-sm text-gray-700">La Liga Titles</div>
+                    </div>
+                    <div className="bg-blue-50 rounded-lg p-4">
+                      <div className="text-3xl font-bold text-blue-600 mb-1">5</div>
+                      <div className="text-sm text-gray-700">Champions League</div>
+                    </div>
+                  </div>
+                  <Button className="bg-blue-600 hover:bg-blue-700 text-white">
+                    Learn More About Partnership
+                  </Button>
+                </div>
+                <div className="relative">
+                  <img 
+                    src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=800&q=80" 
+                    alt="FC Barcelona - Football Team" 
+                    className="rounded-xl shadow-xl w-full h-80 object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-blue-900/60 to-transparent rounded-xl flex items-end p-6">
+                    <div className="text-white">
+                      <div className="text-2xl font-bold mb-1">FC Barcelona</div>
+                      <div className="text-sm">Official Trading Partner</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </Card>
+          </div>
+
+          {/* Other Partners */}
+          <div className="mt-16 text-center">
+            <p className="text-gray-600 mb-8">Trusted by Leading Organizations</p>
+            <div className="flex flex-wrap justify-center items-center gap-12 opacity-60">
+              <div className="text-gray-400 font-bold text-2xl">McLaren F1</div>
+              <div className="text-gray-400 font-bold text-2xl">World Tennis</div>
+              <div className="text-gray-400 font-bold text-2xl">Financial Times</div>
+              <div className="text-gray-400 font-bold text-2xl">Bloomberg</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-24 px-4 bg-gradient-to-br from-green-600 to-green-700">
         <div className="container mx-auto text-center">
