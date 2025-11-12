@@ -18,10 +18,22 @@ import Funding from './pages/Funding';
 import ForexTrading from './pages/markets/ForexTrading';
 import StockTrading from './pages/markets/StockTrading';
 import CryptoTrading from './pages/markets/CryptoTrading';
+import IndicesTrading from './pages/markets/IndicesTrading';
+import CommoditiesTrading from './pages/markets/CommoditiesTrading';
 // Platforms
 import MT5 from './pages/platforms/MT5';
 import MT4 from './pages/platforms/MT4';
 import CTrader from './pages/platforms/CTrader';
+// Trading
+import ProConditions from './pages/trading/ProConditions';
+import PAMMAccounts from './pages/trading/PAMMAccounts';
+import MobileApp from './pages/trading/MobileApp';
+import WebTrader from './pages/trading/WebTrader';
+// Tools
+import EconomicCalendar from './pages/tools/EconomicCalendar';
+import MarketNews from './pages/tools/MarketNews';
+// Education
+import Webinars from './pages/education/Webinars';
 // Company
 import WhyUs from './pages/company/WhyUs';
 import Regulation from './pages/company/Regulation';
