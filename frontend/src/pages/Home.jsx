@@ -30,18 +30,18 @@ const Home = () => {
         <div className="container mx-auto relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-block mb-6">
-              <div className="flex items-center space-x-2 bg-green-50 text-green-700 px-6 py-2 rounded-full border border-green-200">
+              <div className="flex items-center space-x-2 bg-green-500/20 text-green-100 px-6 py-2 rounded-full border border-green-400/30 backdrop-blur-sm">
                 <Award className="w-4 h-4" />
                 <span className="text-sm font-medium">Award-Winning Broker 2025</span>
               </div>
             </div>
-            <h1 className="text-6xl md:text-7xl font-bold text-gray-900 mb-6 leading-tight">
+            <h1 className="text-6xl md:text-7xl font-bold text-white mb-6 leading-tight drop-shadow-lg">
               {t.hero.title}
             </h1>
-            <p className="text-xl md:text-2xl text-gray-600 mb-4 font-light">
+            <p className="text-xl md:text-2xl text-green-100 mb-4 font-light">
               {t.hero.subtitle}
             </p>
-            <p className="text-lg text-gray-600 mb-10 max-w-2xl mx-auto">
+            <p className="text-lg text-gray-200 mb-10 max-w-2xl mx-auto">
               {t.hero.description}
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
