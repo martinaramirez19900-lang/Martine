@@ -127,7 +127,7 @@ const Home = () => {
       </section>
 
       {/* Trading Platforms */}
-      <section className="py-24 px-4 bg-gray-50">
+      <section className="py-24 px-4 bg-white">
         <div className="container mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold text-gray-900 mb-4">{t.platforms.title}</h2>
