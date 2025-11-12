@@ -17,7 +17,7 @@ function App() {
     <LanguageProvider>
       <BrowserRouter>
         <div className="App">
-          <Header />
+          <HeaderNew />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/platforms" element={<Platforms />} />
