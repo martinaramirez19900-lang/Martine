@@ -4,6 +4,7 @@ import { ArrowRight, TrendingUp, Shield, Zap, Globe2, Award, Users } from 'lucid
 import { useLanguage } from '../context/LanguageContext';
 import { Button } from '../components/ui/button';
 import { Card } from '../components/ui/card';
+import { Badge } from '../components/ui/badge';
 import { tradingInstruments, platforms, features } from '../data/mockData';
 
 const Home = () => {
