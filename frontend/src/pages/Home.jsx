@@ -516,17 +516,6 @@ const Home = () => {
               </div>
             </Card>
           </div>
-
-          {/* Other Partners */}
-          <div className="mt-16 text-center">
-            <p className="text-gray-600 mb-8">Trusted by Leading Organizations</p>
-            <div className="flex flex-wrap justify-center items-center gap-12 opacity-60">
-              <div className="text-gray-400 font-bold text-2xl">McLaren F1</div>
-              <div className="text-gray-400 font-bold text-2xl">World Tennis</div>
-              <div className="text-gray-400 font-bold text-2xl">Financial Times</div>
-              <div className="text-gray-400 font-bold text-2xl">Bloomberg</div>
-            </div>
-          </div>
         </div>
       </section>
 
