@@ -58,13 +58,22 @@ function App() {
             <Route path="/markets/forex" element={<ForexTrading />} />
             <Route path="/markets/stocks" element={<StockTrading />} />
             <Route path="/markets/crypto" element={<CryptoTrading />} />
+            <Route path="/markets/indices" element={<IndicesTrading />} />
+            <Route path="/markets/commodities" element={<CommoditiesTrading />} />
             <Route path="/accounts" element={<Accounts />} />
             <Route path="/pricing" element={<Pricing />} />
             <Route path="/funding" element={<Funding />} />
+            <Route path="/pro-conditions" element={<ProConditions />} />
+            <Route path="/pamm" element={<PAMMAccounts />} />
+            <Route path="/mobile-app" element={<MobileApp />} />
+            <Route path="/webtrader" element={<WebTrader />} />
             <Route path="/tools" element={<Tools />} />
             <Route path="/tools/calculator" element={<Tools />} />
+            <Route path="/tools/economic-calendar" element={<EconomicCalendar />} />
+            <Route path="/tools/market-news" element={<MarketNews />} />
             <Route path="/education" element={<Education />} />
             <Route path="/education/guides" element={<Education />} />
+            <Route path="/education/webinars" element={<Webinars />} />
             <Route path="/about" element={<About />} />
             <Route path="/why-us" element={<WhyUs />} />
             <Route path="/regulation" element={<Regulation />} />
