@@ -14,6 +14,14 @@ import About from './pages/About';
 import OpenAccount from './pages/OpenAccount';
 import Pricing from './pages/Pricing';
 import Funding from './pages/Funding';
+// Markets
+import ForexTrading from './pages/markets/ForexTrading';
+import StockTrading from './pages/markets/StockTrading';
+import CryptoTrading from './pages/markets/CryptoTrading';
+// Platforms
+import MT5 from './pages/platforms/MT5';
+import MT4 from './pages/platforms/MT4';
+import CTrader from './pages/platforms/CTrader';
 
 function App() {
   return (
