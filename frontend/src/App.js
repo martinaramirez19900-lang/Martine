@@ -33,16 +33,20 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/open-account" element={<OpenAccount />} />
             <Route path="/platforms" element={<Platforms />} />
-            <Route path="/platforms/:platform" element={<Platforms />} />
+            <Route path="/platforms/mt5" element={<MT5 />} />
+            <Route path="/platforms/mt4" element={<MT4 />} />
+            <Route path="/platforms/ctrader" element={<CTrader />} />
             <Route path="/markets" element={<Markets />} />
-            <Route path="/markets/:market" element={<Markets />} />
+            <Route path="/markets/forex" element={<ForexTrading />} />
+            <Route path="/markets/stocks" element={<StockTrading />} />
+            <Route path="/markets/crypto" element={<CryptoTrading />} />
             <Route path="/accounts" element={<Accounts />} />
             <Route path="/pricing" element={<Pricing />} />
             <Route path="/funding" element={<Funding />} />
             <Route path="/tools" element={<Tools />} />
-            <Route path="/tools/:tool" element={<Tools />} />
+            <Route path="/tools/calculator" element={<Tools />} />
             <Route path="/education" element={<Education />} />
-            <Route path="/education/:section" element={<Education />} />
+            <Route path="/education/guides" element={<Education />} />
             <Route path="/about" element={<About />} />
             <Route path="*" element={<Home />} />
           </Routes>
