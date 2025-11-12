@@ -22,6 +22,12 @@ import CryptoTrading from './pages/markets/CryptoTrading';
 import MT5 from './pages/platforms/MT5';
 import MT4 from './pages/platforms/MT4';
 import CTrader from './pages/platforms/CTrader';
+// Company
+import WhyUs from './pages/company/WhyUs';
+import Regulation from './pages/company/Regulation';
+import Security from './pages/company/Security';
+import Careers from './pages/company/Careers';
+import Contact from './pages/company/Contact';
 
 function App() {
   return (
