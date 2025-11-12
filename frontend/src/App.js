@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { LanguageProvider } from './context/LanguageContext';
 import HeaderNew from './components/HeaderNew';
 import Footer from './components/Footer';
+import CookieConsent from './components/CookieConsent';
 import Home from './pages/Home';
 import Platforms from './pages/Platforms';
 import Markets from './pages/Markets';
