@@ -476,24 +476,6 @@ const Home = () => {
                       </div>
                     </div>
                   </div>
-                  
-                  {/* Stadium and Trophy Images */}
-                  <div className="grid grid-cols-2 gap-4">
-                    <div className="relative rounded-lg overflow-hidden shadow-lg">
-                      <img 
-                        src="https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=400&q=80" 
-                        alt="Football Stadium" 
-                        className="w-full h-32 object-cover"
-                      />
-                    </div>
-                    <div className="relative rounded-lg overflow-hidden shadow-lg">
-                      <img 
-                        src="https://images.unsplash.com/photo-1624526267942-ab0ff8a3e972?w=400&q=80" 
-                        alt="Football Trophy" 
-                        className="w-full h-32 object-cover"
-                      />
-                    </div>
-                  </div>
                 </div>
               </div>
             </Card>
