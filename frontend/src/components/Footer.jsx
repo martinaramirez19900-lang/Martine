@@ -87,10 +87,16 @@ const Footer = () => {
           </div>
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm text-gray-500">{t.footer.copyright}</p>
-            <div className="flex space-x-6 mt-4 md:mt-0">
-              <img src="https://via.placeholder.com/60x40/333/fff?text=Visa" alt="Visa" className="h-8 opacity-60" />
-              <img src="https://via.placeholder.com/60x40/333/fff?text=MC" alt="Mastercard" className="h-8 opacity-60" />
-              <img src="https://via.placeholder.com/60x40/333/fff?text=SSL" alt="SSL" className="h-8 opacity-60" />
+            <div className="flex space-x-6 mt-4 md:mt-0 items-center">
+              <div className="h-8 px-3 bg-gray-800 rounded flex items-center justify-center">
+                <span className="text-white font-bold text-lg">VISA</span>
+              </div>
+              <div className="h-8 px-3 bg-gray-800 rounded flex items-center justify-center">
+                <span className="text-white font-bold text-lg">MC</span>
+              </div>
+              <div className="h-8 px-3 bg-gray-800 rounded flex items-center justify-center">
+                <span className="text-green-500 font-bold text-xs">🔒 SSL</span>
+              </div>
             </div>
           </div>
         </div>
