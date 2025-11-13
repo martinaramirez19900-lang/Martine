@@ -420,24 +420,6 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-                
-                {/* Tennis Action Shot */}
-                <div className="grid grid-cols-2 gap-4">
-                  <div className="relative rounded-xl overflow-hidden shadow-lg">
-                    <img 
-                      src="https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?w=400&q=80" 
-                      alt="Tennis Action" 
-                      className="w-full h-48 object-cover"
-                    />
-                  </div>
-                  <div className="relative rounded-xl overflow-hidden shadow-lg">
-                    <img 
-                      src="https://images.unsplash.com/photo-1554068865-24cecd4e34b8?w=400&q=80" 
-                      alt="Tennis Court" 
-                      className="w-full h-48 object-cover"
-                    />
-                  </div>
-                </div>
               </div>
             </div>
           </div>
