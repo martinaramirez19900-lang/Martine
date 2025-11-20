@@ -184,7 +184,10 @@ const Markets = () => {
                       <div className="font-bold text-gray-900">{category.spread}</div>
                     </div>
                   </div>
-                  <Button className="w-full bg-green-600 hover:bg-green-700 text-white">
+                  <Button 
+                    className="w-full bg-green-600 hover:bg-green-700 text-white"
+                    onClick={() => window.location.href = '/open-account'}
+                  >
                     Start Trading
                   </Button>
                 </div>
