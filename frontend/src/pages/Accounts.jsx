@@ -183,7 +183,11 @@ const Accounts = () => {
           <p className="text-xl text-green-100 mb-10 max-w-2xl mx-auto">
             Open your trading account today and join thousands of satisfied traders
           </p>
-          <Button size="lg" className="bg-white text-green-600 hover:bg-gray-100 px-8 py-6 text-lg">
+          <Button 
+            size="lg" 
+            className="bg-white text-green-600 hover:bg-gray-100 px-8 py-6 text-lg"
+            onClick={() => window.location.href = '/open-account'}
+          >
             Open Account Now
             <ArrowRight className="ml-2 w-5 h-5" />
           </Button>
