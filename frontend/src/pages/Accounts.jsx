@@ -71,6 +71,7 @@ const Accounts = () => {
                       ? 'bg-green-600 hover:bg-green-700 text-white'
                       : 'bg-gray-900 hover:bg-gray-800 text-white'
                   }`}
+                  onClick={() => window.location.href = '/open-account'}
                 >
                   {t.accounts.selectAccount}
                   <ArrowRight className="ml-2 w-4 h-4" />
