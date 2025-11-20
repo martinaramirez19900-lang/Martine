@@ -138,21 +138,21 @@ const About = () => {
               {
                 name: 'Michael Anderson',
                 role: 'Chief Executive Officer',
-                image: 'https://images.unsplash.com/photo-1758518729371-5ee28c4ddf60?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njl8MHwxfHNlYXJjaHw0fHxwcm9mZXNzaW9uYWwlMjBidXNpbmVzcyUyMHRlYW18ZW58MHx8fHwxNzYyOTM5MzQ2fDA&ixlib=rb-4.1.0&q=85'
+                image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80'
               },
               {
                 name: 'Sarah Mitchell',
                 role: 'Chief Technology Officer',
-                image: 'https://images.unsplash.com/photo-1758518732175-5d608ba3abdf?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njl8MHwxfHNlYXJjaHwzfHxwcm9mZXNzaW9uYWwlMjBidXNpbmVzcyUyMHRlYW18ZW58MHx8fHwxNzYyOTM5MzQ2fDA&ixlib=rb-4.1.0&q=85'
+                image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80'
               },
               {
                 name: 'David Chen',
                 role: 'Chief Financial Officer',
-                image: 'https://images.unsplash.com/photo-1758518731468-98e90ffd7430?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njl8MHwxfHNlYXJjaHwyfHxwcm9mZXNzaW9uYWwlMjBidXNpbmVzcyUyMHRlYW18ZW58MHx8fHwxNzYyOTM5MzQ2fDA&ixlib=rb-4.1.0&q=85'
+                image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80'
               }
             ].map((member, idx) => (
               <Card key={idx} className="overflow-hidden hover:shadow-xl transition-all duration-300">
-                <img src={member.image} alt={member.name} className="w-full h-80 object-cover" />
+                <img src={member.image} alt={member.name} className="w-full h-80 object-cover object-center" />
                 <div className="p-6 text-center">
                   <h3 className="text-xl font-bold text-gray-900 mb-1">{member.name}</h3>
                   <p className="text-gray-600">{member.role}</p>
