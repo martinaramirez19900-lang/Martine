@@ -56,7 +56,10 @@ const Education = () => {
                   </div>
                   <h3 className="text-lg font-bold text-gray-900 mb-2">{course.title}</h3>
                   <p className="text-sm text-gray-600 mb-4">{course.description}</p>
-                  <Button className="w-full bg-green-600 hover:bg-green-700 text-white">
+                  <Button 
+                    className="w-full bg-green-600 hover:bg-green-700 text-white"
+                    onClick={() => window.location.href = '/open-account'}
+                  >
                     Start Learning
                   </Button>
                 </div>
