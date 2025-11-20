@@ -298,10 +298,17 @@ const HeaderNew = () => {
               </DropdownMenuContent>
             </DropdownMenu>
 
-            <Button variant="outline" className="border-gray-300">
+            <Button 
+              variant="outline" 
+              className="border-gray-300"
+              onClick={() => window.location.href = '/open-account'}
+            >
               Login
             </Button>
-            <Button className="bg-green-600 hover:bg-green-700 text-white">
+            <Button 
+              className="bg-green-600 hover:bg-green-700 text-white"
+              onClick={() => window.location.href = '/open-account'}
+            >
               Open Account
             </Button>
           </div>
