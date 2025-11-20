@@ -315,5 +315,98 @@ export const translations = {
       riskWarning: 'Varovanie pred rizikom: Obchodovanie s CFD a pákovanými produktmi nesie vysoké riziko a nemusí byť vhodné pre všetkých investorov.',
       copyright: '© 2025 SMH Markets. Všetky práva vyhradené.'
     }
+  },
+  es: {
+    nav: {
+      home: 'Inicio',
+      trading: 'Trading',
+      platforms: 'Plataformas de Trading',
+      markets: 'Mercados y Herramientas',
+      knowledgeHub: 'Centro de Conocimiento',
+      company: 'Empresa',
+      login: 'Iniciar Sesión',
+      signup: 'Abrir Cuenta',
+      // Trading submenu
+      openAccount: 'Abrir Cuenta de Trading',
+      pricingModel: 'Modelo de Precios',
+      fundingWithdrawals: 'Depósitos y Retiros',
+      platformComparison: 'Comparación de Plataformas',
+      mobileApp: 'App Móvil',
+      webTrader: 'WebTrader',
+      mt5: 'MetaTrader 5',
+      mt4: 'MetaTrader 4',
+      ctrader: 'cTrader',
+      tradingView: 'TradingView',
+      proConditions: 'Condiciones Pro',
+      benefits: 'Beneficios de Trading',
+      // Markets submenu
+      forex: 'Forex',
+      stocks: 'Acciones',
+      indices: 'Índices',
+      commodities: 'Materias Primas',
+      crypto: 'Criptomonedas',
+      futures: 'Futuros',
+      calculator: 'Calculadora de Trading',
+      economicCalendar: 'Calendario Económico',
+      marketNews: 'Noticias del Mercado',
+      technicalAnalysis: 'Análisis Técnico',
+      // Knowledge Hub
+      education: 'Educación',
+      tradingGuides: 'Guías de Trading',
+      webinars: 'Webinars',
+      videoTutorials: 'Video Tutoriales',
+      glossary: 'Glosario de Trading',
+      faq: 'Preguntas Frecuentes',
+      // Company
+      aboutUs: 'Sobre Nosotros',
+      whyUs: 'Por Qué SMH Markets',
+      careers: 'Carreras',
+      partnerships: 'Asociaciones',
+      contact: 'Contacto',
+      legal: 'Documentos Legales',
+      security: 'Seguridad'
+    },
+    hero: {
+      title: 'Opera con Confianza',
+      subtitle: 'Plataforma de Trading Profesional',
+      description: 'Accede a mercados globales con spreads competitivos, herramientas avanzadas y ejecución ultrarrápida',
+      cta1: 'Abrir Cuenta Real',
+      cta2: 'Probar Demo'
+    },
+    features: {
+      title: 'Por Qué Elegir SMH Markets',
+      subtitle: 'Todo lo que necesitas para operar con éxito'
+    },
+    platforms: {
+      title: 'Plataformas de Trading Avanzadas',
+      subtitle: 'Elige la plataforma que se adapte a tu estilo de trading'
+    },
+    markets: {
+      title: 'Opera en Múltiples Mercados',
+      subtitle: 'Accede a miles de instrumentos en todas las clases de activos',
+      forex: 'Forex',
+      stocks: 'Acciones',
+      crypto: 'Cripto',
+      metals: 'Metales',
+      indices: 'Índices',
+      energy: 'Energía'
+    },
+    accounts: {
+      title: 'Elige Tu Tipo de Cuenta',
+      subtitle: 'Encuentra la cuenta perfecta para tus necesidades de trading',
+      minDeposit: 'Depósito Mín.',
+      leverage: 'Apalancamiento',
+      spreads: 'Spreads',
+      features: 'Características',
+      selectAccount: 'Seleccionar Cuenta'
+    },
+    footer: {
+      company: 'Empresa',
+      trading: 'Trading',
+      legal: 'Legal',
+      followUs: 'Síguenos',
+      riskWarning: 'Advertencia de Riesgo: Operar con CFDs y productos apalancados conlleva un alto nivel de riesgo y puede no ser adecuado para todos los inversores.',
+      copyright: '© 2025 SMH Markets. Todos los derechos reservados.'
+    }
   }
 };
