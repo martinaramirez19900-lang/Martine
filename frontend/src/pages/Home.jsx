@@ -511,11 +511,20 @@ const Home = () => {
             Join thousands of traders who trust SMH Markets for their trading needs
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Button size="lg" className="bg-white text-green-600 hover:bg-gray-100 px-8 py-6 text-lg">
+            <Button 
+              size="lg" 
+              className="bg-white text-green-600 hover:bg-gray-100 px-8 py-6 text-lg"
+              onClick={() => window.location.href = '/open-account'}
+            >
               Open Live Account
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
-            <Button size="lg" variant="outline" className="border-2 border-white text-white hover:bg-white/10 px-8 py-6 text-lg">
+            <Button 
+              size="lg" 
+              variant="outline" 
+              className="border-2 border-white text-white hover:bg-white/10 px-8 py-6 text-lg"
+              onClick={() => window.location.href = '/open-account'}
+            >
               Try Demo Account
             </Button>
           </div>
