@@ -46,33 +46,78 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Social */}
+          {/* Contact Info */}
           <div>
-            <h3 className="text-white font-bold text-lg mb-6">{t.footer.followUs}</h3>
-            <div className="flex space-x-4 mb-6">
-              <a href="#" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-green-600 transition-colors">
-                <Facebook className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-green-600 transition-colors">
-                <Twitter className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-green-600 transition-colors">
-                <Linkedin className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-green-600 transition-colors">
-                <Instagram className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-green-600 transition-colors">
-                <Youtube className="w-5 h-5" />
-              </a>
-            </div>
-            <div className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-gradient-to-br from-green-600 to-green-700 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">S</span>
-              </div>
-              <div>
-                <span className="text-xl font-bold text-white">SMH</span>
-                <span className="text-xl font-light text-gray-400 ml-1">Markets</span>
+            <h3 className="text-white font-bold text-lg mb-6">Contact Us</h3>
+            <ul className="space-y-3">
+              <li className="flex items-start space-x-3">
+                <MapPin className="w-5 h-5 text-green-500 mt-1 flex-shrink-0" />
+                <span className="text-sm">
+                  5 Westbrook Court<br/>
+                  Sharrow Vale Road<br/>
+                  Sheffield, South Yorkshire<br/>
+                  S11 8YZ, United Kingdom
+                </span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <Phone className="w-5 h-5 text-green-500" />
+                <span className="text-sm">+1 787 945 2353</span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <Phone className="w-5 h-5 text-green-500" />
+                <span className="text-sm">+1 787 945 2350</span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <Mail className="w-5 h-5 text-green-500" />
+                <a href="mailto:support@smh-markets.com" className="text-sm hover:text-green-500 transition-colors">
+                  support@smh-markets.com
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          {/* Licenses */}
+          <div>
+            <h3 className="text-white font-bold text-lg mb-6">Regulatory Documents</h3>
+            <ul className="space-y-3">
+              <li>
+                <a 
+                  href="/documents/SMH_CAPITAL_ADVISORS_LLC.pdf" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center space-x-2 hover:text-green-500 transition-colors text-sm"
+                >
+                  <FileText className="w-4 h-4" />
+                  <span>SMH Capital Advisors LLC</span>
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="/documents/SMH_Finance_LLP.pdf" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center space-x-2 hover:text-green-500 transition-colors text-sm"
+                >
+                  <FileText className="w-4 h-4" />
+                  <span>SMH Finance LLP</span>
+                </a>
+              </li>
+            </ul>
+            <div className="mt-8">
+              <h4 className="text-white font-bold text-lg mb-4">{t.footer.followUs}</h4>
+              <div className="flex space-x-3">
+                <a href="#" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-green-600 transition-colors">
+                  <Facebook className="w-5 h-5" />
+                </a>
+                <a href="#" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-green-600 transition-colors">
+                  <Twitter className="w-5 h-5" />
+                </a>
+                <a href="#" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-green-600 transition-colors">
+                  <Linkedin className="w-5 h-5" />
+                </a>
+                <a href="#" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-green-600 transition-colors">
+                  <Instagram className="w-5 h-5" />
+                </a>
               </div>
             </div>
           </div>
