@@ -28,6 +28,7 @@ const HeaderNew = () => {
 
   const languages = [
     { code: 'en', name: 'English', flag: '🇬🇧' },
+    { code: 'es', name: 'Español', flag: '🇪🇸' },
     { code: 'pl', name: 'Polski', flag: '🇵🇱' },
     { code: 'cz', name: 'Čeština', flag: '🇨🇿' },
     { code: 'tr', name: 'Türkçe', flag: '🇹🇷' },
