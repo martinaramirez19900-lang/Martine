@@ -63,29 +63,46 @@ const Platforms = () => {
                   </TabsList>
                   <TabsContent value="desktop" className="mt-4">
                     <div className="space-y-3">
-                      <Button className="w-full bg-green-600 hover:bg-green-700 text-white">
+                      <Button 
+                        className="w-full bg-green-600 hover:bg-green-700 text-white"
+                        onClick={() => alert('Download will start after account registration. Please click Open Account.')}
+                      >
                         <Download className="w-4 h-4 mr-2" />
                         Download for Windows
                       </Button>
-                      <Button variant="outline" className="w-full">
+                      <Button 
+                        variant="outline" 
+                        className="w-full"
+                        onClick={() => alert('Download will start after account registration. Please click Open Account.')}
+                      >
                         <Download className="w-4 h-4 mr-2" />
                         Download for Mac
                       </Button>
                     </div>
                   </TabsContent>
                   <TabsContent value="web" className="mt-4">
-                    <Button className="w-full bg-green-600 hover:bg-green-700 text-white">
+                    <Button 
+                      className="w-full bg-green-600 hover:bg-green-700 text-white"
+                      onClick={() => window.location.href = '/open-account'}
+                    >
                       <Globe className="w-4 h-4 mr-2" />
                       Launch Web Platform
                     </Button>
                   </TabsContent>
                   <TabsContent value="mobile" className="mt-4">
                     <div className="space-y-3">
-                      <Button className="w-full bg-green-600 hover:bg-green-700 text-white">
+                      <Button 
+                        className="w-full bg-green-600 hover:bg-green-700 text-white"
+                        onClick={() => alert('Download will start after account registration. Please click Open Account.')}
+                      >
                         <Download className="w-4 h-4 mr-2" />
                         Download for iOS
                       </Button>
-                      <Button variant="outline" className="w-full">
+                      <Button 
+                        variant="outline" 
+                        className="w-full"
+                        onClick={() => alert('Download will start after account registration. Please click Open Account.')}
+                      >
                         <Download className="w-4 h-4 mr-2" />
                         Download for Android
                       </Button>
