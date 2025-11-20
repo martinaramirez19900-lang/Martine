@@ -123,16 +123,35 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom */}
+        {/* Risk Warning - Expanded */}
         <div className="mt-12 pt-8 border-t border-gray-800">
-          <div className="mb-6">
-            <p className="text-sm text-gray-500 leading-relaxed">
-              {t.footer.riskWarning}
-            </p>
+          <div className="mb-6 bg-gray-800 p-6 rounded-lg">
+            <h4 className="text-white font-bold text-lg mb-4">Risk Warning</h4>
+            <div className="text-xs text-gray-400 leading-relaxed space-y-3">
+              <p>
+                <strong className="text-gray-300">Trading Forex, CFDs, and other leveraged products involves significant risk of loss and may not be suitable for all investors.</strong> You should carefully consider your investment objectives, level of experience, and risk appetite before making any investment decisions.
+              </p>
+              <p>
+                The high degree of leverage available in Forex and CFD trading can work against you as well as for you. Before deciding to trade foreign exchange or any other financial instrument, you should carefully consider your investment objectives, level of experience, and risk appetite. You should be aware of all the risks associated with trading on margin and seek advice from an independent financial advisor if you have any doubts.
+              </p>
+              <p>
+                Past performance is not indicative of future results. The possibility exists that you could sustain a loss of some or all of your initial investment and therefore you should not invest money that you cannot afford to lose. You should be aware of all the risks associated with trading and seek advice from an independent financial advisor if necessary.
+              </p>
+              <p>
+                <strong className="text-gray-300">Regulatory Information:</strong> SMH Markets is a trading name of SMH Capital Advisors LLC and SMH Finance LLP. SMH Capital Advisors LLC is authorized and regulated by relevant financial authorities. All client funds are held in segregated accounts at tier-1 banks for maximum security.
+              </p>
+              <p>
+                The information on this website is not directed at residents of certain jurisdictions where such distribution or use would be contrary to local law or regulation. Please refer to our legal documents for complete terms and conditions.
+              </p>
+            </div>
           </div>
+          
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-sm text-gray-500">{t.footer.copyright}</p>
-            <div className="flex space-x-6 mt-4 md:mt-0 items-center">
+            <div className="text-sm text-gray-500 mb-4 md:mb-0">
+              <p>© 2025 SMH Markets. All rights reserved.</p>
+              <p className="mt-1">SMH Capital Advisors LLC | SMH Finance LLP</p>
+            </div>
+            <div className="flex space-x-6 items-center">
               <div className="h-8 px-3 bg-gray-800 rounded flex items-center justify-center">
                 <span className="text-white font-bold text-lg">VISA</span>
               </div>
