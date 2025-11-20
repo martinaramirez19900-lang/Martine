@@ -471,7 +471,10 @@ const Home = () => {
                       <div className="text-sm text-gray-700">Champions League</div>
                     </div>
                   </div>
-                  <Button className="bg-blue-600 hover:bg-blue-700 text-white">
+                  <Button 
+                    className="bg-blue-600 hover:bg-blue-700 text-white"
+                    onClick={() => window.location.href = '/contact'}
+                  >
                     Learn More About Partnership
                   </Button>
                 </div>
