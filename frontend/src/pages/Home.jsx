@@ -403,7 +403,11 @@ const Home = () => {
                   <div className="text-sm text-gray-300">ATP Ranking</div>
                 </div>
               </div>
-              <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white px-8 py-6 text-lg">
+              <Button 
+                size="lg" 
+                className="bg-green-600 hover:bg-green-700 text-white px-8 py-6 text-lg"
+                onClick={() => window.location.href = '/open-account'}
+              >
                 Trade Like a Champion
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
