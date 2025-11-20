@@ -109,7 +109,10 @@ const Education = () => {
                       <span>{path.time}</span>
                     </div>
                   </div>
-                  <Button className="bg-green-600 hover:bg-green-700 text-white ml-6">
+                  <Button 
+                    className="bg-green-600 hover:bg-green-700 text-white ml-6"
+                    onClick={() => window.location.href = '/open-account'}
+                  >
                     Enroll Now
                   </Button>
                 </div>
