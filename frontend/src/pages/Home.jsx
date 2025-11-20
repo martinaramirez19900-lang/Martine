@@ -57,11 +57,20 @@ const Home = () => {
                 {t.hero.description}
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white px-8 py-6 text-lg">
+                <Button 
+                  size="lg" 
+                  className="bg-green-600 hover:bg-green-700 text-white px-8 py-6 text-lg"
+                  onClick={() => window.location.href = '/open-account'}
+                >
                   {t.hero.cta1}
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
-                <Button size="lg" variant="outline" className="border-2 border-white text-white hover:bg-white/10 px-8 py-6 text-lg">
+                <Button 
+                  size="lg" 
+                  variant="outline" 
+                  className="border-2 border-white text-white hover:bg-white/10 px-8 py-6 text-lg"
+                  onClick={() => window.location.href = '/open-account'}
+                >
                   {t.hero.cta2}
                 </Button>
               </div>
