@@ -1,27 +1,32 @@
 import React from 'react';
 import { Smartphone, Download, Bell, Shield, TrendingUp, Globe } from 'lucide-react';
+import { useLanguage } from '../../context/LanguageContext';
+import { additionalPagesTranslations } from '../../i18n/additionalPages';
 import { Card } from '../../components/ui/card';
 import { Button } from '../../components/ui/button';
 
 const MobileApp = () => {
+  const { language } = useLanguage();
+  const apt = additionalPagesTranslations[language] || additionalPagesTranslations.en;
+  
   return (
     <div className="min-h-screen pt-20">
       <section className="py-20 px-4 bg-gradient-to-br from-gray-50 to-white">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h1 className="text-6xl font-bold text-gray-900 mb-6">Mobile Trading App</h1>
+              <h1 className="text-6xl font-bold text-gray-900 mb-6">{apt.mobileApp?.title || 'Mobile Trading App'}</h1>
               <p className="text-xl text-gray-600 mb-8">
-                Trade anytime, anywhere with our powerful mobile trading application
+                {apt.mobileApp?.subtitle || 'Trade anytime, anywhere with our powerful mobile trading application'}
               </p>
               <div className="flex gap-4 mb-8">
                 <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white">
                   <Download className="mr-2 w-5 h-5" />
-                  Download for iOS
+                  {apt.mobileApp?.downloadIOS || 'Download for iOS'}
                 </Button>
                 <Button size="lg" variant="outline">
                   <Download className="mr-2 w-5 h-5" />
-                  Download for Android
+                  {apt.mobileApp?.downloadAndroid || 'Download for Android'}
                 </Button>
               </div>
               <div className="flex items-center space-x-8">
