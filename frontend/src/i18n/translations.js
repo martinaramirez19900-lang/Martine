@@ -59,10 +59,30 @@ export const translations = {
     features: {
       title: 'Why Choose SMH Markets',
       subtitle: 'Everything you need for successful trading'
+,
+      keyFeatures: 'Key Features:',
+      desktop: 'Desktop',
+      mobile: 'Mobile',
+      downloadWindows: 'Download for Windows',
+      downloadMac: 'Download for Mac',
+      downloadIOS: 'Download for iOS',
+      downloadAndroid: 'Download for Android',
+      learnMoreAbout: 'Learn More about',
+      launchWeb: 'Launch Web Platform'
     },
     platforms: {
       title: 'Advanced Trading Platforms',
       subtitle: 'Choose the platform that suits your trading style'
+,
+      keyFeatures: 'Características clave:',
+      desktop: 'Escritorio',
+      mobile: 'Móvil',
+      downloadWindows: 'Descargar para Windows',
+      downloadMac: 'Descargar para Mac',
+      downloadIOS: 'Descargar para iOS',
+      downloadAndroid: 'Descargar para Android',
+      learnMoreAbout: 'Más información sobre',
+      launchWeb: 'Lanzar plataforma web'
     },
     markets: {
       title: 'Trade Multiple Markets',
@@ -240,10 +260,30 @@ export const translations = {
     features: {
       title: 'Dlaczego SMH Markets',
       subtitle: 'Wszystko czego potrzebujesz do udanego handlu'
+,
+      keyFeatures: 'Kluczowe funkcje:',
+      desktop: 'Komputer',
+      mobile: 'Mobilna',
+      downloadWindows: 'Pobierz dla Windows',
+      downloadMac: 'Pobierz dla Mac',
+      downloadIOS: 'Pobierz dla iOS',
+      downloadAndroid: 'Pobierz dla Android',
+      learnMoreAbout: 'Dowiedz się więcej o',
+      launchWeb: 'Uruchom platformę webową'
     },
     platforms: {
       title: 'Zaawansowane platformy handlowe',
       subtitle: 'Wybierz platformę odpowiadającą Twojemu stylowi handlu'
+,
+      keyFeatures: 'Características clave:',
+      desktop: 'Escritorio',
+      mobile: 'Móvil',
+      downloadWindows: 'Descargar para Windows',
+      downloadMac: 'Descargar para Mac',
+      downloadIOS: 'Descargar para iOS',
+      downloadAndroid: 'Descargar para Android',
+      learnMoreAbout: 'Más información sobre',
+      launchWeb: 'Lanzar plataforma web'
     },
     markets: {
       title: 'Handluj na wielu rynkach',
@@ -410,10 +450,30 @@ export const translations = {
     features: {
       title: 'Proč SMH Markets',
       subtitle: 'Vše, co potřebujete k úspěšnému obchodování'
+,
+      keyFeatures: 'Klíčové funkce:',
+      desktop: 'Desktop',
+      mobile: 'Mobilní',
+      downloadWindows: 'Stáhnout pro Windows',
+      downloadMac: 'Stáhnout pro Mac',
+      downloadIOS: 'Stáhnout pro iOS',
+      downloadAndroid: 'Stáhnout pro Android',
+      learnMoreAbout: 'Další informace o',
+      launchWeb: 'Spustit webovou platformu'
     },
     platforms: {
       title: 'Pokročilé obchodní platformy',
       subtitle: 'Vyberte platformu, která vyhovuje vašemu obchodnímu stylu'
+,
+      keyFeatures: 'Características clave:',
+      desktop: 'Escritorio',
+      mobile: 'Móvil',
+      downloadWindows: 'Descargar para Windows',
+      downloadMac: 'Descargar para Mac',
+      downloadIOS: 'Descargar para iOS',
+      downloadAndroid: 'Descargar para Android',
+      learnMoreAbout: 'Más información sobre',
+      launchWeb: 'Lanzar plataforma web'
     },
     markets: {
       title: 'Obchodujte na více trzích',
@@ -424,6 +484,13 @@ export const translations = {
       metals: 'Kovy',
       indices: 'Indexy',
       energy: 'Energie'
+,
+      searchPlaceholder: 'Hledat nástroje...',
+      allMarkets: 'Všechny trhy',
+      chartVisualization: 'Vizualizace grafu',
+      buy: 'Koupit',
+      sell: 'Prodat',
+      noResults: 'Nebyly nalezeny žádné nástroje odpovídající vašim kritériím'
     },
     accounts: {
       title: 'Vyberte typ účtu',
@@ -554,10 +621,30 @@ export const translations = {
     features: {
       title: 'Neden SMH Markets',
       subtitle: 'Başarılı işlem için ihtiyacınız olan her şey'
+,
+      keyFeatures: 'Temel Özellikler:',
+      desktop: 'Masaüstü',
+      mobile: 'Mobil',
+      downloadWindows: 'Windows için indir',
+      downloadMac: 'Mac için indir',
+      downloadIOS: 'iOS için indir',
+      downloadAndroid: 'Android için indir',
+      learnMoreAbout: 'Hakkında daha fazla bilgi',
+      launchWeb: 'Web platformunu başlat'
     },
     platforms: {
       title: 'Gelişmiş işlem platformları',
       subtitle: 'İşlem tarzınıza uygun platformu seçin'
+,
+      keyFeatures: 'Características clave:',
+      desktop: 'Escritorio',
+      mobile: 'Móvil',
+      downloadWindows: 'Descargar para Windows',
+      downloadMac: 'Descargar para Mac',
+      downloadIOS: 'Descargar para iOS',
+      downloadAndroid: 'Descargar para Android',
+      learnMoreAbout: 'Más información sobre',
+      launchWeb: 'Lanzar plataforma web'
     },
     markets: {
       title: 'Birden fazla piyasada işlem yapın',
@@ -568,6 +655,13 @@ export const translations = {
       metals: 'Metaller',
       indices: 'Endeksler',
       energy: 'Enerji'
+,
+      searchPlaceholder: 'Enstrüman ara...',
+      allMarkets: 'Tüm Piyasalar',
+      chartVisualization: 'Grafik görselleştirme',
+      buy: 'Al',
+      sell: 'Sat',
+      noResults: 'Kriterlerinize uyan enstrüman bulunamadı'
     },
     accounts: {
       title: 'Hesap türünüzü seçin',
@@ -698,10 +792,30 @@ export const translations = {
     features: {
       title: 'Prečo SMH Markets',
       subtitle: 'Všetko, co potrebujete na úspešné obchodovanie'
+,
+      keyFeatures: 'Kľúčové funkcie:',
+      desktop: 'Desktop',
+      mobile: 'Mobilné',
+      downloadWindows: 'Stiahnuť pre Windows',
+      downloadMac: 'Stiahnuť pre Mac',
+      downloadIOS: 'Stiahnuť pre iOS',
+      downloadAndroid: 'Stiahnuť pre Android',
+      learnMoreAbout: 'Viac informácií o',
+      launchWeb: 'Spustiť webovú platformu'
     },
     platforms: {
       title: 'Pokročilé obchodné platformy',
       subtitle: 'Vyberte platformu, ktorá vyhovuje vášmu obchodnému štýlu'
+,
+      keyFeatures: 'Características clave:',
+      desktop: 'Escritorio',
+      mobile: 'Móvil',
+      downloadWindows: 'Descargar para Windows',
+      downloadMac: 'Descargar para Mac',
+      downloadIOS: 'Descargar para iOS',
+      downloadAndroid: 'Descargar para Android',
+      learnMoreAbout: 'Más información sobre',
+      launchWeb: 'Lanzar plataforma web'
     },
     markets: {
       title: 'Obchodujte na viacerých trhoch',
@@ -712,6 +826,13 @@ export const translations = {
       metals: 'Kovy',
       indices: 'Indexy',
       energy: 'Energia'
+,
+      searchPlaceholder: 'Hľadať nástroje...',
+      allMarkets: 'Všetky trhy',
+      chartVisualization: 'Vizualizácia grafu',
+      buy: 'Kúpiť',
+      sell: 'Predať',
+      noResults: 'Neboli nájdené žiadne nástroje zodpovedajúce vašim kritériám'
     },
     accounts: {
       title: 'Vyberte typ účtu',
@@ -857,6 +978,16 @@ export const translations = {
     features: {
       title: 'Por Qué Elegir SMH Markets',
       subtitle: 'Todo lo que necesitas para operar con éxito'
+,
+      keyFeatures: 'Características clave:',
+      desktop: 'Escritorio',
+      mobile: 'Móvil',
+      downloadWindows: 'Descargar para Windows',
+      downloadMac: 'Descargar para Mac',
+      downloadIOS: 'Descargar para iOS',
+      downloadAndroid: 'Descargar para Android',
+      learnMoreAbout: 'Más información sobre',
+      launchWeb: 'Lanzar plataforma web'
     },
     platforms: {
       title: 'Plataformas de Trading Avanzadas',
@@ -871,6 +1002,13 @@ export const translations = {
       metals: 'Metales',
       indices: 'Índices',
       energy: 'Energía'
+,
+      searchPlaceholder: 'Buscar instrumentos...',
+      allMarkets: 'Todos los mercados',
+      chartVisualization: 'Visualización de gráficos',
+      buy: 'Comprar',
+      sell: 'Vender',
+      noResults: 'No se encontraron instrumentos que coincidan con sus criterios'
     },
     accounts: {
       title: 'Elige Tu Tipo de Cuenta',
@@ -966,6 +1104,16 @@ export const translations = {
     features: {
       title: 'Hoekom Kies SMH Markets',
       subtitle: 'Alles wat jy nodig het vir suksesvolle handel'
+,
+      keyFeatures: 'Características clave:',
+      desktop: 'Escritorio',
+      mobile: 'Móvil',
+      downloadWindows: 'Descargar para Windows',
+      downloadMac: 'Descargar para Mac',
+      downloadIOS: 'Descargar para iOS',
+      downloadAndroid: 'Descargar para Android',
+      learnMoreAbout: 'Más información sobre',
+      launchWeb: 'Lanzar plataforma web'
     },
     platforms: {
       title: 'Gevorderde Handelsplatforms',
