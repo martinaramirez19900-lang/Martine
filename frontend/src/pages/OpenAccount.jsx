@@ -17,9 +17,38 @@ const OpenAccount = () => {
     country: ''
   });
 
-  const handleSubmit = (e) => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitMessage, setSubmitMessage] = useState('');
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
+    setIsSubmitting(true);
+    setSubmitMessage('');
+    
+    try {
+      const backendUrl = process.env.REACT_APP_BACKEND_URL || '';
+      const response = await fetch(`${backendUrl}/api/contact`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+      
+      const result = await response.json();
+      
+      if (result.success) {
+        setSubmitMessage(result.message);
+        setFormData({ fullName: '', email: '', phone: '', country: '' });
+      } else {
+        setSubmitMessage(result.message || 'Error submitting form. Please try again.');
+      }
+    } catch (error) {
+      console.error('Error:', error);
+      setSubmitMessage('Error submitting form. Please contact us directly at support@smh-markets.com');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
