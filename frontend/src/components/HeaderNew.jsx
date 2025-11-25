@@ -222,7 +222,7 @@ const HeaderNew = () => {
                       </Link>
                     </NavigationMenuLink>
                     <NavigationMenuLink asChild>
-                      <Link to="/faq" className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-green-50 hover:text-green-700">
+                      <Link to="/education/faq" className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-green-50 hover:text-green-700">
                         <div className="text-sm font-medium">{t.nav.faq}</div>
                       </Link>
                     </NavigationMenuLink>
