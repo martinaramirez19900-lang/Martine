@@ -506,9 +506,9 @@ const Home = () => {
       {/* CTA Section */}
       <section className="py-24 px-4 bg-gradient-to-br from-green-600 to-green-700">
         <div className="container mx-auto text-center">
-          <h2 className="text-5xl font-bold text-white mb-6">Ready to Start Trading?</h2>
+          <h2 className="text-5xl font-bold text-white mb-6">{t.common.readyToStart}</h2>
           <p className="text-xl text-green-100 mb-10 max-w-2xl mx-auto">
-            Join thousands of traders who trust SMH Markets for their trading needs
+            {t.common.joinTraders}
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Button 
@@ -516,7 +516,7 @@ const Home = () => {
               className="bg-white text-green-600 hover:bg-gray-100 px-8 py-6 text-lg"
               onClick={() => window.location.href = '/open-account'}
             >
-              Open Live Account
+              {t.common.openAccount}
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
             <Button 
@@ -525,7 +525,7 @@ const Home = () => {
               className="border-2 border-white text-white hover:bg-white/10 px-8 py-6 text-lg"
               onClick={() => window.location.href = '/open-account'}
             >
-              Try Demo Account
+              {t.common.tryDemo}
             </Button>
           </div>
         </div>
