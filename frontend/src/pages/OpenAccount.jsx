@@ -176,7 +176,7 @@ const OpenAccount = () => {
                 <div className="flex items-start">
                   <input type="checkbox" id="terms" className="mt-1 mr-3" required />
                   <label htmlFor="terms" className="text-sm text-gray-600">
-                    I agree to the Terms of Service and Privacy Policy. I confirm that I am 18 years or older.
+                    {pt.openAccount?.terms || 'I agree to the Terms of Service and Privacy Policy. I confirm that I am 18 years or older.'}
                   </label>
                 </div>
 
@@ -186,7 +186,7 @@ const OpenAccount = () => {
                   className="w-full bg-green-600 hover:bg-green-700 text-white py-6 text-lg"
                   disabled={isSubmitting}
                 >
-                  {isSubmitting ? 'Submitting...' : 'Create Account'}
+                  {isSubmitting ? (pt.openAccount?.submitting || 'Submitting...') : (pt.openAccount?.createAccount || 'Create Account')}
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
                 
