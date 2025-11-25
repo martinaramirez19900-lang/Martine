@@ -113,7 +113,7 @@ const OpenAccount = () => {
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
-                    <Label htmlFor="fullName">Full Name</Label>
+                    <Label htmlFor="fullName">{pt.openAccount?.fullName || 'Full Name'}</Label>
                     <Input
                       id="fullName"
                       type="text"
@@ -125,7 +125,7 @@ const OpenAccount = () => {
                     />
                   </div>
                   <div>
-                    <Label htmlFor="email">Email Address</Label>
+                    <Label htmlFor="email">{pt.openAccount?.email || 'Email Address'}</Label>
                     <Input
                       id="email"
                       type="email"
