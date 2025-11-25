@@ -2,9 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Phone, Mail, MapPin, FileText } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import { additionalPagesTranslations } from '../i18n/additionalPages';
 
 const Footer = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
+  const apt = additionalPagesTranslations[language] || additionalPagesTranslations.en;
 
   return (
     <footer className="bg-gray-900 text-gray-300">
