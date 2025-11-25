@@ -932,5 +932,121 @@ export const translations = {
       readyToStart: '¿Listo para empezar a operar?',
       joinTraders: 'Únete a miles de traders que confían en SMH Markets'
     }
+  },
+  af: {
+    nav: {
+      home: 'Tuis',
+      trading: 'Handel',
+      platforms: 'Handelsplatforms',
+      markets: 'Markte & Gereedskap',
+      knowledgeHub: 'Kennis Sentrum',
+      company: 'Maatskappy',
+      login: 'Teken aan',
+      signup: 'Maak rekening oop'
+    },
+    hero: {
+      title: 'Handel met Vertroue',
+      subtitle: 'Professionele Handelsplatform',
+      description: 'Toegang tot wêreldwye markte met mededingende spreads, gevorderde gereedskap en bliksemvinnige uitvoering',
+      cta1: 'Maak Lewendige Rekening Oop',
+      cta2: 'Probeer Demo'
+    },
+    features: {
+      title: 'Hoekom Kies SMH Markets',
+      subtitle: 'Alles wat jy nodig het vir suksesvolle handel'
+    },
+    platforms: {
+      title: 'Gevorderde Handelsplatforms',
+      subtitle: 'Kies die platform wat by jou handelstyl pas',
+      keyFeatures: 'Sleutel Kenmerke:',
+      desktop: 'Werkskerm',
+      mobile: 'Mobiel',
+      downloadWindows: 'Laai af vir Windows',
+      downloadMac: 'Laai af vir Mac',
+      downloadIOS: 'Laai af vir iOS',
+      downloadAndroid: 'Laai af vir Android',
+      learnMoreAbout: 'Leer meer oor',
+      launchWeb: 'Begin Web Platform'
+    },
+    markets: {
+      title: 'Handel Verskeie Markte',
+      subtitle: 'Toegang tot duisende instrumente oor alle bate klasse',
+      forex: 'Forex',
+      stocks: 'Aandele',
+      crypto: 'Kripto',
+      metals: 'Metale',
+      indices: 'Indekse',
+      energy: 'Energie',
+      searchPlaceholder: 'Soek instrumente...',
+      allMarkets: 'Alle Markte',
+      chartVisualization: 'Grafiek visualisering',
+      buy: 'Koop',
+      sell: 'Verkoop',
+      noResults: 'Geen instrumente gevind wat aan jou kriteria voldoen nie'
+    },
+    accounts: {
+      title: 'Kies Jou Rekening Tipe',
+      subtitle: 'Vind die perfekte rekening vir jou handelsbehoeftes',
+      minDeposit: 'Min. Deposito',
+      leverage: 'Hefboom',
+      spreads: 'Spreads',
+      features: 'Kenmerke',
+      selectAccount: 'Kies Rekening'
+    },
+    footer: {
+      company: 'Maatskappy',
+      trading: 'Handel',
+      legal: 'Wetlik',
+      followUs: 'Volg Ons',
+      riskWarning: 'Risiko Waarskuwing: Handel in CFD\'s en gehefde produkte dra \'n hoë risiko en is dalk nie geskik vir alle beleggers nie.',
+      copyright: '© 2025 SMH Markets. Alle regte voorbehou.'
+    },
+    stats: {
+      activeTraders: 'Aktiewe Handelaars',
+      instruments: 'Instrumente',
+      spreadsFrom: 'Spreads vanaf',
+      support: 'Ondersteuning',
+      avgReturns: 'Gem. Opbrengste',
+      happyClients: 'Gelukkige Kliënte'
+    },
+    featureCards: {
+      fastExecution: {
+        title: 'Vinnige Uitvoering',
+        desc: 'Bliksemvinnige opdrag uitvoering met minimale latensie'
+      },
+      secureTrading: {
+        title: 'Veilige Handel',
+        desc: 'Bank-vlak sekuriteit en fondsbescherming'
+      },
+      advancedTools: {
+        title: 'Gevorderde Gereedskap',
+        desc: 'Professionele handelsgereedskap en aanwysers'
+      },
+      globalMarkets: {
+        title: 'Wêreldwye Markte',
+        desc: 'Toegang tot markte wêreldwyd 24/5'
+      },
+      awardWinning: {
+        title: 'Bekroonde',
+        desc: 'Erkende uitnemendheid in die bedryf'
+      },
+      support247: {
+        title: '24/7 Ondersteuning',
+        desc: 'Deurlopende meertalige ondersteuning'
+      }
+    },
+    platformDesc: {
+      mt4: 'Die wêreld se gewildste handelsplatform',
+      mt5: 'Volgende generasie multi-bate platform',
+      ctrader: 'Professionele handelsplatform',
+      smhEdge: 'Ons eie handelsplatform'
+    },
+    common: {
+      learnMore: 'Leer meer',
+      openAccount: 'Maak rekening oop',
+      tryDemo: 'Probeer demo',
+      readyToStart: 'Gereed om te begin handel?',
+      joinTraders: 'Sluit aan by duisende handelaars wat SMH Markets vertrou'
+    }
   }
 };
