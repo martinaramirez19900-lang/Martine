@@ -90,6 +90,25 @@ export const translations = {
       followUs: 'Follow Us',
       riskWarning: 'Risk Warning: Trading CFDs and leveraged products carries a high level of risk and may not be suitable for all investors.',
       copyright: '© 2025 SMH Markets. All rights reserved.'
+    },
+    contact: {
+      title: 'Contact Us',
+      subtitle: 'Get in touch with our team - we\'re here to help',
+      sendMessage: 'Send Us a Message',
+      contactInfo: 'Contact Information',
+      fullName: 'Full Name',
+      email: 'Email',
+      subject: 'Subject',
+      message: 'Message',
+      sendButton: 'Send Message'
+    },
+    about: {
+      title: 'About SMH Markets',
+      subtitle: 'Your trusted partner in global financial markets'
+    },
+    education: {
+      title: 'Trading Education',
+      subtitle: 'Learn from the experts and improve your trading skills'
     }
   },
   pl: {
