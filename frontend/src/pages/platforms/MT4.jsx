@@ -1,11 +1,13 @@
 import React from 'react';
 import { Download, Monitor, Smartphone, Globe, Check } from 'lucide-react';
 import { useLanguage } from '../../context/LanguageContext';
+import { pageTranslations } from '../../i18n/pageTranslations';
 import { Card } from '../../components/ui/card';
 import { Button } from '../../components/ui/button';
 
 const MT4 = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
+  const pt = pageTranslations[language] || pageTranslations.en;
   
   return (
     <div className="min-h-screen pt-20">
@@ -24,7 +26,7 @@ const MT4 = () => {
                   onClick={() => window.open('https://www.metatrader4.com/', '_blank')}
                 >
                   <Download className="mr-2 w-5 h-5" />
-                  {t.common?.learnMore?.replace('Learn More', 'Download MT4') || 'Download MT4'}
+                  {pt.platforms?.downloadWindows || 'Download MT4'}
                 </Button>
                 <Button 
                   size="lg" 
@@ -32,7 +34,7 @@ const MT4 = () => {
                   onClick={() => window.open('https://www.metatrader4.com/', '_blank')}
                 >
                   <Globe className="mr-2 w-5 h-5" />
-                  Web Platform
+                  {pt.platforms?.launchWeb || 'Web Platform'}
                 </Button>
               </div>
             </div>
