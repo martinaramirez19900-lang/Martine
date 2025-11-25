@@ -14,7 +14,11 @@ const CTrader = () => {
               <p className="text-xl text-gray-600 mb-8">
                 Professional-grade trading platform with advanced features for serious traders
               </p>
-              <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white">
+              <Button 
+                size="lg" 
+                className="bg-green-600 hover:bg-green-700 text-white"
+                onClick={() => window.open('https://ctrader.com/', '_blank')}
+              >
                 <Download className="mr-2 w-5 h-5" />
                 Download cTrader
               </Button>
