@@ -74,20 +74,20 @@ const OpenAccount = () => {
                 {
                   icon: CheckCircle2,
                   step: '1',
-                  title: 'Complete Registration',
-                  description: 'Fill out a simple online form with your personal details'
+                  title: pt.openAccount?.step1Title || 'Complete Registration',
+                  description: pt.openAccount?.step1Desc || 'Fill out a simple online form with your personal details'
                 },
                 {
                   icon: Shield,
                   step: '2',
-                  title: 'Verify Your Identity',
-                  description: 'Upload required documents for account verification'
+                  title: pt.openAccount?.step2Title || 'Verify Your Identity',
+                  description: pt.openAccount?.step2Desc || 'Upload required documents for account verification'
                 },
                 {
                   icon: DollarSign,
                   step: '3',
-                  title: 'Fund & Start Trading',
-                  description: 'Make your first deposit and begin trading'
+                  title: pt.openAccount?.step3Title || 'Fund & Start Trading',
+                  description: pt.openAccount?.step3Desc || 'Make your first deposit and begin trading'
                 }
               ].map((item, idx) => (
                 <Card key={idx} className="p-8 text-center relative">
