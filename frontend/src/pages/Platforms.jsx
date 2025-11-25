@@ -44,7 +44,7 @@ const Platforms = () => {
                 </div>
 
                 <div className="mb-6">
-                  <h4 className="font-bold text-gray-900 mb-4">Key Features:</h4>
+                  <h4 className="font-bold text-gray-900 mb-4">{t.platforms?.keyFeatures || 'Key Features:'}</h4>
                   <ul className="grid grid-cols-2 gap-3">
                     {platform.features.map((feature, idx) => (
                       <li key={idx} className="flex items-start">
@@ -57,9 +57,9 @@ const Platforms = () => {
 
                 <Tabs defaultValue="desktop" className="w-full">
                   <TabsList className="grid w-full grid-cols-3">
-                    <TabsTrigger value="desktop"><Monitor className="w-4 h-4 mr-2" />Desktop</TabsTrigger>
+                    <TabsTrigger value="desktop"><Monitor className="w-4 h-4 mr-2" />{t.platforms?.desktop || 'Desktop'}</TabsTrigger>
                     <TabsTrigger value="web"><Globe className="w-4 h-4 mr-2" />Web</TabsTrigger>
-                    <TabsTrigger value="mobile"><Smartphone className="w-4 h-4 mr-2" />Mobile</TabsTrigger>
+                    <TabsTrigger value="mobile"><Smartphone className="w-4 h-4 mr-2" />{t.platforms?.mobile || 'Mobile'}</TabsTrigger>
                   </TabsList>
                   <TabsContent value="desktop" className="mt-4">
                     <div className="space-y-3">
