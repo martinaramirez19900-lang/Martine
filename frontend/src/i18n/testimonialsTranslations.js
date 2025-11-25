@@ -26,17 +26,17 @@ export const testimonialsTranslations = {
     subtitle: 'Zobacz, co mówią nasi klienci',
     testimonials: [
       {
-        name: 'Michael Anderson',
+        name: 'James Rodriguez',
         role: 'Profesjonalny Trader',
         text: 'SMH Markets odmienił moje doświadczenie handlowe. Prędkość realizacji jest niesamowita!'
       },
       {
-        name: 'Sarah Johnson',
+        name: 'Emma Williams',
         role: 'Day Trader',
         text: 'Najlepsze spready w branży. Handluję tutaj od 3 lat i nigdy nie byłem rozczarowany.'
       },
       {
-        name: 'David Martinez',
+        name: 'Robert Thompson',
         role: 'Trader Forex',
         text: 'Doskonałe wsparcie klienta i niezawodna platforma. Gorąco polecam poważnym traderom.'
       }
