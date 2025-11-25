@@ -198,6 +198,14 @@ export const translations = {
       followUs: 'Śledź nas',
       riskWarning: 'Ostrzeżenie o ryzyku: Handel kontraktami CFD i produktami lewarowanymi wiąże się z wysokim ryzykiem i może nie być odpowiedni dla wszystkich inwestorów.',
       copyright: '© 2025 SMH Markets. Wszelkie prawa zastrzeżone.'
+    },
+    about: {
+      title: 'O SMH Markets',
+      subtitle: 'Twój zaufany partner na globalnych rynkach finansowych'
+    },
+    education: {
+      title: 'Edukacja handlowa',
+      subtitle: 'Ucz się od ekspertów i poprawiaj swoje umiejętności handlowe'
     }
   },
   cz: {
