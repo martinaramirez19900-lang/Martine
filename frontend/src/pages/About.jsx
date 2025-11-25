@@ -138,17 +138,17 @@ const About = () => {
               {
                 name: 'Michael Anderson',
                 role: 'Chief Executive Officer',
-                image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80'
+                image: 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=600&q=80'
               },
               {
                 name: 'Sarah Mitchell',
                 role: 'Chief Technology Officer',
-                image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80'
+                image: 'https://images.unsplash.com/photo-1484863137850-59afcfe05386?w=600&q=80'
               },
               {
                 name: 'David Chen',
                 role: 'Chief Financial Officer',
-                image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80'
+                image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=600&q=80'
               }
             ].map((member, idx) => (
               <Card key={idx} className="overflow-hidden hover:shadow-xl transition-all duration-300">
