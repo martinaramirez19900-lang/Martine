@@ -178,10 +178,21 @@ const OpenAccount = () => {
                   </label>
                 </div>
 
-                <Button type="submit" size="lg" className="w-full bg-green-600 hover:bg-green-700 text-white py-6 text-lg">
-                  Create Account
+                <Button 
+                  type="submit" 
+                  size="lg" 
+                  className="w-full bg-green-600 hover:bg-green-700 text-white py-6 text-lg"
+                  disabled={isSubmitting}
+                >
+                  {isSubmitting ? 'Submitting...' : 'Create Account'}
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
+                
+                {submitMessage && (
+                  <div className={`mt-4 p-4 rounded-lg ${submitMessage.includes('Error') ? 'bg-red-50 text-red-700' : 'bg-green-50 text-green-700'}`}>
+                    {submitMessage}
+                  </div>
+                )}
               </form>
             </Card>
           </div>
