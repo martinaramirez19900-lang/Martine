@@ -1,11 +1,13 @@
 import React from 'react';
 import { Download, Zap, TrendingUp, BarChart3 } from 'lucide-react';
 import { useLanguage } from '../../context/LanguageContext';
+import { pageTranslations } from '../../i18n/pageTranslations';
 import { Card } from '../../components/ui/card';
 import { Button } from '../../components/ui/button';
 
 const CTrader = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
+  const pt = pageTranslations[language] || pageTranslations.en;
   
   return (
     <div className="min-h-screen pt-20">
@@ -23,7 +25,7 @@ const CTrader = () => {
                 onClick={() => window.open('https://ctrader.com/', '_blank')}
               >
                 <Download className="mr-2 w-5 h-5" />
-                Download cTrader
+                {pt.platforms?.downloadWindows || 'Download cTrader'}
               </Button>
             </div>
             <div>
