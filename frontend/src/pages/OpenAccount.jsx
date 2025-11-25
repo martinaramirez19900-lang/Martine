@@ -11,6 +11,7 @@ import { Label } from '../components/ui/label';
 const OpenAccount = () => {
   const { language } = useLanguage();
   const t = extendedTranslations[language] || extendedTranslations.en;
+  const pt = pageTranslations[language] || pageTranslations.en;
   const [formData, setFormData] = useState({
     fullName: '',
     email: '',
