@@ -92,7 +92,7 @@ const Pricing = () => {
       {/* Additional Fees */}
       <section className="py-20 px-4 bg-green-50">
         <div className="container mx-auto max-w-5xl">
-          <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">Other Fees</h2>
+          <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">{pt.pricing?.otherFees || 'Other Fees'}</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <Card className="p-8">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">What We Charge</h3>
