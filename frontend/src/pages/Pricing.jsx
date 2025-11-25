@@ -53,7 +53,7 @@ const Pricing = () => {
 
           {/* Pricing Table */}
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">Spreads & Commissions</h2>
+            <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">{pt.pricing?.spreadsAndCommissions || 'Spreads & Commissions'}</h2>
             <Card className="overflow-hidden">
               <div className="overflow-x-auto">
                 <table className="w-full">
