@@ -72,7 +72,13 @@ export const translations = {
       crypto: 'Crypto',
       metals: 'Metals',
       indices: 'Indices',
-      energy: 'Energy'
+      energy: 'Energy',
+      searchPlaceholder: 'Search instruments...',
+      allMarkets: 'All Markets',
+      chartVisualization: 'Chart visualization',
+      buy: 'Buy',
+      sell: 'Sell',
+      noResults: 'No instruments found matching your criteria'
     },
     accounts: {
       title: 'Choose Your Account Type',
