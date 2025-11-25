@@ -58,9 +58,9 @@ const OpenAccount = () => {
       {/* Hero */}
       <section className="py-20 px-4 bg-gradient-to-br from-gray-50 to-white">
         <div className="container mx-auto text-center">
-          <h1 className="text-6xl font-bold text-gray-900 mb-6">{t.pages?.openAccount?.title || 'Open Your Trading Account'}</h1>
+          <h1 className="text-6xl font-bold text-gray-900 mb-6">{pt.openAccount?.title || 'Open Your Trading Account'}</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            {t.pages?.openAccount?.subtitle || 'Start trading in 3 simple steps'}
+            {pt.openAccount?.subtitle || 'Start trading in 3 simple steps'}
           </p>
         </div>
       </section>
