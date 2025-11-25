@@ -43,14 +43,12 @@ const HeaderNew = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gradient-to-br from-green-600 to-green-700 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">S</span>
-            </div>
-            <div>
-              <span className="text-2xl font-bold text-gray-900">SMH</span>
-              <span className="text-2xl font-light text-gray-600 ml-1">Markets</span>
-            </div>
+          <Link to="/" className="flex items-center space-x-3">
+            <img 
+              src={smhLogo} 
+              alt="SMH Markets Logo" 
+              className="h-12 w-auto object-contain"
+            />
           </Link>
 
           {/* Desktop Navigation */}
