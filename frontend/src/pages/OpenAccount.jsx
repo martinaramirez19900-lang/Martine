@@ -106,8 +106,8 @@ const OpenAccount = () => {
             {/* Registration Form */}
             <Card className="p-8 md:p-12">
               <div className="mb-8 text-center">
-                <h2 className="text-3xl font-bold text-gray-900 mb-4">Create Your Account</h2>
-                <p className="text-gray-600">Takes less than 2 minutes</p>
+                <h2 className="text-3xl font-bold text-gray-900 mb-4">{pt.openAccount?.formTitle || 'Create Your Account'}</h2>
+                <p className="text-gray-600">{pt.openAccount?.formSubtitle || 'Takes less than 2 minutes'}</p>
               </div>
               
               <form onSubmit={handleSubmit} className="space-y-6">
