@@ -5,17 +5,17 @@ export const testimonialsTranslations = {
     subtitle: 'See what our clients say about us',
     testimonials: [
       {
-        name: 'Michael Anderson',
+        name: 'James Rodriguez',
         role: 'Professional Trader',
         text: 'SMH Markets has transformed my trading experience. The execution speed is incredible!'
       },
       {
-        name: 'Sarah Johnson',
+        name: 'Emma Williams',
         role: 'Day Trader',
         text: 'Best spreads in the industry. I have been trading here for 3 years and never disappointed.'
       },
       {
-        name: 'David Martinez',
+        name: 'Robert Thompson',
         role: 'Forex Trader',
         text: 'Excellent customer support and reliable platform. Highly recommended for serious traders.'
       }
