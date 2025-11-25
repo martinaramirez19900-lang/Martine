@@ -200,7 +200,12 @@ const Home = () => {
                   <TrendingUp className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">{platform.name}</h3>
-                <p className="text-gray-600 text-sm mb-6">{platform.description}</p>
+                <p className="text-gray-600 text-sm mb-6">
+                  {platform.id === 1 ? t.platformDesc.mt4 : 
+                   platform.id === 2 ? t.platformDesc.mt5 :
+                   platform.id === 3 ? t.platformDesc.ctrader :
+                   t.platformDesc.smhEdge}
+                </p>
                 <ul className="space-y-2 mb-6">
                   {platform.features.slice(0, 3).map((feature, idx) => (
                     <li key={idx} className="text-sm text-gray-600 flex items-center">
