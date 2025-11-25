@@ -109,6 +109,24 @@ const Platforms = () => {
                     </div>
                   </TabsContent>
                 </Tabs>
+                
+                <div className="mt-6">
+                  <Button 
+                    variant="outline" 
+                    className="w-full"
+                    onClick={() => {
+                      const platformRoutes = {
+                        'MetaTrader 4': '/platforms/mt4',
+                        'MetaTrader 5': '/platforms/mt5',
+                        'cTrader': '/platforms/ctrader',
+                        'SMH Edge': '/open-account'
+                      };
+                      window.location.href = platformRoutes[platform.name] || '/open-account';
+                    }}
+                  >
+                    Learn More about {platform.name}
+                  </Button>
+                </div>
               </Card>
             ))}
           </div>
