@@ -86,11 +86,18 @@ const MT5 = () => {
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Desktop Platform</h3>
                 <p className="text-gray-600 mb-6">Full-featured trading platform for Windows and Mac</p>
                 <div className="space-y-3">
-                  <Button className="w-full bg-green-600 hover:bg-green-700 text-white justify-start">
+                  <Button 
+                    className="w-full bg-green-600 hover:bg-green-700 text-white justify-start"
+                    onClick={() => window.open('https://www.metatrader5.com/en', '_blank')}
+                  >
                     <Download className="w-5 h-5 mr-2" />
                     Download for Windows
                   </Button>
-                  <Button variant="outline" className="w-full justify-start">
+                  <Button 
+                    variant="outline" 
+                    className="w-full justify-start"
+                    onClick={() => window.open('https://www.metatrader5.com/en', '_blank')}
+                  >
                     <Download className="w-5 h-5 mr-2" />
                     Download for Mac
                   </Button>
@@ -101,7 +108,10 @@ const MT5 = () => {
               <Card className="p-8">
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Web Platform</h3>
                 <p className="text-gray-600 mb-6">Trade directly from your browser without downloads</p>
-                <Button className="w-full bg-green-600 hover:bg-green-700 text-white">
+                <Button 
+                  className="w-full bg-green-600 hover:bg-green-700 text-white"
+                  onClick={() => window.open('https://www.metatrader5.com/en', '_blank')}
+                >
                   <Globe className="w-5 h-5 mr-2" />
                   Launch Web Platform
                 </Button>
@@ -112,11 +122,18 @@ const MT5 = () => {
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Mobile Apps</h3>
                 <p className="text-gray-600 mb-6">Trade on the go with our mobile applications</p>
                 <div className="space-y-3">
-                  <Button className="w-full bg-green-600 hover:bg-green-700 text-white justify-start">
+                  <Button 
+                    className="w-full bg-green-600 hover:bg-green-700 text-white justify-start"
+                    onClick={() => window.open('https://www.metatrader5.com/en', '_blank')}
+                  >
                     <Download className="w-5 h-5 mr-2" />
                     Download for iOS
                   </Button>
-                  <Button variant="outline" className="w-full justify-start">
+                  <Button 
+                    variant="outline" 
+                    className="w-full justify-start"
+                    onClick={() => window.open('https://www.metatrader5.com/en', '_blank')}
+                  >
                     <Download className="w-5 h-5 mr-2" />
                     Download for Android
                   </Button>
