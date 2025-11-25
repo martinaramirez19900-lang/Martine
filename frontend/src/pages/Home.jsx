@@ -167,12 +167,12 @@ const Home = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              { icon: Zap, title: 'Fast Execution', desc: 'Lightning-fast order execution with minimal latency' },
-              { icon: Shield, title: 'Secure Trading', desc: 'Bank-level security and fund protection' },
-              { icon: TrendingUp, title: 'Advanced Tools', desc: 'Professional trading tools and indicators' },
-              { icon: Globe2, title: 'Global Markets', desc: 'Access to markets worldwide 24/5' },
-              { icon: Award, title: 'Award Winning', desc: 'Recognized excellence in the industry' },
-              { icon: Users, title: '24/7 Support', desc: 'Round-the-clock multilingual support' }
+              { icon: Zap, title: t.featureCards.fastExecution.title, desc: t.featureCards.fastExecution.desc },
+              { icon: Shield, title: t.featureCards.secureTrading.title, desc: t.featureCards.secureTrading.desc },
+              { icon: TrendingUp, title: t.featureCards.advancedTools.title, desc: t.featureCards.advancedTools.desc },
+              { icon: Globe2, title: t.featureCards.globalMarkets.title, desc: t.featureCards.globalMarkets.desc },
+              { icon: Award, title: t.featureCards.awardWinning.title, desc: t.featureCards.awardWinning.desc },
+              { icon: Users, title: t.featureCards.support247.title, desc: t.featureCards.support247.desc }
             ].map((feature, idx) => (
               <Card key={idx} className="p-8 hover:shadow-xl transition-all duration-300 border-gray-200 group cursor-pointer">
                 <div className="w-14 h-14 bg-green-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-green-600 transition-colors">
