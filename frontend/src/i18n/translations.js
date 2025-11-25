@@ -295,6 +295,14 @@ export const translations = {
       followUs: 'Sledujte nás',
       riskWarning: 'Varování před rizikem: Obchodování s CFD a pákovanými produkty nese vysoké riziko a nemusí být vhodné pro všechny investory.',
       copyright: '© 2025 SMH Markets. Všechna práva vyhrazena.'
+    },
+    about: {
+      title: 'O SMH Markets',
+      subtitle: 'Váš důvěryhodný partner na globálních finančních trzích'
+    },
+    education: {
+      title: 'Obchodní vzdělávání',
+      subtitle: 'Učte se od odborníků a zlepšujte své obchodní dovednosti'
     }
   },
   tr: {
