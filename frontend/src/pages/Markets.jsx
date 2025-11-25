@@ -46,7 +46,7 @@ const Markets = () => {
         <div className="container mx-auto">
           <Tabs defaultValue="all" className="w-full" onValueChange={setActiveCategory}>
             <TabsList className="grid w-full grid-cols-3 lg:grid-cols-7 mb-12">
-              <TabsTrigger value="all">All Markets</TabsTrigger>
+              <TabsTrigger value="all">{t.markets?.allMarkets || 'All Markets'}</TabsTrigger>
               <TabsTrigger value="forex">{t.markets.forex}</TabsTrigger>
               <TabsTrigger value="stocks">{t.markets.stocks}</TabsTrigger>
               <TabsTrigger value="crypto">{t.markets.crypto}</TabsTrigger>
