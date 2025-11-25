@@ -11,6 +11,29 @@ export const useLanguage = () => {
   return context;
 };
 
+// Deep merge function to combine translations with fallback
+const deepMerge = (target, source) => {
+  const output = { ...target };
+  if (isObject(target) && isObject(source)) {
+    Object.keys(source).forEach(key => {
+      if (isObject(source[key])) {
+        if (!(key in target)) {
+          output[key] = source[key];
+        } else {
+          output[key] = deepMerge(target[key], source[key]);
+        }
+      } else {
+        output[key] = source[key];
+      }
+    });
+  }
+  return output;
+};
+
+const isObject = (item) => {
+  return item && typeof item === 'object' && !Array.isArray(item);
+};
+
 export const LanguageProvider = ({ children }) => {
   const [language, setLanguage] = useState('en');
 
@@ -28,7 +51,10 @@ export const LanguageProvider = ({ children }) => {
     }
   };
 
-  const t = translations[language] || translations.en;
+  // Merge selected language with English as fallback
+  const t = language === 'en' 
+    ? translations.en 
+    : deepMerge(translations[language] || {}, translations.en);
 
   return (
     <LanguageContext.Provider value={{ language, changeLanguage, t }}>
