@@ -429,7 +429,7 @@ const Home = () => {
                 {/* Main Tennis Player Image */}
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-green-500">
                   <img 
-                    src="https://customer-assets.emergentagent.com/job_finance-clone-17/artifacts/z8r8dif0_image.png" 
+                    src="https://images.unsplash.com/photo-1622547748225-3fc4abd2cca0?w=800&q=80" 
                     alt="Rafael Nadal - Professional Tennis Player" 
                     className="w-full h-[500px] object-cover"
                   />
