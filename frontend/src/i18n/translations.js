@@ -541,6 +541,53 @@ export const translations = {
     education: {
       title: 'İşlem Eğitimi',
       subtitle: 'Uzmanlardan öğrenin ve işlem becerilerinizi geliştirin'
+    },
+    stats: {
+      activeTraders: 'Aktif Yatırımcılar',
+      instruments: 'Enstrümanlar',
+      spreadsFrom: 'Spreadler',
+      support: 'Destek',
+      avgReturns: 'Ort. Getiri',
+      happyClients: 'Mutlu Müşteriler'
+    },
+    featureCards: {
+      fastExecution: {
+        title: 'Hızlı İşlem',
+        desc: 'Minimum gecikme ile yıldırım hızında emir gerçekleştirme'
+      },
+      secureTrading: {
+        title: 'Güvenli İşlem',
+        desc: 'Banka düzeyinde güvenlik ve fon koruması'
+      },
+      advancedTools: {
+        title: 'Gelişmiş Araçlar',
+        desc: 'Profesyonel işlem araçları ve göstergeler'
+      },
+      globalMarkets: {
+        title: 'Küresel Piyasalar',
+        desc: 'Dünya çapında piyasalara 24/5 erişim'
+      },
+      awardWinning: {
+        title: 'Ödüllü',
+        desc: 'Sektörde tanınan mükemmellik'
+      },
+      support247: {
+        title: '7/24 Destek',
+        desc: 'Kesintisiz çok dilli destek'
+      }
+    },
+    platformDesc: {
+      mt4: 'Dünyanın en popüler işlem platformu',
+      mt5: 'Yeni nesil çoklu varlık platformu',
+      ctrader: 'Profesyonel işlem platformu',
+      smhEdge: 'Kendi işlem platformumuz'
+    },
+    common: {
+      learnMore: 'Daha fazla bilgi',
+      openAccount: 'Canlı hesap aç',
+      tryDemo: 'Demo dene',
+      readyToStart: 'İşleme başlamaya hazır mısınız?',
+      joinTraders: 'SMH Markets\'e güvenen binlerce yatırımcıya katılın'
     }
   },
   sk: {
