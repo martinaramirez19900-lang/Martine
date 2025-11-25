@@ -453,34 +453,34 @@ const Home = () => {
       <section className="py-20 px-4 bg-white">
         <div className="container mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">{t.sponsor?.title || 'Official Sponsors'}</h2>
-            <p className="text-xl text-gray-600">{t.sponsor?.subtitle || 'Proud partners of world-class organizations'}</p>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">{apt.sponsors?.title || 'Official Sponsors'}</h2>
+            <p className="text-xl text-gray-600">{apt.sponsors?.subtitle || 'Proud partners of world-class organizations'}</p>
           </div>
           
           <div className="max-w-5xl mx-auto">
             <Card className="overflow-hidden hover:shadow-2xl transition-all">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center p-8">
                 <div>
-                  <Badge className="bg-blue-600 text-white mb-4">{t.sponsor?.fcbTitle || 'Official Trading Partner'}</Badge>
-                  <h3 className="text-4xl font-bold text-gray-900 mb-4">{t.sponsor?.fcbName || 'FC Barcelona'}</h3>
+                  <Badge className="bg-blue-600 text-white mb-4">{apt.sponsors?.officialPartner || 'Official Trading Partner'}</Badge>
+                  <h3 className="text-4xl font-bold text-gray-900 mb-4">FC Barcelona</h3>
                   <p className="text-lg text-gray-600 mb-6">
-                    {t.sponsor?.fcbDesc || 'SMH Markets is the Official Trading Partner of FC Barcelona, one of the world\'s most successful football clubs. This partnership represents our commitment to excellence and global reach.'}
+                    {apt.sponsors?.fcbDescription || 'SMH Markets is the Official Trading Partner of FC Barcelona, one of the world\'s most successful football clubs. This partnership represents our commitment to excellence and global reach.'}
                   </p>
                   <div className="grid grid-cols-2 gap-4 mb-6">
                     <div className="bg-blue-50 rounded-lg p-4">
                       <div className="text-3xl font-bold text-blue-600 mb-1">26</div>
-                      <div className="text-sm text-gray-700">{t.sponsor?.laLiga || 'La Liga Titles'}</div>
+                      <div className="text-sm text-gray-700">{apt.sponsors?.laLigaTitles || 'La Liga Titles'}</div>
                     </div>
                     <div className="bg-blue-50 rounded-lg p-4">
                       <div className="text-3xl font-bold text-blue-600 mb-1">5</div>
-                      <div className="text-sm text-gray-700">{t.sponsor?.championsLeague || 'Champions League'}</div>
+                      <div className="text-sm text-gray-700">{apt.sponsors?.championsLeague || 'Champions League'}</div>
                     </div>
                   </div>
                   <Button 
                     className="bg-blue-600 hover:bg-blue-700 text-white"
                     onClick={() => window.location.href = '/contact'}
                   >
-                    Learn More About Partnership
+                    {apt.sponsors?.learnMore || 'Learn More About Partnership'}
                   </Button>
                 </div>
                 <div className="space-y-4">
@@ -494,10 +494,10 @@ const Home = () => {
                     <div className="absolute inset-0 bg-gradient-to-t from-blue-900/80 to-transparent rounded-xl flex items-end p-8">
                       <div className="text-white">
                         <Badge className="bg-yellow-400 text-blue-900 mb-3 text-xs font-bold">
-                          OFFICIAL PARTNER
+                          {apt.sponsors?.officialPartner || 'OFFICIAL PARTNER'}
                         </Badge>
                         <div className="text-4xl font-bold mb-2">FC Barcelona</div>
-                        <div className="text-lg text-blue-200">Més que un club - More than a club</div>
+                        <div className="text-lg text-blue-200">{apt.sponsors?.motto || 'Més que un club - More than a club'}</div>
                       </div>
                     </div>
                   </div>
