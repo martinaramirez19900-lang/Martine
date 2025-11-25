@@ -129,7 +129,7 @@ const Home = () => {
                     </div>
                     <div>
                       <div className="text-2xl font-bold text-gray-900">500K+</div>
-                      <div className="text-xs text-gray-600">Happy Clients</div>
+                      <div className="text-xs text-gray-600">{t.stats.happyClients}</div>
                     </div>
                   </div>
                 </div>
