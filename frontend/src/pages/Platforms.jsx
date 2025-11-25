@@ -68,7 +68,7 @@ const Platforms = () => {
                         onClick={() => alert('Download will start after account registration. Please click Open Account.')}
                       >
                         <Download className="w-4 h-4 mr-2" />
-                        Download for Windows
+                        {t.platforms?.downloadWindows || 'Download for Windows'}
                       </Button>
                       <Button 
                         variant="outline" 
@@ -76,7 +76,7 @@ const Platforms = () => {
                         onClick={() => alert('Download will start after account registration. Please click Open Account.')}
                       >
                         <Download className="w-4 h-4 mr-2" />
-                        Download for Mac
+                        {t.platforms?.downloadMac || 'Download for Mac'}
                       </Button>
                     </div>
                   </TabsContent>
@@ -86,7 +86,7 @@ const Platforms = () => {
                       onClick={() => window.location.href = '/open-account'}
                     >
                       <Globe className="w-4 h-4 mr-2" />
-                      Launch Web Platform
+                      {t.platforms?.launchWeb || 'Launch Web Platform'}
                     </Button>
                   </TabsContent>
                   <TabsContent value="mobile" className="mt-4">
@@ -96,7 +96,7 @@ const Platforms = () => {
                         onClick={() => alert('Download will start after account registration. Please click Open Account.')}
                       >
                         <Download className="w-4 h-4 mr-2" />
-                        Download for iOS
+                        {t.platforms?.downloadIOS || 'Download for iOS'}
                       </Button>
                       <Button 
                         variant="outline" 
@@ -104,7 +104,7 @@ const Platforms = () => {
                         onClick={() => alert('Download will start after account registration. Please click Open Account.')}
                       >
                         <Download className="w-4 h-4 mr-2" />
-                        Download for Android
+                        {t.platforms?.downloadAndroid || 'Download for Android'}
                       </Button>
                     </div>
                   </TabsContent>
@@ -124,7 +124,7 @@ const Platforms = () => {
                       window.location.href = platformRoutes[platform.name] || '/open-account';
                     }}
                   >
-                    Learn More about {platform.name}
+                    {t.platforms?.learnMoreAbout || 'Learn More about'} {platform.name}
                   </Button>
                 </div>
               </Card>
