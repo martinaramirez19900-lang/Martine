@@ -15,11 +15,19 @@ const MT4 = () => {
                 The world's most popular forex trading platform trusted by millions of traders
               </p>
               <div className="flex gap-4">
-                <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white">
+                <Button 
+                  size="lg" 
+                  className="bg-green-600 hover:bg-green-700 text-white"
+                  onClick={() => window.open('https://www.metatrader4.com/', '_blank')}
+                >
                   <Download className="mr-2 w-5 h-5" />
                   Download MT4
                 </Button>
-                <Button size="lg" variant="outline">
+                <Button 
+                  size="lg" 
+                  variant="outline"
+                  onClick={() => window.open('https://www.metatrader4.com/', '_blank')}
+                >
                   <Globe className="mr-2 w-5 h-5" />
                   Web Platform
                 </Button>
