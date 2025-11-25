@@ -1,13 +1,15 @@
 import React from 'react';
 import { Check, ArrowRight } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import { pageTranslations } from '../i18n/pageTranslations';
 import { Button } from '../components/ui/button';
 import { Card } from '../components/ui/card';
 import { Badge } from '../components/ui/badge';
 import { accountTypes } from '../data/mockData';
 
 const Accounts = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
+  const pt = pageTranslations[language] || pageTranslations.en;
 
   return (
     <div className="min-h-screen pt-20">
