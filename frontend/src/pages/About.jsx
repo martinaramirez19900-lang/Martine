@@ -11,9 +11,9 @@ const About = () => {
       {/* Hero */}
       <section className="py-20 px-4 bg-gradient-to-br from-gray-50 to-white">
         <div className="container mx-auto text-center">
-          <h1 className="text-6xl font-bold text-gray-900 mb-6">About SMH Markets</h1>
+          <h1 className="text-6xl font-bold text-gray-900 mb-6">{t.about.title}</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            A trusted partner in global trading since 2015, serving over 500,000 clients worldwide
+            {t.about.subtitle}
           </p>
         </div>
       </section>
