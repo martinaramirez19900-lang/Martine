@@ -1,12 +1,14 @@
 import React from 'react';
 import { Download, Globe, Smartphone, TrendingUp, BarChart, Activity } from 'lucide-react';
 import { useLanguage } from '../../context/LanguageContext';
+import { pageTranslations } from '../../i18n/pageTranslations';
 import { Card } from '../../components/ui/card';
 import { Button } from '../../components/ui/button';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '../../components/ui/tabs';
 
 const MT5 = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
+  const pt = pageTranslations[language] || pageTranslations.en;
   
   return (
     <div className="min-h-screen pt-20">
@@ -25,7 +27,7 @@ const MT5 = () => {
                   onClick={() => window.open('https://www.metatrader5.com/en', '_blank')}
                 >
                   <Download className="mr-2 w-5 h-5" />
-                  Download MT5
+                  {pt.platforms?.downloadWindows || 'Download MT5'}
                 </Button>
                 <Button 
                   size="lg" 
@@ -33,7 +35,7 @@ const MT5 = () => {
                   onClick={() => window.open('https://www.metatrader5.com/en', '_blank')}
                 >
                   <Globe className="mr-2 w-5 h-5" />
-                  Web Platform
+                  {pt.platforms?.launchWeb || 'Web Platform'}
                 </Button>
               </div>
             </div>
