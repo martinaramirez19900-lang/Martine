@@ -1,19 +1,21 @@
 import React from 'react';
 import { TrendingUp, Zap, Award } from 'lucide-react';
 import { useLanguage } from '../../context/LanguageContext';
+import { pageTranslations } from '../../i18n/pageTranslations';
 import { Card } from '../../components/ui/card';
 import { Button } from '../../components/ui/button';
 
 const ProConditions = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
+  const pt = pageTranslations[language] || pageTranslations.en;
   
   return (
     <div className="min-h-screen pt-20">
       <section className="py-20 px-4 bg-gradient-to-br from-gray-50 to-white">
         <div className="container mx-auto text-center">
-          <h1 className="text-6xl font-bold text-gray-900 mb-6">{t.nav?.proConditions || 'Pro Trading Conditions'}</h1>
+          <h1 className="text-6xl font-bold text-gray-900 mb-6">{pt.proConditions?.title || 'Pro Trading Conditions'}</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            {t.features?.subtitle || 'Professional trading conditions for serious traders'}
+            {pt.proConditions?.subtitle || 'Professional trading conditions for serious traders'}
           </p>
         </div>
       </section>
@@ -22,8 +24,8 @@ const ProConditions = () => {
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
             {[
-              { icon: TrendingUp, title: 'Raw Spreads', desc: 'From 0.0 pips on major pairs' },
-              { icon: Zap, title: t.featureCards?.fastExecution?.title || 'Ultra-Fast Execution', desc: 'Sub-millisecond execution speeds' },
+              { icon: TrendingUp, title: pt.proConditions?.tightSpreads || 'Raw Spreads', desc: 'From 0.0 pips on major pairs' },
+              { icon: Zap, title: pt.proConditions?.fastExecution || 'Ultra-Fast Execution', desc: 'Sub-millisecond execution speeds' },
               { icon: Award, title: 'Premium Support', desc: 'Dedicated account manager' }
             ].map((feature, idx) => (
               <Card key={idx} className="p-8 text-center hover:shadow-xl transition-all">
