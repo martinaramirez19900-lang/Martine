@@ -1,5 +1,6 @@
 import React from 'react';
 import { Mail, Phone, MapPin, Clock } from 'lucide-react';
+import { useLanguage } from '../../context/LanguageContext';
 import { Card } from '../../components/ui/card';
 import { Button } from '../../components/ui/button';
 import { Input } from '../../components/ui/input';
@@ -7,13 +8,15 @@ import { Label } from '../../components/ui/label';
 import { Textarea } from '../../components/ui/textarea';
 
 const Contact = () => {
+  const { t } = useLanguage();
+  
   return (
     <div className="min-h-screen pt-20">
       <section className="py-20 px-4 bg-gradient-to-br from-gray-50 to-white">
         <div className="container mx-auto text-center">
-          <h1 className="text-6xl font-bold text-gray-900 mb-6">Contact Us</h1>
+          <h1 className="text-6xl font-bold text-gray-900 mb-6">{t.contact.title}</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Get in touch with our team - we're here to help
+            {t.contact.subtitle}
           </p>
         </div>
       </section>
