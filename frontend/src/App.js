@@ -80,8 +80,11 @@ function App() {
             <Route path="/tools/economic-calendar" element={<EconomicCalendar />} />
             <Route path="/tools/market-news" element={<MarketNews />} />
             <Route path="/education" element={<Education />} />
-            <Route path="/education/guides" element={<Education />} />
-            <Route path="/education/webinars" element={<Webinars />} />
+            <Route path="/education/guides" element={<TradingGuides />} />
+            <Route path="/education/webinars" element={<LiveWebinars />} />
+            <Route path="/education/videos" element={<VideoTutorials />} />
+            <Route path="/education/glossary" element={<TradingGlossary />} />
+            <Route path="/education/faq" element={<FAQ />} />
             <Route path="/about" element={<About />} />
             <Route path="/why-us" element={<WhyUs />} />
             <Route path="/regulation" element={<Regulation />} />
