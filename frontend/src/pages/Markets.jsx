@@ -32,7 +32,7 @@ const Markets = () => {
             <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
             <Input
               type="text"
-              placeholder="Search instruments..."
+              placeholder={t.markets?.searchPlaceholder || 'Search instruments...'}
               className="pl-12 py-6 text-lg"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
