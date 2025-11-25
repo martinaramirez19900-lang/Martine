@@ -140,7 +140,7 @@ const OpenAccount = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
-                    <Label htmlFor="phone">Phone Number</Label>
+                    <Label htmlFor="phone">{pt.openAccount?.phone || 'Phone Number'}</Label>
                     <Input
                       id="phone"
                       type="tel"
@@ -152,7 +152,7 @@ const OpenAccount = () => {
                     />
                   </div>
                   <div>
-                    <Label htmlFor="country">Country of Residence</Label>
+                    <Label htmlFor="country">{pt.openAccount?.country || 'Country of Residence'}</Label>
                     <select
                       id="country"
                       value={formData.country}
@@ -160,7 +160,7 @@ const OpenAccount = () => {
                       className="w-full mt-2 px-4 py-2 border border-gray-300 rounded-lg"
                       required
                     >
-                      <option value="">Select Country</option>
+                      <option value="">{pt.openAccount?.selectCountry || 'Select Country'}</option>
                       <option value="US">United States</option>
                       <option value="GB">United Kingdom</option>
                       <option value="PL">Poland</option>
