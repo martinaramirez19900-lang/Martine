@@ -396,15 +396,15 @@ const Home = () => {
               <div className="flex flex-wrap gap-6 mb-8">
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
                   <div className="text-3xl font-bold text-green-400 mb-1">22</div>
-                  <div className="text-sm text-gray-300">Grand Slam Titles</div>
+                  <div className="text-sm text-gray-300">{t.ambassador?.grandSlam || 'Grand Slam Titles'}</div>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
                   <div className="text-3xl font-bold text-green-400 mb-1">92</div>
-                  <div className="text-sm text-gray-300">ATP Titles</div>
+                  <div className="text-sm text-gray-300">{t.ambassador?.atpTitles || 'ATP Titles'}</div>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
                   <div className="text-3xl font-bold text-green-400 mb-1">#1</div>
-                  <div className="text-sm text-gray-300">ATP Ranking</div>
+                  <div className="text-sm text-gray-300">{t.ambassador?.ranking || 'ATP Ranking'}</div>
                 </div>
               </div>
               <Button 
@@ -412,7 +412,7 @@ const Home = () => {
                 className="bg-green-600 hover:bg-green-700 text-white px-8 py-6 text-lg"
                 onClick={() => window.location.href = '/open-account'}
               >
-                Trade Like a Champion
+                {t.ambassador?.tradeLikeChampion || 'Trade Like a Champion'}
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
             </div>
