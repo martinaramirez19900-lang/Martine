@@ -88,7 +88,7 @@ const Markets = () => {
 
                     {/* Mini Chart Placeholder */}
                     <div className="h-24 bg-gradient-to-r from-gray-50 to-gray-100 rounded-lg mb-4 flex items-center justify-center">
-                      <div className="text-xs text-gray-400">Chart visualization</div>
+                      <div className="text-xs text-gray-400">{t.markets?.chartVisualization || 'Chart visualization'}</div>
                     </div>
 
                     <div className="flex gap-2">
@@ -96,14 +96,14 @@ const Markets = () => {
                         className="flex-1 bg-green-600 hover:bg-green-700 text-white"
                         onClick={() => window.location.href = '/open-account'}
                       >
-                        Buy
+                        {t.markets?.buy || 'Buy'}
                       </Button>
                       <Button 
                         variant="outline" 
                         className="flex-1 border-green-600 text-green-600 hover:bg-green-50"
                         onClick={() => window.location.href = '/open-account'}
                       >
-                        Sell
+                        {t.markets?.sell || 'Sell'}
                       </Button>
                     </div>
                   </Card>
