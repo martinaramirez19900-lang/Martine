@@ -14,43 +14,43 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12">
           {/* Company */}
           <div>
-            <h3 className="text-white font-bold text-lg mb-6">{t.footer.company}</h3>
+            <h3 className="text-white font-bold text-lg mb-6">{apt.footer?.company || t.footer.company}</h3>
             <ul className="space-y-3">
-              <li><Link to="/about" className="hover:text-green-500 transition-colors">About Us</Link></li>
-              <li><Link to="/why-us" className="hover:text-green-500 transition-colors">Why SMH Markets</Link></li>
-              <li><Link to="/careers" className="hover:text-green-500 transition-colors">Careers</Link></li>
-              <li><Link to="/partnerships" className="hover:text-green-500 transition-colors">Partnerships</Link></li>
-              <li><Link to="/contact" className="hover:text-green-500 transition-colors">Contact</Link></li>
+              <li><Link to="/about" className="hover:text-green-500 transition-colors">{apt.footer?.aboutUs || 'About Us'}</Link></li>
+              <li><Link to="/why-us" className="hover:text-green-500 transition-colors">{apt.footer?.whyUs || 'Why SMH Markets'}</Link></li>
+              <li><Link to="/careers" className="hover:text-green-500 transition-colors">{apt.footer?.careers || 'Careers'}</Link></li>
+              <li><Link to="/partnerships" className="hover:text-green-500 transition-colors">{apt.footer?.partnerships || 'Partnerships'}</Link></li>
+              <li><Link to="/contact" className="hover:text-green-500 transition-colors">{apt.footer?.contactUs || 'Contact'}</Link></li>
             </ul>
           </div>
 
           {/* Trading */}
           <div>
-            <h3 className="text-white font-bold text-lg mb-6">{t.footer.trading}</h3>
+            <h3 className="text-white font-bold text-lg mb-6">{apt.footer?.trading || t.footer.trading}</h3>
             <ul className="space-y-3">
-              <li><Link to="/platforms" className="hover:text-green-500 transition-colors">Trading Platforms</Link></li>
-              <li><Link to="/markets" className="hover:text-green-500 transition-colors">Markets</Link></li>
-              <li><Link to="/accounts" className="hover:text-green-500 transition-colors">Account Types</Link></li>
-              <li><Link to="/tools" className="hover:text-green-500 transition-colors">Trading Tools</Link></li>
+              <li><Link to="/platforms" className="hover:text-green-500 transition-colors">{apt.footer?.tradingPlatforms || 'Trading Platforms'}</Link></li>
+              <li><Link to="/markets" className="hover:text-green-500 transition-colors">{apt.footer?.markets || 'Markets'}</Link></li>
+              <li><Link to="/accounts" className="hover:text-green-500 transition-colors">{apt.footer?.accountTypes || 'Account Types'}</Link></li>
+              <li><Link to="/tools" className="hover:text-green-500 transition-colors">{apt.footer?.tradingTools || 'Trading Tools'}</Link></li>
               <li><Link to="/pricing" className="hover:text-green-500 transition-colors">Pricing</Link></li>
             </ul>
           </div>
 
           {/* Legal */}
           <div>
-            <h3 className="text-white font-bold text-lg mb-6">{t.footer.legal}</h3>
+            <h3 className="text-white font-bold text-lg mb-6">{apt.footer?.legal || t.footer.legal}</h3>
             <ul className="space-y-3">
-              <li><Link to="/legal" className="hover:text-green-500 transition-colors">Legal Documents</Link></li>
-              <li><Link to="/privacy" className="hover:text-green-500 transition-colors">Privacy Policy</Link></li>
-              <li><Link to="/terms" className="hover:text-green-500 transition-colors">Terms of Service</Link></li>
-              <li><Link to="/risk" className="hover:text-green-500 transition-colors">Risk Disclosure</Link></li>
+              <li><Link to="/legal" className="hover:text-green-500 transition-colors">{apt.footer?.legalDocuments || 'Legal Documents'}</Link></li>
+              <li><Link to="/privacy" className="hover:text-green-500 transition-colors">{apt.footer?.privacyPolicy || 'Privacy Policy'}</Link></li>
+              <li><Link to="/terms" className="hover:text-green-500 transition-colors">{apt.footer?.termsOfService || 'Terms of Service'}</Link></li>
+              <li><Link to="/risk" className="hover:text-green-500 transition-colors">{apt.footer?.riskDisclosure || 'Risk Disclosure'}</Link></li>
               <li><Link to="/complaints" className="hover:text-green-500 transition-colors">Complaints</Link></li>
             </ul>
           </div>
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-white font-bold text-lg mb-6">Contact Us</h3>
+            <h3 className="text-white font-bold text-lg mb-6">{apt.footer?.contactUs || 'Contact Us'}</h3>
             <ul className="space-y-3">
               <li className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-green-500 mt-1 flex-shrink-0" />
