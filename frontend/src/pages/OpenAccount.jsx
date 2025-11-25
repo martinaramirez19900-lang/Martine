@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { CheckCircle2, ArrowRight, Shield, Clock, DollarSign } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { extendedTranslations } from '../i18n/extendedTranslations';
+import { pageTranslations } from '../i18n/pageTranslations';
 import { Button } from '../components/ui/button';
 import { Card } from '../components/ui/card';
 import { Input } from '../components/ui/input';
