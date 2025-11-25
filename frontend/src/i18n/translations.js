@@ -156,6 +156,26 @@ export const translations = {
       tryDemo: 'Try Demo Account',
       readyToStart: 'Ready to Start Trading?',
       joinTraders: 'Join thousands of traders who trust SMH Markets for their trading needs'
+    },
+    ambassador: {
+      title: 'Official Brand Ambassador',
+      subtitle: 'Rafael Nadal',
+      role: 'Tennis Legend & SMH Markets Ambassador',
+      quote: 'Excellence, precision, and dedication - values that define both champions and successful traders. I\'m proud to represent SMH Markets, a broker that shares my commitment to achieving greatness.',
+      grandSlam: 'Grand Slam Titles',
+      atpTitles: 'ATP Titles',
+      ranking: 'ATP Ranking',
+      tradeLikeChampion: 'Trade Like a Champion'
+    },
+    sponsor: {
+      title: 'Official Sponsors',
+      subtitle: 'Proud partners of world-class organizations',
+      fcbTitle: 'Official Trading Partner',
+      fcbName: 'FC Barcelona',
+      fcbDesc: 'SMH Markets is the Official Trading Partner of FC Barcelona, one of the world\'s most successful football clubs. This partnership represents our commitment to excellence and global reach.',
+      laLiga: 'La Liga Titles',
+      championsLeague: 'Champions League',
+      learnPartnership: 'Learn More About Partnership'
     }
   },
   pl: {
