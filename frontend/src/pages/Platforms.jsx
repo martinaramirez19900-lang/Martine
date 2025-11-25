@@ -37,7 +37,7 @@ const Platforms = () => {
 
                 <div className="mb-8">
                   <img
-                    src="https://images.unsplash.com/photo-1649003515353-c58a239cf662?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzR8MHwxfHNlYXJjaHwxfHxzdG9jayUyMG1hcmtldCUyMGNoYXJ0c3xlbnwwfHx8fDE3NjI5MzkzNDF8MA&ixlib=rb-4.1.0&q=85"
+                    src={platform.image || "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=80"}
                     alt={platform.name}
                     className="w-full h-64 object-cover rounded-lg"
                   />
