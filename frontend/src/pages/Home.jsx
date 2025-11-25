@@ -101,11 +101,14 @@ const Home = () => {
             {/* Right side - Success imagery */}
             <div className="hidden lg:block">
               <div className="relative">
-                {/* Main success image */}
+                {/* Main success video */}
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white/20">
-                  <img 
-                    src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=600&q=80" 
-                    alt="Successful Team" 
+                  <video 
+                    src="/videos/smh-promo.mp4" 
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
                     className="w-full h-96 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-green-900/60 to-transparent"></div>
