@@ -392,6 +392,14 @@ export const translations = {
       followUs: 'Bizi Takip Edin',
       riskWarning: 'Risk Uyarısı: CFD ve kaldıraçlı ürünlerle işlem yapmak yüksek risk taşır ve tüm yatırımcılar için uygun olmayabilir.',
       copyright: '© 2025 SMH Markets. Tüm hakları saklıdır.'
+    },
+    about: {
+      title: 'SMH Markets Hakkında',
+      subtitle: 'Küresel finansal piyasalarda güvenilir ortağınız'
+    },
+    education: {
+      title: 'İşlem Eğitimi',
+      subtitle: 'Uzmanlardan öğrenin ve işlem becerilerinizi geliştirin'
     }
   },
   sk: {
