@@ -384,29 +384,29 @@ const Home = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="text-white">
               <Badge className="bg-green-600 text-white mb-6 text-sm px-4 py-2">
-                {t.ambassador?.title || 'Official Brand Ambassador'}
+                {apt.ambassador?.title || 'Official Brand Ambassador'}
               </Badge>
               <h2 className="text-5xl md:text-6xl font-bold mb-6">
-                {t.ambassador?.subtitle || 'Rafael Nadal'}
+                {apt.ambassador?.subtitle || 'Rafael Nadal'}
               </h2>
               <p className="text-2xl text-green-400 font-semibold mb-6">
-                {t.ambassador?.role || 'Tennis Legend & SMH Markets Ambassador'}
+                {apt.ambassador?.description || 'Tennis Legend & SMH Markets Ambassador'}
               </p>
               <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-                "{t.ambassador?.quote || 'Excellence, precision, and dedication - values that define both champions and successful traders. I\'m proud to represent SMH Markets, a broker that shares my commitment to achieving greatness.'}"
+                "{apt.ambassador?.quote || 'Excellence, precision, and dedication - values that define both champions and successful traders. I\'m proud to represent SMH Markets, a broker that shares my commitment to achieving greatness.'}"
               </p>
               <div className="flex flex-wrap gap-6 mb-8">
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
                   <div className="text-3xl font-bold text-green-400 mb-1">22</div>
-                  <div className="text-sm text-gray-300">{t.ambassador?.grandSlam || 'Grand Slam Titles'}</div>
+                  <div className="text-sm text-gray-300">{apt.ambassador?.grandSlam || 'Grand Slam Titles'}</div>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
                   <div className="text-3xl font-bold text-green-400 mb-1">92</div>
-                  <div className="text-sm text-gray-300">{t.ambassador?.atpTitles || 'ATP Titles'}</div>
+                  <div className="text-sm text-gray-300">{apt.ambassador?.atpTitles || 'ATP Titles'}</div>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
                   <div className="text-3xl font-bold text-green-400 mb-1">#1</div>
-                  <div className="text-sm text-gray-300">{t.ambassador?.ranking || 'ATP Ranking'}</div>
+                  <div className="text-sm text-gray-300">{apt.ambassador?.atpRanking || 'ATP Ranking'}</div>
                 </div>
               </div>
               <Button 
@@ -414,7 +414,7 @@ const Home = () => {
                 className="bg-green-600 hover:bg-green-700 text-white px-8 py-6 text-lg"
                 onClick={() => window.location.href = '/open-account'}
               >
-                {t.ambassador?.tradeLikeChampion || 'Trade Like a Champion'}
+                {apt.ambassador?.cta || 'Trade Like a Champion'}
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
             </div>
