@@ -16,11 +16,19 @@ const MT5 = () => {
                 Next-generation multi-asset trading platform with advanced features and superior performance
               </p>
               <div className="flex gap-4">
-                <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white">
+                <Button 
+                  size="lg" 
+                  className="bg-green-600 hover:bg-green-700 text-white"
+                  onClick={() => window.open('https://www.metatrader5.com/en', '_blank')}
+                >
                   <Download className="mr-2 w-5 h-5" />
                   Download MT5
                 </Button>
-                <Button size="lg" variant="outline">
+                <Button 
+                  size="lg" 
+                  variant="outline"
+                  onClick={() => window.open('https://www.metatrader5.com/en', '_blank')}
+                >
                   <Globe className="mr-2 w-5 h-5" />
                   Web Platform
                 </Button>
