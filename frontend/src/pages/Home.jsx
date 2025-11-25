@@ -2,13 +2,15 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, TrendingUp, Shield, Zap, Globe2, Award, Users } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import { additionalPagesTranslations } from '../i18n/additionalPages';
 import { Button } from '../components/ui/button';
 import { Card } from '../components/ui/card';
 import { Badge } from '../components/ui/badge';
 import { tradingInstruments, platforms, features } from '../data/mockData';
 
 const Home = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
+  const apt = additionalPagesTranslations[language] || additionalPagesTranslations.en;
 
   return (
     <div className="min-h-screen">
