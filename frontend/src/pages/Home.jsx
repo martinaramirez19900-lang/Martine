@@ -435,9 +435,9 @@ const Home = () => {
                           <Award className="w-10 h-10 text-white" />
                         </div>
                         <div>
-                          <div className="text-sm text-gray-600 font-semibold uppercase tracking-wide">Official Brand Ambassador</div>
-                          <div className="text-3xl font-bold text-gray-900">Rafael Nadal</div>
-                          <div className="text-sm text-green-600 font-semibold">Tennis Legend & Champion</div>
+                          <div className="text-sm text-gray-600 font-semibold uppercase tracking-wide">{apt.ambassador?.title || 'Official Brand Ambassador'}</div>
+                          <div className="text-3xl font-bold text-gray-900">{apt.ambassador?.subtitle || 'Rafael Nadal'}</div>
+                          <div className="text-sm text-green-600 font-semibold">{apt.ambassador?.description || 'Tennis Legend & Champion'}</div>
                         </div>
                       </div>
                     </div>
