@@ -52,7 +52,7 @@ const Contact = () => {
             </div>
 
             <div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-8">Contact Information</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-8">{t.contact.contactInfo}</h2>
               <div className="space-y-6">
                 {[
                   { 
