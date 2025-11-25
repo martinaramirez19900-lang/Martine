@@ -402,8 +402,8 @@ export const translations = {
       careers: 'Kariéra',
       partnerships: 'Partnerstvá',
       contact: 'Kontakt',
-      login: 'Prihlásiť sa',
-      signup: 'Otvoriť účet'
+      legal: 'Právne dokumenty',
+      security: 'Bezpečnosť'
     },
     hero: {
       title: 'Obchodujte s istotou',
