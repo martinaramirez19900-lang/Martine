@@ -27,18 +27,18 @@ const Pricing = () => {
             {[
               {
                 icon: TrendingDown,
-                title: 'Spreads from 0.0 pips',
-                description: 'Ultra-tight spreads on major currency pairs starting from 0.0 pips on Pro accounts'
+                title: pt.pricing?.spreadsTitle || 'Spreads from 0.0 pips',
+                description: pt.pricing?.spreadsDesc || 'Ultra-tight spreads on major currency pairs starting from 0.0 pips on Pro accounts'
               },
               {
                 icon: DollarSign,
-                title: 'No Hidden Fees',
-                description: 'Transparent pricing with no hidden costs. What you see is what you get.'
+                title: pt.pricing?.noFeesTitle || 'No Hidden Fees',
+                description: pt.pricing?.noFeesDesc || 'Transparent pricing with no hidden costs. What you see is what you get.'
               },
               {
                 icon: Award,
-                title: 'Competitive Swaps',
-                description: 'Industry-leading swap rates with Islamic account options available'
+                title: pt.pricing?.swapsTitle || 'Competitive Swaps',
+                description: pt.pricing?.swapsDesc || 'Industry-leading swap rates with Islamic account options available'
               }
             ].map((feature, idx) => (
               <Card key={idx} className="p-8 text-center hover:shadow-xl transition-all">
