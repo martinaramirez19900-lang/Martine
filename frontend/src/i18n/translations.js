@@ -253,7 +253,13 @@ export const translations = {
       crypto: 'Krypto',
       metals: 'Metale',
       indices: 'Indeksy',
-      energy: 'Energia'
+      energy: 'Energia',
+      searchPlaceholder: 'Szukaj instrumentów...',
+      allMarkets: 'Wszystkie rynki',
+      chartVisualization: 'Wizualizacja wykresu',
+      buy: 'Kup',
+      sell: 'Sprzedaj',
+      noResults: 'Nie znaleziono instrumentów odpowiadających kryteriom'
     },
     accounts: {
       title: 'Wybierz typ konta',
