@@ -84,7 +84,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a 
-                  href="/documents/SMH_CAPITAL_ADVISORS_LLC.pdf" 
+                  href="https://smh-markets.com/documents/SMH_CAPITAL_ADVISORS_LLC.pdf" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-2 hover:text-green-500 transition-colors text-sm"
@@ -95,7 +95,7 @@ const Footer = () => {
               </li>
               <li>
                 <a 
-                  href="/documents/SMH_Finance_LLP.pdf" 
+                  href="https://smh-markets.com/documents/documents/SMH_Finance_LLP.pdf" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-2 hover:text-green-500 transition-colors text-sm"
