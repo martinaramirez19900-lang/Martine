@@ -19,6 +19,7 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
 } from './ui/navigation-menu';
+import smhLogo from '../assets/images/smh-logo.png';
 
 const HeaderNew = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
