@@ -326,28 +326,28 @@ const Home = () => {
       <section className="py-24 px-4 bg-green-50">
         <div className="container mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-5xl font-bold text-gray-900 mb-4">Trusted by Traders Worldwide</h2>
-            <p className="text-xl text-gray-600">See what our clients say about us</p>
+            <h2 className="text-5xl font-bold text-gray-900 mb-4">{testimonialsT.title}</h2>
+            <p className="text-xl text-gray-600">{testimonialsT.subtitle}</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
                 image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&q=80&fit=crop&crop=faces',
-                name: 'Michael Anderson',
-                role: 'Professional Trader',
-                text: 'SMH Markets has transformed my trading experience. The execution speed is incredible!'
+                name: testimonialsT.testimonials[0].name,
+                role: testimonialsT.testimonials[0].role,
+                text: testimonialsT.testimonials[0].text
               },
               {
                 image: 'https://images.unsplash.com/photo-1627161683077-e34782c24d81?w=400&q=80&fit=crop&crop=faces',
-                name: 'Sarah Johnson',
-                role: 'Day Trader',
-                text: 'Best spreads in the industry. I have been trading here for 3 years and never disappointed.'
+                name: testimonialsT.testimonials[1].name,
+                role: testimonialsT.testimonials[1].role,
+                text: testimonialsT.testimonials[1].text
               },
               {
                 image: 'https://images.unsplash.com/photo-1522556189639-b150ed9c4330?w=400&q=80&fit=crop&crop=faces',
-                name: 'David Martinez',
-                role: 'Forex Trader',
-                text: 'Excellent customer support and reliable platform. Highly recommended for serious traders.'
+                name: testimonialsT.testimonials[2].name,
+                role: testimonialsT.testimonials[2].role,
+                text: testimonialsT.testimonials[2].text
               }
             ].map((testimonial, idx) => (
               <Card key={idx} className="p-8 hover:shadow-2xl transition-all">
