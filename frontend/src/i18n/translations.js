@@ -696,6 +696,53 @@ export const translations = {
     education: {
       title: 'Obchodné vzdelávanie',
       subtitle: 'Učte sa od odborníkov a zlepšujte svoje obchodné schopnosti'
+    },
+    stats: {
+      activeTraders: 'Aktívni obchodníci',
+      instruments: 'Nástroje',
+      spreadsFrom: 'Spready od',
+      support: 'Podpora',
+      avgReturns: 'Priem. výnosy',
+      happyClients: 'Spokojní klienti'
+    },
+    featureCards: {
+      fastExecution: {
+        title: 'Rýchle vykonanie',
+        desc: 'Bleskovo rýchle vykonanie príkazov s minimálnou latenciou'
+      },
+      secureTrading: {
+        title: 'Bezpečné obchodovanie',
+        desc: 'Zabezpečenie na úrovni bánk a ochrana prostriedkov'
+      },
+      advancedTools: {
+        title: 'Pokročilé nástroje',
+        desc: 'Profesionálne obchodné nástroje a indikátory'
+      },
+      globalMarkets: {
+        title: 'Globálne trhy',
+        desc: 'Prístup na trhy po celom svete 24/5'
+      },
+      awardWinning: {
+        title: 'Ocenený',
+        desc: 'Uznávaná kvalita v odvetví'
+      },
+      support247: {
+        title: 'Podpora 24/7',
+        desc: 'Nepretržitá viacjazyčná podpora'
+      }
+    },
+    platformDesc: {
+      mt4: 'Najobľúbenejšia obchodná platforma na svete',
+      mt5: 'Multi-asset platforma novej generácie',
+      ctrader: 'Profesionálna obchodná platforma',
+      smhEdge: 'Naša vlastná obchodná platforma'
+    },
+    common: {
+      learnMore: 'Zistiť viac',
+      openAccount: 'Otvoriť živý účet',
+      tryDemo: 'Vyskúšať demo',
+      readyToStart: 'Pripravení začať obchodovať?',
+      joinTraders: 'Pripojte sa k tisíckam obchodníkov, ktorí dôverujú SMH Markets'
     }
   },
   es: {
