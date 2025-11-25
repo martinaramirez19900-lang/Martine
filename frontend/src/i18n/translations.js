@@ -601,6 +601,14 @@ export const translations = {
       followUs: 'Síguenos',
       riskWarning: 'Advertencia de Riesgo: Operar con CFDs y productos apalancados conlleva un alto nivel de riesgo y puede no ser adecuado para todos los inversores.',
       copyright: '© 2025 SMH Markets. Todos los derechos reservados.'
+    },
+    about: {
+      title: 'Sobre SMH Markets',
+      subtitle: 'Tu socio de confianza en los mercados financieros globales'
+    },
+    education: {
+      title: 'Educación de Trading',
+      subtitle: 'Aprende de los expertos y mejora tus habilidades de trading'
     }
   }
 };
