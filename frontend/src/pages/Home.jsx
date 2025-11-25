@@ -214,7 +214,7 @@ const Home = () => {
                   className="w-full border-gray-300 hover:border-green-600 hover:text-green-600"
                   onClick={() => window.location.href = '/platforms'}
                 >
-                  Learn More
+                  {t.common.learnMore}
                 </Button>
               </Card>
             ))}
