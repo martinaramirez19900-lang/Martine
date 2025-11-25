@@ -332,19 +332,19 @@ const Home = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400',
+                image: 'https://images.unsplash.com/photo-1558222218-b7b54eede3f3?w=400&q=80',
                 name: 'Michael Anderson',
                 role: 'Professional Trader',
                 text: 'SMH Markets has transformed my trading experience. The execution speed is incredible!'
               },
               {
-                image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400',
+                image: 'https://images.unsplash.com/photo-1551989745-347c28b620e5?w=400&q=80',
                 name: 'Sarah Johnson',
                 role: 'Day Trader',
                 text: 'Best spreads in the industry. I have been trading here for 3 years and never disappointed.'
               },
               {
-                image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400',
+                image: 'https://images.unsplash.com/photo-1758874089586-4e37e94f446a?w=400&q=80',
                 name: 'David Martinez',
                 role: 'Forex Trader',
                 text: 'Excellent customer support and reliable platform. Highly recommended for serious traders.'
