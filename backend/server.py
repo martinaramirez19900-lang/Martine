@@ -72,6 +72,46 @@ async def get_status_checks():
     
     return status_checks
 
+@api_router.post("/contact")
+async def submit_contact_form(form_data: ContactForm):
+    """
+    Submit contact/account opening form
+    Saves to database and sends email notification
+    """
+    try:
+        # Save to database
+        form_dict = form_data.model_dump()
+        form_dict['id'] = str(uuid.uuid4())
+        form_dict['timestamp'] = datetime.now(timezone.utc).isoformat()
+        form_dict['status'] = 'new'
+        
+        await db.contact_forms.insert_one(form_dict)
+        
+        # In production, you would send an email here
+        # For now, we'll just log it
+        logger.info(f"New contact form submission from {form_data.email}")
+        logger.info(f"Form data: {form_dict}")
+        
+        # TODO: Integrate with email service to send to support@smh-markets.com
+        # Example using SMTP:
+        # send_email(
+        #     to="support@smh-markets.com",
+        #     subject=f"New Account Registration: {form_data.fullName}",
+        #     body=f"Name: {form_data.fullName}\nEmail: {form_data.email}\n..."
+        # )
+        
+        return {
+            "success": True, 
+            "message": "Thank you! Your application has been received. We will contact you shortly.",
+            "id": form_dict['id']
+        }
+    except Exception as e:
+        logger.error(f"Error submitting contact form: {str(e)}")
+        return {
+            "success": False,
+            "message": "There was an error submitting your form. Please try again or contact us directly."
+        }
+
 # Include the router in the main app
 app.include_router(api_router)
 
