@@ -1,10 +1,12 @@
 import React from 'react';
 import { Video, Calendar, Users, Clock } from 'lucide-react';
+import { useLanguage } from '../../context/LanguageContext';
 import { Card } from '../../components/ui/card';
 import { Button } from '../../components/ui/button';
 import { Badge } from '../../components/ui/badge';
 
 const Webinars = () => {
+  const { t } = useLanguage();
   const upcomingWebinars = [
     {
       id: 1,
