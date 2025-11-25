@@ -79,19 +79,19 @@ const Home = () => {
               <div className="grid grid-cols-2 gap-6 mt-12">
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
                   <div className="text-4xl font-bold text-white mb-1">500K+</div>
-                  <div className="text-sm text-gray-200">Active Traders</div>
+                  <div className="text-sm text-gray-200">{t.stats.activeTraders}</div>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
                   <div className="text-4xl font-bold text-white mb-1">2000+</div>
-                  <div className="text-sm text-gray-200">Instruments</div>
+                  <div className="text-sm text-gray-200">{t.stats.instruments}</div>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
                   <div className="text-4xl font-bold text-green-400 mb-1">0.0</div>
-                  <div className="text-sm text-gray-200">Spreads from</div>
+                  <div className="text-sm text-gray-200">{t.stats.spreadsFrom}</div>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
                   <div className="text-4xl font-bold text-white mb-1">24/7</div>
-                  <div className="text-sm text-gray-200">Support</div>
+                  <div className="text-sm text-gray-200">{t.stats.support}</div>
                 </div>
               </div>
             </div>
