@@ -97,28 +97,32 @@ export const platforms = [
     name: 'MetaTrader 4',
     description: 'The world\'s most popular trading platform',
     features: ['Advanced charting', 'Expert Advisors', 'Mobile trading', 'Custom indicators'],
-    icon: 'LineChart'
+    icon: 'LineChart',
+    image: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=80'
   },
   {
     id: 2,
     name: 'MetaTrader 5',
     description: 'Next generation multi-asset platform',
     features: ['Multiple timeframes', 'Economic calendar', 'Depth of Market', 'Built-in signals'],
-    icon: 'TrendingUp'
+    icon: 'TrendingUp',
+    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80'
   },
   {
     id: 3,
     name: 'cTrader',
     description: 'Professional trading platform',
     features: ['Level II pricing', 'cAlgo automation', 'Fast execution', 'Advanced orders'],
-    icon: 'BarChart3'
+    icon: 'BarChart3',
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80'
   },
   {
     id: 4,
     name: 'SMH Edge',
     description: 'Our proprietary trading platform',
     features: ['Intuitive interface', 'One-click trading', 'Real-time data', 'Risk management'],
-    icon: 'Activity'
+    icon: 'Activity',
+    image: 'https://images.unsplash.com/photo-1642790106117-e829e14a795f?w=800&q=80'
   }
 ];
 
