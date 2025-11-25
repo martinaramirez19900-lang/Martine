@@ -104,11 +104,12 @@ const Home = () => {
                 {/* Main success video */}
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white/20">
                   <video 
-                    src="/videos/smh-promo.mp4" 
+                    src="/videos/smh-promo-compressed.mp4" 
                     autoPlay
                     loop
                     muted
                     playsInline
+                    preload="auto"
                     className="w-full h-96 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-green-900/60 to-transparent"></div>
