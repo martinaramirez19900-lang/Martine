@@ -1,17 +1,21 @@
 import React from 'react';
 import { DollarSign, TrendingDown, Award, Check } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import { pageTranslations } from '../i18n/pageTranslations';
 import { Card } from '../components/ui/card';
 
 const Pricing = () => {
+  const { language } = useLanguage();
+  const pt = pageTranslations[language] || pageTranslations.en;
+  
   return (
     <div className="min-h-screen pt-20">
       {/* Hero */}
       <section className="py-20 px-4 bg-gradient-to-br from-gray-50 to-white">
         <div className="container mx-auto text-center">
-          <h1 className="text-6xl font-bold text-gray-900 mb-6">Transparent Pricing</h1>
+          <h1 className="text-6xl font-bold text-gray-900 mb-6">{pt.pricing?.title || 'Transparent Pricing'}</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            No hidden fees. Competitive spreads. Industry-leading conditions.
+            {pt.pricing?.subtitle || 'No hidden fees. Competitive spreads. Industry-leading conditions.'}
           </p>
         </div>
       </section>
