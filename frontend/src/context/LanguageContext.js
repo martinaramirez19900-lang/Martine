@@ -54,7 +54,7 @@ export const LanguageProvider = ({ children }) => {
   // Merge selected language with English as fallback
   const t = language === 'en' 
     ? translations.en 
-    : deepMerge(translations[language] || {}, translations.en);
+    : deepMerge(translations.en, translations[language] || {});
 
   return (
     <LanguageContext.Provider value={{ language, changeLanguage, t }}>
