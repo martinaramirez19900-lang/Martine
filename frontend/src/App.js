@@ -35,6 +35,11 @@ import EconomicCalendar from './pages/tools/EconomicCalendar';
 import MarketNews from './pages/tools/MarketNews';
 // Education
 import Webinars from './pages/education/Webinars';
+import TradingGuides from './pages/education/TradingGuides';
+import LiveWebinars from './pages/education/LiveWebinars';
+import VideoTutorials from './pages/education/VideoTutorials';
+import TradingGlossary from './pages/education/TradingGlossary';
+import FAQ from './pages/education/FAQ';
 // Company
 import WhyUs from './pages/company/WhyUs';
 import Regulation from './pages/company/Regulation';
