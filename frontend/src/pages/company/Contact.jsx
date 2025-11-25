@@ -25,7 +25,7 @@ const Contact = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-8">Send Us a Message</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-8">{t.contact.sendMessage}</h2>
               <Card className="p-8">
                 <form className="space-y-6">
                   <div>
