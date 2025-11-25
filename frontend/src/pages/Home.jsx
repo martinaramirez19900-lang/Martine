@@ -451,28 +451,27 @@ const Home = () => {
       <section className="py-20 px-4 bg-white">
         <div className="container mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Official Sponsors</h2>
-            <p className="text-xl text-gray-600">Proud partners of world-class organizations</p>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">{t.sponsor?.title || 'Official Sponsors'}</h2>
+            <p className="text-xl text-gray-600">{t.sponsor?.subtitle || 'Proud partners of world-class organizations'}</p>
           </div>
           
           <div className="max-w-5xl mx-auto">
             <Card className="overflow-hidden hover:shadow-2xl transition-all">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center p-8">
                 <div>
-                  <Badge className="bg-blue-600 text-white mb-4">Official Trading Partner</Badge>
-                  <h3 className="text-4xl font-bold text-gray-900 mb-4">FC Barcelona</h3>
+                  <Badge className="bg-blue-600 text-white mb-4">{t.sponsor?.fcbTitle || 'Official Trading Partner'}</Badge>
+                  <h3 className="text-4xl font-bold text-gray-900 mb-4">{t.sponsor?.fcbName || 'FC Barcelona'}</h3>
                   <p className="text-lg text-gray-600 mb-6">
-                    SMH Markets is the Official Trading Partner of FC Barcelona, one of the world's most successful 
-                    football clubs. This partnership represents our commitment to excellence and global reach.
+                    {t.sponsor?.fcbDesc || 'SMH Markets is the Official Trading Partner of FC Barcelona, one of the world\'s most successful football clubs. This partnership represents our commitment to excellence and global reach.'}
                   </p>
                   <div className="grid grid-cols-2 gap-4 mb-6">
                     <div className="bg-blue-50 rounded-lg p-4">
                       <div className="text-3xl font-bold text-blue-600 mb-1">26</div>
-                      <div className="text-sm text-gray-700">La Liga Titles</div>
+                      <div className="text-sm text-gray-700">{t.sponsor?.laLiga || 'La Liga Titles'}</div>
                     </div>
                     <div className="bg-blue-50 rounded-lg p-4">
                       <div className="text-3xl font-bold text-blue-600 mb-1">5</div>
-                      <div className="text-sm text-gray-700">Champions League</div>
+                      <div className="text-sm text-gray-700">{t.sponsor?.championsLeague || 'Champions League'}</div>
                     </div>
                   </div>
                   <Button 
