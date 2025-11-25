@@ -109,6 +109,53 @@ export const translations = {
     education: {
       title: 'Trading Education',
       subtitle: 'Learn from the experts and improve your trading skills'
+    },
+    stats: {
+      activeTraders: 'Active Traders',
+      instruments: 'Instruments',
+      spreadsFrom: 'Spreads from',
+      support: 'Support',
+      avgReturns: 'Avg. Returns',
+      happyClients: 'Happy Clients'
+    },
+    featureCards: {
+      fastExecution: {
+        title: 'Fast Execution',
+        desc: 'Lightning-fast order execution with minimal latency'
+      },
+      secureTrading: {
+        title: 'Secure Trading',
+        desc: 'Bank-level security and fund protection'
+      },
+      advancedTools: {
+        title: 'Advanced Tools',
+        desc: 'Professional trading tools and indicators'
+      },
+      globalMarkets: {
+        title: 'Global Markets',
+        desc: 'Access to markets worldwide 24/5'
+      },
+      awardWinning: {
+        title: 'Award Winning',
+        desc: 'Recognized excellence in the industry'
+      },
+      support247: {
+        title: '24/7 Support',
+        desc: 'Round-the-clock multilingual support'
+      }
+    },
+    platformDesc: {
+      mt4: 'The world\'s most popular trading platform',
+      mt5: 'Next generation multi-asset platform',
+      ctrader: 'Professional trading platform',
+      smhEdge: 'Our proprietary trading platform'
+    },
+    common: {
+      learnMore: 'Learn More',
+      openAccount: 'Open Live Account',
+      tryDemo: 'Try Demo Account',
+      readyToStart: 'Ready to Start Trading?',
+      joinTraders: 'Join thousands of traders who trust SMH Markets for their trading needs'
     }
   },
   pl: {
