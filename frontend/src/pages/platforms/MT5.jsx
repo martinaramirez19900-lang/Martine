@@ -50,9 +50,9 @@ const MT5 = () => {
         <div className="container mx-auto">
           <Tabs defaultValue="desktop" className="w-full max-w-4xl mx-auto">
             <TabsList className="grid w-full grid-cols-3">
-              <TabsTrigger value="desktop">Desktop</TabsTrigger>
+              <TabsTrigger value="desktop">{pt.platforms?.desktop || 'Desktop'}</TabsTrigger>
               <TabsTrigger value="web">Web</TabsTrigger>
-              <TabsTrigger value="mobile">Mobile</TabsTrigger>
+              <TabsTrigger value="mobile">{pt.platforms?.mobile || 'Mobile'}</TabsTrigger>
             </TabsList>
             <TabsContent value="desktop" className="mt-6">
               <Card className="p-8">
