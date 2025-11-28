@@ -202,6 +202,46 @@ export const translations = {
       laLiga: 'La Liga Titles',
       championsLeague: 'Champions League',
       learnPartnership: 'Learn More About Partnership'
+    },
+    tradingExperience: {
+      title: 'Professional Trading Experience',
+      subtitle: 'Advanced tools and technology for modern traders',
+      advancedAnalytics: 'Advanced Analytics',
+      advancedAnalyticsDesc: 'Real-time market data and technical analysis',
+      multiplePlatforms: 'Multiple Platforms',
+      multiplePlatformsDesc: 'Trade on MT4, MT5, cTrader, and WebTrader'
+    },
+    whyChooseUs: {
+      title: 'Why Open an Account with SMH Markets?',
+      detailedComparison: 'Detailed Comparison',
+      regulatedBroker: 'Regulated Broker',
+      regulatedBrokerDesc: 'Licensed and regulated by top-tier financial authorities',
+      secureFunds: 'Secure Funds',
+      secureFundsDesc: 'Client funds held in segregated accounts at tier-1 banks',
+      fastExecution: 'Fast Execution',
+      fastExecutionDesc: 'Advanced technology for lightning-fast order execution',
+      competitivePricing: 'Competitive Pricing',
+      competitivePricingDesc: 'Tight spreads and low commissions on all instruments',
+      multiplePlatforms: 'Multiple Platforms',
+      multiplePlatformsDesc: 'Choose from MT4, MT5, cTrader, and our proprietary platform',
+      expertSupport: 'Expert Support',
+      expertSupportDesc: '24/7 multilingual customer support for all clients',
+      readyToGetStarted: 'Ready to Get Started?',
+      openAccountToday: 'Open your trading account today and join thousands of satisfied traders',
+      openAccountNow: 'Open Account Now'
+    },
+    comparisonTable: {
+      feature: 'Feature',
+      minDeposit: 'Minimum Deposit',
+      maxLeverage: 'Maximum Leverage',
+      spreadsFrom: 'Spreads From',
+      commission: 'Commission',
+      expertAdvisors: 'Expert Advisors',
+      islamicAccount: 'Islamic Account',
+      dedicatedSupport: 'Dedicated Support',
+      personalManager: 'Personal Manager',
+      priorityWithdrawals: 'Priority Withdrawals',
+      premiumAnalytics: 'Premium Analytics'
     }
   },
   pl: {
