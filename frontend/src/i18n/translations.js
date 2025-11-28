@@ -890,7 +890,18 @@ export const translations = {
       glossaryTerm9: 'Take Profit',
       glossaryDef9: 'Zlecenie zamknięcia transakcji po określonej cenie w celu zabezpieczenia zysków',
       glossaryTerm10: 'Zmienność',
-      glossaryDef10: 'Statystyczna miara wahań cen w czasie'
+      glossaryDef10: 'Statystyczna miara wahań cen w czasie',
+      educationTitle: 'Edukacja handlowa',
+      educationSubtitle: 'Ucz się od ekspertów i rozwijaj swoje umiejętności handlowe',
+      enrollNow: 'Zapisz się teraz',
+      course1Title: 'Wprowadzenie do handlu Forex',
+      course1Desc: 'Poznaj podstawy handlu forex i par walutowych',
+      course2Title: 'Podstawy analizy technicznej',
+      course2Desc: 'Opanuj wzorce wykresów i wskaźniki techniczne',
+      course3Title: 'Strategie zarządzania ryzykiem',
+      course3Desc: 'Zaawansowane techniki ochrony kapitału',
+      course4Title: 'Psychologia handlu',
+      course4Desc: 'Rozwijaj właściwe nastawienie do skutecznego handlu'
     }
   },
   cz: {
