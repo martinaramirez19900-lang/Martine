@@ -49,15 +49,15 @@ const MobileApp = () => {
 
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
-          <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">Key Features</h2>
+          <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">{apt.mobileApp?.keyFeatures || 'Key Features'}</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              { icon: TrendingUp, title: 'Real-Time Trading', desc: 'Execute trades in real-time with live market data' },
-              { icon: Bell, title: 'Push Notifications', desc: 'Get instant alerts for market movements and orders' },
-              { icon: Shield, title: 'Secure Login', desc: 'Biometric authentication and PIN protection' },
-              { icon: Globe, title: 'Multi-Platform Sync', desc: 'Seamless sync across all your devices' },
-              { icon: Smartphone, title: 'Intuitive Interface', desc: 'Easy-to-use design for trading on the go' },
-              { icon: Download, title: 'Offline Charts', desc: 'View saved charts even without internet' }
+              { icon: TrendingUp, title: t.mobileApp?.realTimeTrading || 'Real-Time Trading', desc: t.mobileApp?.realTimeTradingDesc || 'Execute trades in real-time with live market data' },
+              { icon: Bell, title: t.mobileApp?.pushNotifications || 'Push Notifications', desc: t.mobileApp?.pushNotificationsDesc || 'Get instant alerts for market movements and orders' },
+              { icon: Shield, title: t.mobileApp?.secureLogin || 'Secure Login', desc: t.mobileApp?.secureLoginDesc || 'Biometric authentication and PIN protection' },
+              { icon: Globe, title: t.mobileApp?.multiPlatformSync || 'Multi-Platform Sync', desc: t.mobileApp?.multiPlatformSyncDesc || 'Seamless sync across all your devices' },
+              { icon: Smartphone, title: t.mobileApp?.intuitiveInterface || 'Intuitive Interface', desc: t.mobileApp?.intuitiveInterfaceDesc || 'Easy-to-use design for trading on the go' },
+              { icon: Download, title: t.mobileApp?.offlineCharts || 'Offline Charts', desc: t.mobileApp?.offlineChartsDesc || 'View saved charts even without internet' }
             ].map((feature, idx) => (
               <Card key={idx} className="p-6 hover:shadow-xl transition-all">
                 <div className="w-14 h-14 bg-green-50 rounded-xl mb-4 flex items-center justify-center">
