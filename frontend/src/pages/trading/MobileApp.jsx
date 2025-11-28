@@ -100,18 +100,18 @@ const MobileApp = () => {
 
       <section className="py-20 px-4 bg-gradient-to-br from-green-600 to-green-700">
         <div className="container mx-auto text-center">
-          <h2 className="text-5xl font-bold text-white mb-6">Start Trading on Mobile</h2>
+          <h2 className="text-5xl font-bold text-white mb-6">{apt.mobileApp?.ctaTitle || 'Start Trading on Mobile'}</h2>
           <p className="text-xl text-green-100 mb-10 max-w-2xl mx-auto">
-            Download our app and trade from anywhere in the world
+            {apt.mobileApp?.ctaSubtitle || 'Download our app and trade from anywhere in the world'}
           </p>
           <div className="flex justify-center gap-4">
             <Button size="lg" className="bg-white text-green-600 hover:bg-gray-100">
               <Download className="mr-2" />
-              iOS App
+              {apt.mobileApp?.downloadIOS || 'iOS App'}
             </Button>
             <Button size="lg" className="bg-white text-green-600 hover:bg-gray-100">
               <Download className="mr-2" />
-              Android App
+              {apt.mobileApp?.downloadAndroid || 'Android App'}
             </Button>
           </div>
         </div>
