@@ -35,21 +35,16 @@ const About = () => {
       <section className="py-20 px-4 bg-green-50">
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-bold text-gray-900 mb-8 text-center">Our Story</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-8 text-center">{t.about.ourStory}</h2>
             <div className="prose prose-lg mx-auto">
               <p className="text-gray-700 text-lg leading-relaxed mb-6">
-                Founded in 2015, SMH Markets has grown to become one of the leading online brokers in the financial industry. 
-                Our mission has always been to provide traders with the best possible trading conditions, cutting-edge technology, 
-                and exceptional customer service.
+                {t.about.storyParagraph1}
               </p>
               <p className="text-gray-700 text-lg leading-relaxed mb-6">
-                With over 500,000 active clients across 150 countries, we've built a reputation for transparency, reliability, 
-                and innovation. Our team of industry experts works tirelessly to ensure that every client has access to the tools 
-                and resources they need to succeed in the financial markets.
+                {t.about.storyParagraph2}
               </p>
               <p className="text-gray-700 text-lg leading-relaxed">
-                As a regulated broker, we adhere to the highest standards of security and compliance. Your funds are held in 
-                segregated accounts at tier-1 banks, and we employ bank-level encryption to protect your personal and financial information.
+                {t.about.storyParagraph3}
               </p>
             </div>
           </div>
