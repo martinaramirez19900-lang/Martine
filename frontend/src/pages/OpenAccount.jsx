@@ -243,7 +243,7 @@ const OpenAccount = () => {
       {/* Success Stories with Images */}
       <section className="py-20 px-4 bg-white">
         <div className="container mx-auto">
-          <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">Join Successful Traders</h2>
+          <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">{t.joinTraders?.title || 'Join Successful Traders'}</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
             <div className="relative rounded-2xl overflow-hidden shadow-xl">
               <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?w=600" alt="Team Success" className="w-full h-64 object-cover" />
@@ -261,12 +261,12 @@ const OpenAccount = () => {
       {/* Benefits */}
       <section className="py-20 px-4 bg-green-50">
         <div className="container mx-auto">
-          <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">Why Trade with SMH Markets?</h2>
+          <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">{t.joinTraders?.whyTradeTitle || 'Why Trade with SMH Markets?'}</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             {[
-              { icon: Shield, title: 'Regulated Broker', desc: 'Licensed and regulated by top-tier authorities' },
-              { icon: Clock, title: 'Fast Account Opening', desc: 'Get trading in less than 24 hours' },
-              { icon: DollarSign, title: 'Low Minimum Deposit', desc: 'Start trading with as little as $100' }
+              { icon: Shield, title: t.joinTraders?.regulatedBroker || 'Regulated Broker', desc: t.joinTraders?.regulatedBrokerDesc || 'Licensed and regulated by top-tier authorities' },
+              { icon: Clock, title: t.joinTraders?.fastOpening || 'Fast Account Opening', desc: t.joinTraders?.fastOpeningDesc || 'Get trading in less than 24 hours' },
+              { icon: DollarSign, title: t.joinTraders?.lowDeposit || 'Low Minimum Deposit', desc: t.joinTraders?.lowDepositDesc || 'Start trading with as little as $100' }
             ].map((benefit, idx) => (
               <Card key={idx} className="p-6 text-center">
                 <div className="w-16 h-16 bg-green-50 rounded-2xl mx-auto mb-4 flex items-center justify-center">
