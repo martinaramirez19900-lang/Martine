@@ -9,36 +9,36 @@ const FAQ = () => {
 
   const faqs = [
     {
-      question: 'What is forex trading?',
-      answer: 'Forex trading involves buying and selling currencies in the foreign exchange market. It is the largest financial market in the world with daily trading volumes exceeding $6 trillion.'
+      question: t.educationPages?.faqQ1 || 'What is forex trading?',
+      answer: t.educationPages?.faqA1 || 'Forex trading involves buying and selling currencies in the foreign exchange market. It is the largest financial market in the world with daily trading volumes exceeding $6 trillion.'
     },
     {
-      question: 'How do I start trading?',
-      answer: 'To start trading, you need to: 1) Open a trading account, 2) Verify your identity, 3) Deposit funds, 4) Download a trading platform, 5) Start with a demo account to practice.'
+      question: t.educationPages?.faqQ2 || 'How do I start trading?',
+      answer: t.educationPages?.faqA2 || 'To start trading, you need to: 1) Open a trading account, 2) Verify your identity, 3) Deposit funds, 4) Download a trading platform, 5) Start with a demo account to practice.'
     },
     {
-      question: 'What is leverage?',
-      answer: 'Leverage allows you to control a larger position with a smaller amount of capital. For example, with 1:100 leverage, you can control $10,000 with just $100 of your own money.'
+      question: t.educationPages?.faqQ3 || 'What is leverage?',
+      answer: t.educationPages?.faqA3 || 'Leverage allows you to control a larger position with a smaller amount of capital. For example, with 1:100 leverage, you can control $10,000 with just $100 of your own money.'
     },
     {
-      question: 'What are the trading hours?',
-      answer: 'The forex market is open 24 hours a day, 5 days a week, from Monday morning in Sydney to Friday evening in New York. This allows you to trade at any time that suits you.'
+      question: t.educationPages?.faqQ4 || 'What are the trading hours?',
+      answer: t.educationPages?.faqA4 || 'The forex market is open 24 hours a day, 5 days a week, from Monday morning in Sydney to Friday evening in New York. This allows you to trade at any time that suits you.'
     },
     {
-      question: 'How much money do I need to start?',
-      answer: 'You can start trading with as little as $100 on a Standard account. However, we recommend starting with at least $500-1000 to have better risk management opportunities.'
+      question: t.educationPages?.faqQ5 || 'How much money do I need to start?',
+      answer: t.educationPages?.faqA5 || 'You can start trading with as little as $100 on a Standard account. However, we recommend starting with at least $500-1000 to have better risk management opportunities.'
     },
     {
-      question: 'What is a spread?',
-      answer: 'The spread is the difference between the buy (ask) and sell (bid) price of a currency pair. It represents the cost of trading and is measured in pips.'
+      question: t.educationPages?.faqQ6 || 'What is a spread?',
+      answer: t.educationPages?.faqA6 || 'The spread is the difference between the buy (ask) and sell (bid) price of a currency pair. It represents the cost of trading and is measured in pips.'
     },
     {
-      question: 'Are my funds safe?',
-      answer: 'Yes, client funds are kept in segregated accounts at tier-1 banks, separate from company operational funds. We are also regulated by top-tier financial authorities.'
+      question: t.educationPages?.faqQ7 || 'Are my funds safe?',
+      answer: t.educationPages?.faqA7 || 'Yes, client funds are kept in segregated accounts at tier-1 banks, separate from company operational funds. We are also regulated by top-tier financial authorities.'
     },
     {
-      question: 'Can I trade on mobile?',
-      answer: 'Yes, we offer mobile trading apps for both iOS and Android devices. You can trade, monitor your positions, and manage your account from anywhere.'
+      question: t.educationPages?.faqQ8 || 'Can I trade on mobile?',
+      answer: t.educationPages?.faqA8 || 'Yes, we offer mobile trading apps for both iOS and Android devices. You can trade, monitor your positions, and manage your account from anywhere.'
     }
   ];
 
