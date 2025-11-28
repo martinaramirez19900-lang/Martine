@@ -146,12 +146,12 @@ const Platforms = () => {
       {/* Comparison Table */}
       <section className="py-20 px-4 bg-gray-50">
         <div className="container mx-auto">
-          <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">Platform Comparison</h2>
+          <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">{t.platforms?.comparisonTitle || 'Platform Comparison'}</h2>
           <div className="overflow-x-auto">
             <table className="w-full bg-white rounded-lg overflow-hidden shadow-lg">
               <thead className="bg-gray-900 text-white">
                 <tr>
-                  <th className="px-6 py-4 text-left">Feature</th>
+                  <th className="px-6 py-4 text-left">{t.platforms?.feature || 'Feature'}</th>
                   <th className="px-6 py-4 text-center">MT4</th>
                   <th className="px-6 py-4 text-center">MT5</th>
                   <th className="px-6 py-4 text-center">cTrader</th>
@@ -160,13 +160,13 @@ const Platforms = () => {
               </thead>
               <tbody className="divide-y divide-gray-200">
                 {[
-                  { feature: 'Expert Advisors', mt4: true, mt5: true, ctrader: true, edge: false },
-                  { feature: 'Advanced Charting', mt4: true, mt5: true, ctrader: true, edge: true },
-                  { feature: 'One-Click Trading', mt4: true, mt5: true, ctrader: true, edge: true },
-                  { feature: 'Mobile Apps', mt4: true, mt5: true, ctrader: true, edge: true },
-                  { feature: 'Web Platform', mt4: true, mt5: true, ctrader: true, edge: true },
-                  { feature: 'Copy Trading', mt4: true, mt5: true, ctrader: true, edge: false },
-                  { feature: 'Level II Pricing', mt4: false, mt5: false, ctrader: true, edge: false }
+                  { feature: t.platforms?.expertAdvisorsFeature || 'Expert Advisors', mt4: true, mt5: true, ctrader: true, edge: false },
+                  { feature: t.platforms?.advancedChartingFeature || 'Advanced Charting', mt4: true, mt5: true, ctrader: true, edge: true },
+                  { feature: t.platforms?.oneClickTradingFeature || 'One-Click Trading', mt4: true, mt5: true, ctrader: true, edge: true },
+                  { feature: t.platforms?.mobileAppsFeature || 'Mobile Apps', mt4: true, mt5: true, ctrader: true, edge: true },
+                  { feature: t.platforms?.webPlatformFeature || 'Web Platform', mt4: true, mt5: true, ctrader: true, edge: true },
+                  { feature: t.platforms?.copyTradingFeature || 'Copy Trading', mt4: true, mt5: true, ctrader: true, edge: false },
+                  { feature: t.platforms?.levelIIPricingFeature || 'Level II Pricing', mt4: false, mt5: false, ctrader: true, edge: false }
                 ].map((row, idx) => (
                   <tr key={idx} className="hover:bg-gray-50">
                     <td className="px-6 py-4 font-medium text-gray-900">{row.feature}</td>
