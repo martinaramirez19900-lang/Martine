@@ -29,23 +29,23 @@ const Contact = () => {
               <Card className="p-8">
                 <form className="space-y-6">
                   <div>
-                    <Label htmlFor="name">Full Name</Label>
-                    <Input id="name" placeholder="John Doe" className="mt-2" />
+                    <Label htmlFor="name">{t.contactPage.fullName}</Label>
+                    <Input id="name" placeholder={t.contactPage.fullNamePlaceholder} className="mt-2" />
                   </div>
                   <div>
-                    <Label htmlFor="email">Email</Label>
-                    <Input id="email" type="email" placeholder="john@example.com" className="mt-2" />
+                    <Label htmlFor="email">{t.contactPage.email}</Label>
+                    <Input id="email" type="email" placeholder={t.contactPage.emailPlaceholder} className="mt-2" />
                   </div>
                   <div>
-                    <Label htmlFor="subject">Subject</Label>
-                    <Input id="subject" placeholder="How can we help?" className="mt-2" />
+                    <Label htmlFor="subject">{t.contactPage.subject}</Label>
+                    <Input id="subject" placeholder={t.contactPage.subjectPlaceholder} className="mt-2" />
                   </div>
                   <div>
-                    <Label htmlFor="message">Message</Label>
-                    <Textarea id="message" rows={5} placeholder="Your message..." className="mt-2" />
+                    <Label htmlFor="message">{t.contactPage.message}</Label>
+                    <Textarea id="message" rows={5} placeholder={t.contactPage.messagePlaceholder} className="mt-2" />
                   </div>
                   <Button className="w-full bg-green-600 hover:bg-green-700 text-white py-6">
-                    Send Message
+                    {t.contactPage.sendButton}
                   </Button>
                 </form>
               </Card>
