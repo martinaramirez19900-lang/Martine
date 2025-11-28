@@ -700,7 +700,20 @@ export const translations = {
       downloadIOS: 'Pobierz dla iOS',
       downloadAndroid: 'Pobierz dla Android',
       learnMoreAbout: 'Dowiedz się więcej o',
-      launchWeb: 'Uruchom platformę webową'
+      launchWeb: 'Uruchom platformę webową',
+      mt4Description: 'Najpopularniejsza platforma handlowa na świecie',
+      mt5Description: 'Platforma wieloaktywowa nowej generacji',
+      ctraderDescription: 'Profesjonalna platforma handlowa',
+      edgeDescription: 'Nasza własna platforma handlowa',
+      comparisonTitle: 'Porównanie platform',
+      feature: 'Funkcja',
+      expertAdvisorsFeature: 'Expert Advisors',
+      advancedChartingFeature: 'Zaawansowane wykresy',
+      oneClickTradingFeature: 'Handel jednym kliknięciem',
+      mobileAppsFeature: 'Aplikacje mobilne',
+      webPlatformFeature: 'Platforma webowa',
+      copyTradingFeature: 'Copy Trading',
+      levelIIPricingFeature: 'Wycena poziomu II'
     },
     markets: {
       title: 'Handluj na wielu rynkach',
