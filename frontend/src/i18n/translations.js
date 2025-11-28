@@ -1337,7 +1337,18 @@ export const translations = {
       glossaryTerm9: 'Take Profit',
       glossaryDef9: 'Příkaz k uzavření obchodu za určitou cenu pro zajištění zisku',
       glossaryTerm10: 'Volatilita',
-      glossaryDef10: 'Statistická míra cenových fluktuací v čase'
+      glossaryDef10: 'Statistická míra cenových fluktuací v čase',
+      educationTitle: 'Obchodní vzdělávání',
+      educationSubtitle: 'Učte se od odborníků a zlepšujte své obchodní dovednosti',
+      enrollNow: 'Zapsat se nyní',
+      course1Title: 'Úvod do Forex obchodování',
+      course1Desc: 'Naučte se základy forex obchodování a měnových párů',
+      course2Title: 'Základy technické analýzy',
+      course2Desc: 'Ovládněte grafické vzory a technické indikátory',
+      course3Title: 'Strategie řízení rizik',
+      course3Desc: 'Pokročilé techniky ochrany vašeho kapitálu',
+      course4Title: 'Psychologie obchodování',
+      course4Desc: 'Rozvíjejte správné myšlení pro úspěšné obchodování'
     }
   },
   tr: {
