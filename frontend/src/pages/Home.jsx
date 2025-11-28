@@ -267,8 +267,8 @@ const Home = () => {
       <section className="py-24 px-4 bg-white">
         <div className="container mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-5xl font-bold text-gray-900 mb-4">Professional Trading Experience</h2>
-            <p className="text-xl text-gray-600">Advanced tools and technology for modern traders</p>
+            <h2 className="text-5xl font-bold text-gray-900 mb-4">{t.tradingExperience.title}</h2>
+            <p className="text-xl text-gray-600">{t.tradingExperience.subtitle}</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
@@ -279,8 +279,8 @@ const Home = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-gray-900/70 to-transparent flex items-end p-8">
                 <div>
-                  <h3 className="text-2xl font-bold text-white mb-2">Advanced Analytics</h3>
-                  <p className="text-gray-200">Real-time market data and technical analysis</p>
+                  <h3 className="text-2xl font-bold text-white mb-2">{t.tradingExperience.advancedAnalytics}</h3>
+                  <p className="text-gray-200">{t.tradingExperience.advancedAnalyticsDesc}</p>
                 </div>
               </div>
             </div>
@@ -292,8 +292,8 @@ const Home = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-gray-900/70 to-transparent flex items-end p-8">
                 <div>
-                  <h3 className="text-2xl font-bold text-white mb-2">Multiple Platforms</h3>
-                  <p className="text-gray-200">Trade on MT4, MT5, cTrader, and WebTrader</p>
+                  <h3 className="text-2xl font-bold text-white mb-2">{t.tradingExperience.multiplePlatforms}</h3>
+                  <p className="text-gray-200">{t.tradingExperience.multiplePlatformsDesc}</p>
                 </div>
               </div>
             </div>
