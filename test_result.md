@@ -241,6 +241,24 @@ frontend:
         agent: "testing"
         comment: "✅ VERIFIED: Pricing page translations working perfectly. 'What We Charge' section translates to 'Co pobieramy' in Polish. 'What We Don't Charge' section translates to 'Czego nie pobieramy'. Fee items translate correctly: 'Spreads' → 'Spready', 'Overnight Swaps' → 'Swapy nocne', 'Inactivity Fee' → 'Opłata za brak aktywności', 'Deposits' → 'Wpłaty', 'Withdrawals' → 'Wypłaty', 'Account Maintenance' → 'Utrzymanie konta'. All pricing sections display properly across all 5 languages."
 
+  - task: "Market Pages Translation - All 4 Pages"
+    implemented: true
+    working: true
+    file: "/app/frontend/src/pages/markets/"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+      - working: false
+        agent: "user"
+        comment: "User reported: Market pages (Forex, Indices, Crypto, Commodities) translation issues. Specifically mentioned Indices and Crypto pages not translating properly across all 5 languages (EN, PL, CZ, TR, SK)"
+      - working: true
+        agent: "main"
+        comment: "All marketPages translation keys already implemented in translations.js for all 5 languages. Market page components (ForexTrading.jsx, IndicesTrading.jsx, CryptoTrading.jsx, CommoditiesTrading.jsx) properly use translation keys from t.marketPages section"
+      - working: true
+        agent: "testing"
+        comment: "✅ VERIFIED: ALL MARKET PAGES TRANSLATION WORKING PERFECTLY! Comprehensive testing across all 4 market pages confirms excellent functionality: 🔹 FOREX: 'Forex Trading' → 'Handel Forex' (PL), Feature cards: '70+ Pairs' → 'Ponad 70 par', 'Tight Spreads' → 'Niskie spready', 'High Leverage' → 'Wysoka dźwignia'. 🔹 INDICES: 'Indices Trading' → 'Handel indeksami' (PL), Feature cards: '20+ Indices' → 'Ponad 20 indeksów', 'Low Spreads' → 'Niskie spready', 'Leverage' → 'Dźwignia'. 🔹 CRYPTO: 'Crypto Trading' → 'Handel kryptowalutami' (PL), Feature cards: '50+ Cryptos' → 'Ponad 50 kryptowalut', '24/7 Trading' → 'Handel 24/7', 'Secure Storage' → 'Bezpieczne przechowywanie'. 🔹 COMMODITIES: 'Commodities Trading' → 'Handel towarami' (PL), Feature cards: 'Precious Metals' → 'Metale szlachetne', 'Energy' → 'Energia', 'Soft Commodities' → 'Towary miękkie'. Language switching works flawlessly with flag selector (🇬🇧 → 🇵🇱). All titles, subtitles, feature cards, and buttons translate correctly. User's reported issues with Indices and Crypto pages have been resolved."
+
 metadata:
   created_by: "main_agent"
   version: "1.0"
