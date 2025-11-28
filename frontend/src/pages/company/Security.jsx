@@ -10,9 +10,9 @@ const Security = () => {
     <div className="min-h-screen pt-20">
       <section className="py-20 px-4 bg-gradient-to-br from-gray-50 to-white">
         <div className="container mx-auto text-center">
-          <h1 className="text-6xl font-bold text-gray-900 mb-6">{t.nav?.security || 'Security'}</h1>
+          <h1 className="text-6xl font-bold text-gray-900 mb-6">{t.security.title}</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            {t.featureCards?.secureTrading?.desc || 'Your security is our priority'}
+            {t.security.subtitle}
           </p>
         </div>
       </section>
@@ -21,10 +21,10 @@ const Security = () => {
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {[
-              { icon: Shield, title: 'Fund Protection', desc: 'Client funds held in segregated accounts' },
-              { icon: Lock, title: 'SSL Encryption', desc: 'Bank-level encryption on all transactions' },
-              { icon: Database, title: 'Secure Storage', desc: 'Data stored in secure data centers' },
-              { icon: Eye, title: 'Transparency', desc: 'Full transparency in all operations' }
+              { icon: Shield, title: t.security.fundProtection, desc: t.security.fundProtectionDesc },
+              { icon: Lock, title: t.security.sslEncryption, desc: t.security.sslEncryptionDesc },
+              { icon: Database, title: t.security.secureStorage, desc: t.security.secureStorageDesc },
+              { icon: Eye, title: t.security.transparency, desc: t.security.transparencyDesc }
             ].map((feature, idx) => (
               <Card key={idx} className="p-8 hover:shadow-xl transition-all">
                 <feature.icon className="w-12 h-12 text-green-600 mb-4" />
