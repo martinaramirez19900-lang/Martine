@@ -90,13 +90,16 @@ export const additionalPagesTranslations = {
       motto: 'Més que un club – Więcej niż klub'
     },
     mobileApp: {
-      title: 'Aplikacje mobilne',
-      subtitle: 'Handluj w podróży dzięki naszym aplikacjom mobilnym',
+      title: 'Aplikacja mobilna do handlu',
+      subtitle: 'Handluj zawsze i wszędzie dzięki naszej potężnej aplikacji mobilnej',
       downloadIOS: 'Pobierz dla iOS',
       downloadAndroid: 'Pobierz dla Android',
       desktop: 'Komputer',
       web: 'Web',
-      mobile: 'Mobilna'
+      mobile: 'Mobilna',
+      keyFeatures: 'Kluczowe funkcje',
+      ctaTitle: 'Zacznij handlować na urządzeniu mobilnym',
+      ctaSubtitle: 'Pobierz naszą aplikację i handluj z dowolnego miejsca na świecie'
     },
     stockTrading: {
       title: 'Handel akcjami',
