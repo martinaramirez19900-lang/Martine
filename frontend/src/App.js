@@ -99,6 +99,12 @@ function App() {
             <Route path="/careers" element={<Careers />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/privacy" element={<Privacy />} />
+            <Route path="/partnerships" element={<Partnerships />} />
+            <Route path="/legal" element={<LegalDocuments />} />
+            <Route path="/terms" element={<Terms />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/risk" element={<RiskDisclosure />} />
+            <Route path="/complaints" element={<Complaints />} />
             <Route path="*" element={<Home />} />
           </Routes>
           <Footer />
