@@ -58,33 +58,33 @@ const EconomicCalendar = () => {
       <section className="py-20 px-4 bg-gray-50">
         <div className="container mx-auto">
           <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
-            Key Economic Indicators to Watch
+            {ec.keyIndicators || 'Key Economic Indicators to Watch'}
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               {
                 icon: TrendingUp,
-                title: 'GDP Reports',
-                desc: 'Quarterly economic growth data that reflects overall economic health',
-                impact: 'High Impact'
+                title: ec.gdpReports || 'GDP Reports',
+                desc: ec.gdpDesc || 'Quarterly economic growth data that reflects overall economic health',
+                impact: ec.highImpact || 'High Impact'
               },
               {
                 icon: BarChart3,
-                title: 'Employment Data',
-                desc: 'Non-farm payrolls, unemployment rates, and job creation numbers',
-                impact: 'High Impact'
+                title: ec.employmentData || 'Employment Data',
+                desc: ec.employmentDesc || 'Non-farm payrolls, unemployment rates, and job creation numbers',
+                impact: ec.highImpact || 'High Impact'
               },
               {
                 icon: AlertCircle,
-                title: 'Interest Rates',
-                desc: 'Central bank monetary policy decisions and rate announcements',
-                impact: 'Very High Impact'
+                title: ec.interestRates || 'Interest Rates',
+                desc: ec.interestRatesDesc || 'Central bank monetary policy decisions and rate announcements',
+                impact: ec.veryHighImpact || 'Very High Impact'
               },
               {
                 icon: Clock,
-                title: 'Inflation (CPI/PPI)',
-                desc: 'Consumer and producer price indices measuring price changes',
-                impact: 'High Impact'
+                title: ec.inflation || 'Inflation (CPI/PPI)',
+                desc: ec.inflationDesc || 'Consumer and producer price indices measuring price changes',
+                impact: ec.highImpact || 'High Impact'
               }
             ].map((item, idx) => (
               <Card key={idx} className="p-6 hover:shadow-xl transition-all">
