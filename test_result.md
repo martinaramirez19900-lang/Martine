@@ -267,7 +267,7 @@ metadata:
 
 test_plan:
   current_focus: 
-    - "About Page Full Translation - Round 8"
+    - "Company Pages Translation - Round 9 (Regulation, Security, Careers, Contact)"
   stuck_tasks: []
   test_all: false
   test_priority: "high_first"
@@ -275,7 +275,8 @@ test_plan:
   completed_round_5: "Tools and Education Pages Translation Testing - Tools page working, Education pages need fixes"
   completed_round_6: "FINAL Education Pages Translation Testing - ALL 5 Education pages verified working perfectly across all 5 languages (EN, PL, CZ, TR, SK)"
   completed_round_7: "FAQ Page Final Translation Testing - Complete content translation verified across all 5 languages with all 8 questions and answers translating correctly"
-  round_8_focus: "About Page Translation Testing - Test all sections (Our Story, Our Values, Our Achievements, Leadership Team) across all 5 languages"
+  completed_round_8: "About Page Translation Testing - All sections verified working perfectly across all 5 languages"
+  round_9_focus: "Company Pages Translation Testing - Test Regulation, Security, Careers, Contact pages across all 5 languages"
 
   - task: "Translation System - Tools and Education Pages (Round 5)"
     implemented: true
