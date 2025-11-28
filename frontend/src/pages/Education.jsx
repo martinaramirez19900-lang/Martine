@@ -26,10 +26,10 @@ const Education = () => {
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
             {[
-              { icon: BookOpen, title: 'Trading Guides', count: '50+ Guides', color: 'from-blue-500 to-blue-600' },
-              { icon: Video, title: 'Video Tutorials', count: '100+ Videos', color: 'from-purple-500 to-purple-600' },
-              { icon: FileText, title: 'E-Books', count: '20+ Books', color: 'from-green-500 to-green-600' },
-              { icon: Award, title: 'Webinars', count: 'Weekly Live', color: 'from-green-500 to-green-600' }
+              { icon: BookOpen, title: t.educationPages?.tradingGuides || 'Trading Guides', count: t.educationPages?.tradingGuidesCount || '50+ Guides', color: 'from-blue-500 to-blue-600' },
+              { icon: Video, title: t.educationPages?.videoTutorials || 'Video Tutorials', count: t.educationPages?.videoTutorialsCount || '100+ Videos', color: 'from-purple-500 to-purple-600' },
+              { icon: FileText, title: t.educationPages?.eBooks || 'E-Books', count: t.educationPages?.eBooksCount || '20+ Books', color: 'from-green-500 to-green-600' },
+              { icon: Award, title: t.educationPages?.webinars || 'Webinars', count: t.educationPages?.webinarsCount || 'Weekly Live', color: 'from-green-500 to-green-600' }
             ].map((item, idx) => (
               <Card key={idx} className="p-6 text-center hover:shadow-xl transition-all duration-300 cursor-pointer group">
                 <div className={`w-16 h-16 bg-gradient-to-br ${item.color} rounded-2xl mx-auto mb-4 flex items-center justify-center group-hover:scale-110 transition-transform`}>
