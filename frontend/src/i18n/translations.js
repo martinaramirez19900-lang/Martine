@@ -805,7 +805,9 @@ export const translations = {
       glossarySubtitle: 'Kompleksowy słownik terminów i definicji handlowych',
       searchTerms: 'Szukaj terminów...',
       faqTitle: 'Najczęściej zadawane pytania',
-      faqSubtitle: 'Znajdź odpowiedzi na najczęstsze pytania dotyczące handlu i naszej platformy'
+      faqSubtitle: 'Znajdź odpowiedzi na najczęstsze pytania dotyczące handlu i naszej platformy',
+      views: 'wyświetleń',
+      duration: 'Czas trwania'
     }
   },
   cz: {
