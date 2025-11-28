@@ -823,7 +823,23 @@ export const translations = {
       faqTitle: 'Najczęściej zadawane pytania',
       faqSubtitle: 'Znajdź odpowiedzi na najczęstsze pytania dotyczące handlu i naszej platformy',
       views: 'wyświetleń',
-      duration: 'Czas trwania'
+      duration: 'Czas trwania',
+      faqQ1: 'Co to jest handel forex?',
+      faqA1: 'Handel forex polega na kupnie i sprzedaży walut na rynku walutowym. Jest to największy rynek finansowy na świecie z dziennym obrotem przekraczającym 6 bilionów dolarów.',
+      faqQ2: 'Jak rozpocząć handel?',
+      faqA2: 'Aby rozpocząć handel, musisz: 1) Otworzyć konto handlowe, 2) Zweryfikować swoją tożsamość, 3) Wpłacić środki, 4) Pobrać platformę handlową, 5) Zacząć od konta demo, aby ćwiczyć.',
+      faqQ3: 'Co to jest dźwignia?',
+      faqA3: 'Dźwignia pozwala kontrolować większą pozycję z mniejszą ilością kapitału. Na przykład, z dźwignią 1:100, możesz kontrolować 10 000 $ mając tylko 100 $ własnych pieniędzy.',
+      faqQ4: 'Jakie są godziny handlu?',
+      faqA4: 'Rynek forex jest otwarty 24 godziny na dobę, 5 dni w tygodniu, od poniedziałku rano w Sydney do piątku wieczorem w Nowym Jorku. To pozwala handlować w dowolnym czasie, który Ci odpowiada.',
+      faqQ5: 'Ile pieniędzy potrzebuję, aby rozpocząć?',
+      faqA5: 'Możesz rozpocząć handel z zaledwie 100 $ na koncie Standard. Jednak zalecamy rozpoczęcie z co najmniej 500-1000 $, aby mieć lepsze możliwości zarządzania ryzykiem.',
+      faqQ6: 'Co to jest spread?',
+      faqA6: 'Spread to różnica między ceną kupna (ask) a ceną sprzedaży (bid) pary walutowej. Reprezentuje koszt handlu i jest mierzony w pipsach.',
+      faqQ7: 'Czy moje środki są bezpieczne?',
+      faqA7: 'Tak, środki klientów są przechowywane na oddzielnych kontach w bankach pierwszej kategorii, oddzielnie od środków operacyjnych firmy. Jesteśmy również regulowani przez najwyższej klasy organy finansowe.',
+      faqQ8: 'Czy mogę handlować na urządzeniu mobilnym?',
+      faqA8: 'Tak, oferujemy aplikacje mobilne do handlu zarówno na iOS, jak i Android. Możesz handlować, monitorować swoje pozycje i zarządzać kontem z dowolnego miejsca.'
     }
   },
   cz: {
