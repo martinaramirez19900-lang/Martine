@@ -44,7 +44,36 @@ const Education = () => {
           {/* Course Grid */}
           <h2 className="text-4xl font-bold text-gray-900 mb-8">{t.educationPages?.popularCourses || 'Popular Courses'}</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {educationContent.map((course) => (
+            {[
+              {
+                id: 1,
+                title: t.educationPages?.course1Title || 'Introduction to Forex Trading',
+                category: t.educationPages?.beginner || 'Beginner',
+                duration: '15 min',
+                description: t.educationPages?.course1Desc || 'Learn the basics of forex trading and currency pairs'
+              },
+              {
+                id: 2,
+                title: t.educationPages?.course2Title || 'Technical Analysis Fundamentals',
+                category: t.educationPages?.intermediate || 'Intermediate',
+                duration: '30 min',
+                description: t.educationPages?.course2Desc || 'Master chart patterns and technical indicators'
+              },
+              {
+                id: 3,
+                title: t.educationPages?.course3Title || 'Risk Management Strategies',
+                category: t.educationPages?.advanced || 'Advanced',
+                duration: '25 min',
+                description: t.educationPages?.course3Desc || 'Advanced techniques for protecting your capital'
+              },
+              {
+                id: 4,
+                title: t.educationPages?.course4Title || 'Trading Psychology',
+                category: t.educationPages?.intermediate || 'Intermediate',
+                duration: '20 min',
+                description: t.educationPages?.course4Desc || 'Develop the right mindset for successful trading'
+              }
+            ].map((course) => (
               <Card key={course.id} className="overflow-hidden hover:shadow-xl transition-all duration-300">
                 <div className="h-48 bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center">
                   <BookOpen className="w-16 h-16 text-gray-400" />
