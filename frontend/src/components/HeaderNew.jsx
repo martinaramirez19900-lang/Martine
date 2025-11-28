@@ -174,16 +174,6 @@ const HeaderNew = () => {
                           <div className="text-sm font-medium">{t.nav.marketNews}</div>
                         </Link>
                       </NavigationMenuLink>
-                      <NavigationMenuLink asChild>
-                        <Link to="/tools/technical-analysis" className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-green-50 hover:text-green-700">
-                          <div className="text-sm font-medium">{t.nav.technicalAnalysis}</div>
-                        </Link>
-                      </NavigationMenuLink>
-                      <NavigationMenuLink asChild>
-                        <Link to="/tools/screener" className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-green-50 hover:text-green-700">
-                          <div className="text-sm font-medium">{t.nav.screener}</div>
-                        </Link>
-                      </NavigationMenuLink>
                     </div>
                   </div>
                 </NavigationMenuContent>
