@@ -1295,7 +1295,27 @@ export const translations = {
       faqQ7: 'Jsou moje prostředky v bezpečí?',
       faqA7: 'Ano, prostředky klientů jsou uloženy na segregovaných účtech v bankách první třídy, odděleně od provozních prostředků společnosti. Jsme také regulováni špičkovými finančními úřady.',
       faqQ8: 'Mohu obchodovat na mobilu?',
-      faqA8: 'Ano, nabízíme mobilní obchodní aplikace pro iOS i Android zařízení. Můžete obchodovat, sledovat své pozice a spravovat účet odkudkoliv.'
+      faqA8: 'Ano, nabízíme mobilní obchodní aplikace pro iOS i Android zařízení. Můžete obchodovat, sledovat své pozice a spravovat účet odkudkoliv.',
+      glossaryTerm1: 'Ask cena',
+      glossaryDef1: 'Cena, za kterou může obchodník koupit měnový pár',
+      glossaryTerm2: 'Bid cena',
+      glossaryDef2: 'Cena, za kterou může obchodník prodat měnový pár',
+      glossaryTerm3: 'Spread',
+      glossaryDef3: 'Rozdíl mezi bid a ask cenou',
+      glossaryTerm4: 'Páka',
+      glossaryDef4: 'Půjčený kapitál používaný ke zvýšení potenciálních výnosů',
+      glossaryTerm5: 'Marže',
+      glossaryDef5: 'Částka peněz potřebná k otevření a udržení pozice s pákou',
+      glossaryTerm6: 'Pip',
+      glossaryDef6: 'Nejmenší cenový pohyb, který může měnový pár udělat',
+      glossaryTerm7: 'Lot',
+      glossaryDef7: 'Standardizované množství finančního instrumentu',
+      glossaryTerm8: 'Stop Loss',
+      glossaryDef8: 'Příkaz k uzavření obchodu za určitou cenu pro omezení ztrát',
+      glossaryTerm9: 'Take Profit',
+      glossaryDef9: 'Příkaz k uzavření obchodu za určitou cenu pro zajištění zisku',
+      glossaryTerm10: 'Volatilita',
+      glossaryDef10: 'Statistická míra cenových fluktuací v čase'
     }
   },
   tr: {
