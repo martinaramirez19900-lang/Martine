@@ -859,7 +859,27 @@ export const translations = {
       faqQ7: 'Czy moje środki są bezpieczne?',
       faqA7: 'Tak, środki klientów są przechowywane na oddzielnych kontach w bankach pierwszej kategorii, oddzielnie od środków operacyjnych firmy. Jesteśmy również regulowani przez najwyższej klasy organy finansowe.',
       faqQ8: 'Czy mogę handlować na urządzeniu mobilnym?',
-      faqA8: 'Tak, oferujemy aplikacje mobilne do handlu zarówno na iOS, jak i Android. Możesz handlować, monitorować swoje pozycje i zarządzać kontem z dowolnego miejsca.'
+      faqA8: 'Tak, oferujemy aplikacje mobilne do handlu zarówno na iOS, jak i Android. Możesz handlować, monitorować swoje pozycje i zarządzać kontem z dowolnego miejsca.',
+      glossaryTerm1: 'Cena Ask',
+      glossaryDef1: 'Cena, po której trader może kupić parę walutową',
+      glossaryTerm2: 'Cena Bid',
+      glossaryDef2: 'Cena, po której trader może sprzedać parę walutową',
+      glossaryTerm3: 'Spread',
+      glossaryDef3: 'Różnica między ceną bid a ceną ask',
+      glossaryTerm4: 'Dźwignia',
+      glossaryDef4: 'Pożyczony kapitał wykorzystywany do zwiększenia potencjalnych zwrotów',
+      glossaryTerm5: 'Marża',
+      glossaryDef5: 'Kwota pieniędzy wymagana do otwarcia i utrzymania pozycji z dźwignią',
+      glossaryTerm6: 'Pips',
+      glossaryDef6: 'Najmniejszy ruch cenowy, jaki może wykonać para walutowa',
+      glossaryTerm7: 'Lot',
+      glossaryDef7: 'Standaryzowana ilość instrumentu finansowego',
+      glossaryTerm8: 'Stop Loss',
+      glossaryDef8: 'Zlecenie zamknięcia transakcji po określonej cenie w celu ograniczenia strat',
+      glossaryTerm9: 'Take Profit',
+      glossaryDef9: 'Zlecenie zamknięcia transakcji po określonej cenie w celu zabezpieczenia zysków',
+      glossaryTerm10: 'Zmienność',
+      glossaryDef10: 'Statystyczna miara wahań cen w czasie'
     }
   },
   cz: {
