@@ -294,13 +294,16 @@ export const additionalPagesTranslations = {
       motto: 'Més que un club – Viac ako klub'
     },
     mobileApp: {
-      title: 'Mobilné aplikácie',
-      subtitle: 'Obchodujte na cestách s našimi mobilnými aplikáciami',
+      title: 'Mobilná obchodná aplikácia',
+      subtitle: 'Obchodujte kedykoľvek a kdekoľvek s našou výkonnou mobilnou obchodnou aplikáciou',
       downloadIOS: 'Stiahnuť pre iOS',
       downloadAndroid: 'Stiahnuť pre Android',
       desktop: 'Desktop',
       web: 'Web',
-      mobile: 'Mobilné'
+      mobile: 'Mobilné',
+      keyFeatures: 'Kľúčové funkcie',
+      ctaTitle: 'Začnite obchodovať na mobile',
+      ctaSubtitle: 'Stiahnite si našu aplikáciu a obchodujte odkiaľkoľvek na svete'
     },
     stockTrading: {
       title: 'Obchodovanie akcií',
