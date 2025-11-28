@@ -54,38 +54,38 @@ const About = () => {
       {/* Our Values */}
       <section className="py-20 px-4">
         <div className="container mx-auto">
-          <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">Our Values</h2>
+          <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">{t.about.ourValues}</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
                 icon: Shield,
-                title: 'Trust & Security',
-                description: 'Regulated by top-tier authorities with client funds protected in segregated accounts'
+                title: t.about.trustSecurity,
+                description: t.about.trustSecurityDesc
               },
               {
                 icon: Target,
-                title: 'Client-Focused',
-                description: 'Every decision we make is centered around providing the best experience for our clients'
+                title: t.about.clientFocused,
+                description: t.about.clientFocusedDesc
               },
               {
                 icon: TrendingUp,
-                title: 'Innovation',
-                description: 'Continuously improving our technology and services to stay ahead of the market'
+                title: t.about.innovation,
+                description: t.about.innovationDesc
               },
               {
                 icon: Globe2,
-                title: 'Global Reach',
-                description: 'Serving clients in over 150 countries with multilingual support 24/7'
+                title: t.about.globalReach,
+                description: t.about.globalReachDesc
               },
               {
                 icon: Award,
-                title: 'Excellence',
-                description: 'Award-winning broker recognized for outstanding service and trading conditions'
+                title: t.about.excellence,
+                description: t.about.excellenceDesc
               },
               {
                 icon: Users,
-                title: 'Transparency',
-                description: 'Clear pricing, no hidden fees, and honest communication in everything we do'
+                title: t.about.transparency,
+                description: t.about.transparencyDesc
               }
             ].map((value, idx) => (
               <Card key={idx} className="p-8 hover:shadow-xl transition-all duration-300">
