@@ -643,6 +643,66 @@ export const translations = {
       tryDemo: 'Vyzkoušet demo',
       readyToStart: 'Připraveni začít obchodovat?',
       joinTraders: 'Připojte se k tisícům obchodníků, kteří důvěřují SMH Markets'
+    },
+    ambassador: {
+      title: 'Oficiální ambasador značky',
+      subtitle: 'Rafael Nadal',
+      role: 'Tenisová legenda a ambasador SMH Markets',
+      quote: 'Dokonalost, přesnost a odhodlání - hodnoty, které definují jak šampiony, tak úspěšné obchodníky. S hrdostí reprezentuji SMH Markets, brokera, který sdílí můj závazek dosahovat skvělosti.',
+      grandSlam: 'Tituly Grand Slam',
+      atpTitles: 'Tituly ATP',
+      ranking: 'Žebříček ATP',
+      tradeLikeChampion: 'Obchodujte jako šampion'
+    },
+    sponsor: {
+      title: 'Oficiální sponzoři',
+      subtitle: 'Hrdí partneři organizací světové třídy',
+      fcbTitle: 'Oficiální obchodní partner',
+      fcbName: 'FC Barcelona',
+      fcbDesc: 'SMH Markets je oficiálním obchodním partnerem FC Barcelona, jednoho z nejúspěšnějších fotbalových klubů na světě. Toto partnerství reprezentuje náš závazek k dokonalosti a globálnímu dosahu.',
+      laLiga: 'Tituly La Liga',
+      championsLeague: 'Liga mistrů',
+      learnPartnership: 'Zjistěte více o partnerství'
+    },
+    tradingExperience: {
+      title: 'Profesionální obchodní zkušenost',
+      subtitle: 'Pokročilé nástroje a technologie pro moderní obchodníky',
+      advancedAnalytics: 'Pokročilá analytika',
+      advancedAnalyticsDesc: 'Tržní data v reálném čase a technická analýza',
+      multiplePlatforms: 'Více platforem',
+      multiplePlatformsDesc: 'Obchodujte na MT4, MT5, cTrader a WebTrader'
+    },
+    whyChooseUs: {
+      title: 'Proč otevřít účet v SMH Markets?',
+      detailedComparison: 'Podrobné srovnání',
+      regulatedBroker: 'Regulovaný broker',
+      regulatedBrokerDesc: 'Licencován a regulován špičkovými finančními autoritami',
+      secureFunds: 'Bezpečné prostředky',
+      secureFundsDesc: 'Prostředky klientů držené na segregovaných účtech v bankách první kategorie',
+      fastExecution: 'Rychlé provedení',
+      fastExecutionDesc: 'Pokročilá technologie pro bleskově rychlé provedení příkazů',
+      competitivePricing: 'Konkurenční ceny',
+      competitivePricingDesc: 'Nízké spready a provize na všechny nástroje',
+      multiplePlatforms: 'Více platforem',
+      multiplePlatformsDesc: 'Vyberte si z MT4, MT5, cTrader a naší vlastní platformy',
+      expertSupport: 'Odborná podpora',
+      expertSupportDesc: 'Vícejazyčná zákaznická podpora 24/7 pro všechny klienty',
+      readyToGetStarted: 'Připraveni začít?',
+      openAccountToday: 'Otevřete si obchodní účet ještě dnes a připojte se k tisícům spokojených obchodníků',
+      openAccountNow: 'Otevřít účet nyní'
+    },
+    comparisonTable: {
+      feature: 'Funkce',
+      minDeposit: 'Minimální vklad',
+      maxLeverage: 'Maximální páka',
+      spreadsFrom: 'Spready od',
+      commission: 'Provize',
+      expertAdvisors: 'Expert Advisors',
+      islamicAccount: 'Islámský účet',
+      dedicatedSupport: 'Vyhrazená podpora',
+      personalManager: 'Osobní manažer',
+      priorityWithdrawals: 'Prioritní výběry',
+      premiumAnalytics: 'Premium analytika'
     }
   },
   tr: {
