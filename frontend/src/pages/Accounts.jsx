@@ -140,32 +140,32 @@ const Accounts = () => {
       <section className="py-20 px-4">
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">Why Open an Account with SMH Markets?</h2>
+            <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">{t.whyChooseUs.title}</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {[
                 {
-                  title: 'Regulated Broker',
-                  description: 'Licensed and regulated by top-tier financial authorities'
+                  title: t.whyChooseUs.regulatedBroker,
+                  description: t.whyChooseUs.regulatedBrokerDesc
                 },
                 {
-                  title: 'Secure Funds',
-                  description: 'Client funds held in segregated accounts at tier-1 banks'
+                  title: t.whyChooseUs.secureFunds,
+                  description: t.whyChooseUs.secureFundsDesc
                 },
                 {
-                  title: 'Fast Execution',
-                  description: 'Advanced technology for lightning-fast order execution'
+                  title: t.whyChooseUs.fastExecution,
+                  description: t.whyChooseUs.fastExecutionDesc
                 },
                 {
-                  title: 'Competitive Pricing',
-                  description: 'Tight spreads and low commissions on all instruments'
+                  title: t.whyChooseUs.competitivePricing,
+                  description: t.whyChooseUs.competitivePricingDesc
                 },
                 {
-                  title: 'Multiple Platforms',
-                  description: 'Choose from MT4, MT5, cTrader, and our proprietary platform'
+                  title: t.whyChooseUs.multiplePlatforms,
+                  description: t.whyChooseUs.multiplePlatformsDesc
                 },
                 {
-                  title: 'Expert Support',
-                  description: '24/7 multilingual customer support for all clients'
+                  title: t.whyChooseUs.expertSupport,
+                  description: t.whyChooseUs.expertSupportDesc
                 }
               ].map((item, idx) => (
                 <Card key={idx} className="p-6">
@@ -181,16 +181,16 @@ const Accounts = () => {
       {/* CTA */}
       <section className="py-20 px-4 bg-gradient-to-br from-green-600 to-green-700">
         <div className="container mx-auto text-center">
-          <h2 className="text-5xl font-bold text-white mb-6">Ready to Get Started?</h2>
+          <h2 className="text-5xl font-bold text-white mb-6">{t.whyChooseUs.readyToGetStarted}</h2>
           <p className="text-xl text-green-100 mb-10 max-w-2xl mx-auto">
-            Open your trading account today and join thousands of satisfied traders
+            {t.whyChooseUs.openAccountToday}
           </p>
           <Button 
             size="lg" 
             className="bg-white text-green-600 hover:bg-gray-100 px-8 py-6 text-lg"
             onClick={() => window.location.href = '/open-account'}
           >
-            Open Account Now
+            {t.whyChooseUs.openAccountNow}
             <ArrowRight className="ml-2 w-5 h-5" />
           </Button>
         </div>
