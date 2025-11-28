@@ -1605,7 +1605,9 @@ export const translations = {
       glossarySubtitle: 'İşlem terimlerinin ve tanımlarının kapsamlı sözlüğü',
       searchTerms: 'Terimleri ara...',
       faqTitle: 'Sıkça Sorulan Sorular',
-      faqSubtitle: 'İşlem ve platformumuz hakkında sık sorulan soruların yanıtlarını bulun'
+      faqSubtitle: 'İşlem ve platformumuz hakkında sık sorulan soruların yanıtlarını bulun',
+      views: 'görüntüleme',
+      duration: 'Süre'
     }
   },
   sk: {
