@@ -306,15 +306,30 @@ test_plan:
 
   - task: "About Page Full Translation - Round 8"
     implemented: true
-    working: "NA"
+    working: true
     file: "/app/frontend/src/pages/About.jsx, /app/frontend/src/i18n/translations.js"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Added comprehensive About page translations for all 5 languages (EN, PL, CZ, TR, SK). Updated translations.js with complete About section: ourStory (title + 3 story paragraphs), ourValues (title + 6 value cards with descriptions), ourAchievements (title + 8 statistics labels), leadershipTeam (title + 3 executive roles). Updated About.jsx to replace all hardcoded English text with translation keys. Frontend compiled successfully. Need testing to verify: 1) Our Story section translates across all languages, 2) Our Values - all 6 cards (Trust & Security, Client-Focused, Innovation, Global Reach, Excellence, Transparency), 3) Our Achievements - all 8 stat labels (Active Clients, Countries, Monthly Volume, Industry Awards, Instruments, Avg. Execution, Support, Uptime), 4) Leadership Team - all 3 roles (CEO, CTO, CFO), 5) Language switching works seamlessly via Globe icon."
+      - working: true
+        agent: "testing"
+        comment: "✅ VERIFIED: About page translations working perfectly across all 5 languages (EN, PL, CZ, TR, SK)."
+
+  - task: "Company Pages Translation - Round 9 (Regulation, Security, Careers, Contact)"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/company/Regulation.jsx, Security.jsx, Careers.jsx, Contact.jsx"
     stuck_count: 0
     priority: "high"
     needs_retesting: true
     status_history:
       - working: "NA"
         agent: "main"
-        comment: "Added comprehensive About page translations for all 5 languages (EN, PL, CZ, TR, SK). Updated translations.js with complete About section: ourStory (title + 3 story paragraphs), ourValues (title + 6 value cards with descriptions), ourAchievements (title + 8 statistics labels), leadershipTeam (title + 3 executive roles). Updated About.jsx to replace all hardcoded English text with translation keys. Frontend compiled successfully. Need testing to verify: 1) Our Story section translates across all languages, 2) Our Values - all 6 cards (Trust & Security, Client-Focused, Innovation, Global Reach, Excellence, Transparency), 3) Our Achievements - all 8 stat labels (Active Clients, Countries, Monthly Volume, Industry Awards, Instruments, Avg. Execution, Support, Uptime), 4) Leadership Team - all 3 roles (CEO, CTO, CFO), 5) Language switching works seamlessly via Globe icon."
+        comment: "Added comprehensive translations for all 4 company pages across all 5 languages. REGULATION PAGE: Added title, subtitle, 3 feature cards (Regulated Broker, Compliance, Trusted). SECURITY PAGE: Added title, subtitle, 4 feature cards (Fund Protection, SSL Encryption, Secure Storage, Transparency). CAREERS PAGE: Added title, subtitle, 3 feature cards (Great Culture, Career Growth, Global Team), contact button. CONTACT PAGE: Added form fields (Full Name, Email, Subject, Message), 4 contact info cards (SMH Markets address, Phone Support, Email Support, Business Hours) with all labels and placeholders. Updated all 4 components to use translation keys. Frontend compiled successfully. Need testing to verify all pages translate correctly across all languages."
 
 agent_communication:
   - agent: "main"
