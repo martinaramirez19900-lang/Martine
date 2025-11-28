@@ -6,7 +6,7 @@ import { Card } from '../../components/ui/card';
 import { Button } from '../../components/ui/button';
 
 const MobileApp = () => {
-  const { language } = useLanguage();
+  const { language, t } = useLanguage();
   const apt = additionalPagesTranslations[language] || additionalPagesTranslations.en;
   
   return (
