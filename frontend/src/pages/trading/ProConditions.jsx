@@ -13,9 +13,9 @@ const ProConditions = () => {
     <div className="min-h-screen pt-20">
       <section className="py-20 px-4 bg-gradient-to-br from-gray-50 to-white">
         <div className="container mx-auto text-center">
-          <h1 className="text-6xl font-bold text-gray-900 mb-6">{pt.proConditions?.title || 'Pro Trading Conditions'}</h1>
+          <h1 className="text-6xl font-bold text-gray-900 mb-6">{pt.proConditions?.title || t.advancedTools?.title || 'Pro Trading Conditions'}</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            {pt.proConditions?.subtitle || 'Professional trading conditions for serious traders'}
+            {pt.proConditions?.subtitle || 'Professional-grade trading environment'}
           </p>
         </div>
       </section>
@@ -24,9 +24,9 @@ const ProConditions = () => {
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
             {[
-              { icon: TrendingUp, title: pt.proConditions?.tightSpreads || 'Raw Spreads', desc: 'From 0.0 pips on major pairs' },
-              { icon: Zap, title: pt.proConditions?.fastExecution || 'Ultra-Fast Execution', desc: 'Sub-millisecond execution speeds' },
-              { icon: Award, title: 'Premium Support', desc: 'Dedicated account manager' }
+              { icon: TrendingUp, title: t.pricingFees?.spreads || 'Tight Spreads', desc: t.pricingFees?.spreadsDesc || 'From 0.0 pips on major pairs' },
+              { icon: Zap, title: t.advancedTools?.fastExecution || 'Fast Execution', desc: t.advancedTools?.fastExecutionDesc || 'Sub-millisecond execution speeds' },
+              { icon: Award, title: t.whyChooseUs?.expertSupport || 'Premium Support', desc: t.whyChooseUs?.expertSupportDesc || 'Dedicated account manager' }
             ].map((feature, idx) => (
               <Card key={idx} className="p-8 text-center hover:shadow-xl transition-all">
                 <feature.icon className="w-12 h-12 text-green-600 mx-auto mb-4" />
@@ -41,7 +41,7 @@ const ProConditions = () => {
               className="bg-green-600 hover:bg-green-700 text-white"
               onClick={() => window.location.href = '/open-account'}
             >
-              {t.common?.openAccount || 'Open Pro Account'}
+              {t.common?.openAccount || 'Open Live Account'}
             </Button>
           </div>
         </div>
