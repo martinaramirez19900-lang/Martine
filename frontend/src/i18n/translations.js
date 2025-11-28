@@ -1205,7 +1205,9 @@ export const translations = {
       glossarySubtitle: 'Komplexní slovník obchodních termínů a definic',
       searchTerms: 'Hledat termíny...',
       faqTitle: 'Často kladené otázky',
-      faqSubtitle: 'Najděte odpovědi na běžné otázky o obchodování a naší platformě'
+      faqSubtitle: 'Najděte odpovědi na běžné otázky o obchodování a naší platformě',
+      views: 'zhlédnutí',
+      duration: 'Délka'
     }
   },
   tr: {
