@@ -445,7 +445,18 @@ export const translations = {
       glossaryTerm9: 'Take Profit',
       glossaryDef9: 'An order to close a trade at a specific price to secure profits',
       glossaryTerm10: 'Volatility',
-      glossaryDef10: 'A statistical measure of price fluctuations over time'
+      glossaryDef10: 'A statistical measure of price fluctuations over time',
+      educationTitle: 'Trading Education',
+      educationSubtitle: 'Learn from experts and improve your trading skills',
+      enrollNow: 'Enroll Now',
+      course1Title: 'Introduction to Forex Trading',
+      course1Desc: 'Learn the basics of forex trading and currency pairs',
+      course2Title: 'Technical Analysis Fundamentals',
+      course2Desc: 'Master chart patterns and technical indicators',
+      course3Title: 'Risk Management Strategies',
+      course3Desc: 'Advanced techniques for protecting your capital',
+      course4Title: 'Trading Psychology',
+      course4Desc: 'Develop the right mindset for successful trading'
     }
   },
   pl: {
