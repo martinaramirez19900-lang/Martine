@@ -9,16 +9,16 @@ const TradingGlossary = () => {
   const [searchTerm, setSearchTerm] = useState('');
 
   const glossaryTerms = [
-    { term: 'Ask Price', definition: 'The price at which a trader can buy a currency pair' },
-    { term: 'Bid Price', definition: 'The price at which a trader can sell a currency pair' },
-    { term: 'Spread', definition: 'The difference between the bid and ask price' },
-    { term: 'Leverage', definition: 'Borrowed capital used to increase potential returns' },
-    { term: 'Margin', definition: 'The amount of money required to open and maintain a leveraged position' },
-    { term: 'Pip', definition: 'The smallest price move that a currency pair can make' },
-    { term: 'Lot', definition: 'A standardized quantity of a financial instrument' },
-    { term: 'Stop Loss', definition: 'An order to close a trade at a specific price to limit losses' },
-    { term: 'Take Profit', definition: 'An order to close a trade at a specific price to secure profits' },
-    { term: 'Volatility', definition: 'A statistical measure of price fluctuations over time' }
+    { term: t.educationPages?.glossaryTerm1 || 'Ask Price', definition: t.educationPages?.glossaryDef1 || 'The price at which a trader can buy a currency pair' },
+    { term: t.educationPages?.glossaryTerm2 || 'Bid Price', definition: t.educationPages?.glossaryDef2 || 'The price at which a trader can sell a currency pair' },
+    { term: t.educationPages?.glossaryTerm3 || 'Spread', definition: t.educationPages?.glossaryDef3 || 'The difference between the bid and ask price' },
+    { term: t.educationPages?.glossaryTerm4 || 'Leverage', definition: t.educationPages?.glossaryDef4 || 'Borrowed capital used to increase potential returns' },
+    { term: t.educationPages?.glossaryTerm5 || 'Margin', definition: t.educationPages?.glossaryDef5 || 'The amount of money required to open and maintain a leveraged position' },
+    { term: t.educationPages?.glossaryTerm6 || 'Pip', definition: t.educationPages?.glossaryDef6 || 'The smallest price move that a currency pair can make' },
+    { term: t.educationPages?.glossaryTerm7 || 'Lot', definition: t.educationPages?.glossaryDef7 || 'A standardized quantity of a financial instrument' },
+    { term: t.educationPages?.glossaryTerm8 || 'Stop Loss', definition: t.educationPages?.glossaryDef8 || 'An order to close a trade at a specific price to limit losses' },
+    { term: t.educationPages?.glossaryTerm9 || 'Take Profit', definition: t.educationPages?.glossaryDef9 || 'An order to close a trade at a specific price to secure profits' },
+    { term: t.educationPages?.glossaryTerm10 || 'Volatility', definition: t.educationPages?.glossaryDef10 || 'A statistical measure of price fluctuations over time' }
   ];
 
   const filteredTerms = glossaryTerms.filter(item =>
