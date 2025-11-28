@@ -2016,7 +2016,9 @@ export const translations = {
       glossarySubtitle: 'Komplexný slovník obchodných pojmov a definícií',
       searchTerms: 'Hľadať pojmy...',
       faqTitle: 'Často kladené otázky',
-      faqSubtitle: 'Nájdite odpovede na bežné otázky o obchodovaní a našej platforme'
+      faqSubtitle: 'Nájdite odpovede na bežné otázky o obchodovaní a našej platforme',
+      views: 'zhliadnutí',
+      duration: 'Trvanie'
     }
   },
   es: {
