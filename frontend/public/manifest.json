@@ -1,0 +1,26 @@
+{
+  "short_name": "SMH Markets",
+  "name": "SMH Markets - Professional Trading Platform",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#16a34a",
+  "background_color": "#ffffff",
+  "description": "Trade Forex, Stocks, Crypto & more with SMH Markets. Competitive spreads, fast execution, and professional trading tools."
+}
