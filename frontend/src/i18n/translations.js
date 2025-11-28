@@ -2178,7 +2178,27 @@ export const translations = {
       faqQ7: 'Sú moje prostriedky v bezpečí?',
       faqA7: 'Áno, prostriedky klientov sú uložené na segregovaných účtoch v bankách prvej triedy, oddelene od prevádzkových prostriedkov spoločnosti. Sme tiež regulovaní špičkovými finančnými úradmi.',
       faqQ8: 'Môžem obchodovať na mobile?',
-      faqA8: 'Áno, ponúkame mobilné obchodné aplikácie pre iOS aj Android zariadenia. Môžete obchodovať, sledovať svoje pozície a spravovať účet odkiaľkoľvek.'
+      faqA8: 'Áno, ponúkame mobilné obchodné aplikácie pre iOS aj Android zariadenia. Môžete obchodovať, sledovať svoje pozície a spravovať účet odkiaľkoľvek.',
+      glossaryTerm1: 'Ask cena',
+      glossaryDef1: 'Cena, za ktorú môže obchodník kúpiť menový pár',
+      glossaryTerm2: 'Bid cena',
+      glossaryDef2: 'Cena, za ktorú môže obchodník predať menový pár',
+      glossaryTerm3: 'Spread',
+      glossaryDef3: 'Rozdiel medzi bid a ask cenou',
+      glossaryTerm4: 'Páka',
+      glossaryDef4: 'Požičaný kapitál používaný na zvýšenie potenciálnych výnosov',
+      glossaryTerm5: 'Marža',
+      glossaryDef5: 'Suma peňazí potrebná na otvorenie a udržanie pozície s pákou',
+      glossaryTerm6: 'Pip',
+      glossaryDef6: 'Najmenší cenový pohyb, ktorý môže menový pár urobiť',
+      glossaryTerm7: 'Lot',
+      glossaryDef7: 'Štandardizované množstvo finančného nástroja',
+      glossaryTerm8: 'Stop Loss',
+      glossaryDef8: 'Príkaz na uzavretie obchodu za určitú cenu na obmedzenie strát',
+      glossaryTerm9: 'Take Profit',
+      glossaryDef9: 'Príkaz na uzavretie obchodu za určitú cenu na zabezpečenie zisku',
+      glossaryTerm10: 'Volatilita',
+      glossaryDef10: 'Štatistická miera cenových fluktuácií v čase'
     }
   },
   es: {
