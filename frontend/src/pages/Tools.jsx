@@ -10,38 +10,38 @@ const Tools = () => {
   const tools = [
     {
       icon: Calculator,
-      title: 'All-in-One Calculator',
-      description: 'Calculate pip values, margin requirements, swap rates, and profit/loss',
+      title: t.tools?.allInOneCalc || 'All-in-One Calculator',
+      description: t.tools?.allInOneCalcDesc || 'Calculate pip values, margin requirements, swap rates, and profit/loss',
       color: 'from-blue-500 to-blue-600'
     },
     {
       icon: Calendar,
-      title: 'Economic Calendar',
-      description: 'Stay informed about upcoming economic events and their market impact',
+      title: t.tools?.economicCalendar || 'Economic Calendar',
+      description: t.tools?.economicCalendarDesc || 'Stay informed about upcoming economic events and their market impact',
       color: 'from-purple-500 to-purple-600'
     },
     {
       icon: TrendingUp,
-      title: 'Market Analysis',
-      description: 'Access daily market analysis, insights, and trading opportunities',
+      title: t.tools?.marketAnalysis || 'Market Analysis',
+      description: t.tools?.marketAnalysisDesc || 'Access daily market analysis, insights, and trading opportunities',
       color: 'from-green-500 to-green-600'
     },
     {
       icon: BarChart3,
-      title: 'Technical Analysis Tools',
-      description: 'Advanced charting tools with 100+ indicators and drawing tools',
+      title: t.tools?.technicalAnalysis || 'Technical Analysis Tools',
+      description: t.tools?.technicalAnalysisDesc || 'Advanced charting tools with 100+ indicators and drawing tools',
       color: 'from-green-500 to-green-600'
     },
     {
       icon: PieChart,
-      title: 'Sentiment Analysis',
-      description: 'See what percentage of traders are buying or selling each instrument',
+      title: t.tools?.sentimentAnalysis || 'Sentiment Analysis',
+      description: t.tools?.sentimentAnalysisDesc || 'See what percentage of traders are buying or selling each instrument',
       color: 'from-orange-500 to-orange-600'
     },
     {
       icon: Activity,
-      title: 'Market Screener',
-      description: 'Filter and find trading opportunities based on technical criteria',
+      title: t.tools?.marketScreener || 'Market Screener',
+      description: t.tools?.marketScreenerDesc || 'Filter and find trading opportunities based on technical criteria',
       color: 'from-teal-500 to-teal-600'
     }
   ];
