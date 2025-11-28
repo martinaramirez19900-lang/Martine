@@ -9,8 +9,8 @@ import { Input } from '../components/ui/input';
 import { Label } from '../components/ui/label';
 
 const OpenAccount = () => {
-  const { language } = useLanguage();
-  const t = extendedTranslations[language] || extendedTranslations.en;
+  const { language, t } = useLanguage();
+  const ext = extendedTranslations[language] || extendedTranslations.en;
   const pt = pageTranslations[language] || pageTranslations.en;
   const [formData, setFormData] = useState({
     fullName: '',
