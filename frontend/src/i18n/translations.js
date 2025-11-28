@@ -294,6 +294,17 @@ export const translations = {
       importantNote: 'Important Note',
       disclaimer: 'Market news can trigger rapid price movements. Always verify information from multiple sources and consider the broader market context before making trading decisions. News-based trading requires quick decision-making and proper risk management.'
     },
+    pamm: {
+      title: 'PAMM Accounts',
+      subtitle: 'Percentage Allocation Management Module - Professional money management',
+      forInvestors: 'For Investors',
+      forInvestorsDesc: 'Let professional traders manage your funds',
+      forTraders: 'For Traders',
+      forTradersDesc: 'Manage client funds and earn performance fees',
+      secure: 'Secure',
+      secureDesc: 'Transparent and secure fund management',
+      openPAMMAccount: 'Open PAMM Account'
+    },
     education: {
       title: 'Trading Education',
       subtitle: 'Learn from the experts and improve your trading skills'
