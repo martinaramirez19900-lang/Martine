@@ -70,7 +70,7 @@ const Tools = () => {
                 <h3 className="text-2xl font-bold text-gray-900 mb-3">{tool.title}</h3>
                 <p className="text-gray-600 mb-6">{tool.description}</p>
                 <Button className="w-full bg-green-600 hover:bg-green-700 text-white">
-                  Launch Tool
+                  {t.tools?.launchTool || 'Launch Tool'}
                 </Button>
               </Card>
             ))}
