@@ -7,6 +7,7 @@ import { Badge } from '../../components/ui/badge';
 
 const EconomicCalendar = () => {
   const { t } = useLanguage();
+  const ec = t.economicCalendar || {};
   
   return (
     <div className="min-h-screen pt-20">
@@ -16,21 +17,21 @@ const EconomicCalendar = () => {
           <div className="inline-block mb-6">
             <Badge className="bg-green-600 text-white px-4 py-2">
               <Calendar className="w-4 h-4 inline mr-2" />
-              Live Economic Data
+              {ec.liveData || 'Live Economic Data'}
             </Badge>
           </div>
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-            Economic Calendar
+            {ec.title || 'Economic Calendar'}
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-            Stay ahead of market-moving events with real-time economic data and forecasts
+            {ec.subtitle || 'Stay ahead of market-moving events with real-time economic data and forecasts'}
           </p>
           <Button 
             size="lg"
             className="bg-green-600 hover:bg-green-700 text-white px-8 py-6 text-lg"
             onClick={() => window.open('https://www.investing.com/economic-calendar/', '_blank')}
           >
-            View Live Economic Calendar
+            {ec.viewLive || 'View Live Economic Calendar'}
             <ExternalLink className="ml-2 w-5 h-5" />
           </Button>
         </div>
