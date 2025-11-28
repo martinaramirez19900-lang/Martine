@@ -118,6 +118,24 @@ backend:
         comment: "Backend is minimal but working correctly"
 
 frontend:
+  - task: "Translation System - Mobile App Page"
+    implemented: true
+    working: true
+    file: "/app/frontend/src/pages/trading/MobileApp.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+      - working: false
+        agent: "user"
+        comment: "User reported: Mobile App page (/mobile-app) translation issues across all sections"
+      - working: true
+        agent: "main"
+        comment: "Updated MobileApp.jsx to use translation keys from both t (main translations) and apt (additionalPages). Added keyFeatures, ctaTitle, ctaSubtitle keys for all 5 languages in additionalPages.js"
+      - working: true
+        agent: "testing"
+        comment: "✅ VERIFIED: Mobile App page translations working perfectly across all 5 languages (EN, PL, CZ, TR, SK). Hero section: 'Mobile Trading App' translates to 'Aplikacja mobilna do handlu' (PL), 'Mobilní obchodní aplikace' (CZ), 'Mobil İşlem Uygulaması' (TR), 'Mobilná obchodná aplikácia' (SK). Download buttons, Key Features section, all 6 feature cards, App Capabilities list (12 items), and CTA section all translate correctly. Globe icon language selector works flawlessly with instant switching."
+
   - task: "Translation System - Home Page sections"
     implemented: true
     working: true
