@@ -2784,6 +2784,17 @@ export const translations = {
       importantNote: 'Dôležitá poznámka',
       disclaimer: 'Tržné správy môžu vyvolať rýchle cenové pohyby. Vždy overujte informácie z viacerých zdrojov a zvážte širší tržný kontext pred robením obchodných rozhodnutí. Obchodovanie založené na správach vyžaduje rýchle rozhodovanie a správne riadenie rizík.'
     },
+    pamm: {
+      title: 'PAMM účty',
+      subtitle: 'Modul Správy Percentuálnej Alokácie - Profesionálna správa peňazí',
+      forInvestors: 'Pre investorov',
+      forInvestorsDesc: 'Nechajte profesionálnych obchodníkov spravovať vaše prostriedky',
+      forTraders: 'Pre obchodníkov',
+      forTradersDesc: 'Spravujte prostriedky klientov a zarábajte výkonnostné poplatky',
+      secure: 'Bezpečné',
+      secureDesc: 'Transparentná a bezpečná správa fondov',
+      openPAMMAccount: 'Otvoriť PAMM účet'
+    },
     education: {
       title: 'Obchodné vzdelávanie',
       subtitle: 'Učte sa od odborníkov a zlepšujte svoje obchodné schopnosti'
