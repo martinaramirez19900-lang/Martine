@@ -101,12 +101,12 @@ const Education = () => {
       {/* Learning Path */}
       <section className="py-20 px-4 bg-gray-50">
         <div className="container mx-auto">
-          <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">Your Learning Journey</h2>
+          <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">{t.educationPages?.learningJourney || 'Your Learning Journey'}</h2>
           <div className="max-w-4xl mx-auto">
             {[
               {
-                level: 'Beginner',
-                title: 'Start Your Trading Journey',
+                level: t.educationPages?.beginner || 'Beginner',
+                title: t.educationPages?.startTradingJourney || 'Start Your Trading Journey',
                 description: 'Learn the basics of financial markets and trading fundamentals',
                 modules: '10 Modules',
                 time: '5 hours'
