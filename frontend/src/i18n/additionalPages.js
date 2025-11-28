@@ -22,13 +22,16 @@ export const additionalPagesTranslations = {
       motto: 'Més que un club – More than a club'
     },
     mobileApp: {
-      title: 'Mobile Apps',
-      subtitle: 'Trade on the go with our mobile applications',
+      title: 'Mobile Trading App',
+      subtitle: 'Trade anytime, anywhere with our powerful mobile trading application',
       downloadIOS: 'Download for iOS',
       downloadAndroid: 'Download for Android',
       desktop: 'Desktop',
       web: 'Web',
-      mobile: 'Mobile'
+      mobile: 'Mobile',
+      keyFeatures: 'Key Features',
+      ctaTitle: 'Start Trading on Mobile',
+      ctaSubtitle: 'Download our app and trade from anywhere in the world'
     },
     stockTrading: {
       title: 'Acciones Trading',
