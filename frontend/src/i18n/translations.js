@@ -1731,7 +1731,27 @@ export const translations = {
       faqQ7: 'Fonlarım güvende mi?',
       faqA7: 'Evet, müşteri fonları, şirketin operasyonel fonlarından ayrı olarak, birinci sınıf bankalarda ayrı hesaplarda tutulur. Ayrıca üst düzey finansal otoriteler tarafından düzenlenmekteyiz.',
       faqQ8: 'Mobilde işlem yapabilir miyim?',
-      faqA8: 'Evet, hem iOS hem de Android cihazlar için mobil işlem uygulamaları sunuyoruz. Her yerden işlem yapabilir, pozisyonlarınızı izleyebilir ve hesabınızı yönetebilirsiniz.'
+      faqA8: 'Evet, hem iOS hem de Android cihazlar için mobil işlem uygulamaları sunuyoruz. Her yerden işlem yapabilir, pozisyonlarınızı izleyebilir ve hesabınızı yönetebilirsiniz.',
+      glossaryTerm1: 'Ask Fiyatı',
+      glossaryDef1: 'Bir yatırımcının bir döviz çifti satın alabileceği fiyat',
+      glossaryTerm2: 'Bid Fiyatı',
+      glossaryDef2: 'Bir yatırımcının bir döviz çifti satabileceği fiyat',
+      glossaryTerm3: 'Spread',
+      glossaryDef3: 'Bid ve ask fiyatı arasındaki fark',
+      glossaryTerm4: 'Kaldıraç',
+      glossaryDef4: 'Potansiyel getirileri artırmak için kullanılan ödünç alınan sermaye',
+      glossaryTerm5: 'Marj',
+      glossaryDef5: 'Kaldıraçlı bir pozisyon açmak ve sürdürmek için gereken para miktarı',
+      glossaryTerm6: 'Pip',
+      glossaryDef6: 'Bir döviz çiftinin yapabileceği en küçük fiyat hareketi',
+      glossaryTerm7: 'Lot',
+      glossaryDef7: 'Bir finansal enstrümanın standartlaştırılmış miktarı',
+      glossaryTerm8: 'Stop Loss',
+      glossaryDef8: 'Zararları sınırlamak için belirli bir fiyattan işlemi kapatma emri',
+      glossaryTerm9: 'Take Profit',
+      glossaryDef9: 'Karları güvence altına almak için belirli bir fiyattan işlemi kapatma emri',
+      glossaryTerm10: 'Volatilite',
+      glossaryDef10: 'Zaman içindeki fiyat dalgalanmalarının istatistiksel bir ölçüsü'
     }
   },
   sk: {
