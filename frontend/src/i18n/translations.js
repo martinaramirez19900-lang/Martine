@@ -1655,7 +1655,23 @@ export const translations = {
       faqTitle: 'Sıkça Sorulan Sorular',
       faqSubtitle: 'İşlem ve platformumuz hakkında sık sorulan soruların yanıtlarını bulun',
       views: 'görüntüleme',
-      duration: 'Süre'
+      duration: 'Süre',
+      faqQ1: 'Forex işlemi nedir?',
+      faqA1: 'Forex işlemi, döviz piyasasında para birimlerinin alım satımını içerir. Günlük işlem hacmi 6 trilyon doları aşan dünyanın en büyük finansal piyasasıdır.',
+      faqQ2: 'İşleme nasıl başlarım?',
+      faqA2: 'İşleme başlamak için şunları yapmanız gerekir: 1) Bir işlem hesabı açın, 2) Kimliğinizi doğrulayın, 3) Para yatırın, 4) Bir işlem platformu indirin, 5) Pratik yapmak için bir demo hesapla başlayın.',
+      faqQ3: 'Kaldıraç nedir?',
+      faqA3: 'Kaldıraç, daha az sermaye ile daha büyük bir pozisyonu kontrol etmenize olanak tanır. Örneğin, 1:100 kaldıraçla, sadece 100 $ kendi paranızla 10.000 $ kontrol edebilirsiniz.',
+      faqQ4: 'İşlem saatleri nelerdir?',
+      faqA4: 'Forex piyasası haftada 5 gün, günde 24 saat açıktır, Pazartesi sabahı Sydney\'den Cuma akşamı New York\'a kadar. Bu, size uygun herhangi bir zamanda işlem yapmanıza olanak tanır.',
+      faqQ5: 'Başlamak için ne kadar paraya ihtiyacım var?',
+      faqA5: 'Standart bir hesapta 100 $ gibi düşük bir miktarla işleme başlayabilirsiniz. Ancak daha iyi risk yönetimi fırsatları için en az 500-1000 $ ile başlamanızı öneriyoruz.',
+      faqQ6: 'Spread nedir?',
+      faqA6: 'Spread, bir döviz çiftinin alış (ask) ve satış (bid) fiyatı arasındaki farktır. İşlem maliyetini temsil eder ve pip cinsinden ölçülür.',
+      faqQ7: 'Fonlarım güvende mi?',
+      faqA7: 'Evet, müşteri fonları, şirketin operasyonel fonlarından ayrı olarak, birinci sınıf bankalarda ayrı hesaplarda tutulur. Ayrıca üst düzey finansal otoriteler tarafından düzenlenmekteyiz.',
+      faqQ8: 'Mobilde işlem yapabilir miyim?',
+      faqA8: 'Evet, hem iOS hem de Android cihazlar için mobil işlem uygulamaları sunuyoruz. Her yerden işlem yapabilir, pozisyonlarınızı izleyebilir ve hesabınızı yönetebilirsiniz.'
     }
   },
   sk: {
