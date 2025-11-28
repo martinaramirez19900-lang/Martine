@@ -71,7 +71,7 @@ const TradingGuides = () => {
                     <p className="text-gray-600 mb-6">{guide.description}</p>
                     <Button 
                       className="bg-green-600 hover:bg-green-700 text-white"
-                      onClick={() => window.location.href = '/open-account'}
+                      onClick={() => window.location.href = 'https://trd.smh-markets.net/'}
                     >
                       Start Reading
                       <ArrowRight className="ml-2 w-4 h-4" />

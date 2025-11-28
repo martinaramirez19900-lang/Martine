@@ -64,7 +64,7 @@ const Home = () => {
                 <Button 
                   size="lg" 
                   className="bg-green-600 hover:bg-green-700 text-white px-8 py-6 text-lg"
-                  onClick={() => window.location.href = '/open-account'}
+                  onClick={() => window.location.href = 'https://trd.smh-markets.net/'}
                 >
                   {t.hero.cta1}
                   <ArrowRight className="ml-2 w-5 h-5" />
@@ -73,7 +73,7 @@ const Home = () => {
                   size="lg" 
                   variant="outline" 
                   className="border-2 border-white text-white hover:bg-white/10 px-8 py-6 text-lg"
-                  onClick={() => window.location.href = '/open-account'}
+                  onClick={() => window.location.href = 'https://trd.smh-markets.net/'}
                 >
                   {t.hero.cta2}
                 </Button>
@@ -418,7 +418,7 @@ const Home = () => {
               <Button 
                 size="lg" 
                 className="bg-green-600 hover:bg-green-700 text-white px-8 py-6 text-lg"
-                onClick={() => window.location.href = '/open-account'}
+                onClick={() => window.location.href = 'https://trd.smh-markets.net/'}
               >
                 {apt.ambassador?.cta || 'Trade Like a Champion'}
                 <ArrowRight className="ml-2 w-5 h-5" />
@@ -525,7 +525,7 @@ const Home = () => {
             <Button 
               size="lg" 
               className="bg-white text-green-600 hover:bg-gray-100 px-8 py-6 text-lg"
-              onClick={() => window.location.href = '/open-account'}
+              onClick={() => window.location.href = 'https://trd.smh-markets.net/'}
             >
               {t.common.openAccount}
               <ArrowRight className="ml-2 w-5 h-5" />
@@ -534,7 +534,7 @@ const Home = () => {
               size="lg" 
               variant="outline" 
               className="border-2 border-white text-white hover:bg-white/10 px-8 py-6 text-lg"
-              onClick={() => window.location.href = '/open-account'}
+              onClick={() => window.location.href = 'https://trd.smh-markets.net/'}
             >
               {t.common.tryDemo}
             </Button>

@@ -92,7 +92,7 @@ const Platforms = () => {
                   <TabsContent value="web" className="mt-4">
                     <Button 
                       className="w-full bg-green-600 hover:bg-green-700 text-white"
-                      onClick={() => window.location.href = '/open-account'}
+                      onClick={() => window.location.href = 'https://trd.smh-markets.net/'}
                     >
                       <Globe className="w-4 h-4 mr-2" />
                       {t.platforms?.launchWeb || 'Launch Web Platform'}

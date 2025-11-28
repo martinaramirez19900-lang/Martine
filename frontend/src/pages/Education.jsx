@@ -87,7 +87,7 @@ const Education = () => {
                   <p className="text-sm text-gray-600 mb-4">{course.description}</p>
                   <Button 
                     className="w-full bg-green-600 hover:bg-green-700 text-white"
-                    onClick={() => window.location.href = '/open-account'}
+                    onClick={() => window.location.href = 'https://trd.smh-markets.net/'}
                   >
                     {t.educationPages?.startLearning || 'Start Learning'}
                   </Button>
@@ -140,7 +140,7 @@ const Education = () => {
                   </div>
                   <Button 
                     className="bg-green-600 hover:bg-green-700 text-white ml-6"
-                    onClick={() => window.location.href = '/open-account'}
+                    onClick={() => window.location.href = 'https://trd.smh-markets.net/'}
                   >
                     Enroll Now
                   </Button>

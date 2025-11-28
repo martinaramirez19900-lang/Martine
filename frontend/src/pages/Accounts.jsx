@@ -73,7 +73,7 @@ const Accounts = () => {
                       ? 'bg-green-600 hover:bg-green-700 text-white'
                       : 'bg-gray-900 hover:bg-gray-800 text-white'
                   }`}
-                  onClick={() => window.location.href = '/open-account'}
+                  onClick={() => window.location.href = 'https://trd.smh-markets.net/'}
                 >
                   {t.accounts.selectAccount}
                   <ArrowRight className="ml-2 w-4 h-4" />
@@ -188,7 +188,7 @@ const Accounts = () => {
           <Button 
             size="lg" 
             className="bg-white text-green-600 hover:bg-gray-100 px-8 py-6 text-lg"
-            onClick={() => window.location.href = '/open-account'}
+            onClick={() => window.location.href = 'https://trd.smh-markets.net/'}
           >
             {t.whyChooseUs.openAccountNow}
             <ArrowRight className="ml-2 w-5 h-5" />

@@ -37,7 +37,7 @@ const CryptoTrading = () => {
             <Button 
               size="lg" 
               className="bg-green-600 hover:bg-green-700 text-white"
-              onClick={() => window.location.href = '/open-account'}
+              onClick={() => window.location.href = 'https://trd.smh-markets.net/'}
             >
               {t.marketPages?.openLiveAccount || t.common?.openAccount || 'Open Live Account'}
             </Button>

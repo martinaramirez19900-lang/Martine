@@ -94,14 +94,14 @@ const Markets = () => {
                     <div className="flex gap-2">
                       <Button 
                         className="flex-1 bg-green-600 hover:bg-green-700 text-white"
-                        onClick={() => window.location.href = '/open-account'}
+                        onClick={() => window.location.href = 'https://trd.smh-markets.net/'}
                       >
                         {t.markets?.buy || 'Buy'}
                       </Button>
                       <Button 
                         variant="outline" 
                         className="flex-1 border-green-600 text-green-600 hover:bg-green-50"
-                        onClick={() => window.location.href = '/open-account'}
+                        onClick={() => window.location.href = 'https://trd.smh-markets.net/'}
                       >
                         {t.markets?.sell || 'Sell'}
                       </Button>
@@ -186,7 +186,7 @@ const Markets = () => {
                   </div>
                   <Button 
                     className="w-full bg-green-600 hover:bg-green-700 text-white"
-                    onClick={() => window.location.href = '/open-account'}
+                    onClick={() => window.location.href = 'https://trd.smh-markets.net/'}
                   >
                     Start Trading
                   </Button>
