@@ -73,21 +73,21 @@ const MobileApp = () => {
 
       <section className="py-20 px-4 bg-gray-50">
         <div className="container mx-auto max-w-4xl">
-          <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">App Capabilities</h2>
+          <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">{t.mobileApp?.appCapabilities || 'App Capabilities'}</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
-              'Full trading functionality',
-              'Advanced charting tools',
-              'Technical indicators (50+)',
-              'One-click trading',
-              'Multiple order types',
-              'Real-time quotes',
-              'Account management',
-              'Deposit and withdrawal',
-              'Trading history',
-              'Economic calendar',
-              'Market news feed',
-              'Push notifications'
+              t.mobileApp?.fullTradingFunctionality || 'Full trading functionality',
+              t.mobileApp?.advancedChartingTools || 'Advanced charting tools',
+              t.mobileApp?.technicalIndicators || 'Technical indicators (50+)',
+              t.mobileApp?.oneClickTrading || 'One-click trading',
+              t.mobileApp?.multipleOrderTypes || 'Multiple order types',
+              t.mobileApp?.realTimeQuotes || 'Real-time quotes',
+              t.mobileApp?.accountManagement || 'Account management',
+              t.mobileApp?.depositWithdrawal || 'Deposit and withdrawal',
+              t.mobileApp?.tradingHistory || 'Trading history',
+              t.mobileApp?.economicCalendar || 'Economic calendar',
+              t.mobileApp?.marketNewsFeed || 'Market news feed',
+              t.mobileApp?.pushNotifications || 'Push notifications'
             ].map((item, idx) => (
               <div key={idx} className="flex items-center">
                 <span className="w-2 h-2 bg-green-600 rounded-full mr-3"></span>
