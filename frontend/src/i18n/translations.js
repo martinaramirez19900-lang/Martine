@@ -1533,6 +1533,17 @@ export const translations = {
       importantNote: 'Důležitá poznámka',
       disclaimer: 'Tržní zprávy mohou vyvolat rychlé cenové pohyby. Vždy ověřujte informace z více zdrojů a zvažte širší tržní kontext před činěním obchodních rozhodnutí. Obchodování založené na zprávách vyžaduje rychlé rozhodování a správné řízení rizik.'
     },
+    pamm: {
+      title: 'PAMM účty',
+      subtitle: 'Modul Správy Procentuální Alokace - Profesionální správa peněz',
+      forInvestors: 'Pro investory',
+      forInvestorsDesc: 'Nechte profesionální obchodníky spravovat vaše prostředky',
+      forTraders: 'Pro obchodníky',
+      forTradersDesc: 'Spravujte prostředky klientů a vydělávejte výkonnostní poplatky',
+      secure: 'Bezpečné',
+      secureDesc: 'Transparentní a bezpečná správa fondů',
+      openPAMMAccount: 'Otevřít PAMM účet'
+    },
     education: {
       title: 'Obchodní vzdělávání',
       subtitle: 'Učte se od odborníků a zlepšujte své obchodní dovednosti'
