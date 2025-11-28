@@ -106,24 +106,24 @@ const EconomicCalendar = () => {
       <section className="py-20 px-4 bg-white">
         <div className="container mx-auto max-w-5xl">
           <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
-            How to Use the Economic Calendar
+            {ec.howToUse || 'How to Use the Economic Calendar'}
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
                 step: '1',
-                title: 'Plan Ahead',
-                desc: 'Check the calendar daily to identify upcoming high-impact events that may affect your positions'
+                title: ec.step1 || 'Plan Ahead',
+                desc: ec.step1Desc || 'Check the calendar daily to identify upcoming high-impact events that may affect your positions'
               },
               {
                 step: '2',
-                title: 'Analyze Expectations',
-                desc: 'Review forecasts and previous data to understand market expectations and potential outcomes'
+                title: ec.step2 || 'Analyze Expectations',
+                desc: ec.step2Desc || 'Review forecasts and previous data to understand market expectations and potential outcomes'
               },
               {
                 step: '3',
-                title: 'Manage Risk',
-                desc: 'Adjust position sizes or close trades before major announcements to protect your capital'
+                title: ec.step3 || 'Manage Risk',
+                desc: ec.step3Desc || 'Adjust position sizes or close trades before major announcements to protect your capital'
               }
             ].map((item, idx) => (
               <Card key={idx} className="p-6 text-center hover:shadow-lg transition-all">
