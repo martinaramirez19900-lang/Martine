@@ -104,6 +104,17 @@ const Footer = () => {
                   <span>SMH Finance LLP</span>
                 </a>
               </li>
+              <li>
+                <a 
+                  href="/documents/companies_house_document.pdf" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center space-x-2 hover:text-green-500 transition-colors text-sm"
+                >
+                  <FileText className="w-4 h-4" />
+                  <span>Companies House Certificate</span>
+                </a>
+              </li>
             </ul>
           </div>
         </div>
