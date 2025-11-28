@@ -407,7 +407,9 @@ export const translations = {
       glossarySubtitle: 'Comprehensive dictionary of trading terms and definitions',
       searchTerms: 'Search terms...',
       faqTitle: 'Frequently Asked Questions',
-      faqSubtitle: 'Find answers to common questions about trading and our platform'
+      faqSubtitle: 'Find answers to common questions about trading and our platform',
+      views: 'views',
+      duration: 'Duration'
     }
   },
   pl: {
