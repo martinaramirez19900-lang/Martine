@@ -87,13 +87,13 @@ const Accounts = () => {
       {/* Comparison Table */}
       <section className="py-20 px-4 bg-gray-50">
         <div className="container mx-auto">
-          <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">Detailed Comparison</h2>
+          <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">{t.whyChooseUs.detailedComparison}</h2>
           <div className="bg-white rounded-lg shadow-xl overflow-hidden">
             <div className="overflow-x-auto">
               <table className="w-full">
                 <thead className="bg-gray-900 text-white">
                   <tr>
-                    <th className="px-6 py-4 text-left">Feature</th>
+                    <th className="px-6 py-4 text-left">{t.comparisonTable.feature}</th>
                     {accountTypes.map((account) => (
                       <th key={account.id} className="px-6 py-4 text-center">
                         {account.name}
@@ -103,16 +103,16 @@ const Accounts = () => {
                 </thead>
                 <tbody className="divide-y divide-gray-200">
                   {[
-                    { feature: 'Minimum Deposit', values: accountTypes.map(a => a.minDeposit) },
-                    { feature: 'Maximum Leverage', values: accountTypes.map(a => a.leverage) },
-                    { feature: 'Spreads From', values: accountTypes.map(a => a.spreads) },
-                    { feature: 'Commission', values: ['No', 'No', 'No', 'No'] },
-                    { feature: 'Expert Advisors', values: ['Yes', 'Yes', 'Yes', 'No'] },
-                    { feature: 'Islamic Account', values: ['No', 'Yes', 'Yes', 'Yes'] },
-                    { feature: 'Dedicated Support', values: ['No', 'No', 'Yes', 'Yes'] },
-                    { feature: 'Personal Manager', values: ['No', 'No', 'Yes', 'Yes'] },
-                    { feature: 'Priority Withdrawals', values: ['No', 'No', 'Yes', 'Yes'] },
-                    { feature: 'Premium Analytics', values: ['No', 'No', 'No', 'Yes'] }
+                    { feature: t.comparisonTable.minDeposit, values: accountTypes.map(a => a.minDeposit) },
+                    { feature: t.comparisonTable.maxLeverage, values: accountTypes.map(a => a.leverage) },
+                    { feature: t.comparisonTable.spreadsFrom, values: accountTypes.map(a => a.spreads) },
+                    { feature: t.comparisonTable.commission, values: ['No', 'No', 'No', 'No'] },
+                    { feature: t.comparisonTable.expertAdvisors, values: ['Yes', 'Yes', 'Yes', 'No'] },
+                    { feature: t.comparisonTable.islamicAccount, values: ['No', 'Yes', 'Yes', 'Yes'] },
+                    { feature: t.comparisonTable.dedicatedSupport, values: ['No', 'No', 'Yes', 'Yes'] },
+                    { feature: t.comparisonTable.personalManager, values: ['No', 'No', 'Yes', 'Yes'] },
+                    { feature: t.comparisonTable.priorityWithdrawals, values: ['No', 'No', 'Yes', 'Yes'] },
+                    { feature: t.comparisonTable.premiumAnalytics, values: ['No', 'No', 'No', 'Yes'] }
                   ].map((row, idx) => (
                     <tr key={idx} className="hover:bg-gray-50">
                       <td className="px-6 py-4 font-medium text-gray-900">{row.feature}</td>
