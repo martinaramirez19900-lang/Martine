@@ -1784,7 +1784,18 @@ export const translations = {
       glossaryTerm9: 'Take Profit',
       glossaryDef9: 'Karları güvence altına almak için belirli bir fiyattan işlemi kapatma emri',
       glossaryTerm10: 'Volatilite',
-      glossaryDef10: 'Zaman içindeki fiyat dalgalanmalarının istatistiksel bir ölçüsü'
+      glossaryDef10: 'Zaman içindeki fiyat dalgalanmalarının istatistiksel bir ölçüsü',
+      educationTitle: 'İşlem Eğitimi',
+      educationSubtitle: 'Uzmanlardan öğrenin ve işlem becerilerinizi geliştirin',
+      enrollNow: 'Şimdi Kaydol',
+      course1Title: 'Forex İşlemine Giriş',
+      course1Desc: 'Forex işleminin ve döviz çiftlerinin temellerini öğrenin',
+      course2Title: 'Teknik Analiz Temelleri',
+      course2Desc: 'Grafik desenleri ve teknik göstergelerde ustalaşın',
+      course3Title: 'Risk Yönetimi Stratejileri',
+      course3Desc: 'Sermayenizi korumak için gelişmiş teknikler',
+      course4Title: 'İşlem Psikolojisi',
+      course4Desc: 'Başarılı işlem için doğru zihniyeti geliştirin'
     }
   },
   sk: {
