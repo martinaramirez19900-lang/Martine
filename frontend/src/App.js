@@ -47,6 +47,13 @@ import Security from './pages/company/Security';
 import Careers from './pages/company/Careers';
 import Contact from './pages/company/Contact';
 import Privacy from './pages/company/Privacy';
+// Legal pages
+import LegalDocuments from './pages/legal/LegalDocuments';
+import Terms from './pages/legal/Terms';
+import PrivacyPolicy from './pages/legal/Privacy';
+import RiskDisclosure from './pages/legal/RiskDisclosure';
+import Complaints from './pages/legal/Complaints';
+import Partnerships from './pages/company/Partnerships';
 
 function App() {
   return (
