@@ -226,13 +226,16 @@ export const additionalPagesTranslations = {
       motto: 'Més que un club – Bir kulüpten daha fazlası'
     },
     mobileApp: {
-      title: 'Mobil Uygulamalar',
-      subtitle: 'Mobil uygulamalarımızla hareket halindeyken işlem yapın',
+      title: 'Mobil İşlem Uygulaması',
+      subtitle: 'Güçlü mobil işlem uygulamamızla her zaman, her yerde işlem yapın',
       downloadIOS: 'iOS için indir',
       downloadAndroid: 'Android için indir',
       desktop: 'Masaüstü',
       web: 'Web',
-      mobile: 'Mobil'
+      mobile: 'Mobil',
+      keyFeatures: 'Ana Özellikler',
+      ctaTitle: 'Mobilde İşlem Yapmaya Başlayın',
+      ctaSubtitle: 'Uygulamamızı indirin ve dünyanın her yerinden işlem yapın'
     },
     stockTrading: {
       title: 'Hisse Senedi İşlemleri',
