@@ -95,48 +95,48 @@ const Pricing = () => {
           <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">{pt.pricing?.otherFees || 'Other Fees'}</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <Card className="p-8">
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">What We Charge</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">{t.pricingFees?.whatWeCharge || 'What We Charge'}</h3>
               <ul className="space-y-4">
                 <li className="flex items-start">
                   <Check className="w-5 h-5 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
                   <div>
-                    <strong>Spreads:</strong> Competitive spreads from 0.0 pips
+                    <strong>{t.pricingFees?.spreads || 'Spreads'}:</strong> {t.pricingFees?.spreadsDesc || 'Competitive spreads from 0.0 pips'}
                   </div>
                 </li>
                 <li className="flex items-start">
                   <Check className="w-5 h-5 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
                   <div>
-                    <strong>Overnight Swaps:</strong> Industry-standard swap rates
+                    <strong>{t.pricingFees?.overnightSwaps || 'Overnight Swaps'}:</strong> {t.pricingFees?.overnightSwapsDesc || 'Industry-standard swap rates'}
                   </div>
                 </li>
                 <li className="flex items-start">
                   <Check className="w-5 h-5 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
                   <div>
-                    <strong>Inactivity Fee:</strong> $10/month after 12 months of inactivity
+                    <strong>{t.pricingFees?.inactivityFee || 'Inactivity Fee'}:</strong> {t.pricingFees?.inactivityFeeDesc || '$10/month after 12 months of inactivity'}
                   </div>
                 </li>
               </ul>
             </Card>
 
             <Card className="p-8">
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">What We Don't Charge</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">{t.pricingFees?.whatWeDontCharge || "What We Don't Charge"}</h3>
               <ul className="space-y-4">
                 <li className="flex items-start">
                   <Check className="w-5 h-5 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
                   <div>
-                    <strong>Deposits:</strong> Free of charge (all methods)
+                    <strong>{t.pricingFees?.deposits || 'Deposits'}:</strong> {t.pricingFees?.depositsDesc || 'Free of charge (all methods)'}
                   </div>
                 </li>
                 <li className="flex items-start">
                   <Check className="w-5 h-5 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
                   <div>
-                    <strong>Withdrawals:</strong> Free (bank transfer fees may apply)
+                    <strong>{t.pricingFees?.withdrawals || 'Withdrawals'}:</strong> {t.pricingFees?.withdrawalsDesc || 'Free (bank transfer fees may apply)'}
                   </div>
                 </li>
                 <li className="flex items-start">
                   <Check className="w-5 h-5 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
                   <div>
-                    <strong>Account Maintenance:</strong> No monthly fees
+                    <strong>{t.pricingFees?.accountMaintenance || 'Account Maintenance'}:</strong> {t.pricingFees?.accountMaintenanceDesc || 'No monthly fees'}
                   </div>
                 </li>
               </ul>
