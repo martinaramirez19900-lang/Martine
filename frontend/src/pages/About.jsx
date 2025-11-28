@@ -127,22 +127,22 @@ const About = () => {
       {/* Team */}
       <section className="py-20 px-4">
         <div className="container mx-auto">
-          <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">Leadership Team</h2>
+          <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">{t.about.leadershipTeam}</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             {[
               {
                 name: 'Michael Anderson',
-                role: 'Chief Executive Officer',
+                role: t.about.ceo,
                 image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=600&q=80&fit=crop&crop=faces'
               },
               {
                 name: 'Sarah Mitchell',
-                role: 'Chief Technology Officer',
+                role: t.about.cto,
                 image: 'https://images.unsplash.com/photo-1655249493799-9cee4fe983bb?w=600&q=80&fit=crop&crop=faces'
               },
               {
                 name: 'David Chen',
-                role: 'Chief Financial Officer',
+                role: t.about.cfo,
                 image: 'https://images.unsplash.com/photo-1550584013-0a844d3b13e2?w=600&q=80&fit=crop&crop=faces'
               }
             ].map((member, idx) => (
