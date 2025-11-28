@@ -129,39 +129,21 @@ export const platforms = [
 export const accountTypes = [
   {
     id: 1,
-    name: 'Demo Account',
-    minDeposit: '$0',
-    leverage: 'Up to 1:500',
-    spreads: 'From 0.6 pips',
-    features: ['Virtual funds', 'Risk-free practice', 'All platforms', 'Full features'],
+    name: 'Standard Account',
+    minDeposit: '$250',
+    leverage: 'Up to 1:200',
+    spreads: 'From 1.5 pips',
+    features: ['Instant execution', 'No commission', 'Swap-free option', '24/7 support', 'Mobile trading', 'Demo account'],
     recommended: false
   },
   {
     id: 2,
-    name: 'Standard Account',
-    minDeposit: '$100',
-    leverage: 'Up to 1:200',
-    spreads: 'From 1.2 pips',
-    features: ['Instant execution', 'No commission', 'Swap-free option', '24/7 support'],
-    recommended: false
-  },
-  {
-    id: 3,
     name: 'Pro Account',
-    minDeposit: '$500',
+    minDeposit: '$2,500',
     leverage: 'Up to 1:500',
     spreads: 'From 0.6 pips',
-    features: ['Low spreads', 'Priority support', 'Advanced tools', 'Dedicated manager'],
+    features: ['Low spreads', 'Priority support', 'Advanced tools', 'Dedicated manager', 'Premium analytics', 'Personal advisor'],
     recommended: true
-  },
-  {
-    id: 4,
-    name: 'VIP Account',
-    minDeposit: '$10,000',
-    leverage: 'Up to 1:500',
-    spreads: 'From 0.0 pips',
-    features: ['Raw spreads', 'VIP support', 'Premium analytics', 'Personal advisor'],
-    recommended: false
   }
 ];
 
