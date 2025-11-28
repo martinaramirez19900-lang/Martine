@@ -165,11 +165,9 @@ const EconomicCalendar = () => {
           <div className="flex items-start space-x-4 max-w-4xl mx-auto">
             <AlertCircle className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
             <div>
-              <h3 className="font-bold text-gray-900 mb-2">Important Note</h3>
+              <h3 className="font-bold text-gray-900 mb-2">{ec.importantNote || 'Important Note'}</h3>
               <p className="text-gray-700">
-                Economic data releases can cause significant market volatility. Always use proper risk management 
-                and consider adjusting your positions before major announcements. The economic calendar is provided 
-                for informational purposes and should be used as part of a comprehensive trading strategy.
+                {ec.disclaimer || 'Economic data releases can cause significant market volatility. Always use proper risk management and consider adjusting your positions before major announcements.'}
               </p>
             </div>
           </div>
