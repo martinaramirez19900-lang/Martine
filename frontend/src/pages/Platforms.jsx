@@ -23,12 +23,21 @@ const Platforms = () => {
       <section className="py-20 px-4">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            {platforms.map((platform) => (
+            {platforms.map((platform) => {
+              const getDescription = (name) => {
+                if (name === 'MetaTrader 4') return t.platforms?.mt4Description || platform.description;
+                if (name === 'MetaTrader 5') return t.platforms?.mt5Description || platform.description;
+                if (name === 'cTrader') return t.platforms?.ctraderDescription || platform.description;
+                if (name === 'SMH Edge') return t.platforms?.edgeDescription || platform.description;
+                return platform.description;
+              };
+              
+              return (
               <Card key={platform.id} className="p-8 hover:shadow-2xl transition-all duration-300">
                 <div className="flex items-start justify-between mb-6">
                   <div>
                     <h3 className="text-3xl font-bold text-gray-900 mb-2">{platform.name}</h3>
-                    <p className="text-gray-600">{platform.description}</p>
+                    <p className="text-gray-600">{getDescription(platform.name)}</p>
                   </div>
                   <div className="w-16 h-16 bg-gradient-to-br from-green-600 to-green-700 rounded-2xl flex items-center justify-center flex-shrink-0">
                     <Monitor className="w-8 h-8 text-white" />
