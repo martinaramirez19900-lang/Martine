@@ -5,7 +5,7 @@ import { pageTranslations } from '../i18n/pageTranslations';
 import { Card } from '../components/ui/card';
 
 const Pricing = () => {
-  const { language } = useLanguage();
+  const { language, t } = useLanguage();
   const pt = pageTranslations[language] || pageTranslations.en;
   
   return (
