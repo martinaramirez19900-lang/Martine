@@ -493,8 +493,8 @@ const Home = () => {
                   {/* Main Barcelona Image */}
                   <div className="relative rounded-xl overflow-hidden shadow-2xl border-4 border-blue-600">
                     <img 
-                      src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800&q=80" 
-                      alt="FC Barcelona - Football Team" 
+                      src="https://customer-assets.emergentagent.com/job_github-site-extract/artifacts/3ylpm6re_image.png" 
+                      alt="FC Barcelona - SMH Markets Official Partner" 
                       className="w-full h-80 object-cover"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-blue-900/80 to-transparent rounded-xl flex items-end p-8">
