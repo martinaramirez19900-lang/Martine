@@ -409,7 +409,23 @@ export const translations = {
       faqTitle: 'Frequently Asked Questions',
       faqSubtitle: 'Find answers to common questions about trading and our platform',
       views: 'views',
-      duration: 'Duration'
+      duration: 'Duration',
+      faqQ1: 'What is forex trading?',
+      faqA1: 'Forex trading involves buying and selling currencies in the foreign exchange market. It is the largest financial market in the world with daily trading volumes exceeding $6 trillion.',
+      faqQ2: 'How do I start trading?',
+      faqA2: 'To start trading, you need to: 1) Open a trading account, 2) Verify your identity, 3) Deposit funds, 4) Download a trading platform, 5) Start with a demo account to practice.',
+      faqQ3: 'What is leverage?',
+      faqA3: 'Leverage allows you to control a larger position with a smaller amount of capital. For example, with 1:100 leverage, you can control $10,000 with just $100 of your own money.',
+      faqQ4: 'What are the trading hours?',
+      faqA4: 'The forex market is open 24 hours a day, 5 days a week, from Monday morning in Sydney to Friday evening in New York. This allows you to trade at any time that suits you.',
+      faqQ5: 'How much money do I need to start?',
+      faqA5: 'You can start trading with as little as $100 on a Standard account. However, we recommend starting with at least $500-1000 to have better risk management opportunities.',
+      faqQ6: 'What is a spread?',
+      faqA6: 'The spread is the difference between the buy (ask) and sell (bid) price of a currency pair. It represents the cost of trading and is measured in pips.',
+      faqQ7: 'Are my funds safe?',
+      faqA7: 'Yes, client funds are kept in segregated accounts at tier-1 banks, separate from company operational funds. We are also regulated by top-tier financial authorities.',
+      faqQ8: 'Can I trade on mobile?',
+      faqA8: 'Yes, we offer mobile trading apps for both iOS and Android devices. You can trade, monitor your positions, and manage your account from anywhere.'
     }
   },
   pl: {
