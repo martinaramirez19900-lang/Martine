@@ -913,6 +913,17 @@ export const translations = {
       importantNote: 'Ważna uwaga',
       disclaimer: 'Wiadomości rynkowe mogą wywołać szybkie ruchy cenowe. Zawsze weryfikuj informacje z wielu źródeł i rozważ szerszy kontekst rynkowy przed podejmowaniem decyzji handlowych. Handel oparty na wiadomościach wymaga szybkiego podejmowania decyzji i odpowiedniego zarządzania ryzykiem.'
     },
+    pamm: {
+      title: 'Konta PAMM',
+      subtitle: 'Moduł Zarządzania Alokacją Procentową - Profesjonalne zarządzanie pieniędzmi',
+      forInvestors: 'Dla inwestorów',
+      forInvestorsDesc: 'Pozwól profesjonalnym traderom zarządzać Twoimi funduszami',
+      forTraders: 'Dla traderów',
+      forTradersDesc: 'Zarządzaj funduszami klientów i zarabiaj opłaty za wyniki',
+      secure: 'Bezpieczne',
+      secureDesc: 'Przejrzyste i bezpieczne zarządzanie funduszami',
+      openPAMMAccount: 'Otwórz konto PAMM'
+    },
     education: {
       title: 'Edukacja handlowa',
       subtitle: 'Ucz się od ekspertów i poprawiaj swoje umiejętności handlowe'
