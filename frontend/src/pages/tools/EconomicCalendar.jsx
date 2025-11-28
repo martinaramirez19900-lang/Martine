@@ -41,18 +41,14 @@ const EconomicCalendar = () => {
       <section className="py-20 px-4 bg-white">
         <div className="container mx-auto max-w-4xl">
           <h2 className="text-4xl font-bold text-gray-900 mb-8 text-center">
-            What is an Economic Calendar?
+            {ec.whatIs || 'What is an Economic Calendar?'}
           </h2>
           <Card className="p-8 mb-8">
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              An economic calendar is an essential tool for traders and investors that displays scheduled releases of economic data, 
-              central bank decisions, and other financial events that can significantly impact financial markets. It helps you 
-              plan your trading strategy around major announcements and avoid unexpected market volatility.
+              {ec.description1 || 'An economic calendar is an essential tool for traders and investors that displays scheduled releases of economic data, central bank decisions, and other financial events that can significantly impact financial markets.'}
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
-              By monitoring the economic calendar, you can anticipate market movements, identify trading opportunities, 
-              and manage risk more effectively. Key events like GDP releases, employment reports, interest rate decisions, 
-              and inflation data often trigger substantial price movements across forex, stocks, and commodities.
+              {ec.description2 || 'By monitoring the economic calendar, you can anticipate market movements, identify trading opportunities, and manage risk more effectively.'}
             </p>
           </Card>
         </div>
