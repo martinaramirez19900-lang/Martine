@@ -143,18 +143,17 @@ const EconomicCalendar = () => {
         <div className="container mx-auto text-center">
           <Globe2 className="w-16 h-16 text-white mx-auto mb-6" />
           <h2 className="text-4xl font-bold text-white mb-6">
-            Access Real-Time Economic Data
+            {ec.accessRealTime || 'Access Real-Time Economic Data'}
           </h2>
           <p className="text-xl text-green-100 mb-8 max-w-2xl mx-auto">
-            Stay updated with live economic calendar featuring real-time updates, forecasts, 
-            and historical data from major economies worldwide
+            {ec.ctaDescription || 'Stay updated with live economic calendar featuring real-time updates, forecasts, and historical data from major economies worldwide'}
           </p>
           <Button 
             size="lg"
             className="bg-white text-green-600 hover:bg-gray-100 px-8 py-6 text-lg"
             onClick={() => window.open('https://www.investing.com/economic-calendar/', '_blank')}
           >
-            View Live Calendar on Investing.com
+            {ec.viewOnInvesting || 'View Live Calendar on Investing.com'}
             <ExternalLink className="ml-2 w-5 h-5" />
           </Button>
         </div>
