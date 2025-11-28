@@ -11,9 +11,9 @@ const Careers = () => {
     <div className="min-h-screen pt-20">
       <section className="py-20 px-4 bg-gradient-to-br from-gray-50 to-white">
         <div className="container mx-auto text-center">
-          <h1 className="text-6xl font-bold text-gray-900 mb-6">{t.nav?.careers || 'Careers'}</h1>
+          <h1 className="text-6xl font-bold text-gray-900 mb-6">{t.careers.title}</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Join our team of professionals and grow with SMH Markets
+            {t.careers.subtitle}
           </p>
         </div>
       </section>
@@ -22,9 +22,9 @@ const Careers = () => {
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
             {[
-              { icon: Briefcase, title: 'Great Culture', desc: 'Work in a dynamic, fast-paced environment' },
-              { icon: TrendingUp, title: 'Career Growth', desc: 'Opportunities for professional development' },
-              { icon: Users, title: 'Global Team', desc: 'Work with talented professionals worldwide' }
+              { icon: Briefcase, title: t.careers.greatCulture, desc: t.careers.greatCultureDesc },
+              { icon: TrendingUp, title: t.careers.careerGrowth, desc: t.careers.careerGrowthDesc },
+              { icon: Users, title: t.careers.globalTeam, desc: t.careers.globalTeamDesc }
             ].map((feature, idx) => (
               <Card key={idx} className="p-8 text-center hover:shadow-xl transition-all">
                 <feature.icon className="w-12 h-12 text-green-600 mx-auto mb-4" />
@@ -39,7 +39,7 @@ const Careers = () => {
               className="bg-green-600 hover:bg-green-700 text-white"
               onClick={() => window.location.href = '/contact'}
             >
-              {t.contact?.title || 'Contact Us'}
+              {t.careers.contactUs}
             </Button>
           </div>
         </div>
