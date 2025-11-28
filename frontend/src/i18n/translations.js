@@ -81,7 +81,20 @@ export const translations = {
       downloadIOS: 'Download for iOS',
       downloadAndroid: 'Download for Android',
       learnMoreAbout: 'Learn More About',
-      launchWeb: 'Launch Web Platform'
+      launchWeb: 'Launch Web Platform',
+      mt4Description: 'The world\'s most popular trading platform',
+      mt5Description: 'Next generation multi-asset platform',
+      ctraderDescription: 'Professional trading platform',
+      edgeDescription: 'Our proprietary trading platform',
+      comparisonTitle: 'Platform Comparison',
+      feature: 'Feature',
+      expertAdvisorsFeature: 'Expert Advisors',
+      advancedChartingFeature: 'Advanced Charting',
+      oneClickTradingFeature: 'One-Click Trading',
+      mobileAppsFeature: 'Mobile Apps',
+      webPlatformFeature: 'Web Platform',
+      copyTradingFeature: 'Copy Trading',
+      levelIIPricingFeature: 'Level II Pricing'
     },
     markets: {
       title: 'Trade Multiple Markets',
