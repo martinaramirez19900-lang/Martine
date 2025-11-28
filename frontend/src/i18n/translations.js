@@ -312,17 +312,16 @@ export const translations = {
     },
     platforms: {
       title: 'Zaawansowane platformy handlowe',
-      subtitle: 'Wybierz platformę odpowiadającą Twojemu stylowi handlu'
-,
-      keyFeatures: 'Características clave:',
-      desktop: 'Escritorio',
-      mobile: 'Móvil',
-      downloadWindows: 'Descargar para Windows',
-      downloadMac: 'Descargar para Mac',
-      downloadIOS: 'Descargar para iOS',
-      downloadAndroid: 'Descargar para Android',
-      learnMoreAbout: 'Más información sobre',
-      launchWeb: 'Lanzar plataforma web'
+      subtitle: 'Wybierz platformę odpowiadającą Twojemu stylowi handlu',
+      keyFeatures: 'Kluczowe funkcje:',
+      desktop: 'Komputer',
+      mobile: 'Mobilna',
+      downloadWindows: 'Pobierz dla Windows',
+      downloadMac: 'Pobierz dla Mac',
+      downloadIOS: 'Pobierz dla iOS',
+      downloadAndroid: 'Pobierz dla Android',
+      learnMoreAbout: 'Dowiedz się więcej o',
+      launchWeb: 'Uruchom platformę webową'
     },
     markets: {
       title: 'Handluj na wielu rynkach',
