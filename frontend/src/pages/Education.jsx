@@ -42,7 +42,7 @@ const Education = () => {
           </div>
 
           {/* Course Grid */}
-          <h2 className="text-4xl font-bold text-gray-900 mb-8">Popular Courses</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-8">{t.educationPages?.popularCourses || 'Popular Courses'}</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {educationContent.map((course) => (
               <Card key={course.id} className="overflow-hidden hover:shadow-xl transition-all duration-300">
