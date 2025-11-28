@@ -77,7 +77,7 @@ const VideoTutorials = () => {
                     <span className="text-sm text-gray-600">{video.duration}</span>
                   </div>
                   <h3 className="text-xl font-bold text-gray-900 mb-2">{video.title}</h3>
-                  <p className="text-sm text-gray-600">{video.views} views</p>
+                  <p className="text-sm text-gray-600">{video.views} {t.educationPages?.views || 'views'}</p>
                 </div>
               </Card>
             ))}
