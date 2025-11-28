@@ -103,17 +103,17 @@ const About = () => {
       {/* Achievements */}
       <section className="py-20 px-4 bg-green-50">
         <div className="container mx-auto">
-          <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">Our Achievements</h2>
+          <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">{t.about.ourAchievements}</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {[
-              { number: '500K+', label: 'Active Clients' },
-              { number: '150+', label: 'Countries' },
-              { number: '$5B+', label: 'Monthly Volume' },
-              { number: '15+', label: 'Industry Awards' },
-              { number: '2000+', label: 'Instruments' },
-              { number: '0.01s', label: 'Avg. Execution' },
-              { number: '24/7', label: 'Support' },
-              { number: '99.9%', label: 'Uptime' }
+              { number: '500K+', label: t.about.activeClients },
+              { number: '150+', label: t.about.countries },
+              { number: '$5B+', label: t.about.monthlyVolume },
+              { number: '15+', label: t.about.industryAwards },
+              { number: '2000+', label: t.about.instruments },
+              { number: '0.01s', label: t.about.avgExecution },
+              { number: '24/7', label: t.about.support },
+              { number: '99.9%', label: t.about.uptime }
             ].map((stat, idx) => (
               <div key={idx} className="text-center">
                 <div className="text-5xl font-bold text-green-600 mb-2">{stat.number}</div>
