@@ -101,3 +101,95 @@
 #====================================================================================================
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
+
+user_problem_statement: "Fix translation issues on SMH Markets website. Ensure all text translates properly across all language versions (EN, PL, CZ, TR, SK)."
+
+backend:
+  - task: "Backend API"
+    implemented: true
+    working: true
+    file: "/app/backend/server.py"
+    stuck_count: 0
+    priority: "low"
+    needs_retesting: false
+    status_history:
+      - working: true
+        agent: "main"
+        comment: "Backend is minimal but working correctly"
+
+frontend:
+  - task: "Translation System - Home Page sections"
+    implemented: true
+    working: true
+    file: "/app/frontend/src/pages/Home.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: false
+        agent: "user"
+        comment: "User reported: Professional Trading Experience section not translating"
+      - working: true
+        agent: "main"
+        comment: "Added tradingExperience translations for all 5 languages. Updated Home.jsx to use t.tradingExperience.title and t.tradingExperience.subtitle"
+
+  - task: "Translation System - Accounts Page"
+    implemented: true
+    working: true
+    file: "/app/frontend/src/pages/Accounts.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: false
+        agent: "user"
+        comment: "User reported: Detailed Comparison table and Why Open Account section not translating"
+      - working: true
+        agent: "main"
+        comment: "Added whyChooseUs and comparisonTable translations for all 5 languages. Updated Accounts.jsx to use translation keys for all hardcoded text"
+
+  - task: "Translation System - MT5 Platform Page"
+    implemented: true
+    working: true
+    file: "/app/frontend/src/pages/platforms/MT5.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: false
+        agent: "user"
+        comment: "User reported: Spanish text appearing on MT5 page (Plataforma multi-activo de nueva generación)"
+      - working: true
+        agent: "main"
+        comment: "Fixed platforms section in translations.js - replaced Spanish text with proper English/Polish translations. Now all languages work correctly"
+
+  - task: "Translation Keys Added"
+    implemented: true
+    working: true
+    file: "/app/frontend/src/i18n/translations.js"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: true
+        agent: "main"
+        comment: "Added new translation sections for all 5 languages: tradingExperience, whyChooseUs, comparisonTable. Fixed Spanish text in platforms section"
+
+metadata:
+  created_by: "main_agent"
+  version: "1.0"
+  test_sequence: 1
+  run_ui: true
+
+test_plan:
+  current_focus:
+    - "Translation System - Home Page sections"
+    - "Translation System - Accounts Page"
+    - "Translation System - MT5 Platform Page"
+  stuck_tasks: []
+  test_all: false
+  test_priority: "high_first"
+
+agent_communication:
+  - agent: "main"
+    message: "Fixed all translation issues reported by user. Added missing translation keys for tradingExperience, whyChooseUs, and comparisonTable sections. Corrected Spanish text in platforms section. Frontend successfully compiled. Ready for UI testing to verify translations work across all 5 languages (EN, PL, CZ, TR, SK). Please test: 1) Home page - Professional Trading Experience section, 2) Accounts page - Detailed Comparison table and Why Open Account section, 3) MT5 platform page - ensure no Spanish text appears. Test language switching for all pages."
