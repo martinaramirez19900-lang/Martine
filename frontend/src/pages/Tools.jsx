@@ -73,7 +73,7 @@ const Tools = () => {
       </section>
 
       {/* Calculator Demo */}
-      <section className="py-20 px-4 bg-gray-50">
+      <section id="calculator" className="py-20 px-4 bg-gray-50">
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto">
             <Card className="p-8">
