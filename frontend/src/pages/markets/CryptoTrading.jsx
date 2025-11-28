@@ -1,5 +1,5 @@
 import React from 'react';
-import { TrendingUp, Shield, Zap } from 'lucide-react';
+import { TrendingUp, Clock, Shield } from 'lucide-react';
 import { useLanguage } from '../../context/LanguageContext';
 import { Card } from '../../components/ui/card';
 import { Button } from '../../components/ui/button';
@@ -11,9 +11,9 @@ const CryptoTrading = () => {
     <div className="min-h-screen pt-20">
       <section className="py-20 px-4 bg-gradient-to-br from-gray-50 to-white">
         <div className="container mx-auto text-center">
-          <h1 className="text-6xl font-bold text-gray-900 mb-6">{t.markets?.crypto || 'Crypto'} Trading</h1>
+          <h1 className="text-6xl font-bold text-gray-900 mb-6">{t.marketPages?.cryptoTitle || 'Crypto Trading'}</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Trade Bitcoin, Ethereum and 50+ cryptocurrencies 24/7
+            {t.marketPages?.cryptoSubtitle || 'Trade Bitcoin, Ethereum and 50+ cryptocurrencies 24/7'}
           </p>
         </div>
       </section>
@@ -22,9 +22,9 @@ const CryptoTrading = () => {
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
             {[
-              { icon: TrendingUp, title: '50+ Cryptos', desc: 'Trade major cryptocurrencies and altcoins' },
-              { icon: Zap, title: '24/7 Trading', desc: 'Trade crypto markets around the clock' },
-              { icon: Shield, title: 'Secure Storage', desc: 'Industry-leading security measures' }
+              { icon: TrendingUp, title: t.marketPages?.crypto50Plus || '50+ Cryptos', desc: t.marketPages?.crypto50PlusDesc || 'Trade major cryptocurrencies and altcoins' },
+              { icon: Clock, title: t.marketPages?.crypto24Trading || '24/7 Trading', desc: t.marketPages?.crypto24TradingDesc || 'Trade crypto markets around the clock' },
+              { icon: Shield, title: t.marketPages?.cryptoSecureStorage || 'Secure Storage', desc: t.marketPages?.cryptoSecureStorageDesc || 'Industry-leading security measures' }
             ].map((feature, idx) => (
               <Card key={idx} className="p-8 text-center hover:shadow-xl transition-all">
                 <feature.icon className="w-16 h-16 text-green-600 mx-auto mb-4" />
@@ -39,7 +39,7 @@ const CryptoTrading = () => {
               className="bg-green-600 hover:bg-green-700 text-white"
               onClick={() => window.location.href = '/open-account'}
             >
-              {t.common?.openAccount || 'Open Account'}
+              {t.marketPages?.openLiveAccount || t.common?.openAccount || 'Open Live Account'}
             </Button>
           </div>
         </div>
