@@ -137,7 +137,8 @@ const Platforms = () => {
                   </Button>
                 </div>
               </Card>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>
