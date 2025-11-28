@@ -72,17 +72,16 @@ export const translations = {
     },
     platforms: {
       title: 'Advanced Trading Platforms',
-      subtitle: 'Choose the platform that suits your trading style'
-,
-      keyFeatures: 'Características clave:',
-      desktop: 'Escritorio',
-      mobile: 'Móvil',
-      downloadWindows: 'Descargar para Windows',
-      downloadMac: 'Descargar para Mac',
-      downloadIOS: 'Descargar para iOS',
-      downloadAndroid: 'Descargar para Android',
-      learnMoreAbout: 'Más información sobre',
-      launchWeb: 'Lanzar plataforma web'
+      subtitle: 'Choose the platform that suits your trading style',
+      keyFeatures: 'Key Features:',
+      desktop: 'Desktop',
+      mobile: 'Mobile',
+      downloadWindows: 'Download for Windows',
+      downloadMac: 'Download for Mac',
+      downloadIOS: 'Download for iOS',
+      downloadAndroid: 'Download for Android',
+      learnMoreAbout: 'Learn More About',
+      launchWeb: 'Launch Web Platform'
     },
     markets: {
       title: 'Trade Multiple Markets',
