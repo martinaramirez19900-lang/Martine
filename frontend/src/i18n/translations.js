@@ -2153,6 +2153,17 @@ export const translations = {
       importantNote: 'Önemli Not',
       disclaimer: 'Piyasa haberleri hızlı fiyat hareketlerine neden olabilir. İşlem kararları vermeden önce her zaman bilgileri birden fazla kaynaktan doğrulayın ve daha geniş piyasa bağlamını düşünün. Habere dayalı işlem hızlı karar verme ve uygun risk yönetimi gerektirir.'
     },
+    pamm: {
+      title: 'PAMM Hesapları',
+      subtitle: 'Yüzde Tahsis Yönetim Modülü - Profesyonel para yönetimi',
+      forInvestors: 'Yatırımcılar için',
+      forInvestorsDesc: 'Profesyonel tüccarların fonlarınızı yönetmesine izin verin',
+      forTraders: 'Tüccarlar için',
+      forTradersDesc: 'Müşteri fonlarını yönetin ve performans ücretleri kazanın',
+      secure: 'Güvenli',
+      secureDesc: 'Şeffaf ve güvenli fon yönetimi',
+      openPAMMAccount: 'PAMM Hesabı Açın'
+    },
     education: {
       title: 'İşlem Eğitimi',
       subtitle: 'Uzmanlardan öğrenin ve işlem becerilerinizi geliştirin'
