@@ -10,9 +10,9 @@ const Regulation = () => {
     <div className="min-h-screen pt-20">
       <section className="py-20 px-4 bg-gradient-to-br from-gray-50 to-white">
         <div className="container mx-auto text-center">
-          <h1 className="text-6xl font-bold text-gray-900 mb-6">Regulation & Licensing</h1>
+          <h1 className="text-6xl font-bold text-gray-900 mb-6">{t.regulation.title}</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Regulated by leading financial authorities worldwide
+            {t.regulation.subtitle}
           </p>
         </div>
       </section>
@@ -21,9 +21,9 @@ const Regulation = () => {
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { icon: Shield, title: 'Regulated Broker', desc: 'Licensed and regulated by top-tier authorities' },
-              { icon: FileText, title: 'Compliance', desc: 'Full compliance with financial regulations' },
-              { icon: Award, title: 'Trusted', desc: 'Trusted by 500,000+ traders worldwide' }
+              { icon: Shield, title: t.regulation.regulatedBroker, desc: t.regulation.regulatedBrokerDesc },
+              { icon: FileText, title: t.regulation.compliance, desc: t.regulation.complianceDesc },
+              { icon: Award, title: t.regulation.trusted, desc: t.regulation.trustedDesc }
             ].map((feature, idx) => (
               <Card key={idx} className="p-8 text-center hover:shadow-xl transition-all">
                 <feature.icon className="w-12 h-12 text-green-600 mx-auto mb-4" />
