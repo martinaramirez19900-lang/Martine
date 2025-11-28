@@ -266,7 +266,8 @@ metadata:
   run_ui: true
 
 test_plan:
-  current_focus: []
+  current_focus: 
+    - "About Page Full Translation - Round 8"
   stuck_tasks: []
   test_all: false
   test_priority: "high_first"
@@ -274,6 +275,7 @@ test_plan:
   completed_round_5: "Tools and Education Pages Translation Testing - Tools page working, Education pages need fixes"
   completed_round_6: "FINAL Education Pages Translation Testing - ALL 5 Education pages verified working perfectly across all 5 languages (EN, PL, CZ, TR, SK)"
   completed_round_7: "FAQ Page Final Translation Testing - Complete content translation verified across all 5 languages with all 8 questions and answers translating correctly"
+  round_8_focus: "About Page Translation Testing - Test all sections (Our Story, Our Values, Our Achievements, Leadership Team) across all 5 languages"
 
   - task: "Translation System - Tools and Education Pages (Round 5)"
     implemented: true
