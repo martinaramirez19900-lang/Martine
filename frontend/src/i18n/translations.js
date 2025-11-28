@@ -1239,7 +1239,23 @@ export const translations = {
       faqTitle: 'Často kladené otázky',
       faqSubtitle: 'Najděte odpovědi na běžné otázky o obchodování a naší platformě',
       views: 'zhlédnutí',
-      duration: 'Délka'
+      duration: 'Délka',
+      faqQ1: 'Co je forex trading?',
+      faqA1: 'Forex trading zahrnuje nákup a prodej měn na devizovém trhu. Je to největší finanční trh na světě s denním objemem obchodů přesahujícím 6 bilionů dolarů.',
+      faqQ2: 'Jak začít obchodovat?',
+      faqA2: 'Pro zahájení obchodování potřebujete: 1) Otevřít obchodní účet, 2) Ověřit svou identitu, 3) Vložit prostředky, 4) Stáhnout obchodní platformu, 5) Začít s demo účtem pro praxi.',
+      faqQ3: 'Co je to páka?',
+      faqA3: 'Páka vám umožňuje kontrolovat větší pozici s menším množstvím kapitálu. Například s pákou 1:100 můžete kontrolovat 10 000 $ s pouze 100 $ vlastních peněz.',
+      faqQ4: 'Jaké jsou obchodní hodiny?',
+      faqA4: 'Forex trh je otevřen 24 hodin denně, 5 dní v týdnu, od pondělního rána v Sydney do pátečního večera v New Yorku. To vám umožňuje obchodovat kdykoliv vám to vyhovuje.',
+      faqQ5: 'Kolik peněz potřebuji na začátek?',
+      faqA5: 'Můžete začít obchodovat s pouhými 100 $ na Standard účtu. Doporučujeme však začít s alespoň 500-1000 $ pro lepší možnosti řízení rizik.',
+      faqQ6: 'Co je to spread?',
+      faqA6: 'Spread je rozdíl mezi nákupní (ask) a prodejní (bid) cenou měnového páru. Představuje náklady na obchodování a měří se v pipech.',
+      faqQ7: 'Jsou moje prostředky v bezpečí?',
+      faqA7: 'Ano, prostředky klientů jsou uloženy na segregovaných účtech v bankách první třídy, odděleně od provozních prostředků společnosti. Jsme také regulováni špičkovými finančními úřady.',
+      faqQ8: 'Mohu obchodovat na mobilu?',
+      faqA8: 'Ano, nabízíme mobilní obchodní aplikace pro iOS i Android zařízení. Můžete obchodovat, sledovat své pozice a spravovat účet odkudkoliv.'
     }
   },
   tr: {
