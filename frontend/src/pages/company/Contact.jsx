@@ -52,32 +52,32 @@ const Contact = () => {
             </div>
 
             <div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-8">{t.contact.contactInfo}</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-8">{t.contactPage.contactInfo}</h2>
               <div className="space-y-6">
                 {[
                   { 
                     icon: MapPin, 
-                    title: 'SMH Markets', 
-                    info: '5 Westbrook Court, Sharrow Vale Road, Sheffield, South Yorkshire, S11 8YZ, United Kingdom', 
-                    desc: 'Visit by appointment' 
+                    title: t.contactPage.smhMarkets, 
+                    info: t.contactPage.address, 
+                    desc: t.contactPage.visitByAppointment 
                   },
                   { 
                     icon: Phone, 
-                    title: 'Phone Support', 
-                    info: '+1 787 945 2353 / +1 787 945 2350', 
-                    desc: '24/7 Available' 
+                    title: t.contactPage.phoneSupport, 
+                    info: t.contactPage.phoneNumber, 
+                    desc: t.contactPage.available247 
                   },
                   { 
                     icon: Mail, 
-                    title: 'Email Support', 
-                    info: 'support@smh-markets.com', 
-                    desc: 'Response within 24 hours' 
+                    title: t.contactPage.emailSupport, 
+                    info: t.contactPage.supportEmail, 
+                    desc: t.contactPage.responseTime 
                   },
                   { 
                     icon: Clock, 
-                    title: 'Business Hours', 
-                    info: 'Monday - Friday: 9:00 AM - 6:00 PM GMT', 
-                    desc: 'Trading 24/5' 
+                    title: t.contactPage.businessHours, 
+                    info: t.contactPage.businessHoursInfo, 
+                    desc: t.contactPage.trading247 
                   }
                 ].map((item, idx) => (
                   <Card key={idx} className="p-6">
