@@ -201,45 +201,6 @@ const OpenAccount = () => {
         </div>
       </section>
 
-      {/* Contact Information */}
-      <section className="py-20 px-4 bg-gray-50">
-        <div className="container mx-auto max-w-4xl">
-          <Card className="p-8 md:p-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Need Help? Contact Us</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div>
-                <h3 className="text-xl font-bold text-gray-900 mb-4">Company Information</h3>
-                <div className="space-y-3 text-gray-600">
-                  <p className="font-semibold text-gray-900">SMH Markets</p>
-                  <p>5 Westbrook Court<br/>
-                     Sharrow Vale Road<br/>
-                     Sheffield<br/>
-                     South Yorkshire<br/>
-                     S11 8YZ<br/>
-                     United Kingdom</p>
-                </div>
-              </div>
-              <div>
-                <h3 className="text-xl font-bold text-gray-900 mb-4">Contact Details</h3>
-                <div className="space-y-3 text-gray-600">
-                  <div>
-                    <p className="font-semibold text-gray-900">Phone Numbers:</p>
-                    <p>+1 787 945 2353</p>
-                    <p>+1 787 945 2350</p>
-                  </div>
-                  <div>
-                    <p className="font-semibold text-gray-900">Email:</p>
-                    <a href="mailto:support@smh-markets.com" className="text-green-600 hover:text-green-700">
-                      support@smh-markets.com
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </Card>
-        </div>
-      </section>
-
       {/* Success Stories with Images */}
       <section className="py-20 px-4 bg-white">
         <div className="container mx-auto">
