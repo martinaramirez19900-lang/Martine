@@ -432,6 +432,46 @@ export const translations = {
       laLiga: 'Tytuły La Liga',
       championsLeague: 'Liga Mistrzów',
       learnPartnership: 'Dowiedz się więcej o partnerstwie'
+    },
+    tradingExperience: {
+      title: 'Profesjonalne doświadczenie handlowe',
+      subtitle: 'Zaawansowane narzędzia i technologia dla nowoczesnych traderów',
+      advancedAnalytics: 'Zaawansowana analityka',
+      advancedAnalyticsDesc: 'Dane rynkowe w czasie rzeczywistym i analiza techniczna',
+      multiplePlatforms: 'Wiele platform',
+      multiplePlatformsDesc: 'Handluj na MT4, MT5, cTrader i WebTrader'
+    },
+    whyChooseUs: {
+      title: 'Dlaczego otworzyć konto w SMH Markets?',
+      detailedComparison: 'Szczegółowe porównanie',
+      regulatedBroker: 'Regulowany broker',
+      regulatedBrokerDesc: 'Licencjonowany i regulowany przez najwyższej klasy organy finansowe',
+      secureFunds: 'Bezpieczne środki',
+      secureFundsDesc: 'Środki klientów przechowywane na oddzielnych kontach w bankach pierwszej kategorii',
+      fastExecution: 'Szybka realizacja',
+      fastExecutionDesc: 'Zaawansowana technologia błyskawicznej realizacji zleceń',
+      competitivePricing: 'Konkurencyjne ceny',
+      competitivePricingDesc: 'Niskie spready i prowizje na wszystkie instrumenty',
+      multiplePlatforms: 'Wiele platform',
+      multiplePlatformsDesc: 'Wybierz spośród MT4, MT5, cTrader i naszej własnej platformy',
+      expertSupport: 'Wsparcie ekspertów',
+      expertSupportDesc: 'Całodobowe wsparcie wielojęzyczne dla wszystkich klientów',
+      readyToGetStarted: 'Gotowy do rozpoczęcia?',
+      openAccountToday: 'Otwórz swoje konto handlowe już dziś i dołącz do tysięcy zadowolonych traderów',
+      openAccountNow: 'Otwórz konto teraz'
+    },
+    comparisonTable: {
+      feature: 'Funkcja',
+      minDeposit: 'Minimalny depozyt',
+      maxLeverage: 'Maksymalna dźwignia',
+      spreadsFrom: 'Spready od',
+      commission: 'Prowizja',
+      expertAdvisors: 'Doradcy ekspertów',
+      islamicAccount: 'Konto islamskie',
+      dedicatedSupport: 'Dedykowane wsparcie',
+      personalManager: 'Osobisty menedżer',
+      priorityWithdrawals: 'Priorytetowe wypłaty',
+      premiumAnalytics: 'Analityka premium'
     }
   },
   cz: {
