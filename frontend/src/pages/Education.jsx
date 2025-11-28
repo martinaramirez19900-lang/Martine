@@ -107,23 +107,23 @@ const Education = () => {
               {
                 level: t.educationPages?.beginner || 'Beginner',
                 title: t.educationPages?.startTradingJourney || 'Start Your Trading Journey',
-                description: 'Learn the basics of financial markets and trading fundamentals',
-                modules: '10 Modules',
-                time: '5 hours'
+                description: t.educationPages?.startTradingJourneyDesc || 'Learn the basics of financial markets and trading fundamentals',
+                modules: '10 ' + (t.educationPages?.modules || 'Modules'),
+                time: '5 ' + (t.educationPages?.hours || 'hours')
               },
               {
-                level: 'Intermediate',
-                title: 'Advanced Trading Strategies',
-                description: 'Master technical analysis, risk management, and trading psychology',
-                modules: '15 Modules',
-                time: '10 hours'
+                level: t.educationPages?.intermediate || 'Intermediate',
+                title: t.educationPages?.advancedStrategies || 'Advanced Trading Strategies',
+                description: t.educationPages?.advancedStrategiesDesc || 'Master technical analysis, risk management, and trading psychology',
+                modules: '15 ' + (t.educationPages?.modules || 'Modules'),
+                time: '10 ' + (t.educationPages?.hours || 'hours')
               },
               {
-                level: 'Advanced',
-                title: 'Professional Trading',
-                description: 'Develop advanced strategies and algorithmic trading skills',
-                modules: '20 Modules',
-                time: '15 hours'
+                level: t.educationPages?.advanced || 'Advanced',
+                title: t.educationPages?.professionalTrading || 'Professional Trading',
+                description: t.educationPages?.professionalTradingDesc || 'Develop advanced strategies and algorithmic trading skills',
+                modules: '20 ' + (t.educationPages?.modules || 'Modules'),
+                time: '15 ' + (t.educationPages?.hours || 'hours')
               }
             ].map((path, idx) => (
               <Card key={idx} className="p-8 mb-6 hover:shadow-xl transition-all duration-300">
