@@ -51,9 +51,9 @@ const Tools = () => {
       {/* Hero */}
       <section className="py-20 px-4 bg-gradient-to-br from-gray-50 to-white">
         <div className="container mx-auto text-center">
-          <h1 className="text-6xl font-bold text-gray-900 mb-6">Trading Tools</h1>
+          <h1 className="text-6xl font-bold text-gray-900 mb-6">{t.tools?.title || 'Trading Tools'}</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Professional trading tools to enhance your analysis and decision-making
+            {t.tools?.subtitle || 'Professional trading tools to enhance your analysis and decision-making'}
           </p>
         </div>
       </section>
