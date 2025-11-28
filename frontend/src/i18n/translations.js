@@ -425,7 +425,27 @@ export const translations = {
       faqQ7: 'Are my funds safe?',
       faqA7: 'Yes, client funds are kept in segregated accounts at tier-1 banks, separate from company operational funds. We are also regulated by top-tier financial authorities.',
       faqQ8: 'Can I trade on mobile?',
-      faqA8: 'Yes, we offer mobile trading apps for both iOS and Android devices. You can trade, monitor your positions, and manage your account from anywhere.'
+      faqA8: 'Yes, we offer mobile trading apps for both iOS and Android devices. You can trade, monitor your positions, and manage your account from anywhere.',
+      glossaryTerm1: 'Ask Price',
+      glossaryDef1: 'The price at which a trader can buy a currency pair',
+      glossaryTerm2: 'Bid Price',
+      glossaryDef2: 'The price at which a trader can sell a currency pair',
+      glossaryTerm3: 'Spread',
+      glossaryDef3: 'The difference between the bid and ask price',
+      glossaryTerm4: 'Leverage',
+      glossaryDef4: 'Borrowed capital used to increase potential returns',
+      glossaryTerm5: 'Margin',
+      glossaryDef5: 'The amount of money required to open and maintain a leveraged position',
+      glossaryTerm6: 'Pip',
+      glossaryDef6: 'The smallest price move that a currency pair can make',
+      glossaryTerm7: 'Lot',
+      glossaryDef7: 'A standardized quantity of a financial instrument',
+      glossaryTerm8: 'Stop Loss',
+      glossaryDef8: 'An order to close a trade at a specific price to limit losses',
+      glossaryTerm9: 'Take Profit',
+      glossaryDef9: 'An order to close a trade at a specific price to secure profits',
+      glossaryTerm10: 'Volatility',
+      glossaryDef10: 'A statistical measure of price fluctuations over time'
     }
   },
   pl: {
