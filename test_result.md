@@ -172,7 +172,7 @@ frontend:
         agent: "testing"
         comment: "✅ VERIFIED: MT5 platform page working correctly. NO Spanish text found anywhere on the page. Download buttons translate properly: 'Download for Windows' (EN), 'Download MT5' (PL), 'Download MT5' (CZ). Desktop/Web/Mobile tabs translate correctly. Platform description shows proper translations in all languages."
 
-  - task: "Translation Keys Added"
+  - task: "Translation Keys Added - Round 2"
     implemented: true
     working: true
     file: "/app/frontend/src/i18n/translations.js"
@@ -186,6 +186,42 @@ frontend:
       - working: true
         agent: "testing"
         comment: "✅ VERIFIED: All translation keys working correctly. Comprehensive testing across all 5 languages (EN, PL, CZ, TR, SK) confirms all new translation sections are properly implemented and functional. Language selector in header works perfectly with flag icons and instant switching."
+      - working: true
+        agent: "main"
+        comment: "ROUND 2: Added comprehensive translations for joinTraders, advancedTools, pricingFees, mobileApp sections across all 5 languages. Updated OpenAccount.jsx and Pricing.jsx components to use new translation keys."
+      - working: true
+        agent: "testing"
+        comment: "✅ ROUND 2 VERIFIED: All new translation keys working perfectly. Language switching via Globe icon works flawlessly. Open Account page sections 'Join Successful Traders' and 'Why Trade with SMH Markets' translate correctly to Polish: 'Dołącz do odnoszących sukcesy traderów' and 'Dlaczego handlować z SMH Markets?'. Pricing page sections 'What We Charge/Don't Charge' translate to 'Co pobieramy/Czego nie pobieramy'. All benefit cards and fee items translate properly. Navigation menu translates perfectly. Translation system is fully functional across all 5 languages."
+
+  - task: "Open Account Page Translation"
+    implemented: true
+    working: true
+    file: "/app/frontend/src/pages/OpenAccount.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+      - working: true
+        agent: "main"
+        comment: "Added joinTraders translation keys for 'Join Successful Traders' and 'Why Trade with SMH Markets' sections with benefit cards for all 5 languages"
+      - working: true
+        agent: "testing"
+        comment: "✅ VERIFIED: Open Account page translations working perfectly. 'Join Successful Traders' section translates to 'Dołącz do odnoszących sukcesy traderów' in Polish. 'Why Trade with SMH Markets?' translates to 'Dlaczego handlować z SMH Markets?'. Benefit cards translate correctly: 'Regulated Broker' → 'Regulowany broker', 'Fast Account Opening' → 'Szybkie otwieranie konta', 'Low Minimum Deposit' → 'Niski minimalny depozyt'. All sections display properly across all 5 languages."
+
+  - task: "Pricing Page Translation"
+    implemented: true
+    working: true
+    file: "/app/frontend/src/pages/Pricing.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+      - working: true
+        agent: "main"
+        comment: "Added pricingFees translation keys for 'What We Charge' and 'What We Don't Charge' sections with all fee items for all 5 languages"
+      - working: true
+        agent: "testing"
+        comment: "✅ VERIFIED: Pricing page translations working perfectly. 'What We Charge' section translates to 'Co pobieramy' in Polish. 'What We Don't Charge' section translates to 'Czego nie pobieramy'. Fee items translate correctly: 'Spreads' → 'Spready', 'Overnight Swaps' → 'Swapy nocne', 'Inactivity Fee' → 'Opłata za brak aktywności', 'Deposits' → 'Wpłaty', 'Withdrawals' → 'Wypłaty', 'Account Maintenance' → 'Utrzymanie konta'. All pricing sections display properly across all 5 languages."
 
 metadata:
   created_by: "main_agent"
