@@ -874,6 +874,66 @@ export const translations = {
       tryDemo: 'Demo dene',
       readyToStart: 'İşleme başlamaya hazır mısınız?',
       joinTraders: 'SMH Markets\'e güvenen binlerce yatırımcıya katılın'
+    },
+    ambassador: {
+      title: 'Resmi Marka Elçisi',
+      subtitle: 'Rafael Nadal',
+      role: 'Tenis Efsanesi ve SMH Markets Elçisi',
+      quote: 'Mükemmellik, hassasiyet ve özveri - hem şampiyonları hem de başarılı yatırımcıları tanımlayan değerler. Büyüklüğe ulaşma taahhüdümü paylaşan bir broker olan SMH Markets\'i temsil etmekten gurur duyuyorum.',
+      grandSlam: 'Grand Slam Ünvanları',
+      atpTitles: 'ATP Ünvanları',
+      ranking: 'ATP Sıralaması',
+      tradeLikeChampion: 'Şampiyon gibi işlem yap'
+    },
+    sponsor: {
+      title: 'Resmi Sponsorlar',
+      subtitle: 'Dünya standartlarında kuruluşların gururlu ortakları',
+      fcbTitle: 'Resmi Ticaret Ortağı',
+      fcbName: 'FC Barcelona',
+      fcbDesc: 'SMH Markets, dünyanın en başarılı futbol kulüplerinden biri olan FC Barcelona\'nın Resmi Ticaret Ortağıdır. Bu ortaklık, mükemmellik ve küresel erişim taahhüdümüzü temsil eder.',
+      laLiga: 'La Liga Ünvanları',
+      championsLeague: 'Şampiyonlar Ligi',
+      learnPartnership: 'Ortaklık hakkında daha fazla bilgi'
+    },
+    tradingExperience: {
+      title: 'Profesyonel İşlem Deneyimi',
+      subtitle: 'Modern yatırımcılar için gelişmiş araçlar ve teknoloji',
+      advancedAnalytics: 'Gelişmiş Analitik',
+      advancedAnalyticsDesc: 'Gerçek zamanlı piyasa verileri ve teknik analiz',
+      multiplePlatforms: 'Birden Fazla Platform',
+      multiplePlatformsDesc: 'MT4, MT5, cTrader ve WebTrader\'da işlem yapın'
+    },
+    whyChooseUs: {
+      title: 'SMH Markets\'te neden hesap açmalısınız?',
+      detailedComparison: 'Detaylı Karşılaştırma',
+      regulatedBroker: 'Düzenlenmiş Broker',
+      regulatedBrokerDesc: 'Üst düzey finansal otoriteler tarafından lisanslanmış ve düzenlenmiştir',
+      secureFunds: 'Güvenli Fonlar',
+      secureFundsDesc: 'Müşteri fonları birinci sınıf bankalarda ayrı hesaplarda tutulur',
+      fastExecution: 'Hızlı Gerçekleşme',
+      fastExecutionDesc: 'Şimşek hızında emir gerçekleşmesi için gelişmiş teknoloji',
+      competitivePricing: 'Rekabetçi Fiyatlandırma',
+      competitivePricingDesc: 'Tüm enstrümanlarda dar spreadler ve düşük komisyonlar',
+      multiplePlatforms: 'Birden Fazla Platform',
+      multiplePlatformsDesc: 'MT4, MT5, cTrader ve kendi platformumuz arasından seçim yapın',
+      expertSupport: 'Uzman Desteği',
+      expertSupportDesc: 'Tüm müşteriler için 7/24 çok dilli müşteri desteği',
+      readyToGetStarted: 'Başlamaya hazır mısınız?',
+      openAccountToday: 'Bugün işlem hesabınızı açın ve binlerce memnun yatırımcıya katılın',
+      openAccountNow: 'Şimdi Hesap Aç'
+    },
+    comparisonTable: {
+      feature: 'Özellik',
+      minDeposit: 'Minimum Depozito',
+      maxLeverage: 'Maksimum Kaldıraç',
+      spreadsFrom: 'Spreadler',
+      commission: 'Komisyon',
+      expertAdvisors: 'Uzman Danışmanlar',
+      islamicAccount: 'İslami Hesap',
+      dedicatedSupport: 'Özel Destek',
+      personalManager: 'Kişisel Müdür',
+      priorityWithdrawals: 'Öncelikli Para Çekme',
+      premiumAnalytics: 'Premium Analitik'
     }
   },
   sk: {
