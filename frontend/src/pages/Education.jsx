@@ -14,9 +14,9 @@ const Education = () => {
       {/* Hero */}
       <section className="py-20 px-4 bg-gradient-to-br from-gray-50 to-white">
         <div className="container mx-auto text-center">
-          <h1 className="text-6xl font-bold text-gray-900 mb-6">{t.education.title}</h1>
+          <h1 className="text-6xl font-bold text-gray-900 mb-6">{t.educationPages?.educationTitle || 'Trading Education'}</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            {t.education.subtitle}
+            {t.educationPages?.educationSubtitle || 'Learn from experts and improve your trading skills'}
           </p>
         </div>
       </section>
