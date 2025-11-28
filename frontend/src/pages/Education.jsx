@@ -60,7 +60,7 @@ const Education = () => {
                     className="w-full bg-green-600 hover:bg-green-700 text-white"
                     onClick={() => window.location.href = '/open-account'}
                   >
-                    Start Learning
+                    {t.educationPages?.startLearning || 'Start Learning'}
                   </Button>
                 </div>
               </Card>
