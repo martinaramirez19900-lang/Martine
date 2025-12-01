@@ -25,7 +25,7 @@ const LegalDocuments = () => {
     {
       title: 'Companies House Certificate',
       description: 'Official UK company registration document',
-      link: '/documents/companies_house_document.pdf',
+      link: 'https://smh-markets.com/documents/companies_house_document.pdf',
       external: true
     }
   ];
