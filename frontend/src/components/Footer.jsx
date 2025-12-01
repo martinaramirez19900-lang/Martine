@@ -122,22 +122,22 @@ const Footer = () => {
         {/* Risk Warning - Expanded */}
         <div className="mt-12 pt-8 border-t border-gray-800">
           <div className="mb-6 bg-gray-800 p-6 rounded-lg">
-            <h4 className="text-white font-bold text-lg mb-4">Risk Warning</h4>
+            <h4 className="text-white font-bold text-lg mb-4">{t.riskWarning?.title || 'Risk Warning'}</h4>
             <div className="text-xs text-gray-400 leading-relaxed space-y-3">
               <p>
-                <strong className="text-gray-300">Trading Forex, CFDs, and other leveraged products involves significant risk of loss and may not be suitable for all investors.</strong> You should carefully consider your investment objectives, level of experience, and risk appetite before making any investment decisions.
+                <strong className="text-gray-300">{t.riskWarning?.paragraph1 || 'Trading Forex, CFDs, and other leveraged products involves significant risk of loss and may not be suitable for all investors. You should carefully consider your investment objectives, level of experience, and risk appetite before making any investment decisions.'}</strong>
               </p>
               <p>
-                The high degree of leverage available in Forex and CFD trading can work against you as well as for you. Before deciding to trade foreign exchange or any other financial instrument, you should carefully consider your investment objectives, level of experience, and risk appetite. You should be aware of all the risks associated with trading on margin and seek advice from an independent financial advisor if you have any doubts.
+                {t.riskWarning?.paragraph2 || 'The high degree of leverage available in Forex and CFD trading can work against you as well as for you. Before deciding to trade foreign exchange or any other financial instrument, you should carefully consider your investment objectives, level of experience, and risk appetite. You should be aware of all the risks associated with trading on margin and seek advice from an independent financial advisor if you have any doubts.'}
               </p>
               <p>
-                Past performance is not indicative of future results. The possibility exists that you could sustain a loss of some or all of your initial investment and therefore you should not invest money that you cannot afford to lose. You should be aware of all the risks associated with trading and seek advice from an independent financial advisor if necessary.
+                {t.riskWarning?.paragraph3 || 'Past performance is not indicative of future results. The possibility exists that you could sustain a loss of some or all of your initial investment and therefore you should not invest money that you cannot afford to lose. You should be aware of all the risks associated with trading and seek advice from an independent financial advisor if necessary.'}
               </p>
               <p>
-                <strong className="text-gray-300">Regulatory Information:</strong> SMH Markets is a trading name of SMH Capital Advisors LLC and SMH Finance LLP. SMH Capital Advisors LLC is authorized and regulated by relevant financial authorities. All client funds are held in segregated accounts at tier-1 banks for maximum security.
+                <strong className="text-gray-300">Regulatory Information:</strong> {t.riskWarning?.regulatory || 'SMH Markets is a trading name of SMH Capital Advisors LLC and SMH Finance LLP. SMH Capital Advisors LLC is authorized and regulated by relevant financial authorities. All client funds are held in segregated accounts at tier-1 banks for maximum security.'}
               </p>
               <p>
-                The information on this website is not directed at residents of certain jurisdictions where such distribution or use would be contrary to local law or regulation. Please refer to our legal documents for complete terms and conditions.
+                {t.riskWarning?.jurisdiction || 'The information on this website is not directed at residents of certain jurisdictions where such distribution or use would be contrary to local law or regulation. Please refer to our legal documents for complete terms and conditions.'}
               </p>
             </div>
           </div>
