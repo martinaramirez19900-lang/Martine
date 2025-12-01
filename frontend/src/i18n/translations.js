@@ -3742,6 +3742,24 @@ export const translations = {
         desc: 'Deurlopende meertalige ondersteuning'
       }
     },
+    accountFeatures: {
+      instantExecution: 'Onmiddellike uitvoering',
+      noCommission: 'Geen kommissie',
+      swapFree: 'Ruil-vry opsie',
+      support247: '24/7 ondersteuning',
+      mobileTrading: 'Mobiele handel',
+      demoAccount: 'Demo rekening',
+      lowSpreads: 'Lae spreads',
+      prioritySupport: 'Prioriteit ondersteuning',
+      advancedTools: 'Gevorderde gereedskap',
+      dedicatedManager: 'Toegewyde bestuurder',
+      premiumAnalytics: 'Premium analise',
+      personalAdvisor: 'Persoonlike adviseur',
+      leverageUpTo200: 'Tot 1:200',
+      leverageUpTo500: 'Tot 1:500',
+      spreadsFrom15: 'Vanaf 1.5 pips',
+      spreadsFrom06: 'Vanaf 0.6 pips'
+    },
     homePlatforms: {
       mt4Desc: 'Die wêreld se gewildste handelsplatform',
       mt5Desc: 'Volgende generasie multi-bate platform',
