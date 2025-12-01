@@ -1118,7 +1118,61 @@ export const translations = {
       advancedCharts: 'Zaawansowane wykresy',
       advancedChartsDesc: 'Profesjonalne narzędzia wykresów',
       cAlgoSupport: 'Wsparcie cAlgo',
-      cAlgoSupportDesc: 'Automatyzacja handlu algorytmicznego'
+      cAlgoSupportDesc: 'Automatyzacja handlu algorytmicznego',
+      learnMore: 'Dowiedz się więcej'
+    },
+    homePlatforms: {
+      mt4Desc: 'Najpopularniejsza platforma handlowa na świecie',
+      mt5Desc: 'Platforma wieloaktywowa nowej generacji',
+      ctraderDesc: 'Profesjonalna platforma handlowa',
+      edgeDesc: 'Nasza własna platforma handlowa',
+      multipleTimeframes: 'Wiele ram czasowych',
+      economicCalendar: 'Kalendarz ekonomiczny',
+      depthOfMarket: 'Głębokość rynku',
+      levelIIPricing: 'Wycena poziomu II',
+      cAlgoAutomation: 'Automatyzacja cAlgo',
+      intuitiveInterface: 'Intuicyjny interfejs',
+      realTimeData: 'Dane w czasie rzeczywistym'
+    },
+    riskWarning: {
+      title: 'Ostrzeżenie o ryzyku',
+      paragraph1: 'Handel Forex, CFD i innymi produktami z dźwignią wiąże się ze znacznym ryzykiem straty i może nie być odpowiedni dla wszystkich inwestorów. Powinieneś starannie rozważyć swoje cele inwestycyjne, poziom doświadczenia i apetyt na ryzyko przed podjęciem jakichkolwiek decyzji inwestycyjnych.',
+      paragraph2: 'Wysoki stopień dźwigni dostępny w handlu Forex i CFD może działać przeciwko Tobie, jak i na Twoją korzyść. Przed podjęciem decyzji o handlu walutami lub innymi instrumentami finansowymi powinieneś starannie rozważyć swoje cele inwestycyjne, poziom doświadczenia i apetyt na ryzyko. Powinieneś być świadomy wszystkich ryzyk związanych z handlem na marży i zasięgnąć porady niezależnego doradcy finansowego w przypadku jakichkolwiek wątpliwości.',
+      paragraph3: 'Wyniki historyczne nie są wskaźnikiem przyszłych wyników. Istnieje możliwość poniesienia straty części lub całości początkowej inwestycji, dlatego nie powinieneś inwestować pieniędzy, na których utratę nie możesz sobie pozwolić. Powinieneś być świadomy wszystkich ryzyk związanych z handlem i w razie potrzeby zasięgnąć porady niezależnego doradcy finansowego.',
+      regulatory: 'Informacje regulacyjne: SMH Markets to nazwa handlowa SMH Capital Advisors LLC i SMH Finance LLP. SMH Capital Advisors LLC jest autoryzowana i regulowana przez odpowiednie organy finansowe. Wszystkie fundusze klientów są przechowywane na segregowanych rachunkach w bankach pierwszej kategorii dla maksymalnego bezpieczeństwa.',
+      jurisdiction: 'Informacje na tej stronie nie są skierowane do mieszkańców niektórych jurysdykcji, w których taka dystrybucja lub użycie byłoby sprzeczne z lokalnymi przepisami lub regulacjami. Zapoznaj się z naszymi dokumentami prawnymi, aby uzyskać pełne warunki i zasady.'
+    },
+    guides: {
+      title: 'Przewodniki handlowe',
+      subtitle: 'Kompleksowe przewodniki, które pomogą Ci opanować strategie handlowe i analizę rynku',
+      beginner: 'Początkujący',
+      intermediate: 'Średniozaawansowany',
+      allLevels: 'Wszystkie poziomy',
+      minutes: 'min',
+      startReading: 'Zacznij czytać',
+      guide1Title: 'Przewodnik dla początkujących po handlu Forex',
+      guide1Desc: 'Poznaj podstawy handlu forex, par walutowych i analizy rynku',
+      guide2Title: 'Podstawy analizy technicznej',
+      guide2Desc: 'Opanuj formacje wykresów, wskaźniki i strategie handlu technicznego',
+      guide3Title: 'Strategie zarządzania ryzykiem',
+      guide3Desc: 'Dowiedz się, jak chronić swój kapitał i skutecznie zarządzać ryzykiem handlowym',
+      guide4Title: 'Psychologia handlu',
+      guide4Desc: 'Rozwijaj dyscyplinę mentalną potrzebną do udanego handlu'
+    },
+    webinars: {
+      title: 'Webinary handlowe na żywo',
+      subtitle: 'Dołącz do naszych ekspertów handlowych na żywą analizę rynku i sesje Q&A',
+      upcomingWebinars: 'Nadchodzące webinary',
+      registerNow: 'Zarejestruj się teraz',
+      everyMonday: 'Każdy poniedziałek, 10:00 GMT',
+      everyWednesday: 'Każda środa, 14:00 GMT',
+      everyFriday: 'Każdy piątek, 11:00 GMT',
+      webinar1Title: 'Analiza rynku i strategie handlowe',
+      webinar1Desc: 'Analiza rynku na żywo i dyskusja o bieżących możliwościach handlowych',
+      webinar2Title: 'Masterclass analizy technicznej',
+      webinar2Desc: 'Głębokie zanurzenie w zaawansowane techniki analizy technicznej',
+      webinar3Title: 'Handel Forex dla początkujących',
+      webinar3Desc: 'Wprowadzenie do podstaw i fundamentów handlu forex'
     },
     pricingFees: {
       whatWeCharge: 'Co pobieramy',
