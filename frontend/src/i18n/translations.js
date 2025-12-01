@@ -3690,6 +3690,27 @@ export const translations = {
         desc: 'Deurlopende meertalige ondersteuning'
       }
     },
+    homePlatforms: {
+      mt4Desc: 'Die wêreld se gewildste handelsplatform',
+      mt5Desc: 'Volgende generasie multi-bate platform',
+      ctraderDesc: 'Professionele handelsplatform',
+      edgeDesc: 'Ons eie handelsplatform',
+      multipleTimeframes: 'Verskeie tydrame',
+      economicCalendar: 'Ekonomiese kalender',
+      depthOfMarket: 'Markdiepte',
+      levelIIPricing: 'Vlak II pryse',
+      cAlgoAutomation: 'cAlgo outomatisering',
+      intuitiveInterface: 'Intuïtiewe koppelvlak',
+      realTimeData: 'Intydse data',
+      advancedCharting: 'Gevorderde grafieke',
+      expertAdvisors: 'Kundige adviseurs',
+      mobileTrading: 'Mobiele handel',
+      customIndicators: 'Aangepaste aanwysers',
+      oneClickTrading: 'Een-klik handel',
+      fastExecution: 'Vinnige uitvoering',
+      advancedCharts: 'Gevorderde grafieke',
+      cAlgoSupport: 'cAlgo ondersteuning'
+    },
     platformDesc: {
       mt4: 'Die wêreld se gewildste handelsplatform',
       mt5: 'Volgende generasie multi-bate platform',
