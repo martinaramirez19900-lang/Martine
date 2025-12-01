@@ -3616,6 +3616,38 @@ export const translations = {
       cAlgoSupportDesc: 'Automatización de trading algorítmico',
       learnMore: 'Saber más'
     },
+    guides: {
+      title: 'Guías de Trading',
+      subtitle: 'Guías completas para ayudarte a dominar estrategias de trading y análisis de mercado',
+      beginner: 'Principiante',
+      intermediate: 'Intermedio',
+      allLevels: 'Todos los Niveles',
+      minutes: 'min',
+      startReading: 'Comenzar a Leer',
+      guide1Title: 'Guía para Principiantes de Trading Forex',
+      guide1Desc: 'Aprende los fundamentos del trading forex, pares de divisas y análisis de mercado',
+      guide2Title: 'Fundamentos de Análisis Técnico',
+      guide2Desc: 'Domina patrones de gráficos, indicadores y estrategias de trading técnico',
+      guide3Title: 'Estrategias de Gestión de Riesgo',
+      guide3Desc: 'Aprende a proteger tu capital y gestionar riesgos de trading eficazmente',
+      guide4Title: 'Psicología del Trading',
+      guide4Desc: 'Desarrolla la disciplina mental necesaria para un trading exitoso'
+    },
+    webinars: {
+      title: 'Webinars de Trading en Vivo',
+      subtitle: 'Únete a nuestros traders expertos para análisis de mercado en vivo y sesiones de preguntas y respuestas',
+      upcomingWebinars: 'Próximos Webinars',
+      registerNow: 'Registrarse Ahora',
+      everyMonday: 'Cada Lunes, 10:00 AM GMT',
+      everyWednesday: 'Cada Miércoles, 2:00 PM GMT',
+      everyFriday: 'Cada Viernes, 11:00 AM GMT',
+      webinar1Title: 'Análisis de Mercado y Estrategias de Trading',
+      webinar1Desc: 'Análisis de mercado en vivo y discusión de oportunidades de trading actuales',
+      webinar2Title: 'Masterclass de Análisis Técnico',
+      webinar2Desc: 'Inmersión profunda en técnicas avanzadas de análisis técnico',
+      webinar3Title: 'Trading Forex para Principiantes',
+      webinar3Desc: 'Introducción a los fundamentos y conceptos básicos del trading forex'
+    },
     homePlatforms: {
       mt4Desc: 'La plataforma de trading más popular del mundo',
       mt5Desc: 'Plataforma multi-activo de nueva generación',
