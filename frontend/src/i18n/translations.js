@@ -3454,15 +3454,15 @@ export const translations = {
       title: 'Por Qué Elegir SMH Markets',
       subtitle: 'Todo lo que necesitas para operar con éxito'
 ,
-      keyFeatures: 'Características clave:',
-      desktop: 'Escritorio',
-      mobile: 'Móvil',
-      downloadWindows: 'Descargar para Windows',
-      downloadMac: 'Descargar para Mac',
-      downloadIOS: 'Descargar para iOS',
-      downloadAndroid: 'Descargar para Android',
-      learnMoreAbout: 'Más información sobre',
-      launchWeb: 'Lanzar plataforma web'
+      keyFeatures: 'Sleutel Kenmerke:',
+      desktop: 'Werkskerm',
+      mobile: 'Mobiel',
+      downloadWindows: 'Laai af vir Windows',
+      downloadMac: 'Laai af vir Mac',
+      downloadIOS: 'Laai af vir iOS',
+      downloadAndroid: 'Laai af vir Android',
+      learnMoreAbout: 'Leer meer oor',
+      launchWeb: 'Begin Web Platform'
     },
     platforms: {
       title: 'Plataformas de Trading Avanzadas',
