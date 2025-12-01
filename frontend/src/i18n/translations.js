@@ -445,7 +445,61 @@ export const translations = {
       advancedCharts: 'Advanced Charts',
       advancedChartsDesc: 'Professional charting tools',
       cAlgoSupport: 'cAlgo Support',
-      cAlgoSupportDesc: 'Algorithmic trading automation'
+      cAlgoSupportDesc: 'Algorithmic trading automation',
+      learnMore: 'Learn More'
+    },
+    homePlatforms: {
+      mt4Desc: 'The world\'s most popular trading platform',
+      mt5Desc: 'Next generation multi-asset platform',
+      ctraderDesc: 'Professional trading platform',
+      edgeDesc: 'Our proprietary trading platform',
+      multipleTimeframes: 'Multiple timeframes',
+      economicCalendar: 'Economic calendar',
+      depthOfMarket: 'Depth of Market',
+      levelIIPricing: 'Level II pricing',
+      cAlgoAutomation: 'cAlgo automation',
+      intuitiveInterface: 'Intuitive interface',
+      realTimeData: 'Real-time data'
+    },
+    riskWarning: {
+      title: 'Risk Warning',
+      paragraph1: 'Trading Forex, CFDs, and other leveraged products involves significant risk of loss and may not be suitable for all investors. You should carefully consider your investment objectives, level of experience, and risk appetite before making any investment decisions.',
+      paragraph2: 'The high degree of leverage available in Forex and CFD trading can work against you as well as for you. Before deciding to trade foreign exchange or any other financial instrument, you should carefully consider your investment objectives, level of experience, and risk appetite. You should be aware of all the risks associated with trading on margin and seek advice from an independent financial advisor if you have any doubts.',
+      paragraph3: 'Past performance is not indicative of future results. The possibility exists that you could sustain a loss of some or all of your initial investment and therefore you should not invest money that you cannot afford to lose. You should be aware of all the risks associated with trading and seek advice from an independent financial advisor if necessary.',
+      regulatory: 'Regulatory Information: SMH Markets is a trading name of SMH Capital Advisors LLC and SMH Finance LLP. SMH Capital Advisors LLC is authorized and regulated by relevant financial authorities. All client funds are held in segregated accounts at tier-1 banks for maximum security.',
+      jurisdiction: 'The information on this website is not directed at residents of certain jurisdictions where such distribution or use would be contrary to local law or regulation. Please refer to our legal documents for complete terms and conditions.'
+    },
+    guides: {
+      title: 'Trading Guides',
+      subtitle: 'Comprehensive guides to help you master trading strategies and market analysis',
+      beginner: 'Beginner',
+      intermediate: 'Intermediate',
+      allLevels: 'All Levels',
+      minutes: 'min',
+      startReading: 'Start Reading',
+      guide1Title: 'Beginner\'s Guide to Forex Trading',
+      guide1Desc: 'Learn the basics of forex trading, currency pairs, and market analysis',
+      guide2Title: 'Technical Analysis Fundamentals',
+      guide2Desc: 'Master chart patterns, indicators, and technical trading strategies',
+      guide3Title: 'Risk Management Strategies',
+      guide3Desc: 'Learn how to protect your capital and manage trading risks effectively',
+      guide4Title: 'Trading Psychology',
+      guide4Desc: 'Develop the mental discipline needed for successful trading'
+    },
+    webinars: {
+      title: 'Live Trading Webinars',
+      subtitle: 'Join our expert traders for live market analysis and Q&A sessions',
+      upcomingWebinars: 'Upcoming Webinars',
+      registerNow: 'Register Now',
+      everyMonday: 'Every Monday, 10:00 AM GMT',
+      everyWednesday: 'Every Wednesday, 2:00 PM GMT',
+      everyFriday: 'Every Friday, 11:00 AM GMT',
+      webinar1Title: 'Market Analysis & Trading Strategies',
+      webinar1Desc: 'Live market analysis and discussion of current trading opportunities',
+      webinar2Title: 'Technical Analysis Masterclass',
+      webinar2Desc: 'Deep dive into advanced technical analysis techniques',
+      webinar3Title: 'Forex Trading for Beginners',
+      webinar3Desc: 'Introduction to forex trading basics and fundamentals'
     },
     pricingFees: {
       whatWeCharge: 'What We Charge',
