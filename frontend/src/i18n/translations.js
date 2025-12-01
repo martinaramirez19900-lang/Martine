@@ -3664,6 +3664,14 @@ export const translations = {
       riskWarning: 'Risiko Waarskuwing: Handel in CFD\'s en gehefde produkte dra \'n hoë risiko en is dalk nie geskik vir alle beleggers nie.',
       copyright: '© 2025 SMH Markets. Alle regte voorbehou.'
     },
+    riskWarning: {
+      title: 'Risiko Waarskuwing',
+      paragraph1: 'Handel in Forex, CFD\'s en ander gehefde produkte behels beduidende risiko van verlies en is dalk nie geskik vir alle beleggers nie. U moet u beleggingsdoelwitte, vlak van ervaring en risikobereidheid noukeurig oorweeg voordat u enige beleggingsbesluite neem.',
+      paragraph2: 'Die hoë graad van hefboom beskikbaar in Forex en CFD handel kan teen u werk sowel as vir u. Voordat u besluit om buitelandse valuta of enige ander finansiële instrument te verhandel, moet u u beleggingsdoelwitte, vlak van ervaring en risikobereidheid noukeurig oorweeg. U moet bewus wees van alle risiko\'s verbonde aan handel op marge en raad vra by \'n onafhanklike finansiële adviseur as u enige twyfel het.',
+      paragraph3: 'Vorige prestasie is nie \'n aanduiding van toekomstige resultate nie. Die moontlikheid bestaan dat u \'n verlies kan ly van \'n deel of die hele aanvanklike belegging en daarom moet u nie geld belê wat u nie kan bekostig om te verloor nie. U moet bewus wees van alle risiko\'s verbonde aan handel en raad vra by \'n onafhanklike finansiële adviseur indien nodig.',
+      regulatory: 'Regulatoriese Inligting: SMH Markets is \'n handelsnaam van SMH Capital Advisors LLC en SMH Finance LLP. SMH Capital Advisors LLC is gemagtig en gereguleer deur relevante finansiële owerhede. Alle kliënte fondse word gehou in gesegregeerde rekeninge by top-vlak banke vir maksimum sekuriteit.',
+      jurisdiction: 'Die inligting op hierdie webwerf is nie gerig op inwoners van sekere jurisdiksies waar sodanige verspreiding of gebruik teenstrydig met plaaslike wet of regulasie sou wees nie. Verwys asseblief na ons wetlike dokumente vir volledige terme en voorwaardes.'
+    },
     stats: {
       activeTraders: 'Aktiewe Handelaars',
       instruments: 'Instrumente',
