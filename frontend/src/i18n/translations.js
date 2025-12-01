@@ -416,6 +416,24 @@ export const translations = {
       priorityWithdrawals: 'Priority Withdrawals',
       premiumAnalytics: 'Premium Analytics'
     },
+    accountFeatures: {
+      instantExecution: 'Instant execution',
+      noCommission: 'No commission',
+      swapFree: 'Swap-free option',
+      support247: '24/7 support',
+      mobileTrading: 'Mobile trading',
+      demoAccount: 'Demo account',
+      lowSpreads: 'Low spreads',
+      prioritySupport: 'Priority support',
+      advancedTools: 'Advanced tools',
+      dedicatedManager: 'Dedicated manager',
+      premiumAnalytics: 'Premium analytics',
+      personalAdvisor: 'Personal advisor',
+      leverageUpTo200: 'Up to 1:200',
+      leverageUpTo500: 'Up to 1:500',
+      spreadsFrom15: 'From 1.5 pips',
+      spreadsFrom06: 'From 0.6 pips'
+    },
     joinTraders: {
       title: 'Join Successful Traders',
       whyTradeTitle: 'Why Trade with SMH Markets?',
