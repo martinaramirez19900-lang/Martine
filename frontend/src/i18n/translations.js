@@ -2466,7 +2466,61 @@ export const translations = {
       advancedCharts: 'Gelişmiş grafikler',
       advancedChartsDesc: 'Profesyonel grafik araçları',
       cAlgoSupport: 'cAlgo desteği',
-      cAlgoSupportDesc: 'Algoritmik işlem otomasyonu'
+      cAlgoSupportDesc: 'Algoritmik işlem otomasyonu',
+      learnMore: 'Daha fazla bilgi'
+    },
+    homePlatforms: {
+      mt4Desc: 'Dünyanın en popüler işlem platformu',
+      mt5Desc: 'Yeni nesil çoklu varlık platformu',
+      ctraderDesc: 'Profesyonel işlem platformu',
+      edgeDesc: 'Kendi tescilli işlem platformumuz',
+      multipleTimeframes: 'Çoklu zaman dilimleri',
+      economicCalendar: 'Ekonomik takvim',
+      depthOfMarket: 'Piyasa derinliği',
+      levelIIPricing: 'Seviye II fiyatlandırma',
+      cAlgoAutomation: 'cAlgo otomasyonu',
+      intuitiveInterface: 'Sezgisel arayüz',
+      realTimeData: 'Gerçek zamanlı veri'
+    },
+    riskWarning: {
+      title: 'Risk Uyarısı',
+      paragraph1: 'Forex, CFD ve diğer kaldıraçlı ürünlerle işlem yapmak önemli kayıp riski taşır ve tüm yatırımcılar için uygun olmayabilir. Herhangi bir yatırım kararı vermeden önce yatırım hedeflerinizi, deneyim seviyenizi ve risk iştahınızı dikkatlice değerlendirmelisiniz.',
+      paragraph2: 'Forex ve CFD işlemlerinde mevcut olan yüksek kaldıraç derecesi sizin lehinize olduğu kadar aleyhinize de çalışabilir. Döviz veya başka bir finansal araçla işlem yapmaya karar vermeden önce, yatırım hedeflerinizi, deneyim seviyenizi ve risk iştahınızı dikkatlice değerlendirmelisiniz. Marj üzerinden işlem yapmayla ilgili tüm risklerden haberdar olmalı ve herhangi bir şüpheniz varsa bağımsız bir finansal danışmandan tavsiye almalısınız.',
+      paragraph3: 'Geçmiş performans gelecekteki sonuçların göstergesi değildir. Başlangıç yatırımınızın bir kısmını veya tamamını kaybetme olasılığı vardır ve bu nedenle kaybetmeyi göze alamayacağınız parayı yatırmamalısınız. İşlem yapmayla ilgili tüm risklerden haberdar olmalı ve gerekirse bağımsız bir finansal danışmandan tavsiye almalısınız.',
+      regulatory: 'Düzenleyici Bilgiler: SMH Markets, SMH Capital Advisors LLC ve SMH Finance LLP\'nin ticari adıdır. SMH Capital Advisors LLC, ilgili finans otoriteleri tarafından yetkilendirilmiş ve düzenlenmiştir. Tüm müşteri fonları maksimum güvenlik için birinci sınıf bankalarda segrege hesaplarda tutulmaktadır.',
+      jurisdiction: 'Bu web sitesindeki bilgiler, bu tür dağıtım veya kullanımın yerel yasa veya düzenlemeye aykırı olacağı belirli yetki alanlarının sakinlerine yönelik değildir. Tam şartlar ve koşullar için lütfen yasal belgelerimize bakın.'
+    },
+    guides: {
+      title: 'İşlem Rehberleri',
+      subtitle: 'İşlem stratejilerinde ve piyasa analizinde uzmanlaşmanıza yardımcı olacak kapsamlı rehberler',
+      beginner: 'Başlangıç',
+      intermediate: 'Orta',
+      allLevels: 'Tüm Seviyeler',
+      minutes: 'dk',
+      startReading: 'Okumaya Başla',
+      guide1Title: 'Yeni Başlayanlar için Forex İşlem Rehberi',
+      guide1Desc: 'Forex işleminin temellerini, döviz çiftlerini ve piyasa analizini öğrenin',
+      guide2Title: 'Teknik Analiz Temelleri',
+      guide2Desc: 'Grafik kalıplarını, göstergeleri ve teknik işlem stratejilerini öğrenin',
+      guide3Title: 'Risk Yönetimi Stratejileri',
+      guide3Desc: 'Sermayenizi nasıl koruyacağınızı ve işlem risklerini etkili şekilde nasıl yöneteceğinizi öğrenin',
+      guide4Title: 'İşlem Psikolojisi',
+      guide4Desc: 'Başarılı işlem için gerekli zihinsel disiplini geliştirin'
+    },
+    webinars: {
+      title: 'Canlı İşlem Webinarları',
+      subtitle: 'Canlı piyasa analizi ve soru-cevap oturumları için uzman işlemcilerimize katılın',
+      upcomingWebinars: 'Yaklaşan Webinarlar',
+      registerNow: 'Şimdi Kayıt Olun',
+      everyMonday: 'Her Pazartesi, 10:00 GMT',
+      everyWednesday: 'Her Çarşamba, 14:00 GMT',
+      everyFriday: 'Her Cuma, 11:00 GMT',
+      webinar1Title: 'Piyasa Analizi ve İşlem Stratejileri',
+      webinar1Desc: 'Canlı piyasa analizi ve mevcut işlem fırsatlarının tartışılması',
+      webinar2Title: 'Teknik Analiz Ustalık Sınıfı',
+      webinar2Desc: 'Gelişmiş teknik analiz tekniklerine derinlemesine dalış',
+      webinar3Title: 'Yeni Başlayanlar için Forex İşlemleri',
+      webinar3Desc: 'Forex işlem temellerine ve fundamentallerine giriş'
     },
     pricingFees: {
       whatWeCharge: 'Ne ücretlendiriyoruz',
