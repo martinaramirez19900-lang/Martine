@@ -202,35 +202,53 @@ const Home = () => {
             <p className="text-xl text-gray-600">{t.platforms.subtitle}</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {platforms.map((platform) => (
-              <Card key={platform.id} className="p-6 hover:shadow-xl transition-all duration-300 bg-white">
-                <div className="w-16 h-16 bg-gradient-to-br from-green-600 to-green-700 rounded-2xl flex items-center justify-center mb-6">
-                  <TrendingUp className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">{platform.name}</h3>
-                <p className="text-gray-600 text-sm mb-6">
-                  {platform.id === 1 ? t.platformDesc.mt4 : 
-                   platform.id === 2 ? t.platformDesc.mt5 :
-                   platform.id === 3 ? t.platformDesc.ctrader :
-                   t.platformDesc.smhEdge}
-                </p>
-                <ul className="space-y-2 mb-6">
-                  {platform.features.slice(0, 3).map((feature, idx) => (
-                    <li key={idx} className="text-sm text-gray-600 flex items-center">
-                      <span className="w-1.5 h-1.5 bg-green-600 rounded-full mr-2"></span>
-                      {feature}
-                    </li>
-                  ))}
-                </ul>
-                <Button 
-                  variant="outline" 
-                  className="w-full border-gray-300 hover:border-green-600 hover:text-green-600"
-                  onClick={() => window.location.href = '/platforms'}
-                >
-                  {t.common.learnMore}
-                </Button>
-              </Card>
-            ))}
+            {platforms.map((platform) => {
+              // Get translated features based on platform ID
+              const getTranslatedFeatures = (platformId) => {
+                switch(platformId) {
+                  case 1: // MT4
+                    return [t.homePlatforms?.advancedCharting || 'Advanced charting', t.homePlatforms?.expertAdvisors || 'Expert Advisors', t.homePlatforms?.mobileTrading || 'Mobile trading'];
+                  case 2: // MT5
+                    return [t.homePlatforms?.multipleTimeframes || 'Multiple timeframes', t.homePlatforms?.economicCalendar || 'Economic calendar', t.homePlatforms?.depthOfMarket || 'Depth of Market'];
+                  case 3: // cTrader
+                    return [t.homePlatforms?.levelIIPricing || 'Level II pricing', t.homePlatforms?.cAlgoAutomation || 'cAlgo automation', t.homePlatforms?.fastExecution || 'Fast execution'];
+                  case 4: // SMH Edge
+                    return [t.homePlatforms?.intuitiveInterface || 'Intuitive interface', t.homePlatforms?.oneClickTrading || 'One-click trading', t.homePlatforms?.realTimeData || 'Real-time data'];
+                  default:
+                    return platform.features.slice(0, 3);
+                }
+              };
+              
+              return (
+                <Card key={platform.id} className="p-6 hover:shadow-xl transition-all duration-300 bg-white">
+                  <div className="w-16 h-16 bg-gradient-to-br from-green-600 to-green-700 rounded-2xl flex items-center justify-center mb-6">
+                    <TrendingUp className="w-8 h-8 text-white" />
+                  </div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3">{platform.name}</h3>
+                  <p className="text-gray-600 text-sm mb-6">
+                    {platform.id === 1 ? t.homePlatforms?.mt4Desc || t.platformDesc.mt4 : 
+                     platform.id === 2 ? t.homePlatforms?.mt5Desc || t.platformDesc.mt5 :
+                     platform.id === 3 ? t.homePlatforms?.ctraderDesc || t.platformDesc.ctrader :
+                     t.homePlatforms?.edgeDesc || t.platformDesc.smhEdge}
+                  </p>
+                  <ul className="space-y-2 mb-6">
+                    {getTranslatedFeatures(platform.id).map((feature, idx) => (
+                      <li key={idx} className="text-sm text-gray-600 flex items-center">
+                        <span className="w-1.5 h-1.5 bg-green-600 rounded-full mr-2"></span>
+                        {feature}
+                      </li>
+                    ))}
+                  </ul>
+                  <Button 
+                    variant="outline" 
+                    className="w-full border-gray-300 hover:border-green-600 hover:text-green-600"
+                    onClick={() => window.location.href = '/platforms'}
+                  >
+                    {t.common.learnMore}
+                  </Button>
+                </Card>
+              );
+            })}
           </div>
         </div>
       </section>
