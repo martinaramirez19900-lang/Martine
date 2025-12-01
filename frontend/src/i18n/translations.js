@@ -3550,6 +3550,27 @@ export const translations = {
       ctrader: 'Plataforma de trading profesional',
       smhEdge: 'Nuestra plataforma de trading propia'
     },
+    homePlatforms: {
+      mt4Desc: 'La plataforma de trading más popular del mundo',
+      mt5Desc: 'Plataforma multi-activo de nueva generación',
+      ctraderDesc: 'Plataforma de trading profesional',
+      edgeDesc: 'Nuestra plataforma de trading propia',
+      multipleTimeframes: 'Múltiples marcos temporales',
+      economicCalendar: 'Calendario económico',
+      depthOfMarket: 'Profundidad del mercado',
+      levelIIPricing: 'Precios de Nivel II',
+      cAlgoAutomation: 'Automatización cAlgo',
+      intuitiveInterface: 'Interfaz intuitiva',
+      realTimeData: 'Datos en tiempo real',
+      advancedCharting: 'Gráficos avanzados',
+      expertAdvisors: 'Expert Advisors',
+      mobileTrading: 'Trading móvil',
+      customIndicators: 'Indicadores personalizados',
+      oneClickTrading: 'Trading con un clic',
+      fastExecution: 'Ejecución rápida',
+      advancedCharts: 'Gráficos avanzados',
+      cAlgoSupport: 'Soporte cAlgo'
+    },
     common: {
       learnMore: 'Saber más',
       openAccount: 'Abrir cuenta real',
