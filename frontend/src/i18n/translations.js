@@ -3578,17 +3578,16 @@ export const translations = {
     },
     features: {
       title: 'Hoekom Kies SMH Markets',
-      subtitle: 'Alles wat jy nodig het vir suksesvolle handel'
-,
-      keyFeatures: 'Características clave:',
-      desktop: 'Escritorio',
-      mobile: 'Móvil',
-      downloadWindows: 'Descargar para Windows',
-      downloadMac: 'Descargar para Mac',
-      downloadIOS: 'Descargar para iOS',
-      downloadAndroid: 'Descargar para Android',
-      learnMoreAbout: 'Más información sobre',
-      launchWeb: 'Lanzar plataforma web'
+      subtitle: 'Alles wat jy nodig het vir suksesvolle handel',
+      keyFeatures: 'Sleutel Kenmerke:',
+      desktop: 'Werkskerm',
+      mobile: 'Mobiel',
+      downloadWindows: 'Laai af vir Windows',
+      downloadMac: 'Laai af vir Mac',
+      downloadIOS: 'Laai af vir iOS',
+      downloadAndroid: 'Laai af vir Android',
+      learnMoreAbout: 'Leer meer oor',
+      launchWeb: 'Begin Web Platform'
     },
     platforms: {
       title: 'Gevorderde Handelsplatforms',
