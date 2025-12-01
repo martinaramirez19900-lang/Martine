@@ -3502,6 +3502,14 @@ export const translations = {
       riskWarning: 'Advertencia de Riesgo: Operar con CFDs y productos apalancados conlleva un alto nivel de riesgo y puede no ser adecuado para todos los inversores.',
       copyright: '© 2025 SMH Markets. Todos los derechos reservados.'
     },
+    riskWarning: {
+      title: 'Advertencia de Riesgo',
+      paragraph1: 'Operar con Forex, CFDs y otros productos apalancados implica un riesgo significativo de pérdida y puede no ser adecuado para todos los inversores. Debe considerar cuidadosamente sus objetivos de inversión, nivel de experiencia y apetito de riesgo antes de tomar cualquier decisión de inversión.',
+      paragraph2: 'El alto grado de apalancamiento disponible en el trading de Forex y CFDs puede funcionar en su contra así como a su favor. Antes de decidir operar en divisas o cualquier otro instrumento financiero, debe considerar cuidadosamente sus objetivos de inversión, nivel de experiencia y apetito de riesgo. Debe ser consciente de todos los riesgos asociados con el trading con margen y buscar asesoramiento de un asesor financiero independiente si tiene dudas.',
+      paragraph3: 'El rendimiento pasado no es indicativo de resultados futuros. Existe la posibilidad de que pueda sufrir una pérdida de parte o la totalidad de su inversión inicial y, por lo tanto, no debe invertir dinero que no pueda permitirse perder. Debe ser consciente de todos los riesgos asociados con el trading y buscar asesoramiento de un asesor financiero independiente si es necesario.',
+      regulatory: 'Información Regulatoria: SMH Markets es un nombre comercial de SMH Capital Advisors LLC y SMH Finance LLP. SMH Capital Advisors LLC está autorizado y regulado por las autoridades financieras pertinentes. Todos los fondos de los clientes se mantienen en cuentas segregadas en bancos de primer nivel para máxima seguridad.',
+      jurisdiction: 'La información en este sitio web no está dirigida a residentes de ciertas jurisdicciones donde dicha distribución o uso sería contrario a la ley o regulación local. Por favor, consulte nuestros documentos legales para términos y condiciones completos.'
+    },
     about: {
       title: 'Sobre SMH Markets',
       subtitle: 'Tu socio de confianza en los mercados financieros globales'
