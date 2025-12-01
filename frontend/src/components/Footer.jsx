@@ -106,7 +106,7 @@ const Footer = () => {
               </li>
               <li>
                 <a 
-                  href="/documents/companies_house_document.pdf" 
+                  href="https://smh-markets.com/documents/companies_house_document.pdf" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-2 hover:text-green-500 transition-colors text-sm"
