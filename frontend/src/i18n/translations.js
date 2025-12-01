@@ -3594,6 +3594,28 @@ export const translations = {
       spreadsFrom15: 'Desde 1.5 pips',
       spreadsFrom06: 'Desde 0.6 pips'
     },
+    advancedTools: {
+      title: 'Herramientas Avanzadas',
+      advancedCharting: 'Gráficos Avanzados',
+      advancedChartingDesc: 'Herramientas de gráficos profesionales con más de 30 indicadores',
+      expertAdvisors: 'Expert Advisors',
+      expertAdvisorsDesc: 'Automatiza tus estrategias de trading con EAs',
+      mobileTrading: 'Trading Móvil',
+      mobileTradingDesc: 'Opera sobre la marcha con aplicaciones iOS y Android',
+      customIndicators: 'Indicadores Personalizados',
+      customIndicatorsDesc: 'Crea y usa indicadores técnicos personalizados',
+      oneClickTrading: 'Trading con Un Clic',
+      oneClickTradingDesc: 'Ejecuta operaciones instantáneamente con un clic',
+      marketAnalysis: 'Análisis de Mercado',
+      marketAnalysisDesc: 'Herramientas completas de análisis de mercado',
+      fastExecution: 'Ejecución Rápida',
+      fastExecutionDesc: 'Ejecución de órdenes ultrarrápida',
+      advancedCharts: 'Gráficos Avanzados',
+      advancedChartsDesc: 'Herramientas de gráficos profesionales',
+      cAlgoSupport: 'Soporte cAlgo',
+      cAlgoSupportDesc: 'Automatización de trading algorítmico',
+      learnMore: 'Saber más'
+    },
     homePlatforms: {
       mt4Desc: 'La plataforma de trading más popular del mundo',
       mt5Desc: 'Plataforma multi-activo de nueva generación',
