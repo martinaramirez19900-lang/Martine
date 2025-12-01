@@ -3576,6 +3576,24 @@ export const translations = {
       ctrader: 'Plataforma de trading profesional',
       smhEdge: 'Nuestra plataforma de trading propia'
     },
+    accountFeatures: {
+      instantExecution: 'Ejecución instantánea',
+      noCommission: 'Sin comisión',
+      swapFree: 'Opción sin swap',
+      support247: 'Soporte 24/7',
+      mobileTrading: 'Trading móvil',
+      demoAccount: 'Cuenta demo',
+      lowSpreads: 'Spreads bajos',
+      prioritySupport: 'Soporte prioritario',
+      advancedTools: 'Herramientas avanzadas',
+      dedicatedManager: 'Gestor dedicado',
+      premiumAnalytics: 'Análisis premium',
+      personalAdvisor: 'Asesor personal',
+      leverageUpTo200: 'Hasta 1:200',
+      leverageUpTo500: 'Hasta 1:500',
+      spreadsFrom15: 'Desde 1.5 pips',
+      spreadsFrom06: 'Desde 0.6 pips'
+    },
     homePlatforms: {
       mt4Desc: 'La plataforma de trading más popular del mundo',
       mt5Desc: 'Plataforma multi-activo de nueva generación',
