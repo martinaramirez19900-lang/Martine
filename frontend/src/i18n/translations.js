@@ -3151,7 +3151,61 @@ export const translations = {
       advancedCharts: 'Pokročilé grafy',
       advancedChartsDesc: 'Profesionálne nástroje grafov',
       cAlgoSupport: 'Podpora cAlgo',
-      cAlgoSupportDesc: 'Automatizácia algoritmického obchodovania'
+      cAlgoSupportDesc: 'Automatizácia algoritmického obchodovania',
+      learnMore: 'Viac informácií'
+    },
+    homePlatforms: {
+      mt4Desc: 'Najpopulárnejšia obchodná platforma na svete',
+      mt5Desc: 'Multiaktívová platforma novej generácie',
+      ctraderDesc: 'Profesionálna obchodná platforma',
+      edgeDesc: 'Naša vlastná obchodná platforma',
+      multipleTimeframes: 'Viacero časových rámcov',
+      economicCalendar: 'Ekonomický kalendár',
+      depthOfMarket: 'Hĺbka trhu',
+      levelIIPricing: 'Oceňovanie úrovne II',
+      cAlgoAutomation: 'Automatizácia cAlgo',
+      intuitiveInterface: 'Intuitívne rozhranie',
+      realTimeData: 'Dáta v reálnom čase'
+    },
+    riskWarning: {
+      title: 'Varovanie pred rizikom',
+      paragraph1: 'Obchodovanie s Forex, CFD a inými pákovanými produktmi zahŕňa významné riziko straty a nemusí byť vhodné pre všetkých investorov. Mali by ste starostlivo zvážiť svoje investičné ciele, úroveň skúseností a ochotu riskovať pred vykonaním akýchkoľvek investičných rozhodnutí.',
+      paragraph2: 'Vysoký stupeň pákového efektu dostupný pri obchodovaní s Forex a CFD môže pôsobiť proti vám aj pre vás. Pred rozhodnutím obchodovať s cudzou menou alebo iným finančným nástrojom by ste mali starostlivo zvážiť svoje investičné ciele, úroveň skúseností a ochotu riskovať. Mali by ste si byť vedomí všetkých rizík spojených s obchodovaním na marži a v prípade pochybností vyhľadať radu nezávislého finančného poradcu.',
+      paragraph3: 'Minulé výsledky nie sú zárukou budúcich výsledkov. Existuje možnosť, že utrpíte stratu časti alebo celej vašej počiatočnej investície, a preto by ste nemali investovať peniaze, ktoré si nemôžete dovoliť stratiť. Mali by ste si byť vedomí všetkých rizík spojených s obchodovaním a v prípade potreby vyhľadať radu nezávislého finančného poradcu.',
+      regulatory: 'Regulačné informácie: SMH Markets je obchodný názov SMH Capital Advisors LLC a SMH Finance LLP. SMH Capital Advisors LLC je autorizovaná a regulovaná príslušnými finančnými úradmi. Všetky prostriedky klientov sú držané na segregovaných účtoch v bankách prvej kategórie pre maximálnu bezpečnosť.',
+      jurisdiction: 'Informácie na tejto webovej stránke nie sú určené obyvateľom určitých jurisdikcií, kde by taká distribúcia alebo použitie bolo v rozpore s miestnymi zákonmi alebo predpismi. Pre kompletné podmienky a ustanovenia sa prosím obráťte na naše právne dokumenty.'
+    },
+    guides: {
+      title: 'Obchodné príručky',
+      subtitle: 'Komplexné príručky, ktoré vám pomôžu zvládnuť obchodné stratégie a analýzu trhu',
+      beginner: 'Začiatočník',
+      intermediate: 'Pokročilý',
+      allLevels: 'Všetky úrovne',
+      minutes: 'min',
+      startReading: 'Začať čítať',
+      guide1Title: 'Príručka pre začiatočníkov forex obchodovania',
+      guide1Desc: 'Naučte sa základy forex obchodovania, menové páry a analýzu trhu',
+      guide2Title: 'Základy technickej analýzy',
+      guide2Desc: 'Zvládnite grafické formácie, indikátory a stratégie technického obchodovania',
+      guide3Title: 'Stratégie riadenia rizík',
+      guide3Desc: 'Naučte sa chrániť svoj kapitál a efektívne riadiť obchodné riziká',
+      guide4Title: 'Psychológia obchodovania',
+      guide4Desc: 'Rozvíjajte mentálnu disciplínu potrebnú pre úspešné obchodovanie'
+    },
+    webinars: {
+      title: 'Živé obchodné webináre',
+      subtitle: 'Pripojte sa k našim expertným obchodníkom na živú analýzu trhu a Q&A stretnutia',
+      upcomingWebinars: 'Nadchádzajúce webináre',
+      registerNow: 'Registrovať sa teraz',
+      everyMonday: 'Každý pondelok, 10:00 GMT',
+      everyWednesday: 'Každú stredu, 14:00 GMT',
+      everyFriday: 'Každý piatok, 11:00 GMT',
+      webinar1Title: 'Analýza trhu a obchodné stratégie',
+      webinar1Desc: 'Živá analýza trhu a diskusia o aktuálnych obchodných príležitostiach',
+      webinar2Title: 'Majstrovská trieda technickej analýzy',
+      webinar2Desc: 'Hlboké ponorenie do pokročilých techník technickej analýzy',
+      webinar3Title: 'Forex obchodovanie pre začiatočníkov',
+      webinar3Desc: 'Úvod do základov a fundamentov forex obchodovania'
     },
     pricingFees: {
       whatWeCharge: 'Čo účtujeme',
