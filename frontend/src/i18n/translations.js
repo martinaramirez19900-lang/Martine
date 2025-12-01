@@ -3782,6 +3782,28 @@ export const translations = {
       spreadsFrom15: 'Vanaf 1.5 pips',
       spreadsFrom06: 'Vanaf 0.6 pips'
     },
+    advancedTools: {
+      title: 'Gevorderde Gereedskap',
+      advancedCharting: 'Gevorderde Grafieke',
+      advancedChartingDesc: 'Professionele grafiekgereedskap met 30+ aanwysers',
+      expertAdvisors: 'Kundige Adviseurs',
+      expertAdvisorsDesc: 'Outomatiseer jou handelsstrategieë met EAs',
+      mobileTrading: 'Mobiele Handel',
+      mobileTradingDesc: 'Handel onderweg met iOS en Android programme',
+      customIndicators: 'Aangepaste Aanwysers',
+      customIndicatorsDesc: 'Skep en gebruik aangepaste tegniese aanwysers',
+      oneClickTrading: 'Een-klik Handel',
+      oneClickTradingDesc: 'Voer transaksies onmiddellik uit met een klik',
+      marketAnalysis: 'Mark Analise',
+      marketAnalysisDesc: 'Omvattende mark analise gereedskap',
+      fastExecution: 'Vinnige Uitvoering',
+      fastExecutionDesc: 'Bliksemvinnige opdrag uitvoering',
+      advancedCharts: 'Gevorderde Grafieke',
+      advancedChartsDesc: 'Professionele grafiekgereedskap',
+      cAlgoSupport: 'cAlgo Ondersteuning',
+      cAlgoSupportDesc: 'Algoritmiese handel outomatisering',
+      learnMore: 'Leer meer'
+    },
     homePlatforms: {
       mt4Desc: 'Die wêreld se gewildste handelsplatform',
       mt5Desc: 'Volgende generasie multi-bate platform',
