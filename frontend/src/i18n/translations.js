@@ -3836,6 +3836,38 @@ export const translations = {
       cAlgoSupportDesc: 'Algoritmiese handel outomatisering',
       learnMore: 'Leer meer'
     },
+    guides: {
+      title: 'Handel Gidse',
+      subtitle: 'Omvattende gidse om jou te help om handelsstrategieë en markanalise te bemeester',
+      beginner: 'Beginner',
+      intermediate: 'Intermediêr',
+      allLevels: 'Alle Vlakke',
+      minutes: 'min',
+      startReading: 'Begin Lees',
+      guide1Title: 'Beginner se Gids vir Forex Handel',
+      guide1Desc: 'Leer die basiese beginsels van forex handel, valutapare en markanalise',
+      guide2Title: 'Tegniese Analise Grondslag',
+      guide2Desc: 'Bemeester grafiekpatrone, aanwysers en tegniese handelsstrategieë',
+      guide3Title: 'Risiko Bestuur Strategieë',
+      guide3Desc: 'Leer hoe om jou kapitaal te beskerm en handelsrisiko\'s effektief te bestuur',
+      guide4Title: 'Handel Sielkunde',
+      guide4Desc: 'Ontwikkel die geestelike dissipline wat nodig is vir suksesvolle handel'
+    },
+    webinars: {
+      title: 'Lewendige Handel Webinars',
+      subtitle: 'Sluit aan by ons kundige handelaars vir lewendige markanalise en vraag-en-antwoord sessies',
+      upcomingWebinars: 'Opkomende Webinars',
+      registerNow: 'Registreer Nou',
+      everyMonday: 'Elke Maandag, 10:00 AM GMT',
+      everyWednesday: 'Elke Woensdag, 2:00 PM GMT',
+      everyFriday: 'Elke Vrydag, 11:00 AM GMT',
+      webinar1Title: 'Mark Analise en Handel Strategieë',
+      webinar1Desc: 'Lewendige markanalise en bespreking van huidige handelsgeleenthede',
+      webinar2Title: 'Tegniese Analise Meesterklas',
+      webinar2Desc: 'Diepgaande duik in gevorderde tegniese analise tegnieke',
+      webinar3Title: 'Forex Handel vir Beginners',
+      webinar3Desc: 'Inleiding tot forex handel basiese beginsels en grondbeginsels'
+    },
     homePlatforms: {
       mt4Desc: 'Die wêreld se gewildste handelsplatform',
       mt5Desc: 'Volgende generasie multi-bate platform',
