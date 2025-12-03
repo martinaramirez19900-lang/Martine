@@ -567,6 +567,20 @@ export const pageTranslations = {
       support: 'Ondersteuning',
       openAccount: 'Maak rekening oop'
     },
+    comparisonTable: {
+      title: 'Gedetailleerde Rekening Vergelyking',
+      feature: 'Funksie',
+      minDeposit: 'Minimum Deposito',
+      maxLeverage: 'Maksimum Hefboom',
+      spreadsFrom: 'Spreads vanaf',
+      commission: 'Kommissie',
+      expertAdvisors: 'Kundige Adviseurs',
+      islamicAccount: 'Islamitiese Rekening',
+      dedicatedSupport: 'Toegewyde Ondersteuning',
+      personalManager: 'Persoonlike Bestuurder',
+      priorityWithdrawals: 'Prioriteit Onttrekkings',
+      premiumAnalytics: 'Premium Analise'
+    },
     pricing: {
       title: 'Deursigtige pryse',
       subtitle: 'Geen versteekte fooie, mededingende spreads',
