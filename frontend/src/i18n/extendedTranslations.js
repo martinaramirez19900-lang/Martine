@@ -322,6 +322,11 @@ export const extendedTranslations = {
       marketsTools: 'Mercados y Herramientas',
       knowledgeHub: 'Centro de Conocimiento',
       company: 'Empresa',
+      // Section headers
+      accountsPlatforms: 'Cuentas y plataformas',
+      tradingServices: 'Servicios de trading',
+      marketsSection: 'Mercados',
+      tradingTools: 'Herramientas de trading',
       openAccount: 'Abrir cuenta de trading',
       accountTypes: 'Tipos de cuenta',
       pricingModel: 'Modelo de precios',
