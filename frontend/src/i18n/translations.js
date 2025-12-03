@@ -2191,7 +2191,9 @@ export const translations = {
       legal: 'Yasal',
       followUs: 'Bizi Takip Edin',
       riskWarning: 'Risk Uyarısı: CFD ve kaldıraçlı ürünlerle işlem yapmak yüksek risk taşır ve tüm yatırımcılar için uygun olmayabilir.',
-      copyright: '© 2025 SMH Markets. Tüm hakları saklıdır.'
+      copyright: '© 2025 SMH Markets. Tüm hakları saklıdır.',
+      phoneNumber: '+1 647 948 1664',
+      phoneLabel: 'Uluslararası'
     },
     about: {
       title: 'SMH Markets Hakkında',
