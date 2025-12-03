@@ -3780,7 +3780,9 @@ export const translations = {
       legal: 'Wetlik',
       followUs: 'Volg Ons',
       riskWarning: 'Risiko Waarskuwing: Handel in CFD\'s en gehefde produkte dra \'n hoë risiko en is dalk nie geskik vir alle beleggers nie.',
-      copyright: '© 2025 SMH Markets. Alle regte voorbehou.'
+      copyright: '© 2025 SMH Markets. Alle regte voorbehou.',
+      phoneNumber: '+27 21 879 9597',
+      phoneLabel: 'Suid-Afrika'
     },
     riskWarning: {
       title: 'Risiko Waarskuwing',
