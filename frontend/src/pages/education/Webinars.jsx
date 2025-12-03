@@ -10,33 +10,36 @@ const Webinars = () => {
   const upcomingWebinars = [
     {
       id: 1,
-      title: 'Advanced Forex Trading Strategies',
-      instructor: 'John Mitchell',
-      date: 'Jan 15, 2025',
-      time: '14:00 GMT',
+      title: t.webinars?.webinar1Title || 'Market Analysis & Trading Strategies',
+      instructor: 'John Smith',
+      date: t.webinars?.everyMonday || 'Every Monday, 10:00 AM GMT',
+      time: '10:00 AM GMT',
       duration: '60 min',
       level: 'Advanced',
-      attendees: 234
+      attendees: 234,
+      description: t.webinars?.webinar1Desc || 'Live market analysis and discussion of current trading opportunities'
     },
     {
       id: 2,
-      title: 'Introduction to Technical Analysis',
-      instructor: 'Sarah Chen',
-      date: 'Jan 18, 2025',
-      time: '16:00 GMT',
+      title: t.webinars?.webinar2Title || 'Technical Analysis Masterclass',
+      instructor: 'Sarah Johnson',
+      date: t.webinars?.everyWednesday || 'Every Wednesday, 2:00 PM GMT',
+      time: '2:00 PM GMT',
       duration: '45 min',
       level: 'Beginner',
-      attendees: 456
+      attendees: 456,
+      description: t.webinars?.webinar2Desc || 'Deep dive into advanced technical analysis techniques'
     },
     {
       id: 3,
-      title: 'Risk Management Essentials',
-      instructor: 'Michael Brown',
-      date: 'Jan 22, 2025',
-      time: '15:00 GMT',
+      title: t.webinars?.webinar3Title || 'Forex Trading for Beginners',
+      instructor: 'Mike Chen',
+      date: t.webinars?.everyFriday || 'Every Friday, 11:00 AM GMT',
+      time: '11:00 AM GMT',
       duration: '50 min',
       level: 'Intermediate',
-      attendees: 321
+      attendees: 321,
+      description: t.webinars?.webinar3Desc || 'Introduction to forex trading basics and fundamentals'
     }
   ];
 
@@ -44,9 +47,9 @@ const Webinars = () => {
     <div className="min-h-screen pt-20">
       <section className="py-20 px-4 bg-gradient-to-br from-gray-50 to-white">
         <div className="container mx-auto text-center">
-          <h1 className="text-6xl font-bold text-gray-900 mb-6">Live Webinars</h1>
+          <h1 className="text-6xl font-bold text-gray-900 mb-6">{t.webinars?.title || 'Live Trading Webinars'}</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Learn from expert traders in our free interactive webinar sessions
+            {t.webinars?.subtitle || 'Join our expert traders for live market analysis and Q&A sessions'}
           </p>
         </div>
       </section>
