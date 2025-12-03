@@ -3536,7 +3536,9 @@ export const translations = {
       legal: 'Legal',
       followUs: 'Síguenos',
       riskWarning: 'Advertencia de Riesgo: Operar con CFDs y productos apalancados conlleva un alto nivel de riesgo y puede no ser adecuado para todos los inversores.',
-      copyright: '© 2025 SMH Markets. Todos los derechos reservados.'
+      copyright: '© 2025 SMH Markets. Todos los derechos reservados.',
+      phoneNumber: '+1 939 320 2510',
+      phoneLabel: 'Puerto Rico'
     },
     riskWarning: {
       title: 'Advertencia de Riesgo',
