@@ -15,9 +15,9 @@ const CTrader = () => {
         <div className="container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h1 className="text-6xl font-bold text-gray-900 mb-6">cTrader</h1>
+              <h1 className="text-6xl font-bold text-gray-900 mb-6">{pt.platforms?.ctraderTitle || 'cTrader'}</h1>
               <p className="text-xl text-gray-600 mb-8">
-                {t.platformDesc?.ctrader || "Professional trading platform with advanced features"}
+                {pt.platforms?.ctraderSubtitle || "Professional trading platform"}
               </p>
               <Button 
                 size="lg" 
@@ -25,7 +25,7 @@ const CTrader = () => {
                 onClick={() => window.open('https://ctrader.com/', '_blank')}
               >
                 <Download className="mr-2 w-5 h-5" />
-                {pt.platforms?.downloadWindows || 'Download cTrader'}
+                {pt.platforms?.downloadCTrader || 'Download cTrader'}
               </Button>
             </div>
             <div>
