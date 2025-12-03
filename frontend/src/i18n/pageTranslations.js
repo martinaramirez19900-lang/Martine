@@ -35,6 +35,20 @@ export const pageTranslations = {
       support: 'Support',
       openAccount: 'Open Account'
     },
+    comparisonTable: {
+      title: 'Detailed Account Comparison',
+      feature: 'Feature',
+      minDeposit: 'Minimum Deposit',
+      maxLeverage: 'Maximum Leverage',
+      spreadsFrom: 'Spreads from',
+      commission: 'Commission',
+      expertAdvisors: 'Expert Advisors',
+      islamicAccount: 'Islamic Account',
+      dedicatedSupport: 'Dedicated Support',
+      personalManager: 'Personal Manager',
+      priorityWithdrawals: 'Priority Withdrawals',
+      premiumAnalytics: 'Premium Analytics'
+    },
     pricing: {
       title: 'Transparent Pricing',
       subtitle: 'No hidden fees, competitive spreads',
