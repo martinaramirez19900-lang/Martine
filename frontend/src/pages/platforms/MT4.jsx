@@ -47,15 +47,15 @@ const MT4 = () => {
 
       <section className="py-20 px-4">
         <div className="container mx-auto">
-          <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">{t.featureCards?.advancedTools?.title || 'Key Features'}</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">{pt.platforms?.advancedTools || 'Advanced Tools'}</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              { icon: Monitor, title: 'Advanced Charting', desc: 'Professional charting tools with 30+ indicators' },
-              { icon: Globe, title: 'Expert Advisors', desc: 'Automate your trading strategies with EAs' },
-              { icon: Smartphone, title: 'Mobile Trading', desc: 'Trade on the go with iOS and Android apps' },
-              { icon: Check, title: 'Custom Indicators', desc: 'Create and use custom technical indicators' },
-              { icon: Check, title: 'One-Click Trading', desc: 'Execute trades instantly with one click' },
-              { icon: Check, title: 'Market Analysis', desc: 'Comprehensive market analysis tools' }
+              { icon: Monitor, title: t.advancedTools?.advancedCharting || 'Advanced Charting', desc: t.advancedTools?.advancedChartingDesc || 'Professional charting tools with 30+ indicators' },
+              { icon: Globe, title: t.advancedTools?.expertAdvisors || 'Expert Advisors', desc: t.advancedTools?.expertAdvisorsDesc || 'Automate your trading strategies with EAs' },
+              { icon: Smartphone, title: t.advancedTools?.mobileTrading || 'Mobile Trading', desc: t.advancedTools?.mobileTradingDesc || 'Trade on the go with iOS and Android apps' },
+              { icon: Check, title: t.advancedTools?.customIndicators || 'Custom Indicators', desc: t.advancedTools?.customIndicatorsDesc || 'Create and use custom technical indicators' },
+              { icon: Check, title: t.advancedTools?.oneClickTrading || 'One-Click Trading', desc: t.advancedTools?.oneClickTradingDesc || 'Execute trades instantly with one click' },
+              { icon: Check, title: t.advancedTools?.marketAnalysis || 'Market Analysis', desc: t.advancedTools?.marketAnalysisDesc || 'Comprehensive market analysis tools' }
             ].map((feature, idx) => (
               <Card key={idx} className="p-6 hover:shadow-lg transition-all duration-300">
                 <feature.icon className="w-12 h-12 text-green-600 mb-4" />
