@@ -5,9 +5,10 @@ import { Button } from '../../components/ui/button';
 import { Card } from '../../components/ui/card';
 
 const TradingGuides = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
 
-  const guides = [
+  // Guides data - recreated when language changes
+  const guides = React.useMemo(() => [
     {
       id: 1,
       title: t.guides?.guide1Title || 'Beginner\'s Guide to Forex Trading',
