@@ -1515,7 +1515,9 @@ export const translations = {
       legal: 'Právní',
       followUs: 'Sledujte nás',
       riskWarning: 'Varování před rizikem: Obchodování s CFD a pákovanými produkty nese vysoké riziko a nemusí být vhodné pro všechny investory.',
-      copyright: '© 2025 SMH Markets. Všechna práva vyhrazena.'
+      copyright: '© 2025 SMH Markets. Všechna práva vyhrazena.',
+      phoneNumber: '+420 221 349 515',
+      phoneLabel: 'Česká republika'
     },
     about: {
       title: 'O SMH Markets',
