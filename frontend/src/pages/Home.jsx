@@ -511,7 +511,7 @@ const Home = () => {
                   {/* Main Barcelona Image */}
                   <div className="relative rounded-xl overflow-hidden shadow-2xl border-4 border-blue-600">
                     <img 
-                      src="https://customer-assets.emergentagent.com/job_github-site-extract/artifacts/3ylpm6re_image.png" 
+                      src="https://customer-assets.emergentagent.com/job_website-translator/artifacts/xo3anvd7_image.png" 
                       alt="FC Barcelona - SMH Markets Official Partner" 
                       className="w-full h-80 object-cover"
                     />
