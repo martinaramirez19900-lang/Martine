@@ -469,6 +469,20 @@ export const pageTranslations = {
       support: 'Soporte',
       openAccount: 'Abrir cuenta'
     },
+    comparisonTable: {
+      title: 'Comparación Detallada de Cuentas',
+      feature: 'Función',
+      minDeposit: 'Depósito Mínimo',
+      maxLeverage: 'Apalancamiento Máximo',
+      spreadsFrom: 'Spreads desde',
+      commission: 'Comisión',
+      expertAdvisors: 'Expert Advisors',
+      islamicAccount: 'Cuenta Islámica',
+      dedicatedSupport: 'Soporte Dedicado',
+      personalManager: 'Gestor Personal',
+      priorityWithdrawals: 'Retiros Prioritarios',
+      premiumAnalytics: 'Análisis Premium'
+    },
     pricing: {
       title: 'Precios transparentes',
       subtitle: 'Sin tarifas ocultas, spreads competitivos',
