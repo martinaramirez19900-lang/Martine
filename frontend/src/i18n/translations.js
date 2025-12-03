@@ -3676,6 +3676,17 @@ export const translations = {
       webinar3Title: 'Trading Forex para Principiantes',
       webinar3Desc: 'Introducción a los fundamentos y conceptos básicos del trading forex'
     },
+    tools: {
+      title: 'Herramientas de Trading',
+      subtitle: 'Herramientas profesionales de trading para mejorar tu análisis y toma de decisiones',
+      economicCalendar: 'Calendario Económico',
+      economicCalendarDesc: 'Mantente informado sobre próximos eventos económicos y su impacto en el mercado',
+      marketAnalysis: 'Análisis de Mercado',
+      marketAnalysisDesc: 'Accede a análisis diarios de mercado, insights y oportunidades de trading',
+      allInOneCalc: 'Calculadora Todo-en-Uno',
+      allInOneCalcDesc: 'Calcula valores de pip, requisitos de margen, tasas de swap y ganancias/pérdidas',
+      launchTool: 'Iniciar Herramienta'
+    },
     homePlatforms: {
       mt4Desc: 'La plataforma de trading más popular del mundo',
       mt5Desc: 'Plataforma multi-activo de nueva generación',
