@@ -73,7 +73,7 @@ const Webinars = () => {
             ))}
           </div>
 
-          <h2 className="text-4xl font-bold text-gray-900 mb-8">Upcoming Webinars</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-8">{t.webinars?.upcomingWebinars || 'Upcoming Webinars'}</h2>
           <div className="space-y-6">
             {upcomingWebinars.map((webinar) => (
               <Card key={webinar.id} className="p-8 hover:shadow-xl transition-all">
@@ -90,6 +90,7 @@ const Webinars = () => {
                       <span className="text-sm text-gray-600">{webinar.attendees} registered</span>
                     </div>
                     <h3 className="text-2xl font-bold text-gray-900 mb-3">{webinar.title}</h3>
+                    <p className="text-gray-600 mb-3">{webinar.description}</p>
                     <div className="flex flex-wrap gap-4 text-sm text-gray-600">
                       <span className="flex items-center">
                         <Users className="w-4 h-4 mr-2" />
@@ -107,7 +108,7 @@ const Webinars = () => {
                   </div>
                   <div className="flex items-center lg:justify-end">
                     <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white">
-                      Register Now
+                      {t.webinars?.registerNow || 'Register Now'}
                     </Button>
                   </div>
                 </div>
