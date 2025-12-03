@@ -15,9 +15,9 @@ const MT4 = () => {
         <div className="container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h1 className="text-6xl font-bold text-gray-900 mb-6">MetaTrader 4</h1>
+              <h1 className="text-6xl font-bold text-gray-900 mb-6">{pt.platforms?.mt4Title || 'MetaTrader 4'}</h1>
               <p className="text-xl text-gray-600 mb-8">
-                {t.platformDesc?.mt4 || "The world's most popular forex trading platform trusted by millions of traders"}
+                {pt.platforms?.mt4Subtitle || "The world's most popular trading platform"}
               </p>
               <div className="flex gap-4">
                 <Button 
@@ -26,7 +26,7 @@ const MT4 = () => {
                   onClick={() => window.open('https://www.metatrader4.com/', '_blank')}
                 >
                   <Download className="mr-2 w-5 h-5" />
-                  {pt.platforms?.downloadWindows || 'Download MT4'}
+                  {pt.platforms?.downloadMT4 || 'Download MT4'}
                 </Button>
                 <Button 
                   size="lg" 
@@ -34,7 +34,7 @@ const MT4 = () => {
                   onClick={() => window.open('https://www.metatrader4.com/', '_blank')}
                 >
                   <Globe className="mr-2 w-5 h-5" />
-                  {pt.platforms?.launchWeb || 'Web Platform'}
+                  {pt.platforms?.webPlatform || 'Web Platform'}
                 </Button>
               </div>
             </div>
