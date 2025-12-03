@@ -429,6 +429,33 @@ export const pageTranslations = {
       forManagers: 'Para Yöneticileri İçin',
       howItWorks: 'Nasıl Çalışır',
       benefits: 'Faydalar'
+    },
+    platforms: {
+      mt5Title: 'MetaTrader 5',
+      mt5Subtitle: 'Yeni nesil çoklu varlık işlem platformu',
+      mt4Title: 'MetaTrader 4',
+      mt4Subtitle: 'Dünyanın en popüler işlem platformu',
+      ctraderTitle: 'cTrader',
+      ctraderSubtitle: 'Profesyonel işlem platformu',
+      downloadMT5: 'MT5 İndir',
+      downloadMT4: 'MT4 İndir',
+      downloadCTrader: 'cTrader İndir',
+      webPlatform: 'Web Platformu',
+      desktop: 'Masaüstü',
+      web: 'Web',
+      mobile: 'Mobil',
+      mobileApps: 'Mobil Uygulamalar',
+      tradeOnGo: 'Mobil uygulamalarımızla hareket halindeyken işlem yapın',
+      downloadIOS: 'iOS için İndir',
+      downloadAndroid: 'Android için İndir',
+      downloadWindows: 'Windows için İndir',
+      downloadMac: 'Mac için İndir',
+      launchWeb: 'Web Platformunu Başlat',
+      advancedTools: 'Gelişmiş Araçlar',
+      desktopPlatform: 'Masaüstü Platformu',
+      desktopDesc: 'Windows ve Mac için profesyonel işlem platformu',
+      webPlatformDesc: 'Doğrudan tarayıcınızdan işlem yapın',
+      mobileDesc: 'iOS ve Android uygulamalarıyla her yerde işlem yapın'
     }
   },
   sk: {
