@@ -51,7 +51,7 @@ const VideoTutorials = () => {
       category: t.educationPages?.advanced || 'Advanced',
       views: '5K'
     }
-  ];
+  ], [t, language]);
 
   return (
     <div className="min-h-screen pt-20">
