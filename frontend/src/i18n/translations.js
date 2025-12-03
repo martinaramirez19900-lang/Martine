@@ -3825,10 +3825,18 @@ export const translations = {
       dedicatedManager: 'Toegewyde bestuurder',
       premiumAnalytics: 'Premium analise',
       personalAdvisor: 'Persoonlike adviseur',
+      virtualFunds: 'Virtuele fondse',
+      riskFreePractice: 'Risikovry oefening',
+      allPlatforms: 'Alle platforms',
+      fullFeatures: 'Vol funksies',
+      rawSpreads: 'Rou spreads',
+      vipSupport: 'VIP ondersteuning',
       leverageUpTo200: 'Tot 1:200',
       leverageUpTo500: 'Tot 1:500',
+      spreadsFrom12: 'Vanaf 1.2 pips',
       spreadsFrom15: 'Vanaf 1.5 pips',
-      spreadsFrom06: 'Vanaf 0.6 pips'
+      spreadsFrom06: 'Vanaf 0.6 pips',
+      spreadsFrom00: 'Vanaf 0.0 pips'
     },
     advancedTools: {
       title: 'Gevorderde Gereedskap',
