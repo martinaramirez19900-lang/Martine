@@ -37,12 +37,12 @@ const CTrader = () => {
 
       <section className="py-20 px-4 bg-gray-50">
         <div className="container mx-auto">
-          <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">{t.featureCards?.advancedTools?.title || 'Key Features'}</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">{pt.platforms?.advancedTools || 'Advanced Tools'}</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { icon: Zap, title: 'Fast Execution', desc: 'Lightning-fast order execution' },
-              { icon: TrendingUp, title: 'Advanced Charts', desc: 'Professional charting tools' },
-              { icon: BarChart3, title: 'cAlgo Support', desc: 'Algorithmic trading automation' }
+              { icon: Zap, title: t.advancedTools?.fastExecution || 'Fast Execution', desc: t.advancedTools?.fastExecutionDesc || 'Lightning-fast order execution' },
+              { icon: TrendingUp, title: t.advancedTools?.advancedCharts || 'Advanced Charts', desc: t.advancedTools?.advancedChartsDesc || 'Professional charting tools' },
+              { icon: BarChart3, title: t.advancedTools?.cAlgoSupport || 'cAlgo Support', desc: t.advancedTools?.cAlgoSupportDesc || 'Algorithmic trading automation' }
             ].map((feature, idx) => (
               <Card key={idx} className="p-6 text-center hover:shadow-lg transition-all">
                 <feature.icon className="w-12 h-12 text-green-600 mx-auto mb-4" />
