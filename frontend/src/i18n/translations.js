@@ -839,7 +839,9 @@ export const translations = {
       legal: 'Prawne',
       followUs: 'Śledź nas',
       riskWarning: 'Ostrzeżenie o ryzyku: Handel kontraktami CFD i produktami lewarowanymi wiąże się z wysokim ryzykiem i może nie być odpowiedni dla wszystkich inwestorów.',
-      copyright: '© 2025 SMH Markets. Wszelkie prawa zastrzeżone.'
+      copyright: '© 2025 SMH Markets. Wszelkie prawa zastrzeżone.',
+      phoneNumber: '+48 42 202 8911',
+      phoneLabel: 'Polska'
     },
     about: {
       title: 'O SMH Markets',
