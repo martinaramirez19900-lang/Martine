@@ -7,6 +7,11 @@ export const extendedTranslations = {
       marketsTools: 'Markets & Tools',
       knowledgeHub: 'Knowledge Hub',
       company: 'Company',
+      // Section headers
+      accountsPlatforms: 'Accounts & Platforms',
+      tradingServices: 'Trading Services',
+      marketsSection: 'Markets',
+      tradingTools: 'Trading Tools',
       // Trading submenu
       openAccount: 'Open Trading Account',
       accountTypes: 'Account Types',
