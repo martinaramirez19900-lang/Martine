@@ -63,11 +63,9 @@ const Footer = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-green-500" />
-                <span className="text-sm">+1 787 945 2353</span>
-              </li>
-              <li className="flex items-center space-x-3">
-                <Phone className="w-5 h-5 text-green-500" />
-                <span className="text-sm">+1 787 945 2350</span>
+                <a href={`tel:${t.footer?.phoneNumber?.replace(/\s/g, '') || '+16479481664'}`} className="text-sm hover:text-green-500 transition-colors">
+                  {t.footer?.phoneNumber || '+1 647 948 1664'} ({t.footer?.phoneLabel || 'International'})
+                </a>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-green-500" />
