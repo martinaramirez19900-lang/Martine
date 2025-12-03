@@ -10,31 +10,31 @@ const TradingGuides = () => {
   const guides = [
     {
       id: 1,
-      title: 'Beginner\'s Guide to Forex Trading',
-      description: 'Learn the basics of forex trading, currency pairs, and market analysis',
-      level: 'Beginner',
-      duration: '30 min'
+      title: t.guides?.guide1Title || 'Beginner\'s Guide to Forex Trading',
+      description: t.guides?.guide1Desc || 'Learn the basics of forex trading, currency pairs, and market analysis',
+      level: t.guides?.beginner || 'Beginner',
+      duration: `30 ${t.guides?.minutes || 'min'}`
     },
     {
       id: 2,
-      title: 'Technical Analysis Fundamentals',
-      description: 'Master chart patterns, indicators, and technical trading strategies',
-      level: 'Intermediate',
-      duration: '45 min'
+      title: t.guides?.guide2Title || 'Technical Analysis Fundamentals',
+      description: t.guides?.guide2Desc || 'Master chart patterns, indicators, and technical trading strategies',
+      level: t.guides?.intermediate || 'Intermediate',
+      duration: `45 ${t.guides?.minutes || 'min'}`
     },
     {
       id: 3,
-      title: 'Risk Management Strategies',
-      description: 'Learn how to protect your capital and manage trading risks effectively',
-      level: 'All Levels',
-      duration: '25 min'
+      title: t.guides?.guide3Title || 'Risk Management Strategies',
+      description: t.guides?.guide3Desc || 'Learn how to protect your capital and manage trading risks effectively',
+      level: t.guides?.allLevels || 'All Levels',
+      duration: `25 ${t.guides?.minutes || 'min'}`
     },
     {
       id: 4,
-      title: 'Trading Psychology',
-      description: 'Develop the mental discipline needed for successful trading',
-      level: 'All Levels',
-      duration: '40 min'
+      title: t.guides?.guide4Title || 'Trading Psychology',
+      description: t.guides?.guide4Desc || 'Develop the mental discipline needed for successful trading',
+      level: t.guides?.allLevels || 'All Levels',
+      duration: `40 ${t.guides?.minutes || 'min'}`
     }
   ];
 
@@ -43,9 +43,9 @@ const TradingGuides = () => {
       {/* Hero */}
       <section className="py-20 px-4 bg-gradient-to-br from-green-50 to-white">
         <div className="container mx-auto text-center">
-          <h1 className="text-6xl font-bold text-gray-900 mb-6">Trading Guides</h1>
+          <h1 className="text-6xl font-bold text-gray-900 mb-6">{t.guides?.title || 'Trading Guides'}</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Comprehensive guides to help you master trading strategies and market analysis
+            {t.guides?.subtitle || 'Comprehensive guides to help you master trading strategies and market analysis'}
           </p>
         </div>
       </section>
@@ -73,7 +73,7 @@ const TradingGuides = () => {
                       className="bg-green-600 hover:bg-green-700 text-white"
                       onClick={() => window.location.href = 'https://trd.smh-markets.net/'}
                     >
-                      Start Reading
+                      {t.guides?.startReading || 'Start Reading'}
                       <ArrowRight className="ml-2 w-4 h-4" />
                     </Button>
                   </div>
