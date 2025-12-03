@@ -16,9 +16,9 @@ const MT5 = () => {
         <div className="container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h1 className="text-6xl font-bold text-gray-900 mb-6">MetaTrader 5</h1>
+              <h1 className="text-6xl font-bold text-gray-900 mb-6">{pt.platforms?.mt5Title || 'MetaTrader 5'}</h1>
               <p className="text-xl text-gray-600 mb-8">
-                {t.platformDesc?.mt5 || "Next generation multi-asset trading platform"}
+                {pt.platforms?.mt5Subtitle || "Next generation multi-asset trading platform"}
               </p>
               <div className="flex gap-4">
                 <Button 
@@ -27,7 +27,7 @@ const MT5 = () => {
                   onClick={() => window.open('https://www.metatrader5.com/en', '_blank')}
                 >
                   <Download className="mr-2 w-5 h-5" />
-                  {pt.platforms?.downloadWindows || 'Download MT5'}
+                  {pt.platforms?.downloadMT5 || 'Download MT5'}
                 </Button>
                 <Button 
                   size="lg" 
@@ -35,7 +35,7 @@ const MT5 = () => {
                   onClick={() => window.open('https://www.metatrader5.com/en', '_blank')}
                 >
                   <Globe className="mr-2 w-5 h-5" />
-                  {pt.platforms?.launchWeb || 'Web Platform'}
+                  {pt.platforms?.webPlatform || 'Web Platform'}
                 </Button>
               </div>
             </div>
