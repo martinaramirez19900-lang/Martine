@@ -429,10 +429,18 @@ export const translations = {
       dedicatedManager: 'Dedicated manager',
       premiumAnalytics: 'Premium analytics',
       personalAdvisor: 'Personal advisor',
+      virtualFunds: 'Virtual funds',
+      riskFreePractice: 'Risk-free practice',
+      allPlatforms: 'All platforms',
+      fullFeatures: 'Full features',
+      rawSpreads: 'Raw spreads',
+      vipSupport: 'VIP support',
       leverageUpTo200: 'Up to 1:200',
       leverageUpTo500: 'Up to 1:500',
+      spreadsFrom12: 'From 1.2 pips',
       spreadsFrom15: 'From 1.5 pips',
-      spreadsFrom06: 'From 0.6 pips'
+      spreadsFrom06: 'From 0.6 pips',
+      spreadsFrom00: 'From 0.0 pips'
     },
     joinTraders: {
       title: 'Join Successful Traders',
