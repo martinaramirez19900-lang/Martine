@@ -10,23 +10,23 @@ const VideoTutorials = () => {
   const videos = [
     {
       id: 1,
-      title: 'Introduction to Forex Trading',
+      title: t.guides?.guide1Title || 'Introduction to Forex Trading',
       duration: '15:30',
-      category: t.educationPages?.beginner || 'Beginner',
+      category: t.guides?.beginner || 'Beginner',
       views: '10K'
     },
     {
       id: 2,
-      title: 'Technical Analysis Basics',
+      title: t.guides?.guide2Title?.replace('Fundamentals', 'Basics') || 'Technical Analysis Basics',
       duration: '20:45',
-      category: t.educationPages?.beginner || 'Beginner',
+      category: t.guides?.beginner || 'Beginner',
       views: '8K'
     },
     {
       id: 3,
-      title: 'Risk Management Strategies',
+      title: t.guides?.guide3Title || 'Risk Management Strategies',
       duration: '18:20',
-      category: t.educationPages?.intermediate || 'Intermediate',
+      category: t.guides?.intermediate || 'Intermediate',
       views: '12K'
     },
     {
@@ -38,9 +38,9 @@ const VideoTutorials = () => {
     },
     {
       id: 5,
-      title: 'Trading Psychology',
+      title: t.guides?.guide4Title || 'Trading Psychology',
       duration: '22:35',
-      category: t.educationPages?.intermediate || 'Intermediate',
+      category: t.guides?.intermediate || 'Intermediate',
       views: '9K'
     },
     {
