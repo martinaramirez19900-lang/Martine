@@ -540,6 +540,33 @@ export const pageTranslations = {
       forManagers: 'Pre správcov',
       howItWorks: 'Ako to funguje',
       benefits: 'Výhody'
+    },
+    platforms: {
+      mt5Title: 'MetaTrader 5',
+      mt5Subtitle: 'Multi-asset platforma novej generácie',
+      mt4Title: 'MetaTrader 4',
+      mt4Subtitle: 'Najpopulárnejšia obchodná platforma na svete',
+      ctraderTitle: 'cTrader',
+      ctraderSubtitle: 'Profesionálna obchodná platforma',
+      downloadMT5: 'Stiahnuť MT5',
+      downloadMT4: 'Stiahnuť MT4',
+      downloadCTrader: 'Stiahnuť cTrader',
+      webPlatform: 'Webová platforma',
+      desktop: 'Desktop',
+      web: 'Web',
+      mobile: 'Mobilná',
+      mobileApps: 'Mobilné aplikácie',
+      tradeOnGo: 'Obchodujte na cestách s našimi mobilnými aplikáciami',
+      downloadIOS: 'Stiahnuť pre iOS',
+      downloadAndroid: 'Stiahnuť pre Android',
+      downloadWindows: 'Stiahnuť pre Windows',
+      downloadMac: 'Stiahnuť pre Mac',
+      launchWeb: 'Spustiť webovú platformu',
+      advancedTools: 'Pokročilé nástroje',
+      desktopPlatform: 'Desktopová platforma',
+      desktopDesc: 'Profesionálna obchodná platforma pre Windows a Mac',
+      webPlatformDesc: 'Obchodujte priamo z prehliadača',
+      mobileDesc: 'Obchodujte kdekoľvek s aplikáciami iOS a Android'
     }
   },
   es: {
