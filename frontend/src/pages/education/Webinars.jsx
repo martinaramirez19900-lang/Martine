@@ -8,6 +8,11 @@ import { Badge } from '../../components/ui/badge';
 const Webinars = () => {
   const { t, language } = useLanguage();
   
+  // Debug: log webinars translations
+  console.log('Current language:', language);
+  console.log('t.webinars:', t.webinars);
+  console.log('t.webinars?.webinar1Title:', t.webinars?.webinar1Title);
+  
   // Webinars data - recreated when language changes
   const upcomingWebinars = React.useMemo(() => [
     {
