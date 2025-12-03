@@ -43,7 +43,7 @@ const Webinars = () => {
       attendees: 321,
       description: t.webinars?.webinar3Desc || 'Introduction to forex trading basics and fundamentals'
     }
-  ];
+  ], [t, language]);
 
   return (
     <div className="min-h-screen pt-20">
