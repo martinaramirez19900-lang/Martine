@@ -56,15 +56,15 @@ const MT5 = () => {
             </TabsList>
             <TabsContent value="desktop" className="mt-6">
               <Card className="p-8">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">Desktop Platform</h3>
-                <p className="text-gray-600 mb-6">Professional trading platform for Windows and Mac</p>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">{pt.platforms?.desktopPlatform || 'Desktop Platform'}</h3>
+                <p className="text-gray-600 mb-6">{pt.platforms?.desktopDesc || 'Professional trading platform for Windows and Mac'}</p>
                 <div className="space-y-3">
                   <Button 
                     className="w-full bg-green-600 hover:bg-green-700 text-white justify-start"
                     onClick={() => window.open('https://www.metatrader5.com/en', '_blank')}
                   >
                     <Download className="w-5 h-5 mr-2" />
-                    Download for Windows
+                    {pt.platforms?.downloadWindows || 'Download for Windows'}
                   </Button>
                   <Button 
                     variant="outline" 
@@ -72,35 +72,35 @@ const MT5 = () => {
                     onClick={() => window.open('https://www.metatrader5.com/en', '_blank')}
                   >
                     <Download className="w-5 h-5 mr-2" />
-                    Download for Mac
+                    {pt.platforms?.downloadMac || 'Download for Mac'}
                   </Button>
                 </div>
               </Card>
             </TabsContent>
             <TabsContent value="web" className="mt-6">
               <Card className="p-8">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">Web Platform</h3>
-                <p className="text-gray-600 mb-6">Trade directly from your browser without downloads</p>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">{pt.platforms?.webPlatform || 'Web Platform'}</h3>
+                <p className="text-gray-600 mb-6">{pt.platforms?.webPlatformDesc || 'Trade directly from your browser'}</p>
                 <Button 
                   className="w-full bg-green-600 hover:bg-green-700 text-white"
                   onClick={() => window.open('https://www.metatrader5.com/en', '_blank')}
                 >
                   <Globe className="w-5 h-5 mr-2" />
-                  Launch Web Platform
+                  {pt.platforms?.launchWeb || 'Launch Web Platform'}
                 </Button>
               </Card>
             </TabsContent>
             <TabsContent value="mobile" className="mt-6">
               <Card className="p-8">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">Mobile Apps</h3>
-                <p className="text-gray-600 mb-6">Trade on the go with our mobile applications</p>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">{pt.platforms?.mobileApps || 'Mobile Apps'}</h3>
+                <p className="text-gray-600 mb-6">{pt.platforms?.tradeOnGo || 'Trade on the go with our mobile applications'}</p>
                 <div className="space-y-3">
                   <Button 
                     className="w-full bg-green-600 hover:bg-green-700 text-white justify-start"
                     onClick={() => window.open('https://www.metatrader5.com/en', '_blank')}
                   >
                     <Download className="w-5 h-5 mr-2" />
-                    Download for iOS
+                    {pt.platforms?.downloadIOS || 'Download for iOS'}
                   </Button>
                   <Button 
                     variant="outline" 
@@ -108,7 +108,7 @@ const MT5 = () => {
                     onClick={() => window.open('https://www.metatrader5.com/en', '_blank')}
                   >
                     <Download className="w-5 h-5 mr-2" />
-                    Download for Android
+                    {pt.platforms?.downloadAndroid || 'Download for Android'}
                   </Button>
                 </div>
               </Card>
