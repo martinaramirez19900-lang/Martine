@@ -790,6 +790,33 @@ export const pageTranslations = {
       forManagers: 'Vir geldbestuurders',
       howItWorks: 'Hoe dit werk',
       benefits: 'Voordele'
+    },
+    platforms: {
+      mt5Title: 'MetaTrader 5',
+      mt5Subtitle: 'Volgende generasie multi-bate handelsplatform',
+      mt4Title: 'MetaTrader 4',
+      mt4Subtitle: 'Die wêreld se gewildste handelsplatform',
+      ctraderTitle: 'cTrader',
+      ctraderSubtitle: 'Professionele handelsplatform',
+      downloadMT5: 'Laai MT5 af',
+      downloadMT4: 'Laai MT4 af',
+      downloadCTrader: 'Laai cTrader af',
+      webPlatform: 'Web Platform',
+      desktop: 'Werkskerm',
+      web: 'Web',
+      mobile: 'Mobiel',
+      mobileApps: 'Mobiele toepassings',
+      tradeOnGo: 'Handel onderweg met ons mobiele toepassings',
+      downloadIOS: 'Laai af vir iOS',
+      downloadAndroid: 'Laai af vir Android',
+      downloadWindows: 'Laai af vir Windows',
+      downloadMac: 'Laai af vir Mac',
+      launchWeb: 'Begin web platform',
+      advancedTools: 'Gevorderde gereedskap',
+      desktopPlatform: 'Werkskerm Platform',
+      desktopDesc: 'Professionele handelsplatform vir Windows en Mac',
+      webPlatformDesc: 'Handel direk vanaf jou webblaaier',
+      mobileDesc: 'Handel oral met iOS en Android toepassings'
     }
   }
 };
