@@ -380,7 +380,21 @@ test_plan:
         agent: "testing"
         comment: "🚨 CRITICAL TURKISH WEBINARS TRANSLATION TEST FAILED! Comprehensive testing reveals MAJOR translation system failure: ✅ TEST SETUP SUCCESSFUL: Successfully opened webinars page, performed hard refresh, found language selector, clicked Turkish (TR) option, waited 3 seconds. ❌ CRITICAL FAILURE - NO TRANSLATION OCCURRING: Despite successful language switching to Turkish, ALL content remains in English: Main title still 'Live Trading Webinars' instead of 'Canlı İşlem Webinarları', subtitle still English instead of containing 'Canlı piyasa analizi', 'Upcoming Webinars' still English instead of 'Yaklaşan Webinarlar', all 3 webinar titles remain English ('Market Analysis & Trading Strategies', 'Technical Analysis Masterclass', 'Forex Trading for Beginners'), all 'Register Now' buttons remain English. ✅ LANGUAGE SELECTOR UI WORKING: Globe icon functions, dropdown shows Turkish, clicking switches to TR flag. ❌ TRANSLATION ENGINE BROKEN: Language switching mechanism completely non-functional - UI changes but content translation does not occur. 🚨 URGENT: Translation system needs immediate debugging. Language context/provider not updating component translations despite UI state changes. Critical production issue affecting all Turkish users."
 
+  - task: "Spanish Translations for Tools Pages (Economic Calendar, Market News)"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/i18n/translations.js"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Added comprehensive Spanish translations for Economic Calendar and Market News pages. Added economicCalendar section with 30+ translation keys (title, subtitle, descriptions, key indicators, how-to-use steps, CTA, disclaimer). Added marketNews section with 30+ translation keys (title, subtitle, descriptions, key categories, how-to-use steps, CTA, disclaimer). Tools page already had basic Spanish translations. All three pages now have complete Spanish translations. Frontend restarted successfully. Need testing to verify: 1) Economic Calendar page (/tools/economic-calendar) translates to Spanish, 2) Market News page (/tools/market-news) translates to Spanish, 3) Tools page (/tools/calculator) Spanish translations work correctly, 4) All sections translate properly (hero, descriptions, feature cards, steps, CTAs, disclaimers), 5) Language switching works via Globe icon."
+
 agent_communication:
+  - agent: "main"
+    message: "SPANISH TRANSLATIONS ADDED: Implemented comprehensive Spanish translations for 3 tools pages: 1) Economic Calendar - added full economicCalendar section with 30+ keys including title, subtitle, descriptions (what is economic calendar, how it helps traders), key indicators (GDP Reports, Employment Data, Interest Rates, Inflation), impact levels (High Impact, Very High Impact), how-to-use steps (Plan Ahead, Analyze Expectations, Manage Risk), CTA section, important note and disclaimer. 2) Market News - added full marketNews section with 30+ keys including title, subtitle, descriptions (why news matters, how it helps), key categories (Global Markets, Business & Economy, Central Banks, Geopolitics), how-to-use steps (Stay Updated, Analyze Impact, Act Decisively), CTA section, important note and disclaimer. 3) Tools page already had basic Spanish translations. Frontend restarted successfully. Ready for comprehensive testing across all 3 pages to verify Spanish translations work correctly."
   - agent: "main"
     message: "ROUND 9: Added complete translations for Company pages (Regulation, Security, Careers, Contact) across all 5 languages (EN, PL, CZ, TR, SK). Updated translations.js with 4 new sections: regulation (title, subtitle, 3 feature cards), security (title, subtitle, 4 feature cards), careers (title, subtitle, 3 feature cards, contact button), contactPage (form fields, contact info, 4 contact cards). Updated all 4 page components to use translation keys instead of hardcoded text. Frontend compiled successfully. Ready for comprehensive testing of all company pages translation functionality."
   - agent: "testing"
