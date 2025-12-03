@@ -6,8 +6,10 @@ import { Button } from '../../components/ui/button';
 import { Badge } from '../../components/ui/badge';
 
 const Webinars = () => {
-  const { t } = useLanguage();
-  const upcomingWebinars = [
+  const { t, language } = useLanguage();
+  
+  // Webinars data - recreated when language changes
+  const upcomingWebinars = React.useMemo(() => [
     {
       id: 1,
       title: t.webinars?.webinar1Title || 'Market Analysis & Trading Strategies',
