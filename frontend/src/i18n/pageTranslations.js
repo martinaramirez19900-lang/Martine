@@ -207,6 +207,33 @@ export const pageTranslations = {
       forManagers: 'Dla zarządzających',
       howItWorks: 'Jak to działa',
       benefits: 'Korzyści'
+    },
+    platforms: {
+      mt5Title: 'MetaTrader 5',
+      mt5Subtitle: 'Wielozasobowa platforma handlowa nowej generacji',
+      mt4Title: 'MetaTrader 4',
+      mt4Subtitle: 'Najpopularniejsza platforma handlowa na świecie',
+      ctraderTitle: 'cTrader',
+      ctraderSubtitle: 'Profesjonalna platforma handlowa',
+      downloadMT5: 'Pobierz MT5',
+      downloadMT4: 'Pobierz MT4',
+      downloadCTrader: 'Pobierz cTrader',
+      webPlatform: 'Platforma internetowa',
+      desktop: 'Desktop',
+      web: 'Web',
+      mobile: 'Mobilna',
+      mobileApps: 'Aplikacje mobilne',
+      tradeOnGo: 'Handluj w ruchu z naszymi aplikacjami mobilnymi',
+      downloadIOS: 'Pobierz dla iOS',
+      downloadAndroid: 'Pobierz dla Android',
+      downloadWindows: 'Pobierz dla Windows',
+      downloadMac: 'Pobierz dla Mac',
+      launchWeb: 'Uruchom platformę internetową',
+      advancedTools: 'Zaawansowane narzędzia',
+      desktopPlatform: 'Platforma Desktop',
+      desktopDesc: 'Profesjonalna platforma handlowa dla Windows i Mac',
+      webPlatformDesc: 'Handluj bezpośrednio z przeglądarki',
+      mobileDesc: 'Handluj wszędzie z aplikacjami iOS i Android'
     }
   },
   cz: {
