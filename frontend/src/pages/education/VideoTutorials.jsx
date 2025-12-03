@@ -56,9 +56,9 @@ const VideoTutorials = () => {
     <div className="min-h-screen pt-20">
       <section className="py-20 px-4 bg-gradient-to-br from-purple-50 to-white">
         <div className="container mx-auto text-center">
-          <h1 className="text-6xl font-bold text-gray-900 mb-6">{t.educationPages?.videosTitle || 'Trading Videos'}</h1>
+          <h1 className="text-6xl font-bold text-gray-900 mb-6">{t.guides?.title?.replace('Guides', 'Videos') || 'Trading Videos'}</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            {t.educationPages?.videosSubtitle || 'Learn trading at your own pace with our comprehensive video library'}
+            {t.guides?.subtitle?.replace('guides', 'videos') || 'Learn trading at your own pace with our comprehensive video library'}
           </p>
         </div>
       </section>
