@@ -665,6 +665,33 @@ export const pageTranslations = {
       forManagers: 'Para gestores de fondos',
       howItWorks: 'Cómo funciona',
       benefits: 'Beneficios'
+    },
+    platforms: {
+      mt5Title: 'MetaTrader 5',
+      mt5Subtitle: 'Plataforma de trading multi-activo de nueva generación',
+      mt4Title: 'MetaTrader 4',
+      mt4Subtitle: 'La plataforma de trading más popular del mundo',
+      ctraderTitle: 'cTrader',
+      ctraderSubtitle: 'Plataforma de trading profesional',
+      downloadMT5: 'Descargar MT5',
+      downloadMT4: 'Descargar MT4',
+      downloadCTrader: 'Descargar cTrader',
+      webPlatform: 'Plataforma Web',
+      desktop: 'Escritorio',
+      web: 'Web',
+      mobile: 'Móvil',
+      mobileApps: 'Aplicaciones móviles',
+      tradeOnGo: 'Opera sobre la marcha con nuestras aplicaciones móviles',
+      downloadIOS: 'Descargar para iOS',
+      downloadAndroid: 'Descargar para Android',
+      downloadWindows: 'Descargar para Windows',
+      downloadMac: 'Descargar para Mac',
+      launchWeb: 'Lanzar plataforma web',
+      advancedTools: 'Herramientas avanzadas',
+      desktopPlatform: 'Plataforma de escritorio',
+      desktopDesc: 'Plataforma de trading profesional para Windows y Mac',
+      webPlatformDesc: 'Opera directamente desde tu navegador',
+      mobileDesc: 'Opera en cualquier lugar con aplicaciones iOS y Android'
     }
   },
   af: {
