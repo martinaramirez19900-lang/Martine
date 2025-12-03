@@ -145,76 +145,90 @@ const Accounts = () => {
       {/* Comparison Table */}
       <section className="py-20 px-4 bg-gray-50">
         <div className="container mx-auto">
-          <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">{t.whyChooseUs.detailedComparison}</h2>
+          <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">{pt.comparisonTable?.title || 'Detailed Account Comparison'}</h2>
           <div className="bg-white rounded-lg shadow-xl overflow-hidden">
             <div className="overflow-x-auto">
               <table className="w-full">
                 <thead className="bg-gray-900 text-white">
                   <tr>
-                    <th className="px-6 py-4 text-left">{pt.comparisonTable?.feature || t.comparisonTable?.feature || 'Feature'}</th>
-                    {accountTypes.map((account) => {
-                      const getAccountName = (id) => {
-                        switch(id) {
-                          case 0: return pt.accounts?.demo || 'Demo Account';
-                          case 1: return pt.accounts?.standard || 'Standard Account';
-                          case 2: return pt.accounts?.pro || 'Pro Account';
-                          case 3: return pt.accounts?.vip || 'VIP Account';
-                          default: return account.name;
-                        }
-                      };
-                      return (
-                        <th key={account.id} className="px-6 py-4 text-center">
-                          {getAccountName(account.id)}
-                        </th>
-                      );
-                    })}
+                    <th className="px-6 py-4 text-left">{pt.comparisonTable?.feature || 'Feature'}</th>
+                    <th className="px-6 py-4 text-center">{pt.accounts?.demo || 'Demo Account'}</th>
+                    <th className="px-6 py-4 text-center">{pt.accounts?.standard || 'Standard Account'}</th>
+                    <th className="px-6 py-4 text-center">{pt.accounts?.pro || 'Pro Account'}</th>
+                    <th className="px-6 py-4 text-center">{pt.accounts?.vip || 'VIP Account'}</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-gray-200">
-                  {[
-                    { feature: pt.comparisonTable?.minDeposit || t.comparisonTable?.minDeposit || 'Minimum Deposit', values: accountTypes.map(a => a.minDeposit) },
-                    { feature: pt.comparisonTable?.maxLeverage || t.comparisonTable?.maxLeverage || 'Maximum Leverage', values: accountTypes.map(a => getLeverage(a.id)) },
-                    { feature: pt.comparisonTable?.spreadsFrom || t.comparisonTable?.spreadsFrom || 'Spreads from', values: accountTypes.map(a => getSpreads(a.id)) },
-                    { feature: pt.comparisonTable?.commission || t.comparisonTable?.commission || 'Commission', values: ['No', 'No', 'No', 'No'] },
-                    { feature: pt.comparisonTable?.expertAdvisors || t.comparisonTable?.expertAdvisors || 'Expert Advisors', values: ['Yes', 'Yes', 'Yes', 'Yes'] },
-                    { feature: pt.comparisonTable?.islamicAccount || t.comparisonTable?.islamicAccount || 'Islamic Account', values: ['Yes', 'Yes', 'Yes', 'Yes'] },
-                    { feature: pt.comparisonTable?.dedicatedSupport || t.comparisonTable?.dedicatedSupport || 'Dedicated Support', values: ['No', 'No', 'Yes', 'Yes'] },
-                    { feature: pt.comparisonTable?.personalManager || t.comparisonTable?.personalManager || 'Personal Manager', values: ['No', 'No', 'Yes', 'Yes'] },
-                    { feature: pt.comparisonTable?.priorityWithdrawals || t.comparisonTable?.priorityWithdrawals || 'Priority Withdrawals', values: ['No', 'No', 'Yes', 'Yes'] },
-                    { feature: pt.comparisonTable?.premiumAnalytics || t.comparisonTable?.premiumAnalytics || 'Premium Analytics', values: ['No', 'No', 'Yes', 'Yes'] }
-                  ].map((row, idx) => {
-                    // Define getLeverage and getSpreads functions inside map
-                    const getLeverage = (id) => {
-                      if (id === 1) return t.accountFeatures?.leverageUpTo200 || 'Up to 1:200';
-                      return t.accountFeatures?.leverageUpTo500 || 'Up to 1:500';
-                    };
-                    
-                    const getSpreads = (id) => {
-                      switch(id) {
-                        case 0: return t.accountFeatures?.spreadsFrom06 || 'From 0.6 pips';
-                        case 1: return t.accountFeatures?.spreadsFrom12 || 'From 1.2 pips';
-                        case 2: return t.accountFeatures?.spreadsFrom06 || 'From 0.6 pips';
-                        case 3: return t.accountFeatures?.spreadsFrom00 || 'From 0.0 pips';
-                        default: return '';
-                      }
-                    };
-                    
-                    return (
-                    <tr key={idx} className="hover:bg-gray-50">
-                      <td className="px-6 py-4 font-medium text-gray-900">{row.feature}</td>
-                      {row.values.map((value, vidx) => (
-                        <td key={vidx} className="px-6 py-4 text-center text-gray-700">
-                          {value === 'Yes' ? (
-                            <Check className="w-5 h-5 text-green-600 mx-auto" />
-                          ) : value === 'No' ? (
-                            <span className="text-gray-400">–</span>
-                          ) : (
-                            value
-                          )}
-                        </td>
-                      ))}
-                    </tr>
-                  ))}
+                  <tr className="hover:bg-gray-50">
+                    <td className="px-6 py-4 font-medium text-gray-900">{pt.comparisonTable?.minDeposit || 'Minimum Deposit'}</td>
+                    <td className="px-6 py-4 text-center text-gray-700">$0</td>
+                    <td className="px-6 py-4 text-center text-gray-700">$250</td>
+                    <td className="px-6 py-4 text-center text-gray-700">$2,500</td>
+                    <td className="px-6 py-4 text-center text-gray-700">$10,000</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50">
+                    <td className="px-6 py-4 font-medium text-gray-900">{pt.comparisonTable?.maxLeverage || 'Maximum Leverage'}</td>
+                    <td className="px-6 py-4 text-center text-gray-700">{t.accountFeatures?.leverageUpTo500 || 'Up to 1:500'}</td>
+                    <td className="px-6 py-4 text-center text-gray-700">{t.accountFeatures?.leverageUpTo200 || 'Up to 1:200'}</td>
+                    <td className="px-6 py-4 text-center text-gray-700">{t.accountFeatures?.leverageUpTo500 || 'Up to 1:500'}</td>
+                    <td className="px-6 py-4 text-center text-gray-700">{t.accountFeatures?.leverageUpTo500 || 'Up to 1:500'}</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50">
+                    <td className="px-6 py-4 font-medium text-gray-900">{pt.comparisonTable?.spreadsFrom || 'Spreads from'}</td>
+                    <td className="px-6 py-4 text-center text-gray-700">{t.accountFeatures?.spreadsFrom06 || 'From 0.6 pips'}</td>
+                    <td className="px-6 py-4 text-center text-gray-700">{t.accountFeatures?.spreadsFrom12 || 'From 1.2 pips'}</td>
+                    <td className="px-6 py-4 text-center text-gray-700">{t.accountFeatures?.spreadsFrom06 || 'From 0.6 pips'}</td>
+                    <td className="px-6 py-4 text-center text-gray-700">{t.accountFeatures?.spreadsFrom00 || 'From 0.0 pips'}</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50">
+                    <td className="px-6 py-4 font-medium text-gray-900">{pt.comparisonTable?.commission || 'Commission'}</td>
+                    <td className="px-6 py-4 text-center text-gray-400">–</td>
+                    <td className="px-6 py-4 text-center text-gray-400">–</td>
+                    <td className="px-6 py-4 text-center text-gray-400">–</td>
+                    <td className="px-6 py-4 text-center text-gray-400">–</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50">
+                    <td className="px-6 py-4 font-medium text-gray-900">{pt.comparisonTable?.expertAdvisors || 'Expert Advisors'}</td>
+                    <td className="px-6 py-4 text-center"><Check className="w-5 h-5 text-green-600 mx-auto" /></td>
+                    <td className="px-6 py-4 text-center"><Check className="w-5 h-5 text-green-600 mx-auto" /></td>
+                    <td className="px-6 py-4 text-center"><Check className="w-5 h-5 text-green-600 mx-auto" /></td>
+                    <td className="px-6 py-4 text-center"><Check className="w-5 h-5 text-green-600 mx-auto" /></td>
+                  </tr>
+                  <tr className="hover:bg-gray-50">
+                    <td className="px-6 py-4 font-medium text-gray-900">{pt.comparisonTable?.islamicAccount || 'Islamic Account'}</td>
+                    <td className="px-6 py-4 text-center"><Check className="w-5 h-5 text-green-600 mx-auto" /></td>
+                    <td className="px-6 py-4 text-center"><Check className="w-5 h-5 text-green-600 mx-auto" /></td>
+                    <td className="px-6 py-4 text-center"><Check className="w-5 h-5 text-green-600 mx-auto" /></td>
+                    <td className="px-6 py-4 text-center"><Check className="w-5 h-5 text-green-600 mx-auto" /></td>
+                  </tr>
+                  <tr className="hover:bg-gray-50">
+                    <td className="px-6 py-4 font-medium text-gray-900">{pt.comparisonTable?.dedicatedSupport || 'Dedicated Support'}</td>
+                    <td className="px-6 py-4 text-center text-gray-400">–</td>
+                    <td className="px-6 py-4 text-center text-gray-400">–</td>
+                    <td className="px-6 py-4 text-center"><Check className="w-5 h-5 text-green-600 mx-auto" /></td>
+                    <td className="px-6 py-4 text-center"><Check className="w-5 h-5 text-green-600 mx-auto" /></td>
+                  </tr>
+                  <tr className="hover:bg-gray-50">
+                    <td className="px-6 py-4 font-medium text-gray-900">{pt.comparisonTable?.personalManager || 'Personal Manager'}</td>
+                    <td className="px-6 py-4 text-center text-gray-400">–</td>
+                    <td className="px-6 py-4 text-center text-gray-400">–</td>
+                    <td className="px-6 py-4 text-center"><Check className="w-5 h-5 text-green-600 mx-auto" /></td>
+                    <td className="px-6 py-4 text-center"><Check className="w-5 h-5 text-green-600 mx-auto" /></td>
+                  </tr>
+                  <tr className="hover:bg-gray-50">
+                    <td className="px-6 py-4 font-medium text-gray-900">{pt.comparisonTable?.priorityWithdrawals || 'Priority Withdrawals'}</td>
+                    <td className="px-6 py-4 text-center text-gray-400">–</td>
+                    <td className="px-6 py-4 text-center text-gray-400">–</td>
+                    <td className="px-6 py-4 text-center"><Check className="w-5 h-5 text-green-600 mx-auto" /></td>
+                    <td className="px-6 py-4 text-center"><Check className="w-5 h-5 text-green-600 mx-auto" /></td>
+                  </tr>
+                  <tr className="hover:bg-gray-50">
+                    <td className="px-6 py-4 font-medium text-gray-900">{pt.comparisonTable?.premiumAnalytics || 'Premium Analytics'}</td>
+                    <td className="px-6 py-4 text-center text-gray-400">–</td>
+                    <td className="px-6 py-4 text-center text-gray-400">–</td>
+                    <td className="px-6 py-4 text-center"><Check className="w-5 h-5 text-green-600 mx-auto" /></td>
+                    <td className="px-6 py-4 text-center"><Check className="w-5 h-5 text-green-600 mx-auto" /></td>
+                  </tr>
                 </tbody>
               </table>
             </div>
