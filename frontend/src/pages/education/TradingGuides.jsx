@@ -37,7 +37,7 @@ const TradingGuides = () => {
       level: t.guides?.allLevels || 'All Levels',
       duration: `40 ${t.guides?.minutes || 'min'}`
     }
-  ];
+  ], [t, language]);
 
   return (
     <div className="min-h-screen pt-20">
