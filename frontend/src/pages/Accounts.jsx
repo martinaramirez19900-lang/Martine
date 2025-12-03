@@ -151,27 +151,55 @@ const Accounts = () => {
               <table className="w-full">
                 <thead className="bg-gray-900 text-white">
                   <tr>
-                    <th className="px-6 py-4 text-left">{t.comparisonTable.feature}</th>
-                    {accountTypes.map((account) => (
-                      <th key={account.id} className="px-6 py-4 text-center">
-                        {account.name}
-                      </th>
-                    ))}
+                    <th className="px-6 py-4 text-left">{pt.comparisonTable?.feature || t.comparisonTable?.feature || 'Feature'}</th>
+                    {accountTypes.map((account) => {
+                      const getAccountName = (id) => {
+                        switch(id) {
+                          case 0: return pt.accounts?.demo || 'Demo Account';
+                          case 1: return pt.accounts?.standard || 'Standard Account';
+                          case 2: return pt.accounts?.pro || 'Pro Account';
+                          case 3: return pt.accounts?.vip || 'VIP Account';
+                          default: return account.name;
+                        }
+                      };
+                      return (
+                        <th key={account.id} className="px-6 py-4 text-center">
+                          {getAccountName(account.id)}
+                        </th>
+                      );
+                    })}
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-gray-200">
                   {[
-                    { feature: t.comparisonTable.minDeposit, values: accountTypes.map(a => a.minDeposit) },
-                    { feature: t.comparisonTable.maxLeverage, values: accountTypes.map(a => a.leverage) },
-                    { feature: t.comparisonTable.spreadsFrom, values: accountTypes.map(a => a.spreads) },
-                    { feature: t.comparisonTable.commission, values: ['No', 'No'] },
-                    { feature: t.comparisonTable.expertAdvisors, values: ['Yes', 'Yes'] },
-                    { feature: t.comparisonTable.islamicAccount, values: ['Yes', 'Yes'] },
-                    { feature: t.comparisonTable.dedicatedSupport, values: ['No', 'Yes'] },
-                    { feature: t.comparisonTable.personalManager, values: ['No', 'Yes'] },
-                    { feature: t.comparisonTable.priorityWithdrawals, values: ['No', 'Yes'] },
-                    { feature: t.comparisonTable.premiumAnalytics, values: ['No', 'Yes'] }
-                  ].map((row, idx) => (
+                    { feature: pt.comparisonTable?.minDeposit || t.comparisonTable?.minDeposit || 'Minimum Deposit', values: accountTypes.map(a => a.minDeposit) },
+                    { feature: pt.comparisonTable?.maxLeverage || t.comparisonTable?.maxLeverage || 'Maximum Leverage', values: accountTypes.map(a => getLeverage(a.id)) },
+                    { feature: pt.comparisonTable?.spreadsFrom || t.comparisonTable?.spreadsFrom || 'Spreads from', values: accountTypes.map(a => getSpreads(a.id)) },
+                    { feature: pt.comparisonTable?.commission || t.comparisonTable?.commission || 'Commission', values: ['No', 'No', 'No', 'No'] },
+                    { feature: pt.comparisonTable?.expertAdvisors || t.comparisonTable?.expertAdvisors || 'Expert Advisors', values: ['Yes', 'Yes', 'Yes', 'Yes'] },
+                    { feature: pt.comparisonTable?.islamicAccount || t.comparisonTable?.islamicAccount || 'Islamic Account', values: ['Yes', 'Yes', 'Yes', 'Yes'] },
+                    { feature: pt.comparisonTable?.dedicatedSupport || t.comparisonTable?.dedicatedSupport || 'Dedicated Support', values: ['No', 'No', 'Yes', 'Yes'] },
+                    { feature: pt.comparisonTable?.personalManager || t.comparisonTable?.personalManager || 'Personal Manager', values: ['No', 'No', 'Yes', 'Yes'] },
+                    { feature: pt.comparisonTable?.priorityWithdrawals || t.comparisonTable?.priorityWithdrawals || 'Priority Withdrawals', values: ['No', 'No', 'Yes', 'Yes'] },
+                    { feature: pt.comparisonTable?.premiumAnalytics || t.comparisonTable?.premiumAnalytics || 'Premium Analytics', values: ['No', 'No', 'Yes', 'Yes'] }
+                  ].map((row, idx) => {
+                    // Define getLeverage and getSpreads functions inside map
+                    const getLeverage = (id) => {
+                      if (id === 1) return t.accountFeatures?.leverageUpTo200 || 'Up to 1:200';
+                      return t.accountFeatures?.leverageUpTo500 || 'Up to 1:500';
+                    };
+                    
+                    const getSpreads = (id) => {
+                      switch(id) {
+                        case 0: return t.accountFeatures?.spreadsFrom06 || 'From 0.6 pips';
+                        case 1: return t.accountFeatures?.spreadsFrom12 || 'From 1.2 pips';
+                        case 2: return t.accountFeatures?.spreadsFrom06 || 'From 0.6 pips';
+                        case 3: return t.accountFeatures?.spreadsFrom00 || 'From 0.0 pips';
+                        default: return '';
+                      }
+                    };
+                    
+                    return (
                     <tr key={idx} className="hover:bg-gray-50">
                       <td className="px-6 py-4 font-medium text-gray-900">{row.feature}</td>
                       {row.values.map((value, vidx) => (
