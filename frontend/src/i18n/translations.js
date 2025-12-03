@@ -127,7 +127,9 @@ export const translations = {
       legal: 'Legal',
       followUs: 'Follow Us',
       riskWarning: 'Risk Warning: Trading CFDs and leveraged products carries a high level of risk and may not be suitable for all investors.',
-      copyright: '© 2025 SMH Markets. All rights reserved.'
+      copyright: '© 2025 SMH Markets. All rights reserved.',
+      phoneNumber: '+1 647 948 1664',
+      phoneLabel: 'Canada'
     },
     contact: {
       title: 'Contact Us',
