@@ -97,6 +97,11 @@ export const extendedTranslations = {
       marketsTools: 'Rynki i narzędzia',
       knowledgeHub: 'Centrum wiedzy',
       company: 'Firma',
+      // Section headers
+      accountsPlatforms: 'Konta i platformy',
+      tradingServices: 'Usługi handlowe',
+      marketsSection: 'Rynki',
+      tradingTools: 'Narzędzia handlowe',
       openAccount: 'Otwórz konto handlowe',
       accountTypes: 'Typy kont',
       pricingModel: 'Model cenowy',
