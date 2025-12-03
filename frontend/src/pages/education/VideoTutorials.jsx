@@ -5,9 +5,10 @@ import { Card } from '../../components/ui/card';
 import { Badge } from '../../components/ui/badge';
 
 const VideoTutorials = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
 
-  const videos = [
+  // Videos data - recreated when language changes
+  const videos = React.useMemo(() => [
     {
       id: 1,
       title: t.guides?.guide1Title || 'Introduction to Forex Trading',
