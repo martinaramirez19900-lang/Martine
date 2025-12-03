@@ -24,12 +24,19 @@ const Accounts = () => {
       {/* Account Types */}
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-5xl">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {accountTypes.map((account) => {
               // Translate account name
-              const accountName = account.id === 1 
-                ? pt.accounts?.standard || 'Standard Account'
-                : pt.accounts?.pro || 'Pro Account';
+              const getAccountName = (id) => {
+                switch(id) {
+                  case 0: return pt.accounts?.demo || 'Demo Account';
+                  case 1: return pt.accounts?.standard || 'Standard Account';
+                  case 2: return pt.accounts?.pro || 'Pro Account';
+                  case 3: return pt.accounts?.vip || 'VIP Account';
+                  default: return account.name;
+                }
+              };
+              const accountName = getAccountName(account.id);
               
               // Translate features
               const getTranslatedFeature = (feature) => {
@@ -45,19 +52,35 @@ const Accounts = () => {
                   'Advanced tools': t.accountFeatures?.advancedTools || feature,
                   'Dedicated manager': t.accountFeatures?.dedicatedManager || feature,
                   'Premium analytics': t.accountFeatures?.premiumAnalytics || feature,
-                  'Personal advisor': t.accountFeatures?.personalAdvisor || feature
+                  'Personal advisor': t.accountFeatures?.personalAdvisor || feature,
+                  'Virtual funds': t.accountFeatures?.virtualFunds || feature,
+                  'Risk-free practice': t.accountFeatures?.riskFreePractice || feature,
+                  'All platforms': t.accountFeatures?.allPlatforms || feature,
+                  'Full features': t.accountFeatures?.fullFeatures || feature,
+                  'Raw spreads': t.accountFeatures?.rawSpreads || feature,
+                  'VIP support': t.accountFeatures?.vipSupport || feature
                 };
                 return featureMap[feature] || feature;
               };
 
               // Translate leverage and spreads
-              const leverage = account.id === 1
-                ? t.accountFeatures?.leverageUpTo200 || account.leverage
-                : t.accountFeatures?.leverageUpTo500 || account.leverage;
+              const getLeverage = (id) => {
+                if (id === 1) return t.accountFeatures?.leverageUpTo200 || account.leverage;
+                return t.accountFeatures?.leverageUpTo500 || account.leverage;
+              };
               
-              const spreads = account.id === 1
-                ? t.accountFeatures?.spreadsFrom15 || account.spreads
-                : t.accountFeatures?.spreadsFrom06 || account.spreads;
+              const getSpreads = (id) => {
+                switch(id) {
+                  case 0: return t.accountFeatures?.spreadsFrom06 || account.spreads;
+                  case 1: return t.accountFeatures?.spreadsFrom12 || account.spreads;
+                  case 2: return t.accountFeatures?.spreadsFrom06 || account.spreads;
+                  case 3: return t.accountFeatures?.spreadsFrom00 || account.spreads;
+                  default: return account.spreads;
+                }
+              };
+              
+              const leverage = getLeverage(account.id);
+              const spreads = getSpreads(account.id);
 
               return (
                 <Card
