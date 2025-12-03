@@ -3597,10 +3597,18 @@ export const translations = {
       dedicatedManager: 'Gestor dedicado',
       premiumAnalytics: 'Análisis premium',
       personalAdvisor: 'Asesor personal',
+      virtualFunds: 'Fondos virtuales',
+      riskFreePractice: 'Práctica sin riesgo',
+      allPlatforms: 'Todas las plataformas',
+      fullFeatures: 'Funciones completas',
+      rawSpreads: 'Spreads raw',
+      vipSupport: 'Soporte VIP',
       leverageUpTo200: 'Hasta 1:200',
       leverageUpTo500: 'Hasta 1:500',
+      spreadsFrom12: 'Desde 1.2 pips',
       spreadsFrom15: 'Desde 1.5 pips',
-      spreadsFrom06: 'Desde 0.6 pips'
+      spreadsFrom06: 'Desde 0.6 pips',
+      spreadsFrom00: 'Desde 0.0 pips'
     },
     advancedTools: {
       title: 'Herramientas Avanzadas',
