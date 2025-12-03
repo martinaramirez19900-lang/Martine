@@ -64,7 +64,7 @@ const Contact = () => {
                   { 
                     icon: Phone, 
                     title: t.contactPage.phoneSupport, 
-                    info: t.contactPage.phoneNumber, 
+                    info: `${t.footer?.phoneNumber || '+1 647 948 1664'} (${t.footer?.phoneLabel || 'International'})`, 
                     desc: t.contactPage.available247 
                   },
                   { 
