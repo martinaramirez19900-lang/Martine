@@ -96,6 +96,33 @@ export const pageTranslations = {
       forManagers: 'For Money Managers',
       howItWorks: 'How It Works',
       benefits: 'Benefits'
+    },
+    platforms: {
+      mt5Title: 'MetaTrader 5',
+      mt5Subtitle: 'Next generation multi-asset trading platform',
+      mt4Title: 'MetaTrader 4',
+      mt4Subtitle: 'The world\'s most popular trading platform',
+      ctraderTitle: 'cTrader',
+      ctraderSubtitle: 'Professional trading platform',
+      downloadMT5: 'Download MT5',
+      downloadMT4: 'Download MT4',
+      downloadCTrader: 'Download cTrader',
+      webPlatform: 'Web Platform',
+      desktop: 'Desktop',
+      web: 'Web',
+      mobile: 'Mobile',
+      mobileApps: 'Mobile Apps',
+      tradeOnGo: 'Trade on the go with our mobile applications',
+      downloadIOS: 'Download for iOS',
+      downloadAndroid: 'Download for Android',
+      downloadWindows: 'Download for Windows',
+      downloadMac: 'Download for Mac',
+      launchWeb: 'Launch Web Platform',
+      advancedTools: 'Advanced Tools',
+      desktopPlatform: 'Desktop Platform',
+      desktopDesc: 'Professional trading platform for Windows and Mac',
+      webPlatformDesc: 'Trade directly from your browser',
+      mobileDesc: 'Trade anywhere with iOS and Android apps'
     }
   },
   pl: {
