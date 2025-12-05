@@ -2199,7 +2199,7 @@ export const translations = {
       title: 'SMH Markets Hakkında',
       subtitle: 'Küresel finansal piyasalarda güvenilir ortağınız',
       ourStory: 'Hikayemiz',
-      storyParagraph1: '2015 yılında kurulan SMH Markets, finans sektöründe lider online brokerlerden biri haline geldi. Misyonumuz her zaman tüccarlara mümkün olan en iyi işlem koşullarını, son teknoloji ve olağanüstü müşteri hizmetlerini sağlamak olmuştur.',
+      storyParagraph1: '1997 yılında kurulan SMH Markets, finans sektöründe lider online brokerlerden biri haline geldi. Misyonumuz her zaman tüccarlara mümkün olan en iyi işlem koşullarını, son teknoloji ve olağanüstü müşteri hizmetlerini sağlamak olmuştur.',
       storyParagraph2: '150 ülkede 500.000\'den fazla aktif müşterimizle şeffaflık, güvenilirlik ve yenilik konusunda bir itibar oluşturduk. Sektör uzmanlarından oluşan ekibimiz, her müşterinin finansal piyasalarda başarılı olmak için ihtiyaç duyduğu araç ve kaynaklara erişimini sağlamak için yorulmadan çalışmaktadır.',
       storyParagraph3: 'Düzenlenmiş bir broker olarak, en yüksek güvenlik ve uyumluluk standartlarına bağlıyız. Fonlarınız birinci sınıf bankalarda ayrı hesaplarda tutulmaktadır ve kişisel ve finansal bilgilerinizi korumak için banka düzeyinde şifreleme kullanıyoruz.',
       ourValues: 'Değerlerimiz',
