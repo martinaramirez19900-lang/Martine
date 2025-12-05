@@ -847,7 +847,7 @@ export const translations = {
       title: 'O SMH Markets',
       subtitle: 'Twój zaufany partner na globalnych rynkach finansowych',
       ourStory: 'Nasza historia',
-      storyParagraph1: 'Założona w 2015 roku firma SMH Markets stała się jednym z wiodących brokerów online w branży finansowej. Naszą misją zawsze było zapewnienie traderom najlepszych możliwych warunków handlowych, najnowocześniejszej technologii i wyjątkowej obsługi klienta.',
+      storyParagraph1: 'Założona w 1997 roku firma SMH Markets stała się jednym z wiodących brokerów online w branży finansowej. Naszą misją zawsze było zapewnienie traderom najlepszych możliwych warunków handlowych, najnowocześniejszej technologii i wyjątkowej obsługi klienta.',
       storyParagraph2: 'Mając ponad 500 000 aktywnych klientów w 150 krajach, zbudowaliśmy reputację dzięki przejrzystości, niezawodności i innowacyjności. Nasz zespół ekspertów branżowych niestrudzenie pracuje, aby każdy klient miał dostęp do narzędzi i zasobów potrzebnych do odniesienia sukcesu na rynkach finansowych.',
       storyParagraph3: 'Jako regulowany broker przestrzegamy najwyższych standardów bezpieczeństwa i zgodności. Twoje środki są przechowywane na segregowanych kontach w bankach pierwszej kategorii, a my stosujemy szyfrowanie na poziomie bankowym, aby chronić Twoje dane osobowe i finansowe.',
       ourValues: 'Nasze wartości',
