@@ -124,8 +124,8 @@ const Home = () => {
                       <TrendingUp className="w-6 h-6 text-green-600" />
                     </div>
                     <div>
-                      <div className="text-2xl font-bold text-green-600">+235%</div>
-                      <div className="text-xs text-gray-600">Avg. Returns</div>
+                      <div className="text-2xl font-bold text-green-600">+35%</div>
+                      <div className="text-xs text-gray-600">Month ROI</div>
                     </div>
                   </div>
                 </div>
