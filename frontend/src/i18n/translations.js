@@ -2886,7 +2886,7 @@ export const translations = {
       title: 'O SMH Markets',
       subtitle: 'Váš dôveryhodný partner na globálnych finančných trhoch',
       ourStory: 'Náš príbeh',
-      storyParagraph1: 'Založená v roku 2015, SMH Markets sa stala jedným z popredných online brokerov vo finančnom odvetví. Naším poslaním vždy bolo poskytnúť obchodníkom tie najlepšie obchodné podmienky, najmodernejšiu technológiu a výnimočný zákaznícky servis.',
+      storyParagraph1: 'Založená v roku 1997, SMH Markets sa stala jedným z popredných online brokerov vo finančnom odvetví. Naším poslaním vždy bolo poskytnúť obchodníkom tie najlepšie obchodné podmienky, najmodernejšiu technológiu a výnimočný zákaznícky servis.',
       storyParagraph2: 'S viac ako 500 000 aktívnymi klientmi v 150 krajinách sme si vybudovali povesť transparentnosti, spoľahlivosti a inovácií. Náš tím odborníkov z odvetvia neúnavne pracuje na tom, aby mal každý klient prístup k nástrojom a zdrojom, ktoré potrebuje na úspech na finančných trhoch.',
       storyParagraph3: 'Ako regulovaný broker dodržiavame najvyššie štandardy bezpečnosti a súladu s predpismi. Vaše prostriedky sú uložené na segregovaných účtoch v bankách prvej kategórie a používame šifrovanie na úrovni bánk na ochranu vašich osobných a finančných informácií.',
       ourValues: 'Naše hodnoty',
