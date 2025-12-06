@@ -28,7 +28,7 @@ const HeaderNew = () => {
   const t = extendedTranslations[language] || extendedTranslations.en;
 
   const languages = [
-    { code: 'en', name: 'English', flag: '🇬🇧' },
+    { code: 'en', name: 'UK', flag: '🇬🇧' },
     { code: 'es', name: 'Español', flag: '🇪🇸' },
     { code: 'pl', name: 'Polski', flag: '🇵🇱' },
     { code: 'cz', name: 'Čeština', flag: '🇨🇿' },
