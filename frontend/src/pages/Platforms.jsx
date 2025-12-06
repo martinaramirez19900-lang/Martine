@@ -80,7 +80,7 @@ const Platforms = () => {
                     {platform.features.map((feature, idx) => (
                       <li key={idx} className="flex items-start">
                         <span className="w-2 h-2 bg-green-600 rounded-full mr-2 mt-1.5 flex-shrink-0"></span>
-                        <span className="text-gray-700 text-sm">{feature}</span>
+                        <span className="text-gray-700 text-sm">{translateFeature(feature)}</span>
                       </li>
                     ))}
                   </ul>
