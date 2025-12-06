@@ -94,8 +94,8 @@ export const extendedTranslations = {
   pl: {
     nav: {
       trading: 'Handel',
-      marketsTools: 'Rynki i narzędzia',
-      knowledgeHub: 'Centrum wiedzy',
+      marketsTools: 'Rynki',
+      knowledgeHub: 'Edukacja',
       company: 'Firma',
       // Section headers
       accountsPlatforms: 'Konta i platformy',
