@@ -53,9 +53,16 @@ export const LanguageProvider = ({ children }) => {
   };
 
   // Merge selected language with English as fallback
-  const t = language === 'en' 
-    ? translations.en 
-    : deepMerge(translations.en, translations[language] || {});
+  // Also merge extended translations for menus
+  const baseTranslations = { ...translations.en, nav: extendedTranslations.en.nav, pages: extendedTranslations.en.pages };
+  const langTranslations = language === 'en' 
+    ? baseTranslations
+    : deepMerge(baseTranslations, { 
+        ...translations[language], 
+        nav: extendedTranslations[language]?.nav, 
+        pages: extendedTranslations[language]?.pages 
+      });
+  const t = langTranslations;
 
   return (
     <LanguageContext.Provider value={{ language, changeLanguage, t }}>
