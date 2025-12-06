@@ -8,6 +8,10 @@ const Footer = () => {
   const { t, language } = useLanguage();
   const apt = additionalPagesTranslations[language] || additionalPagesTranslations.en;
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <footer className="bg-gray-900 text-gray-300">
       <div className="container mx-auto px-4 py-16">
