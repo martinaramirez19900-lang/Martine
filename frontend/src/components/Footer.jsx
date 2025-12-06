@@ -36,7 +36,7 @@ const Footer = () => {
               <li><Link to="/markets" onClick={scrollToTop} className="hover:text-green-500 transition-colors">{apt.footer?.markets || 'Markets'}</Link></li>
               <li><Link to="/accounts" onClick={scrollToTop} className="hover:text-green-500 transition-colors">{apt.footer?.accountTypes || 'Account Types'}</Link></li>
               <li><Link to="/tools" onClick={scrollToTop} className="hover:text-green-500 transition-colors">{apt.footer?.tradingTools || 'Trading Tools'}</Link></li>
-              <li><Link to="/pricing" onClick={scrollToTop} className="hover:text-green-500 transition-colors">Pricing</Link></li>
+              <li><Link to="/pricing" onClick={scrollToTop} className="hover:text-green-500 transition-colors">{apt.footer?.pricing || 'Pricing'}</Link></li>
             </ul>
           </div>
 
