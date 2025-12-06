@@ -48,7 +48,7 @@ const Footer = () => {
               <li><Link to="/privacy" onClick={scrollToTop} className="hover:text-green-500 transition-colors">{apt.footer?.privacyPolicy || 'Privacy Policy'}</Link></li>
               <li><Link to="/terms" onClick={scrollToTop} className="hover:text-green-500 transition-colors">{apt.footer?.termsOfService || 'Terms of Service'}</Link></li>
               <li><Link to="/risk" onClick={scrollToTop} className="hover:text-green-500 transition-colors">{apt.footer?.riskDisclosure || 'Risk Disclosure'}</Link></li>
-              <li><Link to="/complaints" onClick={scrollToTop} className="hover:text-green-500 transition-colors">Complaints</Link></li>
+              <li><Link to="/complaints" onClick={scrollToTop} className="hover:text-green-500 transition-colors">{apt.footer?.complaints || 'Complaints'}</Link></li>
             </ul>
           </div>
 
