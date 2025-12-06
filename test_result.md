@@ -369,7 +369,7 @@ test_plan:
     implemented: true
     working: false
     file: "/app/frontend/src/context/LanguageContext.js, /app/frontend/src/i18n/extendedTranslations.js"
-    stuck_count: 2
+    stuck_count: 3
     priority: "high"
     needs_retesting: false
     status_history:
@@ -385,6 +385,12 @@ test_plan:
       - working: false
         agent: "testing"
         comment: "🚨 CRITICAL POLISH TRANSLATION TEST FAILED! Comprehensive testing reveals MAJOR translation system breakdown: ❌ TRANSLATION SYSTEM NOT WORKING: Despite multiple attempts to switch to Polish language, ALL content remains in English. Main menu still shows 'Trading', 'Markets & Tools', 'Knowledge Hub', 'Company' instead of expected Polish translations 'Handel', 'Rynki', 'Edukacja', 'Firma'. ❌ LANGUAGE SELECTOR ISSUE: While Globe icon is visible in header, automated testing encountered persistent script execution errors preventing successful language switching verification. ❌ CRITICAL FAILURE: Translation system appears completely non-functional - language context/provider not updating component translations despite UI state changes. 🚨 URGENT ACTION REQUIRED: Translation system needs immediate debugging and repair. This is a critical production issue affecting all non-English users. The language switching mechanism is broken at the core level, preventing any translation from occurring across the entire website."
+      - working: false
+        agent: "user"
+        comment: "ФИНАЛЬНЫЙ тест польских переводов features на странице платформ: URL: https://translate-hub-51.preview.emergentagent.com. ТЕСТ: 1) Открыть главную страницу, 2) Hard refresh (Ctrl+Shift+R), 3) Переключить язык на Polski 🇵🇱, 4) Подождать 2 секунды, 5) Перейти на /platforms, 6) Найти карточку 'MetaTrader 4', 7) Под заголовком 'Kluczowe funkcje:' проверить 4 features: Должно быть: 'Zaawansowane wykresy', 'Doradcy eksperci', 'Handel mobilny', 'Niestandardowe wskaźniki' НЕ должно быть: 'Advanced charting', 'Expert Advisors', 'Mobile trading', 'Custom indicators', 8) Найти карточку 'cTrader', 9) Проверить 4 features: Должно быть: 'Bez prowizji i łączone', 'Automatyzacja z AI', 'Szybka realizacja', 'Zaawansowane zlecenia' НЕ должно быть: 'Level II pricing', 'cAlgo automation', 'Fast execution', 'Advanced orders', 10) Сделать скриншоты обеих карточек."
+      - working: false
+        agent: "testing"
+        comment: "🚨 FINAL POLISH PLATFORMS TRANSLATION TEST - COMPLETE FAILURE! Comprehensive testing confirms CRITICAL translation system breakdown: ❌ LANGUAGE SWITCHING FAILED: Found language selector but Polish option not accessible - language switching mechanism non-functional. ❌ PLATFORMS PAGE ENTIRELY IN ENGLISH: Navigation menu shows 'Trading', 'Markets & Tools', 'Knowledge Hub', 'Company' instead of expected Polish 'Handel', 'Rynki', 'Edukacja', 'Firma'. ❌ MT4 FEATURES ALL ENGLISH: Found 'Advanced charting', 'Expert Advisors', 'Mobile trading', 'Custom indicators' instead of required Polish 'Zaawansowane wykresy', 'Doradcy eksperci', 'Handel mobilny', 'Niestandardowe wskaźniki' (0/4 Polish features found). ❌ CTRADER FEATURES ALL ENGLISH: Found 'Level II pricing', 'cAlgo automation', 'Fast execution', 'Advanced orders' instead of required Polish 'Bez prowizji i łączone', 'Automatyzacja z AI', 'Szybka realizacja', 'Zaawansowane zlecenia' (0/4 Polish features found). ❌ ZERO POLISH CONTENT: No Polish text detected anywhere on platforms page despite translation keys existing in code. 🚨 CRITICAL PRODUCTION ISSUE: Translation system completely broken - language context not updating React components. Screenshots captured as evidence. URGENT: Core translation mechanism requires immediate debugging and repair."
 
   - task: "Spanish Translations for Tools Pages (Economic Calendar, Market News)"
     implemented: true
