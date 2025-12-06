@@ -806,7 +806,27 @@ export const translations = {
       mobileAppsFeature: 'Aplikacje mobilne',
       webPlatformFeature: 'Platforma webowa',
       copyTradingFeature: 'Copy Trading',
-      levelIIPricingFeature: 'Wycena poziomu II'
+      levelIIPricingFeature: 'Wycena poziomu II',
+      // MT4 features
+      advancedCharting: 'Zaawansowane wykresy',
+      expertAdvisors: 'Doradcy eksperci',
+      mobileTrading: 'Handel mobilny',
+      customIndicators: 'Niestandardowe wskaźniki',
+      // MT5 features
+      multipleTimeframes: 'Wiele ram czasowych',
+      economicCalendar: 'Kalendarz ekonomiczny',
+      depthOfMarket: 'Głębokość rynku',
+      builtInSignals: 'Wbudowane sygnały',
+      // cTrader features
+      levelIIPricing: 'Bez prowizji i łączone',
+      cAlgoAutomation: 'Automatyzacja z AI',
+      fastExecution: 'Szybka realizacja',
+      advancedOrders: 'Zaawansowane zlecenia',
+      // SMH Edge features
+      intuitiveInterface: 'Intuicyjny interfejs',
+      oneClickTrading: 'Handel jednym kliknięciem',
+      realTimeData: 'Dane w czasie rzeczywistym',
+      riskManagement: 'Zarządzanie ryzykiem'
     },
     markets: {
       title: 'Handluj na wielu rynkach',
