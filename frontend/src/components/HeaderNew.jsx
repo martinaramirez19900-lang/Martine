@@ -23,9 +23,11 @@ import smhLogo from '../assets/images/smh-logo.png';
 
 const HeaderNew = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const { language, changeLanguage } = useLanguage();
+  const { language, changeLanguage, t: contextT } = useLanguage();
   
-  const t = extendedTranslations[language] || extendedTranslations.en;
+  // Get extended translations for menu
+  const extT = extendedTranslations[language] || extendedTranslations.en;
+  const t = { ...contextT, nav: extT.nav, pages: extT.pages };
 
   const languages = [
     { code: 'en', name: 'UK', flag: '🇬🇧' },
