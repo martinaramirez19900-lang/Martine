@@ -33,24 +33,28 @@ const Platforms = () => {
               };
 
               const translateFeature = (feature) => {
+                // Check if platforms translations exist
+                if (!t.platforms) return feature;
+                
                 const featureMap = {
-                  'Advanced charting': t.platforms?.advancedCharting || feature,
-                  'Expert Advisors': t.platforms?.expertAdvisors || feature,
-                  'Mobile trading': t.platforms?.mobileTrading || feature,
-                  'Custom indicators': t.platforms?.customIndicators || feature,
-                  'Multiple timeframes': t.platforms?.multipleTimeframes || feature,
-                  'Economic calendar': t.platforms?.economicCalendar || feature,
-                  'Depth of Market': t.platforms?.depthOfMarket || feature,
-                  'Built-in signals': t.platforms?.builtInSignals || feature,
-                  'Level II pricing': t.platforms?.levelIIPricing || feature,
-                  'cAlgo automation': t.platforms?.cAlgoAutomation || feature,
-                  'Fast execution': t.platforms?.fastExecution || feature,
-                  'Advanced orders': t.platforms?.advancedOrders || feature,
-                  'Intuitive interface': t.platforms?.intuitiveInterface || feature,
-                  'One-click trading': t.platforms?.oneClickTrading || feature,
-                  'Real-time data': t.platforms?.realTimeData || feature,
-                  'Risk management': t.platforms?.riskManagement || feature
+                  'Advanced charting': t.platforms.advancedCharting,
+                  'Expert Advisors': t.platforms.expertAdvisors,
+                  'Mobile trading': t.platforms.mobileTrading,
+                  'Custom indicators': t.platforms.customIndicators,
+                  'Multiple timeframes': t.platforms.multipleTimeframes,
+                  'Economic calendar': t.platforms.economicCalendar,
+                  'Depth of Market': t.platforms.depthOfMarket,
+                  'Built-in signals': t.platforms.builtInSignals,
+                  'Level II pricing': t.platforms.levelIIPricing,
+                  'cAlgo automation': t.platforms.cAlgoAutomation,
+                  'Fast execution': t.platforms.fastExecution,
+                  'Advanced orders': t.platforms.advancedOrders,
+                  'Intuitive interface': t.platforms.intuitiveInterface,
+                  'One-click trading': t.platforms.oneClickTrading,
+                  'Real-time data': t.platforms.realTimeData,
+                  'Risk management': t.platforms.riskManagement
                 };
+                
                 return featureMap[feature] || feature;
               };
               
