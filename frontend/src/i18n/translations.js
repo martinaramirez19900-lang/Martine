@@ -452,7 +452,7 @@ export const translations = {
       fastOpening: 'Fast Account Opening',
       fastOpeningDesc: 'Get trading in less than 24 hours',
       lowDeposit: 'Low Minimum Deposit',
-      lowDepositDesc: 'Start trading with as little as $100'
+      lowDepositDesc: 'Start trading with as little as $250'
     },
     advancedTools: {
       title: 'Advanced Tools',
