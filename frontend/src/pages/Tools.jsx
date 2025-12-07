@@ -77,10 +77,10 @@ const Tools = () => {
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto">
             <Card className="p-8">
-              <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Trading Calculator</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">{t.tools?.tradingCalculator || 'Trading Calculator'}</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">Instrument</label>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">{t.tools?.instrument || 'Instrument'}</label>
                   <select className="w-full px-4 py-3 border border-gray-300 rounded-lg">
                     <option>EUR/USD</option>
                     <option>GBP/USD</option>
@@ -88,7 +88,7 @@ const Tools = () => {
                   </select>
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">Account Currency</label>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">{t.tools?.accountCurrency || 'Account Currency'}</label>
                   <select className="w-full px-4 py-3 border border-gray-300 rounded-lg">
                     <option>USD</option>
                     <option>EUR</option>
@@ -96,11 +96,11 @@ const Tools = () => {
                   </select>
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">Position Size (Lots)</label>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">{t.tools?.lotSize || 'Position Size (Lots)'}</label>
                   <input type="number" defaultValue="1.0" className="w-full px-4 py-3 border border-gray-300 rounded-lg" />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">Leverage</label>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">{t.tools?.leverage || 'Leverage'}</label>
                   <select className="w-full px-4 py-3 border border-gray-300 rounded-lg">
                     <option>1:100</option>
                     <option>1:200</option>
@@ -109,16 +109,16 @@ const Tools = () => {
                 </div>
               </div>
               <Button className="w-full mt-6 bg-green-600 hover:bg-green-700 text-white py-6 text-lg">
-                Calculate
+                {t.tools?.calculate || 'Calculate'}
               </Button>
               <div className="mt-8 p-6 bg-gray-50 rounded-lg">
                 <div className="grid grid-cols-2 gap-4">
                   <div>
-                    <div className="text-sm text-gray-600 mb-1">Pip Value</div>
+                    <div className="text-sm text-gray-600 mb-1">{t.tools?.pipValue || 'Pip Value'}</div>
                     <div className="text-2xl font-bold text-gray-900">$10.00</div>
                   </div>
                   <div>
-                    <div className="text-sm text-gray-600 mb-1">Required Margin</div>
+                    <div className="text-sm text-gray-600 mb-1">{t.tools?.requiredMargin || 'Required Margin'}</div>
                     <div className="text-2xl font-bold text-gray-900">$1,087.60</div>
                   </div>
                 </div>
