@@ -1564,7 +1564,24 @@ export const translations = {
       mobileAppsFeature: 'Mobilní aplikace',
       webPlatformFeature: 'Webová platforma',
       copyTradingFeature: 'Copy Trading',
-      levelIIPricingFeature: 'Oceňování úrovně II'
+      levelIIPricingFeature: 'Oceňování úrovně II',
+      // Platform features
+      advancedCharting: 'Pokročilé grafy',
+      expertAdvisors: 'Expert Advisors',
+      mobileTrading: 'Mobilní obchodování',
+      customIndicators: 'Vlastní indikátory',
+      multipleTimeframes: 'Více časových rámců',
+      economicCalendar: 'Ekonomický kalendář',
+      depthOfMarket: 'Hloubka trhu',
+      builtInSignals: 'Vestavěné signály',
+      levelIIPricing: 'Oceňování úrovně II',
+      cAlgoAutomation: 'Automatizace cAlgo',
+      fastExecution: 'Rychlé provádění',
+      advancedOrders: 'Pokročilé příkazy',
+      intuitiveInterface: 'Intuitivní rozhraní',
+      oneClickTrading: 'Obchodování jedním kliknutím',
+      realTimeData: 'Data v reálném čase',
+      riskManagement: 'Řízení rizik'
     },
     markets: {
       title: 'Obchodujte na více trzích',
