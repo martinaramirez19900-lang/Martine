@@ -163,6 +163,11 @@ export const extendedTranslations = {
       company: 'Společnost',
       login: 'Přihlásit se',
       openAccount: 'Otevřít účet',
+      // Section headers
+      accountsPlatforms: 'Účty a platformy',
+      tradingServices: 'Obchodní služby',
+      marketsSection: 'Trhy',
+      tradingTools: 'Obchodní nástroje',
       accountTypes: 'Typy účtů',
       pricingModel: 'Cenový model',
       fundingWithdrawals: 'Vklady a výběry',
