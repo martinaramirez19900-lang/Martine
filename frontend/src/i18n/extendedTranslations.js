@@ -285,6 +285,11 @@ export const extendedTranslations = {
       company: 'Spoločnosť',
       login: 'Prihlásiť sa',
       openAccount: 'Otvoriť účet',
+      // Section headers
+      accountsPlatforms: 'Účty a platformy',
+      tradingServices: 'Obchodné služby',
+      marketsSection: 'Trhy',
+      tradingTools: 'Obchodné nástroje',
       accountTypes: 'Typy účtov',
       pricingModel: 'Cenový model',
       fundingWithdrawals: 'Vklady a výbery',
