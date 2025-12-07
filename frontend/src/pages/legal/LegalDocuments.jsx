@@ -1,31 +1,33 @@
 import React from 'react';
 import { FileText, Download } from 'lucide-react';
 import { useLanguage } from '../../context/LanguageContext';
+import { legalTranslations } from '../../i18n/legalTranslations';
 import { Card } from '../../components/ui/card';
 
 const LegalDocuments = () => {
-  const { t } = useLanguage();
+  const { language } = useLanguage();
+  const t = legalTranslations[language] || legalTranslations.en;
 
   const documents = [
     {
-      title: 'Terms & Conditions',
+      title: t.terms.title,
       description: 'Our complete terms and conditions of service',
       link: '/terms'
     },
     {
-      title: 'Privacy Policy',
+      title: t.privacy.title,
       description: 'How we collect, use, and protect your data',
       link: '/privacy'
     },
     {
-      title: 'Risk Disclosure',
+      title: t.risk.title,
       description: 'Important information about trading risks',
       link: '/risk'
     },
     {
       title: 'Companies House Certificate',
       description: 'Official UK company registration document',
-      link: 'https://smh-markets.com/documents/companies_house_document.pdf',
+      link: '/documents/companies_house_document.pdf',
       external: true
     }
   ];
@@ -34,9 +36,9 @@ const LegalDocuments = () => {
     <div className="min-h-screen pt-20">
       <section className="py-20 px-4 bg-gradient-to-br from-gray-50 to-white">
         <div className="container mx-auto text-center">
-          <h1 className="text-6xl font-bold text-gray-900 mb-6">Legal Documents</h1>
+          <h1 className="text-6xl font-bold text-gray-900 mb-6">{t.legal.title}</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Access all our legal and regulatory documents
+            {t.legal.subtitle}
           </p>
         </div>
       </section>
