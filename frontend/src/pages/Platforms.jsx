@@ -8,6 +8,10 @@ import { platforms } from '../data/mockData';
 
 const Platforms = () => {
   const { t } = useLanguage();
+  
+  // Debug logging
+  console.log('Platforms t.platforms:', t.platforms);
+  console.log('Platforms t.platforms.advancedCharting:', t.platforms?.advancedCharting);
 
   return (
     <div className="min-h-screen pt-20">
