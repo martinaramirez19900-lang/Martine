@@ -1903,7 +1903,7 @@ export const translations = {
       fastOpening: 'Rychlé otevření účtu',
       fastOpeningDesc: 'Začněte obchodovat za méně než 24 hodin',
       lowDeposit: 'Nízký minimální vklad',
-      lowDepositDesc: 'Začněte obchodovat již od $100'
+      lowDepositDesc: 'Začněte obchodovat již od $250'
     },
     advancedTools: {
       title: 'Pokročilé nástroje',
