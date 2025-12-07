@@ -274,5 +274,7 @@ export const legalTranslations = {
       section8Title: '8. Contacto',
       section8Content: 'Equipo de Quejas: complaints@smh-markets.com | Teléfono: +1 787 945 2353'
     }
-  }
+  },
+  ...legalTranslations2,
+  ...legalTranslations3
 };
