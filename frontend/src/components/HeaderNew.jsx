@@ -337,10 +337,10 @@ const HeaderNew = () => {
                   ))}
                 </select>
                 <Button variant="outline" className="w-full border-gray-300">
-                  Login
+                  {t.nav?.login || 'Login'}
                 </Button>
                 <Button className="w-full bg-green-600 hover:bg-green-700 text-white">
-                  Open Account
+                  {t.nav?.openAccount || 'Open Account'}
                 </Button>
               </div>
             </nav>
