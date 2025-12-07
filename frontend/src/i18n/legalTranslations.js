@@ -1,0 +1,95 @@
+// Legal pages translations
+// WARNING: These are automated translations and should be reviewed by legal professionals
+
+export const legalTranslations = {
+  en: {
+    legal: {
+      title: 'Legal Documents',
+      subtitle: 'Access all our legal and regulatory documents'
+    },
+    terms: {
+      title: 'Terms & Conditions',
+      lastUpdated: 'Last Updated: January 2025',
+      section1Title: '1. Agreement to Terms',
+      section1Content: 'By accessing and using SMH Markets\' trading platform and services, you agree to be bound by these Terms and Conditions. If you do not agree to these terms, please do not use our services.',
+      section2Title: '2. Eligibility',
+      section2Content: 'You must be at least 18 years old and have the legal capacity to enter into binding contracts. You must not be a resident of a restricted jurisdiction where our services are not available.',
+      section3Title: '3. Account Registration',
+      section3Content: 'You agree to provide accurate, current, and complete information during registration. You are responsible for maintaining the confidentiality of your account credentials.',
+      section4Title: '4. Trading Risks',
+      section4Content: 'Trading in financial instruments carries a high level of risk and may not be suitable for all investors. You should only trade with money you can afford to lose. Past performance is not indicative of future results.',
+      section5Title: '5. Prohibited Activities',
+      section5Content: 'You agree not to engage in any fraudulent, abusive, or illegal activities on our platform. This includes market manipulation, unauthorized access, and money laundering.',
+      section6Title: '6. Intellectual Property',
+      section6Content: 'All content, trademarks, and intellectual property on our platform remain the property of SMH Markets. You may not copy, modify, or distribute our content without permission.',
+      section7Title: '7. Limitation of Liability',
+      section7Content: 'SMH Markets shall not be liable for any indirect, incidental, or consequential damages arising from your use of our services.',
+      section8Title: '8. Termination',
+      section8Content: 'We reserve the right to suspend or terminate your account at any time for violation of these terms or for any other reason at our discretion.',
+      section9Title: '9. Changes to Terms',
+      section9Content: 'We may update these terms from time to time. Continued use of our services after changes constitutes acceptance of the new terms.',
+      section10Title: '10. Contact',
+      section10Content: 'If you have questions about these terms, please contact us at legal@smh-markets.com'
+    },
+    privacy: {
+      title: 'Privacy Policy',
+      lastUpdated: 'Last Updated: January 2025',
+      section1Title: '1. Information We Collect',
+      section1Content: 'We collect personal information that you provide when registering, including name, email, address, and identification documents required for regulatory compliance.',
+      section2Title: '2. How We Use Your Information',
+      section2Content: 'We use your information to provide our services, comply with legal obligations, prevent fraud, and improve our platform.',
+      section3Title: '3. Data Security',
+      section3Content: 'We implement industry-standard security measures to protect your personal information, including encryption and secure data storage.',
+      section4Title: '4. Sharing Your Information',
+      section4Content: 'We do not sell your personal information. We may share data with service providers, regulators, and as required by law.',
+      section5Title: '5. Your Rights',
+      section5Content: 'You have the right to access, correct, or delete your personal data. Contact us to exercise these rights.',
+      section6Title: '6. Cookies',
+      section6Content: 'We use cookies to improve user experience and analyze platform usage. You can control cookie settings in your browser.',
+      section7Title: '7. Changes to Privacy Policy',
+      section7Content: 'We may update this privacy policy periodically. We will notify you of significant changes.',
+      section8Title: '8. Contact',
+      section8Content: 'For privacy concerns, contact privacy@smh-markets.com'
+    },
+    risk: {
+      title: 'Risk Disclosure',
+      lastUpdated: 'Last Updated: January 2025',
+      section1Title: '1. General Risk Warning',
+      section1Content: 'Trading in leveraged products such as Forex and CFDs carries a high level of risk and may result in the loss of all your invested capital.',
+      section2Title: '2. Leverage Risk',
+      section2Content: 'Leverage can magnify both profits and losses. Even small market movements can have significant impact on your trading account.',
+      section3Title: '3. Market Volatility',
+      section3Content: 'Markets can be extremely volatile. Rapid price movements can result in substantial losses in short periods.',
+      section4Title: '4. Past Performance',
+      section4Content: 'Past performance is not a reliable indicator of future results. Historical returns do not guarantee future performance.',
+      section5Title: '5. Technical Risks',
+      section5Content: 'Technical issues, internet connectivity problems, or platform failures may prevent you from executing trades or managing positions.',
+      section6Title: '6. Regulatory Changes',
+      section6Content: 'Changes in regulations or laws may affect your ability to trade or the terms of your trading.',
+      section7Title: '7. Suitability',
+      section7Content: 'Trading may not be suitable for everyone. Consider your financial situation, experience level, and risk tolerance before trading.',
+      section8Title: '8. Seek Advice',
+      section8Content: 'If you do not understand the risks involved, seek independent financial advice before trading.'
+    },
+    complaints: {
+      title: 'Complaints Procedure',
+      lastUpdated: 'Last Updated: January 2025',
+      section1Title: '1. How to Make a Complaint',
+      section1Content: 'If you have a complaint about our services, please contact our complaints team at complaints@smh-markets.com with full details of your concern.',
+      section2Title: '2. Information Required',
+      section2Content: 'Please provide your account number, date of incident, description of the issue, and any supporting documentation.',
+      section3Title: '3. Acknowledgment',
+      section3Content: 'We will acknowledge receipt of your complaint within 2 business days.',
+      section4Title: '4. Investigation',
+      section4Content: 'We will investigate your complaint thoroughly and aim to provide a final response within 30 business days.',
+      section5Title: '5. Resolution',
+      section5Content: 'If we uphold your complaint, we will take appropriate action to resolve the issue and, where applicable, provide fair compensation.',
+      section6Title: '6. Escalation',
+      section6Content: 'If you are not satisfied with our response, you may escalate your complaint to the relevant financial ombudsman or regulatory authority.',
+      section7Title: '7. Record Keeping',
+      section7Content: 'We maintain records of all complaints for regulatory purposes and continuous improvement of our services.',
+      section8Title: '8. Contact',
+      section8Content: 'Complaints Team: complaints@smh-markets.com | Phone: +1 787 945 2353'
+    }
+  }
+};
