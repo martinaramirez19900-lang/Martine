@@ -675,7 +675,7 @@ export const translations = {
       faqQ4: 'What are the trading hours?',
       faqA4: 'The forex market is open 24 hours a day, 5 days a week, from Monday morning in Sydney to Friday evening in New York. This allows you to trade at any time that suits you.',
       faqQ5: 'How much money do I need to start?',
-      faqA5: 'You can start trading with as little as $100 on a Standard account. However, we recommend starting with at least $500-1000 to have better risk management opportunities.',
+      faqA5: 'You can start trading with as little as $250 on a Standard account. However, we recommend starting with at least $500-1000 to have better risk management opportunities.',
       faqQ6: 'What is a spread?',
       faqA6: 'The spread is the difference between the buy (ask) and sell (bid) price of a currency pair. It represents the cost of trading and is measured in pips.',
       faqQ7: 'Are my funds safe?',
