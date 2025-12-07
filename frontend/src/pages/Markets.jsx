@@ -123,72 +123,72 @@ const Markets = () => {
       {/* Market Categories Info */}
       <section className="py-20 px-4 bg-gray-50">
         <div className="container mx-auto">
-          <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">Explore Market Categories</h2>
+          <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">{t.markets?.exploreCategoriesTitle || 'Explore Market Categories'}</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                title: 'Forex Trading',
-                description: 'Trade major, minor, and exotic currency pairs with tight spreads',
-                pairs: '70+ Currency Pairs',
-                spread: 'From 0.6 pips',
+                titleKey: 'forexTitle',
+                descKey: 'forexDesc',
+                pairsKey: 'forexPairs',
+                spreadKey: 'forexSpread',
                 image: 'https://images.unsplash.com/photo-1560221328-12fe60f83ab8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzR8MHwxfHNlYXJjaHwzfHxzdG9jayUyMG1hcmtldCUyMGNoYXJ0c3xlbnwwfHx8fDE3NjI5MzkzNDF8MA&ixlib=rb-4.1.0&q=85'
               },
               {
-                title: 'Stock Trading',
-                description: 'Access shares of leading companies from global exchanges',
-                pairs: '1000+ Stocks',
-                spread: 'Commission from $0',
+                titleKey: 'stocksTitle',
+                descKey: 'stocksDesc',
+                pairsKey: 'stocksPairs',
+                spreadKey: 'stocksSpread',
                 image: 'https://images.unsplash.com/photo-1579226905180-636b76d96082?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzR8MHwxfHNlYXJjaHw0fHxzdG9jayUyMG1hcmtldCUyMGNoYXJ0c3xlbnwwfHx8fDE3NjI5MzkzNDF8MA&ixlib=rb-4.1.0&q=85'
               },
               {
-                title: 'Cryptocurrency',
-                description: 'Trade popular cryptocurrencies with flexible leverage',
-                pairs: '50+ Crypto Pairs',
-                spread: 'Low spreads 24/7',
+                titleKey: 'cryptoTitle',
+                descKey: 'cryptoDesc',
+                pairsKey: 'cryptoPairs',
+                spreadKey: 'cryptoSpread',
                 image: 'https://images.pexels.com/photos/7691771/pexels-photo-7691771.jpeg'
               },
               {
-                title: 'Metals Trading',
-                description: 'Trade precious metals like gold, silver, platinum, and palladium',
-                pairs: '10+ Metals',
-                spread: 'From 0.2 pips',
+                titleKey: 'metalsTitle',
+                descKey: 'metalsDesc',
+                pairsKey: 'metalsPairs',
+                spreadKey: 'metalsSpread',
                 image: 'https://images.pexels.com/photos/7887860/pexels-photo-7887860.jpeg'
               },
               {
-                title: 'Indices Trading',
-                description: 'Trade major global stock indices with competitive conditions',
-                pairs: '20+ Indices',
-                spread: 'From 0.4 points',
+                titleKey: 'indicesTitle',
+                descKey: 'indicesDesc',
+                pairsKey: 'indicesPairs',
+                spreadKey: 'indicesSpread',
                 image: 'https://images.unsplash.com/photo-1649003515353-c58a239cf662?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzR8MHwxfHNlYXJjaHwxfHxzdG9jayUyMG1hcmtldCUyMGNoYXJ0c3xlbnwwfHx8fDE3NjI5MzkzNDF8MA&ixlib=rb-4.1.0&q=85'
               },
               {
-                title: 'Energy Trading',
-                description: 'Trade oil, natural gas, and other energy commodities',
-                pairs: '5+ Energies',
-                spread: 'Tight spreads',
+                titleKey: 'energyTitle',
+                descKey: 'energyDesc',
+                pairsKey: 'energyPairs',
+                spreadKey: 'energySpread',
                 image: 'https://images.unsplash.com/photo-1560221328-12fe60f83ab8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzR8MHwxfHNlYXJjaHwzfHxzdG9jayUyMG1hcmtldCUyMGNoYXJ0c3xlbnwwfHx8fDE3NjI5MzkzNDF8MA&ixlib=rb-4.1.0&q=85'
               }
             ].map((category, idx) => (
               <Card key={idx} className="overflow-hidden hover:shadow-xl transition-all duration-300">
-                <img src={category.image} alt={category.title} className="w-full h-48 object-cover" />
+                <img src={category.image} alt={t.markets?.[category.titleKey]} className="w-full h-48 object-cover" />
                 <div className="p-6">
-                  <h3 className="text-2xl font-bold text-gray-900 mb-3">{category.title}</h3>
-                  <p className="text-gray-600 mb-6">{category.description}</p>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-3">{t.markets?.[category.titleKey]}</h3>
+                  <p className="text-gray-600 mb-6">{t.markets?.[category.descKey]}</p>
                   <div className="flex justify-between text-sm mb-4">
                     <div>
-                      <div className="text-gray-500">Instruments</div>
-                      <div className="font-bold text-gray-900">{category.pairs}</div>
+                      <div className="text-gray-500">{t.markets?.instrumentsLabel || 'Instruments'}</div>
+                      <div className="font-bold text-gray-900">{t.markets?.[category.pairsKey]}</div>
                     </div>
                     <div>
-                      <div className="text-gray-500">Spreads</div>
-                      <div className="font-bold text-gray-900">{category.spread}</div>
+                      <div className="text-gray-500">{t.markets?.spreadsLabel || 'Spreads'}</div>
+                      <div className="font-bold text-gray-900">{t.markets?.[category.spreadKey]}</div>
                     </div>
                   </div>
                   <Button 
                     className="w-full bg-green-600 hover:bg-green-700 text-white"
                     onClick={() => window.location.href = 'https://trd.smh-markets.net/'}
                   >
-                    Start Trading
+                    {t.markets?.startTrading || 'Start Trading'}
                   </Button>
                 </div>
               </Card>
