@@ -3622,8 +3622,9 @@ export const translations = {
     },
     features: {
       title: 'Por Qué Elegir SMH Markets',
-      subtitle: 'Todo lo que necesitas para operar con éxito'
-,
+      subtitle: 'Todo lo que necesitas para operar con éxito',
+      lowDeposit: 'Depósito Mínimo Bajo',
+      lowDepositDesc: 'Comienza a operar con tan solo $250',
       keyFeatures: 'Sleutel Kenmerke:',
       desktop: 'Werkskerm',
       mobile: 'Mobiel',
