@@ -433,6 +433,11 @@ export const extendedTranslations = {
       company: 'Maatskappy',
       login: 'Teken in',
       openAccount: 'Maak rekening oop',
+      // Section headers
+      accountsPlatforms: 'Rekeninge en Platforms',
+      tradingServices: 'Handelsdienste',
+      marketsSection: 'Markte',
+      tradingTools: 'Handelsgereedskap',
       accountTypes: 'Rekening tipes',
       pricingModel: 'Prysmodel',
       fundingWithdrawals: 'Befondsing en onttrekkings',
