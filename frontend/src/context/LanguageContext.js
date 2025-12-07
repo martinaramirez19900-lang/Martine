@@ -54,19 +54,24 @@ export const LanguageProvider = ({ children }) => {
 
   // Merge selected language with English as fallback
   // Merge both main translations and extended translations
-  const englishTranslations = {
+  const englishBase = {
     ...translations.en,
-    nav: extendedTranslations.en.nav,
-    pages: extendedTranslations.en.pages
+    nav: extendedTranslations.en?.nav || {},
+    pages: extendedTranslations.en?.pages || {}
   };
   
-  const t = language === 'en' 
-    ? englishTranslations
-    : deepMerge(englishTranslations, {
-        ...translations[language],
-        nav: extendedTranslations[language]?.nav,
-        pages: extendedTranslations[language]?.pages
-      });
+  if (language === 'en') {
+    var t = englishBase;
+  } else {
+    // Deep merge language translations with English base
+    const langBase = translations[language] || {};
+    const langNav = extendedTranslations[language]?.nav || {};
+    const langPages = extendedTranslations[language]?.pages || {};
+    
+    var t = deepMerge(englishBase, langBase);
+    t.nav = langNav;
+    t.pages = langPages;
+  }
 
   return (
     <LanguageContext.Provider value={{ language, changeLanguage, t }}>
