@@ -160,7 +160,7 @@ const HeaderNew = () => {
                       </NavigationMenuLink>
                     </div>
                     <div>
-                      <h4 className="mb-2 text-sm font-semibold text-gray-900">Trading Tools</h4>
+                      <h4 className="mb-2 text-sm font-semibold text-gray-900">{extT.nav?.tradingTools || 'Trading Tools'}</h4>
                       <NavigationMenuLink asChild>
                         <Link to="/tools/calculator" className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-green-50 hover:text-green-700">
                           <div className="text-sm font-medium">{t.nav.calculator}</div>
