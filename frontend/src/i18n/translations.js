@@ -3990,6 +3990,8 @@ export const translations = {
     features: {
       title: 'Hoekom Kies SMH Markets',
       subtitle: 'Alles wat jy nodig het vir suksesvolle handel',
+      lowDeposit: 'Lae Minimum Deposito',
+      lowDepositDesc: 'Begin handel met so min as $250',
       keyFeatures: 'Sleutel Kenmerke:',
       desktop: 'Werkskerm',
       mobile: 'Mobiel',
