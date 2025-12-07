@@ -7,6 +7,8 @@ export const extendedTranslations = {
       marketsTools: 'Markets & Tools',
       knowledgeHub: 'Knowledge Hub',
       company: 'Company',
+      login: 'Login',
+      openAccount: 'Open Account',
       // Section headers
       accountsPlatforms: 'Accounts & Platforms',
       tradingServices: 'Trading Services',
