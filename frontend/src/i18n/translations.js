@@ -1202,7 +1202,7 @@ export const translations = {
       fastOpening: 'Szybkie otwieranie konta',
       fastOpeningDesc: 'Zacznij handlować w mniej niż 24 godziny',
       lowDeposit: 'Niski minimalny depozyt',
-      lowDepositDesc: 'Rozpocznij handel już od $100'
+      lowDepositDesc: 'Rozpocznij handel już od $250'
     },
     advancedTools: {
       title: 'Zaawansowane narzędzia',
