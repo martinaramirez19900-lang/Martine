@@ -1,6 +1,9 @@
 // Legal pages translations
 // WARNING: These are automated translations and should be reviewed by legal professionals
 
+import { legalTranslations2 } from './legalTranslations2';
+import { legalTranslations3 } from './legalTranslations3';
+
 export const legalTranslations = {
   en: {
     legal: {
