@@ -99,6 +99,8 @@ export const extendedTranslations = {
       marketsTools: 'Rynki',
       knowledgeHub: 'Edukacja',
       company: 'Firma',
+      login: 'Zaloguj się',
+      openAccount: 'Otwórz konto',
       // Section headers
       accountsPlatforms: 'Konta i platformy',
       tradingServices: 'Usługi handlowe',
