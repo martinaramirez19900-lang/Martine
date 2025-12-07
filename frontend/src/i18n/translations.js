@@ -1346,13 +1346,21 @@ export const translations = {
       marketScreener: 'Skaner rynku',
       marketScreenerDesc: 'Filtruj i znajdź możliwości handlowe na podstawie kryteriów technicznych',
       launchTool: 'Uruchom narzędzie',
+      // Trading Calculator
       tradingCalculator: 'Kalkulator handlowy',
       instrument: 'Instrument',
       accountCurrency: 'Waluta konta',
-      volume: 'Wolumen',
+      leverage: 'Dźwignia',
+      lotSize: 'Rozmiar lota',
       entryPrice: 'Cena wejścia',
       closePrice: 'Cena zamknięcia',
-      calculate: 'Oblicz'
+      calculate: 'Oblicz',
+      pipValue: 'Wartość pip',
+      requiredMargin: 'Wymagany depozyt',
+      profitLoss: 'Zysk/Strata',
+      selectInstrument: 'Wybierz instrument',
+      selectCurrency: 'Wybierz walutę',
+      enterValue: 'Wprowadź wartość'
     },
     educationPages: {
       tradingGuides: 'Przewodniki handlowe',
