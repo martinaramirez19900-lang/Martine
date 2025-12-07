@@ -2257,7 +2257,24 @@ export const translations = {
       mobileAppsFeature: 'Mobil uygulamalar',
       webPlatformFeature: 'Web platformu',
       copyTradingFeature: 'Copy Trading',
-      levelIIPricingFeature: 'Seviye II fiyatlandırma'
+      levelIIPricingFeature: 'Seviye II fiyatlandırma',
+      // Platform features
+      advancedCharting: 'Gelişmiş grafikler',
+      expertAdvisors: 'Uzman Danışmanlar',
+      mobileTrading: 'Mobil işlem',
+      customIndicators: 'Özel göstergeler',
+      multipleTimeframes: 'Çoklu zaman dilimleri',
+      economicCalendar: 'Ekonomik takvim',
+      depthOfMarket: 'Piyasa derinliği',
+      builtInSignals: 'Yerleşik sinyaller',
+      levelIIPricing: 'Seviye II fiyatlandırma',
+      cAlgoAutomation: 'cAlgo otomasyonu',
+      fastExecution: 'Hızlı işlem',
+      advancedOrders: 'Gelişmiş emirler',
+      intuitiveInterface: 'Sezgisel arayüz',
+      oneClickTrading: 'Tek tıkla işlem',
+      realTimeData: 'Gerçek zamanlı veri',
+      riskManagement: 'Risk yönetimi'
     },
     markets: {
       title: 'Birden fazla piyasada işlem yapın',
