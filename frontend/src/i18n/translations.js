@@ -1591,8 +1591,7 @@ export const translations = {
       crypto: 'Krypto',
       metals: 'Kovy',
       indices: 'Indexy',
-      energy: 'Energie'
-,
+      energy: 'Energie',
       searchPlaceholder: 'Hledat nástroje...',
       allMarkets: 'Všechny trhy',
       chartVisualization: 'Vizualizace grafu',
