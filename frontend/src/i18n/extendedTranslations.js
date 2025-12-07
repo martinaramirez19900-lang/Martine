@@ -224,6 +224,11 @@ export const extendedTranslations = {
       company: 'Şirket',
       login: 'Giriş Yap',
       openAccount: 'Hesap Aç',
+      // Section headers
+      accountsPlatforms: 'Hesaplar ve Platformlar',
+      tradingServices: 'İşlem Hizmetleri',
+      marketsSection: 'Piyasalar',
+      tradingTools: 'İşlem Araçları',
       accountTypes: 'Hesap Türleri',
       pricingModel: 'Fiyatlandırma Modeli',
       fundingWithdrawals: 'Para Yatırma ve Çekme',
