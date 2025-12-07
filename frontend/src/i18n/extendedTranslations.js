@@ -200,7 +200,7 @@ export const extendedTranslations = {
       webinars: 'Živé webináře',
       videoTutorials: 'Video tutoriály',
       ebooks: 'Zdarma e-knihy',
-      glossary: 'Obchodní glosář',
+      glossary: 'Obchodní slovník',
       faq: 'FAQ',
       beginnerGuide: 'Průvodce pro začátečníky',
       advancedStrategies: 'Pokročilé strategie',
