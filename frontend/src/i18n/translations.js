@@ -3300,7 +3300,7 @@ export const translations = {
       fastOpening: 'Rýchle otvorenie účtu',
       fastOpeningDesc: 'Začnite obchodovať za menej ako 24 hodín',
       lowDeposit: 'Nízky minimálny vklad',
-      lowDepositDesc: 'Začnite obchodovať už od $100'
+      lowDepositDesc: 'Začnite obchodovať už od $250'
     },
     advancedTools: {
       title: 'Pokročilé nástroje',
