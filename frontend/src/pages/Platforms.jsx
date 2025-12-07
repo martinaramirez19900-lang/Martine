@@ -7,11 +7,36 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '../components/ui/tabs'
 import { platforms } from '../data/mockData';
 
 const Platforms = () => {
-  const { t } = useLanguage();
-  
-  // Debug logging
-  console.log('Platforms t.platforms:', t.platforms);
-  console.log('Platforms t.platforms.advancedCharting:', t.platforms?.advancedCharting);
+  const { t, language } = useLanguage();
+
+  // Translate feature function - moved outside map to avoid recreation
+  const translateFeature = React.useCallback((feature) => {
+    // Wait for translations to load
+    if (!t.platforms || !t.platforms.advancedCharting) {
+      return feature; // Return English as fallback while loading
+    }
+    
+    const featureMap = {
+      'Advanced charting': t.platforms.advancedCharting,
+      'Expert Advisors': t.platforms.expertAdvisors,
+      'Mobile trading': t.platforms.mobileTrading,
+      'Custom indicators': t.platforms.customIndicators,
+      'Multiple timeframes': t.platforms.multipleTimeframes,
+      'Economic calendar': t.platforms.economicCalendar,
+      'Depth of Market': t.platforms.depthOfMarket,
+      'Built-in signals': t.platforms.builtInSignals,
+      'Level II pricing': t.platforms.levelIIPricing,
+      'cAlgo automation': t.platforms.cAlgoAutomation,
+      'Fast execution': t.platforms.fastExecution,
+      'Advanced orders': t.platforms.advancedOrders,
+      'Intuitive interface': t.platforms.intuitiveInterface,
+      'One-click trading': t.platforms.oneClickTrading,
+      'Real-time data': t.platforms.realTimeData,
+      'Risk management': t.platforms.riskManagement
+    };
+    
+    return featureMap[feature] || feature;
+  }, [t, language]); // Re-create when language changes
 
   return (
     <div className="min-h-screen pt-20">
