@@ -295,13 +295,13 @@ const HeaderNew = () => {
               className="border-gray-300"
               onClick={() => window.location.href = 'https://trd.smh-markets.net/'}
             >
-              Login
+              {t.nav?.login || 'Login'}
             </Button>
             <Button 
               className="bg-green-600 hover:bg-green-700 text-white"
               onClick={() => window.location.href = 'https://trd.smh-markets.net/'}
             >
-              Open Account
+              {t.nav?.openAccount || 'Open Account'}
             </Button>
           </div>
 
