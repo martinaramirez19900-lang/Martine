@@ -2596,7 +2596,7 @@ export const translations = {
       fastOpening: 'Hızlı hesap açma',
       fastOpeningDesc: '24 saatten kısa sürede işlem yapmaya başlayın',
       lowDeposit: 'Düşük minimum depozito',
-      lowDepositDesc: '$100\'dan itibaren işlem yapmaya başlayın'
+      lowDepositDesc: '$250\'dan itibaren işlem yapmaya başlayın'
     },
     advancedTools: {
       title: 'Gelişmiş araçlar',
