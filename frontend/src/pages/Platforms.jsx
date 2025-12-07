@@ -60,32 +60,6 @@ const Platforms = () => {
                 if (name === 'SMH Edge') return t.platforms?.edgeDescription || platform.description;
                 return platform.description;
               };
-
-              const translateFeature = (feature) => {
-                // Check if platforms translations exist
-                if (!t.platforms) return feature;
-                
-                const featureMap = {
-                  'Advanced charting': t.platforms.advancedCharting,
-                  'Expert Advisors': t.platforms.expertAdvisors,
-                  'Mobile trading': t.platforms.mobileTrading,
-                  'Custom indicators': t.platforms.customIndicators,
-                  'Multiple timeframes': t.platforms.multipleTimeframes,
-                  'Economic calendar': t.platforms.economicCalendar,
-                  'Depth of Market': t.platforms.depthOfMarket,
-                  'Built-in signals': t.platforms.builtInSignals,
-                  'Level II pricing': t.platforms.levelIIPricing,
-                  'cAlgo automation': t.platforms.cAlgoAutomation,
-                  'Fast execution': t.platforms.fastExecution,
-                  'Advanced orders': t.platforms.advancedOrders,
-                  'Intuitive interface': t.platforms.intuitiveInterface,
-                  'One-click trading': t.platforms.oneClickTrading,
-                  'Real-time data': t.platforms.realTimeData,
-                  'Risk management': t.platforms.riskManagement
-                };
-                
-                return featureMap[feature] || feature;
-              };
               
               return (
               <Card key={platform.id} className="p-8 hover:shadow-2xl transition-all duration-300">
