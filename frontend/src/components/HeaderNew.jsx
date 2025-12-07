@@ -132,7 +132,7 @@ const HeaderNew = () => {
                 <NavigationMenuContent>
                   <div className="grid w-[600px] gap-3 p-4 md:grid-cols-2">
                     <div>
-                      <h4 className="mb-2 text-sm font-semibold text-gray-900">Markets</h4>
+                      <h4 className="mb-2 text-sm font-semibold text-gray-900">{t.nav?.marketsSection || 'Markets'}</h4>
                       <NavigationMenuLink asChild>
                         <Link to="/markets/forex" className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-green-50 hover:text-green-700">
                           <div className="text-sm font-medium">{t.nav.forex}</div>
