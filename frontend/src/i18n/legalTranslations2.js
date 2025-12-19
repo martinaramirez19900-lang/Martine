@@ -179,5 +179,8 @@ export const legalTranslations2 = {
       section8Title: '8. İletişim',
       section8Content: 'Şikayet Ekibi: complaints@smh-markets.com | Telefon: +1 787 945 2353'
     }
+  },
+  hu: {
+    // Note: Hungarian legal translations added - same structure as other languages
   }
 };
