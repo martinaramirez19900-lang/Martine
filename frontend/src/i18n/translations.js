@@ -50,6 +50,7 @@ export const translations = {
       security: 'Security'
     },
     hero: {
+      badge: 'Award-Winning Broker 2025',
       title: 'Trade with Confidence',
       subtitle: 'Professional Trading Platform',
       description: 'Access global markets with competitive spreads, advanced tools, and lightning-fast execution',
