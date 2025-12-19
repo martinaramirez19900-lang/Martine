@@ -2334,8 +2334,8 @@ export const translations = {
       followUs: 'Bizi Takip Edin',
       riskWarning: 'Risk Uyarısı: CFD ve kaldıraçlı ürünlerle borsa yapmak yüksek risk taşır ve tüm yatırımcılar için uygun olmayabilir.',
       copyright: '© 2025 SMH Markets. Tüm hakları saklıdır.',
-      phoneNumber: '+1 647 948 1664',
-      phoneLabel: 'Uluslararası'
+      phoneNumber: '+90 507 522 1675',
+      phoneLabel: 'Türkiye'
     },
     about: {
       title: 'SMH Markets Hakkında',
