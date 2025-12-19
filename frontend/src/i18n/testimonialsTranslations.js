@@ -33,7 +33,7 @@ export const testimonialsTranslations = {
       {
         name: 'Emma Williams',
         role: 'Day Trader',
-        text: 'Najlepsze spready w branży. Handluję tutaj od 3 lat i nigdy nie byłem rozczarowany.'
+        text: 'Najlepsze spready w branży. Handluję tutaj od 3 lat i nigdy nie byłam rozczarowana.'
       },
       {
         name: 'Robert Thompson',
