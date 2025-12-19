@@ -134,7 +134,7 @@ export const additionalPagesTranslations = {
       complaints: 'Reklamacje',
       contactUs: 'Skontaktuj się z nami',
       address: '5 Westbrook Court, Sharrow Vale Road, Sheffield, South Yorkshire, S11 8YZ, Wielka Brytania',
-      phone: '+1 787 945 2353',
+      phone: '+48 422 028 800',
       regulatoryDocs: 'Dokumenty regulacyjne',
       smhCapital: 'SMH Capital Advisors LLC',
       smhFinance: 'SMH Finance LLP'
