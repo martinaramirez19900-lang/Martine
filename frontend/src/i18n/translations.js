@@ -1523,6 +1523,7 @@ export const translations = {
       security: 'Bezpečnost'
     },
     hero: {
+      badge: 'Oceněný Broker 2025',
       title: 'Obchodujte s jistotou',
       subtitle: 'Profesionální obchodní platforma',
       description: 'Přístup na globální trhy s konkurenčními spready, pokročilými nástroji a bleskově rychlým prováděním',
