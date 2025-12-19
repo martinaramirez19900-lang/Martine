@@ -442,15 +442,18 @@ test_plan:
 
   - task: "Hungarian Language Implementation - All Pages"
     implemented: true
-    working: true
+    working: false
     file: "/app/frontend/src/i18n/*.js, /app/frontend/src/components/HeaderNew.jsx"
-    stuck_count: 0
+    stuck_count: 1
     priority: "high"
-    needs_retesting: true
+    needs_retesting: false
     status_history:
       - working: "NA"
         agent: "main"
         comment: "User requested: Add Hungarian (Magyar - HU) language to all pages of the website. Implementation completed: 1) Added Hungarian translations to all translation files: translations.js (700+ translation keys covering all sections: nav, hero, features, platforms, markets, accounts, footer, contact, about, regulation, security, careers, contactPage, economicCalendar, marketNews, pamm, tradingExperience, whyChooseUs, comparisonTable, joinTraders, pricingFees, mobileApp, marketPages, tools, education, webinars, videos, glossary, faq, platformDesc, common), extendedTranslations.js (nav with section headers, pages with platforms/accounts/pricing/funding), additionalPages.js (ambassador, sponsors, mobileApp, stockTrading, footer), additionalTranslations.js (whyChoose sections, platformDesc), pageTranslations.js (openAccount, accounts, forex, pamm, platforms), testimonialsTranslations.js (testimonials), legalTranslations.js (legal, terms, privacy, risk, complaints), legalTranslations2.js and legalTranslations3.js (placeholder added). 2) Added Hungarian to language selector in HeaderNew.jsx: { code: 'hu', name: 'Magyar', flag: '🇭🇺' }. 3) Frontend restarted successfully and running. Hungarian now appears as 8th language option (after EN, ES, PL, CZ, TR, SK, AF). All major trading terminology professionally translated: Forex terms (tőkeáttétel, spread, vétel, eladás), Account types (Demo számla, Standard számla, Pro számla, VIP számla), Platform names (kereskedési platform), Market terms (részvények, indexek, nyersanyagok, kriptovaluták), Navigation items (Főoldal, Kereskedés, Piacok és eszközök, Tudásközpont, Társaság). Ready for comprehensive testing across all pages to verify Hungarian translations work correctly."
+      - working: false
+        agent: "testing"
+        comment: "❌ HUNGARIAN LANGUAGE IMPLEMENTATION TEST FAILED: Comprehensive testing reveals that Hungarian language switching is NOT FUNCTIONAL. CRITICAL ISSUES FOUND: 1) LANGUAGE SELECTOR: Globe icon visible in header but Hungarian language switching does not work - clicking Magyar option does not translate content. 2) HOMEPAGE: All content remains in English - 'Trade with Confidence', 'Professional Trading Platform', 'Open Live Account', 'Try Demo' instead of expected Hungarian translations 'Kereskedjen magabiztosan', 'Professzionális kereskedési platform', 'Élő számla nyitása', 'Demo kipróbálása'. 3) NAVIGATION MENU: Shows English 'Trading', 'Markets & Tools', 'Knowledge Hub', 'Company' instead of Hungarian 'Kereskedés', 'Piacok és eszközök', 'Tudásközpont', 'Társaság'. 4) ALL PAGES TESTED: Accounts (/accounts), Platforms (/platforms), Markets (/markets/forex, /markets/crypto), Education (/education), Contact (/contact) - ALL display English content with NO Hungarian translations visible. 🚨 ROOT CAUSE: Translation system appears to be broken at the language switching mechanism level. While Hungarian translations exist in translation files, the language context/provider is not updating React components when Magyar is selected. This is the same critical issue that affected Polish translations previously. URGENT ACTION REQUIRED: Debug and fix the core translation switching mechanism - language selection UI works but actual content translation does not occur."
 
 agent_communication:
   - agent: "main"
