@@ -764,6 +764,7 @@ export const translations = {
       security: 'Bezpieczeństwo'
     },
     hero: {
+      badge: 'Nagrodzony Broker 2025',
       title: 'Handluj z pewnością',
       subtitle: 'Profesjonalna platforma handlowa',
       description: 'Dostęp do rynków globalnych z konkurencyjnymi spreadami, zaawansowanymi narzędziami i błyskawiczną realizacją',
