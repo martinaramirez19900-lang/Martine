@@ -55,21 +55,32 @@ export const LanguageProvider = ({ children }) => {
   // Merge selected language with English as fallback
   // Merge both main translations and extended translations
   const englishBase = {
-    ...translations.en,
-    nav: extendedTranslations.en?.nav || {},
-    pages: extendedTranslations.en?.pages || {}
+    ...translations.en
   };
   
+  // Get extended translations for English
+  const englishExtNav = extendedTranslations.en?.nav || {};
+  const englishExtPages = extendedTranslations.en?.pages || {};
+  
   if (language === 'en') {
-    var t = englishBase;
+    var t = {
+      ...englishBase,
+      nav: deepMerge(englishBase.nav || {}, englishExtNav),
+      pages: englishExtPages
+    };
   } else {
     // Deep merge language translations with English base
-    const langBase = translations[language] || {};
+    const langBase = translations[language] || translations.en;
     const langNav = extendedTranslations[language]?.nav || {};
     const langPages = extendedTranslations[language]?.pages || {};
     
+    // First merge with English base
     var t = deepMerge(englishBase, langBase);
-    t.nav = langNav;
+    
+    // Then merge nav (prioritize extended translations)
+    t.nav = deepMerge(t.nav || {}, langNav);
+    
+    // Add pages from extended translations
     t.pages = langPages;
   }
 
