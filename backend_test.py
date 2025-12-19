@@ -15,7 +15,7 @@ from dotenv import load_dotenv
 load_dotenv('/app/frontend/.env')
 
 # Get backend URL from frontend environment
-BACKEND_URL = os.getenv('REACT_APP_BACKEND_URL', 'https://translate-hub-51.preview.emergentagent.com')
+BACKEND_URL = os.getenv('REACT_APP_BACKEND_URL', 'https://site-mirror-hu.preview.emergentagent.com')
 API_BASE_URL = f"{BACKEND_URL}/api"
 
 def test_backend_health():
