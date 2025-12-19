@@ -2240,6 +2240,7 @@ export const translations = {
       security: 'Güvenlik'
     },
     hero: {
+      badge: 'Ödüllü Broker 2025',
       title: 'Güvenle borsa yapın',
       subtitle: 'Profesyonel borsa platformu',
       description: 'Rekabetçi spreadler, gelişmiş araçlar ve yıldırım hızında borsa gerçekleştirme ile küresel piyasalara erişin',
