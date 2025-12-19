@@ -36,8 +36,7 @@ const HeaderNew = () => {
     { code: 'cz', name: 'Čeština', flag: '🇨🇿' },
     { code: 'tr', name: 'Türkçe', flag: '🇹🇷' },
     { code: 'sk', name: 'Slovenčina', flag: '🇸🇰' },
-    { code: 'af', name: 'Afrikaans', flag: '🇿🇦' },
-    { code: 'hu', name: 'Magyar', flag: '🇭🇺' }
+    { code: 'af', name: 'Afrikaans', flag: '🇿🇦' }
   ];
 
   const currentLanguage = languages.find(lang => lang.code === language);
