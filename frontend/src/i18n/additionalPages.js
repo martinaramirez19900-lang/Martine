@@ -473,5 +473,73 @@ export const additionalPagesTranslations = {
       smhCapital: 'SMH Capital Advisors LLC',
       smhFinance: 'SMH Finance LLP'
     }
+  },
+  hu: {
+    ambassador: {
+      title: 'Hivatalos márkanagykövet',
+      subtitle: 'Rafael Nadal',
+      description: 'Tenisz legenda és SMH Markets nagykövet',
+      quote: '"Kiválóság, precizitás és elhivatottság - értékek, amelyek mind a bajnokokat, mind a sikeres kereskedőket meghatározzák. Büszke vagyok, hogy képviselem az SMH Markets-t, egy bróker, amely osztja elkötelezettségemet a nagyszerűség elérése iránt."',
+      grandSlam: 'Grand Slam címek',
+      atpTitles: 'ATP címek',
+      atpRanking: 'ATP rangsor',
+      cta: 'Kereskedjen mint egy bajnok'
+    },
+    sponsors: {
+      title: 'Hivatalos szponzorok',
+      subtitle: 'Büszke partnerei világszínvonalú szervezeteknek',
+      officialPartner: 'Hivatalos kereskedési partner',
+      fcbDescription: 'Az SMH Markets az FC Barcelona hivatalos kereskedési partnere, a világ egyik legsikeresebb futballklubjának. Ez a partnerség kiválósághoz és globális eléréshez való elkötelezettségünket képviseli.',
+      laLigaTitles: 'La Liga címek',
+      championsLeague: 'Bajnokok Ligája',
+      learnMore: 'Tudjon meg többet a partnerségről',
+      motto: 'Más, mint egy klub'
+    },
+    mobileApp: {
+      title: 'Mobil kereskedési alkalmazás',
+      subtitle: 'Kereskedjen bármikor, bárhol erőteljes mobil kereskedési alkalmazásunkkal',
+      downloadIOS: 'Letöltés iOS-re',
+      downloadAndroid: 'Letöltés Android-ra',
+      desktop: 'Asztali',
+      web: 'Web',
+      mobile: 'Mobil',
+      keyFeatures: 'Főbb jellemzők',
+      ctaTitle: 'Kezdje el a mobil kereskedést',
+      ctaSubtitle: 'Töltse le alkalmazásunkat és kereskedjen bárhonnan a világon'
+    },
+    stockTrading: {
+      title: 'Részvény kereskedés',
+      subtitle: 'Kereskedjen 1000+ részvénnyel a globális piacokról nulla jutalékkal',
+      thousandStocks: '1000+ részvény',
+      thousandStocksDesc: 'Hozzáférés a főbb globális tőzsdékhez',
+      zeroCommission: 'Nulla jutalék',
+      zeroCommissionDesc: 'Kereskedjen részvényekkel jutalékmentes',
+      fractionalShares: 'Töredék részvények',
+      fractionalSharesDesc: 'Kezdje a kereskedést 1 USD-től',
+      openRealAccount: 'Valós számla nyitása'
+    },
+    footer: {
+      company: 'Társaság',
+      aboutUs: 'Rólunk',
+      whyUs: 'Miért SMH Markets',
+      careers: 'Karrier',
+      partnerships: 'Partnerségek',
+      trading: 'Kereskedés',
+      tradingPlatforms: 'Kereskedési platformok',
+      markets: 'Piacok',
+      accountTypes: 'Számlatípusok',
+      tradingTools: 'Kereskedési eszközök',
+      legal: 'Jogi',
+      legalDocuments: 'Jogi dokumentumok',
+      privacyPolicy: 'Adatvédelmi irányelvek',
+      termsOfService: 'Szolgáltatási feltételek',
+      riskDisclosure: 'Kockázati közzététel',
+      contactUs: 'Kapcsolat',
+      address: '5 Westbrook Court, Sharrow Vale Road, Sheffield, South Yorkshire, S11 8YZ, Egyesült Királyság',
+      phone: '+1 787 945 2353',
+      regulatoryDocs: 'Szabályozási dokumentumok',
+      smhCapital: 'SMH Capital Advisors LLC',
+      smhFinance: 'SMH Finance LLP'
+    }
   }
 };
