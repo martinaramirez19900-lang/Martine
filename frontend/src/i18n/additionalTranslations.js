@@ -388,5 +388,51 @@ export const additionalMarketKeys = {
       ctrader: 'Professionele handelsplatform',
       smhEdge: 'Ons eie handelsplatform'
     }
+  },
+  hu: {
+    whyChoose: {
+      regulatedBroker: {
+        title: 'Szabályozott bróker',
+        desc: 'Engedélyezett és szabályozott vezető hatóságok által'
+      },
+      tightSpreads: {
+        title: 'Szoros spreadek',
+        desc: '0,0 piptől kezdődően a főbb párokra'
+      },
+      fastExecution: {
+        title: 'Gyors végrehajtás',
+        desc: 'Villámgyors megbízás végrehajtás'
+      },
+      multipleMarkets: {
+        title: 'Több piac',
+        desc: 'Forex, részvények, indexek, nyersanyagok és kripto'
+      },
+      secureTrading: {
+        title: 'Biztonságos kereskedés',
+        desc: 'Banki szintű biztonság és pénzeszköz védelem'
+      },
+      advancedTools: {
+        title: 'Fejlett eszközök',
+        desc: 'Professzionális kereskedési eszközök és mutatók'
+      },
+      globalMarkets: {
+        title: 'Globális piacok',
+        desc: 'Hozzáférés a piacokhoz világszerte 24/5'
+      },
+      awardWinning: {
+        title: 'Díjnyertes',
+        desc: 'Elismert kiválóság az iparágban'
+      },
+      support247: {
+        title: '24/7 támogatás',
+        desc: 'Folyamatos többnyelvű támogatás'
+      }
+    },
+    platformDesc: {
+      mt4: 'A világ legnépszerűbb kereskedési platformja',
+      mt5: 'Következő generációs multi-eszköz platform',
+      ctrader: 'Professzionális kereskedési platform',
+      smhEdge: 'Saját kereskedési platformunk'
+    }
   }
 };
