@@ -721,6 +721,7 @@ export const translations = {
       trading: 'Handel',
       platforms: 'Platformy handlowe',
       markets: 'Rynki i narzędzia',
+      marketsTools: 'Rynki i narzędzia',
       knowledgeHub: 'Centrum wiedzy',
       company: 'Firma',
       login: 'Zaloguj się',
