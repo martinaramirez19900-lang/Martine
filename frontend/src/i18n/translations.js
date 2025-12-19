@@ -2420,7 +2420,7 @@ export const translations = {
       address: '5 Westbrook Court, Sharrow Vale Road, Sheffield, South Yorkshire, S11 8YZ, Birleşik Krallık',
       visitByAppointment: 'Randevulu ziyaret',
       phoneSupport: 'Telefon Desteği',
-      phoneNumber: '+1 787 945 2353 / +1 787 945 2350',
+      phoneNumber: '+90 507 522 1675',
       available247: '7/24 Müsait',
       emailSupport: 'E-posta Desteği',
       supportEmail: 'support@smh-markets.com',
