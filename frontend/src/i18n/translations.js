@@ -1727,7 +1727,7 @@ export const translations = {
       address: '5 Westbrook Court, Sharrow Vale Road, Sheffield, South Yorkshire, S11 8YZ, Spojené království',
       visitByAppointment: 'Návštěva po domluvě',
       phoneSupport: 'Telefonická podpora',
-      phoneNumber: '+1 787 945 2353 / +1 787 945 2350',
+      phoneNumber: '+420 221 349 515',
       available247: 'Dostupné 24/7',
       emailSupport: 'E-mailová podpora',
       supportEmail: 'support@smh-markets.com',
