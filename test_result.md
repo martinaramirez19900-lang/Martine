@@ -102,7 +102,7 @@
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
 
-user_problem_statement: "Fix translation issues on SMH Markets website. Ensure all text translates properly across all language versions (EN, PL, CZ, TR, SK)."
+user_problem_statement: "Add Hungarian (HU) language to all pages of SMH Markets website. Previously supported languages: EN, PL, CZ, TR, SK, ES, AF. New addition: HU (Magyar)."
 
 backend:
   - task: "Backend API"
