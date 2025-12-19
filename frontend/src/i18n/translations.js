@@ -3027,8 +3027,8 @@ export const translations = {
       followUs: 'Sledujte nás',
       riskWarning: 'Varovanie pred rizikom: Obchodovanie s CFD a pákovanými produktmi nesie vysoké riziko a nemusí byť vhodné pre všetkých investorov.',
       copyright: '© 2025 SMH Markets. Všetky práva vyhradené.',
-      phoneNumber: '+1 647 948 1664',
-      phoneLabel: 'Medzinárodné'
+      phoneNumber: '+421 572 304 870',
+      phoneLabel: 'Slovensko'
     },
     contact: {
       title: 'Kontaktujte nás',
