@@ -37,6 +37,7 @@ const isObject = (item) => {
 
 export const LanguageProvider = ({ children }) => {
   const [language, setLanguage] = useState('en');
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
     const savedLanguage = localStorage.getItem('smh-language');
@@ -47,45 +48,55 @@ export const LanguageProvider = ({ children }) => {
 
   const changeLanguage = (lang) => {
     if (translations[lang]) {
+      setIsLoading(true);
       setLanguage(lang);
       localStorage.setItem('smh-language', lang);
+      
+      // Force a small delay to ensure state updates
+      setTimeout(() => {
+        setIsLoading(false);
+      }, 100);
     }
   };
 
-  // Merge selected language with English as fallback
-  // Merge both main translations and extended translations
-  const englishBase = {
-    ...translations.en
-  };
-  
-  // Get extended translations for English
-  const englishExtNav = extendedTranslations.en?.nav || {};
-  const englishExtPages = extendedTranslations.en?.pages || {};
-  
-  if (language === 'en') {
-    var t = {
-      ...englishBase,
-      nav: deepMerge(englishBase.nav || {}, englishExtNav),
-      pages: englishExtPages
+  // Use useMemo to recalculate translations only when language changes
+  const t = React.useMemo(() => {
+    // Merge selected language with English as fallback
+    const englishBase = {
+      ...translations.en
     };
-  } else {
-    // Deep merge language translations with English base
-    const langBase = translations[language] || translations.en;
-    const langNav = extendedTranslations[language]?.nav || {};
-    const langPages = extendedTranslations[language]?.pages || {};
     
-    // First merge with English base
-    var t = deepMerge(englishBase, langBase);
+    // Get extended translations for English
+    const englishExtNav = extendedTranslations.en?.nav || {};
+    const englishExtPages = extendedTranslations.en?.pages || {};
     
-    // Then merge nav (prioritize extended translations)
-    t.nav = deepMerge(t.nav || {}, langNav);
-    
-    // Add pages from extended translations
-    t.pages = langPages;
-  }
+    if (language === 'en') {
+      return {
+        ...englishBase,
+        nav: deepMerge(englishBase.nav || {}, englishExtNav),
+        pages: englishExtPages
+      };
+    } else {
+      // Deep merge language translations with English base
+      const langBase = translations[language] || translations.en;
+      const langNav = extendedTranslations[language]?.nav || {};
+      const langPages = extendedTranslations[language]?.pages || {};
+      
+      // First merge with English base
+      const merged = deepMerge(englishBase, langBase);
+      
+      // Then merge nav (prioritize extended translations)
+      merged.nav = deepMerge(merged.nav || {}, langNav);
+      
+      // Add pages from extended translations
+      merged.pages = langPages;
+      
+      return merged;
+    }
+  }, [language]);
 
   return (
-    <LanguageContext.Provider value={{ language, changeLanguage, t }}>
+    <LanguageContext.Provider value={{ language, changeLanguage, t, isLoading }}>
       {children}
     </LanguageContext.Provider>
   );
