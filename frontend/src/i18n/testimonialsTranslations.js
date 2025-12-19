@@ -146,5 +146,26 @@ export const testimonialsTranslations = {
         text: 'Uitstekende kliëntediens en betroubare platform. Sterk aanbeveel vir ernstige handelaars.'
       }
     ]
+  },
+  hu: {
+    title: 'Amit ügyfeleink mondanak',
+    subtitle: 'Nézze meg, mit mondanak ügyfeleink rólunk',
+    testimonials: [
+      {
+        name: 'James Rodriguez',
+        role: 'Professzionális kereskedő',
+        text: 'Az SMH Markets átalakította kereskedési élményemet. A végrehajtási sebesség hihetetlen!'
+      },
+      {
+        name: 'Emma Williams',
+        role: 'Napközbeni kereskedő',
+        text: 'A legjobb spreadek az iparágban. Már 3 éve kereskedem itt, és soha nem csalódtam.'
+      },
+      {
+        name: 'Robert Thompson',
+        role: 'Forex kereskedő',
+        text: 'Kiváló ügyfélszolgálat és megbízható platform. Erősen ajánlott komoly kereskedők számára.'
+      }
+    ]
   }
 };
