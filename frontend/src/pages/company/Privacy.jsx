@@ -14,7 +14,7 @@ const Privacy = () => {
         <div className="container mx-auto text-center">
           <h1 className="text-6xl font-bold text-gray-900 mb-6">{t.privacy?.title || 'Privacy Policy'}</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            {t.featureCards?.secureTrading?.desc || 'Your privacy and data security are our priorities'}
+            {t.privacy?.lastUpdated || 'Last Updated: January 2025'}
           </p>
         </div>
       </section>
@@ -24,28 +24,36 @@ const Privacy = () => {
           <Card className="p-8">
             <div className="space-y-6 text-gray-600">
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">{t.privacy?.section1Title || 'Data Protection'}</h2>
-                <p>{t.privacy?.section1Content || 'We are committed to protecting your personal information and your right to privacy. We collect and process your data in accordance with GDPR and other applicable regulations.'}</p>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">{t.privacy?.section1Title || '1. Information We Collect'}</h2>
+                <p>{t.privacy?.section1Content || 'We collect personal information that you provide when registering, including name, email, address, and identification documents required for regulatory compliance.'}</p>
               </div>
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">{t.privacy?.section2Title || 'Information We Collect'}</h2>
-                <p>{t.privacy?.section2Content || 'We collect information necessary to provide our services, including personal identification, financial information, and trading data.'}</p>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">{t.privacy?.section2Title || '2. How We Use Your Information'}</h2>
+                <p>{t.privacy?.section2Content || 'We use your information to provide our services, comply with legal obligations, prevent fraud, and improve our platform.'}</p>
               </div>
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">{t.privacy?.section3Title || 'How We Use Your Data'}</h2>
-                <p>{t.privacy?.section3Content || 'Your data is used to provide trading services, comply with regulatory requirements, and improve our platform.'}</p>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">{t.privacy?.section3Title || '3. Data Security'}</h2>
+                <p>{t.privacy?.section3Content || 'We implement industry-standard security measures to protect your personal information, including encryption and secure data storage.'}</p>
               </div>
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">{t.privacy?.section4Title || 'Third Party Disclosure'}</h2>
-                <p>{t.privacy?.section4Content || 'We do not sell or share your personal information with third parties except as required by law or necessary to provide our services.'}</p>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">{t.privacy?.section4Title || '4. Sharing Your Information'}</h2>
+                <p>{t.privacy?.section4Content || 'We do not sell your personal information. We may share data with service providers, regulators, and as required by law.'}</p>
               </div>
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">{t.privacy?.section5Title || 'Cookies'}</h2>
-                <p>{t.privacy?.section5Content || 'We use cookies to enhance your experience and analyze our website usage. You can manage your cookie settings in your browser.'}</p>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">{t.privacy?.section5Title || '5. Your Rights'}</h2>
+                <p>{t.privacy?.section5Content || 'You have the right to access, correct, or delete your personal data. Contact us to exercise these rights.'}</p>
               </div>
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">{t.privacy?.section6Title || 'Your Rights'}</h2>
-                <p>{t.privacy?.section6Content || 'You have the right to access, correct, or delete your personal information. Contact us at: privacy@smh-markets.com.'}</p>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">{t.privacy?.section6Title || '6. Cookies'}</h2>
+                <p>{t.privacy?.section6Content || 'We use cookies to improve user experience and analyze platform usage. You can control cookie settings in your browser.'}</p>
+              </div>
+              <div>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">{t.privacy?.section7Title || '7. Changes to Privacy Policy'}</h2>
+                <p>{t.privacy?.section7Content || 'We may update this privacy policy periodically. We will notify you of significant changes.'}</p>
+              </div>
+              <div>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">{t.privacy?.section8Title || '8. Contact'}</h2>
+                <p>{t.privacy?.section8Content || 'For privacy concerns, contact privacy@smh-markets.com'}</p>
               </div>
             </div>
           </Card>
