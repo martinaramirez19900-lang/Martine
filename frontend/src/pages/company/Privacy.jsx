@@ -2,9 +2,11 @@ import React from 'react';
 import { Shield, Lock, Eye } from 'lucide-react';
 import { useLanguage } from '../../context/LanguageContext';
 import { Card } from '../../components/ui/card';
+import { legalTranslations } from '../../i18n/legalTranslations';
 
 const Privacy = () => {
-  const { t } = useLanguage();
+  const { language } = useLanguage();
+  const t = legalTranslations[language] || legalTranslations.en;
   
   return (
     <div className="min-h-screen pt-20">
