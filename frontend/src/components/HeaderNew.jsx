@@ -127,7 +127,7 @@ const HeaderNew = () => {
               {/* Markets & Tools Menu */}
               <NavigationMenuItem>
                 <NavigationMenuTrigger className="text-gray-700 hover:text-green-600">
-                  {t.nav.marketsTools}
+                  {t.nav.markets}
                 </NavigationMenuTrigger>
                 <NavigationMenuContent>
                   <div className="grid w-[600px] gap-3 p-4 md:grid-cols-2">
