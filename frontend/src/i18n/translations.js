@@ -1113,7 +1113,7 @@ export const translations = {
         desc: 'Dostęp do rynków na całym świecie 24/5'
       },
       awardWinning: {
-        title: 'Nagradzany',
+        title: 'Wielokrotnie nagradzany',
         desc: 'Uznana doskonałość w branży'
       },
       support247: {
