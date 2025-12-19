@@ -818,5 +818,75 @@ export const pageTranslations = {
       webPlatformDesc: 'Handel direk vanaf jou webblaaier',
       mobileDesc: 'Handel oral met iOS en Android toepassings'
     }
+  },
+  hu: {
+    openAccount: {
+      title: 'Kereskedési számla nyitása',
+      subtitle: 'Kezdje el kereskedési útját még ma',
+      step1: 'Regisztráció',
+      step2: 'Ellenőrzés',
+      step3: 'Befizetés',
+      step4: 'Kereskedés',
+      openDemo: 'Demo számla nyitása',
+      openLive: 'Élő számla nyitása'
+    },
+    accounts: {
+      demo: 'Demo számla',
+      standard: 'Standard számla',
+      pro: 'Pro számla',
+      vip: 'VIP számla',
+      minDeposit: 'Minimum befizetés',
+      leverage: 'Tőkeáttétel',
+      spreadsFrom: 'Spreadek ettől',
+      commission: 'Jutalék',
+      support: 'Támogatás',
+      features: 'Jellemzők'
+    },
+    forex: {
+      title: 'Forex kereskedés',
+      subtitle: 'Kereskedjen 70+ valutapárral szoros spreadekkel és nagy tőkeáttétellel',
+      majorPairs: 'Fő párok',
+      minorPairs: 'Mellék párok',
+      exoticPairs: 'Egzotikus párok',
+      tightSpreads: 'Szoros spreadek',
+      highLeverage: 'Nagy tőkeáttétel',
+      deepLiquidity: 'Mély likviditás',
+      noRequotes: 'Nincs újraárazás'
+    },
+    pamm: {
+      title: 'PAMM számlák',
+      subtitle: 'Százalékos allokáció pénzkezelési modul',
+      forInvestors: 'Befektetőknek',
+      forManagers: 'Pénzkezelőknek',
+      howItWorks: 'Hogyan működik',
+      benefits: 'Előnyök'
+    },
+    platforms: {
+      mt5Title: 'MetaTrader 5',
+      mt5Subtitle: 'Következő generációs multi-eszköz kereskedési platform',
+      mt4Title: 'MetaTrader 4',
+      mt4Subtitle: 'A világ legnépszerűbb kereskedési platformja',
+      ctraderTitle: 'cTrader',
+      ctraderSubtitle: 'Professzionális kereskedési platform',
+      downloadMT5: 'MT5 letöltése',
+      downloadMT4: 'MT4 letöltése',
+      downloadCTrader: 'cTrader letöltése',
+      webPlatform: 'Webes platform',
+      desktop: 'Asztali',
+      web: 'Web',
+      mobile: 'Mobil',
+      mobileApps: 'Mobil alkalmazások',
+      tradeOnGo: 'Kereskedjen útközben mobil alkalmazásainkkal',
+      downloadIOS: 'Letöltés iOS-re',
+      downloadAndroid: 'Letöltés Android-ra',
+      downloadWindows: 'Letöltés Windows-ra',
+      downloadMac: 'Letöltés Mac-re',
+      launchWeb: 'Webes platform indítása',
+      advancedTools: 'Fejlett eszközök',
+      desktopPlatform: 'Asztali platform',
+      desktopDesc: 'Professzionális kereskedési platform Windows és Mac rendszerre',
+      webPlatformDesc: 'Kereskedjen közvetlenül böngészőjéből',
+      mobileDesc: 'Kereskedjen bárhonnan iOS és Android alkalmazásokkal'
+    }
   }
 };
