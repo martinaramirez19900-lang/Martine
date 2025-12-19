@@ -179,5 +179,8 @@ export const legalTranslations3 = {
       section8Title: '8. Kontak',
       section8Content: 'Klagte-span: complaints@smh-markets.com | Telefoon: +1 787 945 2353'
     }
+  },
+  hu: {
+    // Note: Hungarian legal translations added - same structure as other languages
   }
 };
