@@ -48,7 +48,7 @@ const Home = () => {
               <div className="inline-block mb-6">
                 <div className="flex items-center space-x-2 bg-green-500/20 text-green-100 px-6 py-2 rounded-full border border-green-400/30 backdrop-blur-sm">
                   <Award className="w-4 h-4" />
-                  <span className="text-sm font-medium">Award-Winning Broker 2025</span>
+                  <span className="text-sm font-medium">{t.hero?.badge || 'Award-Winning Broker 2025'}</span>
                 </div>
               </div>
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight drop-shadow-lg">
