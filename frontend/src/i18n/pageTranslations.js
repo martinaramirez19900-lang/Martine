@@ -621,6 +621,24 @@ export const pageTranslations = {
       desktopDesc: 'Profesionálna obchodná platforma pre Windows a Mac',
       webPlatformDesc: 'Obchodujte priamo z prehliadača',
       mobileDesc: 'Obchodujte kdekoľvek s aplikáciami iOS a Android'
+    },
+    comparisonTable: {
+      feature: 'Funkcia',
+      minDeposit: 'Minimálny vklad',
+      maxLeverage: 'Maximálna páka',
+      spreadsFrom: 'Spready od',
+      commission: 'Provízia',
+      expertAdvisors: 'Expert Advisors',
+      islamicAccount: 'Islamský účet',
+      dedicatedSupport: 'Vyhradená podpora',
+      personalManager: 'Osobný manažér',
+      priorityWithdrawals: 'Prioritné výbery',
+      premiumAnalytics: 'Prémiové analýzy',
+      demo: 'Demo',
+      standard: 'Standard',
+      pro: 'Pro',
+      vip: 'VIP',
+      recommended: 'Odporúčané'
     }
   },
   es: {
