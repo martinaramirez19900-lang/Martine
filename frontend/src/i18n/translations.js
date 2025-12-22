@@ -1957,6 +1957,9 @@ export const translations = {
       learnMore: 'Zjistit více'
     },
     homePlatforms: {
+      advancedCharting: 'Pokročilé grafy',
+      expertAdvisors: 'Expert Advisors',
+      mobileTrading: 'Mobilní obchodování',
       mt4Desc: 'Nejpopulárnější obchodní platforma na světě',
       mt5Desc: 'Multiaktivová platforma nové generace',
       ctraderDesc: 'Profesionální obchodní platforma',
@@ -1966,6 +1969,7 @@ export const translations = {
       depthOfMarket: 'Hloubka trhu',
       levelIIPricing: 'Oceňování úrovně II',
       cAlgoAutomation: 'Automatizace cAlgo',
+      fastExecution: 'Rychlé provádění',
       intuitiveInterface: 'Intuitivní rozhraní',
       realTimeData: 'Data v reálném čase'
     },
