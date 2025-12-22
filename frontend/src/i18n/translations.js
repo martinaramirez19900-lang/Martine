@@ -2677,6 +2677,9 @@ export const translations = {
       learnMore: 'Daha fazla bilgi'
     },
     homePlatforms: {
+      advancedCharting: 'Gelişmiş grafikler',
+      expertAdvisors: 'Uzman Danışmanlar',
+      mobileTrading: 'Mobil borsa',
       mt4Desc: 'Dünyanın en popüler borsa platformu',
       mt5Desc: 'Yeni nesil çoklu varlık platformu',
       ctraderDesc: 'Profesyonel borsa platformu',
@@ -2686,6 +2689,7 @@ export const translations = {
       depthOfMarket: 'Piyasa derinliği',
       levelIIPricing: 'Seviye II fiyatlandırma',
       cAlgoAutomation: 'cAlgo otomasyonu',
+      fastExecution: 'Hızlı yürütme',
       intuitiveInterface: 'Sezgisel arayüz',
       realTimeData: 'Gerçek zamanlı veri'
     },
