@@ -234,6 +234,24 @@ export const pageTranslations = {
       desktopDesc: 'Profesjonalna platforma handlowa dla Windows i Mac',
       webPlatformDesc: 'Handluj bezpośrednio z przeglądarki',
       mobileDesc: 'Handluj wszędzie z aplikacjami iOS i Android'
+    },
+    comparisonTable: {
+      feature: 'Funkcja',
+      minDeposit: 'Minimalny depozyt',
+      maxLeverage: 'Maksymalna dźwignia',
+      spreadsFrom: 'Spready od',
+      commission: 'Prowizja',
+      expertAdvisors: 'Doradcy eksperci',
+      islamicAccount: 'Konto islamskie',
+      dedicatedSupport: 'Dedykowane wsparcie',
+      personalManager: 'Menedżer osobisty',
+      priorityWithdrawals: 'Priorytetowe wypłaty',
+      premiumAnalytics: 'Analizy premium',
+      demo: 'Demo',
+      standard: 'Standard',
+      pro: 'Pro',
+      vip: 'VIP',
+      recommended: 'Zalecane'
     }
   },
   cz: {
