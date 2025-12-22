@@ -1230,6 +1230,9 @@ export const translations = {
       learnMore: 'Dowiedz się więcej'
     },
     homePlatforms: {
+      advancedCharting: 'Zaawansowane wykresy',
+      expertAdvisors: 'Doradcy eksperci',
+      mobileTrading: 'Handel mobilny',
       mt4Desc: 'Najpopularniejsza platforma handlowa na świecie',
       mt5Desc: 'Platforma wieloaktywowa nowej generacji',
       ctraderDesc: 'Profesjonalna platforma handlowa',
@@ -1239,6 +1242,7 @@ export const translations = {
       depthOfMarket: 'Głębokość rynku',
       levelIIPricing: 'Wycena poziomu II',
       cAlgoAutomation: 'Automatyzacja cAlgo',
+      fastExecution: 'Szybka realizacja',
       intuitiveInterface: 'Intuicyjny interfejs',
       realTimeData: 'Dane w czasie rzeczywistym'
     },
