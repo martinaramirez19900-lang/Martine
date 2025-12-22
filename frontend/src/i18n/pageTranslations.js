@@ -492,6 +492,24 @@ export const pageTranslations = {
       desktopDesc: 'Windows ve Mac için profesyonel işlem platformu',
       webPlatformDesc: 'Doğrudan tarayıcınızdan işlem yapın',
       mobileDesc: 'iOS ve Android uygulamalarıyla her yerde işlem yapın'
+    },
+    comparisonTable: {
+      feature: 'Özellik',
+      minDeposit: 'Minimum Depozit',
+      maxLeverage: 'Maksimum Kaldıraç',
+      spreadsFrom: 'Spreadler',
+      commission: 'Komisyon',
+      expertAdvisors: 'Uzman Danışmanlar',
+      islamicAccount: 'İslami Hesap',
+      dedicatedSupport: 'Özel Destek',
+      personalManager: 'Kişisel Yönetici',
+      priorityWithdrawals: 'Öncelikli Çekimler',
+      premiumAnalytics: 'Premium Analizler',
+      demo: 'Demo',
+      standard: 'Standard',
+      pro: 'Pro',
+      vip: 'VIP',
+      recommended: 'Önerilen'
     }
   },
   sk: {
