@@ -5161,6 +5161,146 @@ export const translations = {
       readyToPartner: 'Készen Áll a Partnerségre?',
       readyToPartnerDesc: 'Lépjen kapcsolatba partnerségi csapatunkkal, hogy megvitassák a lehetőségeket és még ma kezdje el üzlete növelését',
       contactPartnerTeam: 'Partnerségi Csapat Elérése'
+    },
+    ambassador: {
+      title: 'Hivatalos márkanagy',
+      subtitle: 'Rafael Nadal',
+      role: 'Teniszlegenda & SMH Markets nagykövet',
+      quote: 'Kiválóság, precizitás és elkötelezettség - értékek, amelyek a bajnokokat és a sikeres kereskedőket egyaránt meghatározzák. Büszke vagyok, hogy az SMH Markets-t képviselhetem, egy brókert, amely osztja a nagyság elérése iránti elkötelezettségemet.',
+      grandSlam: 'Grand Slam címek',
+      atpTitles: 'ATP címek',
+      ranking: 'ATP rangsor',
+      tradeLikeChampion: 'Kereskedjen mint egy bajnok'
+    },
+    sponsor: {
+      title: 'Hivatalos szponzorok',
+      subtitle: 'Világszínvonalú szervezetek büszke partnerei',
+      fcbTitle: 'Hivatalos kereskedési partner',
+      fcbName: 'FC Barcelona',
+      fcbDesc: 'Az SMH Markets az FC Barcelona hivatalos kereskedési partnere, amely a világ egyik legsikeresebb futballklubjainak egyike. Ez a partnerség a kiválóság és a globális jelenlét iránti elkötelezettségünket tükrözi.',
+      laLiga: 'La Liga címek',
+      championsLeague: 'Bajnokok Ligája',
+      learnPartnership: 'Tudjon meg többet a partnerségről'
+    },
+    stats: {
+      activeTraders: 'Aktív kereskedők',
+      instruments: 'Eszközök',
+      spreadsFrom: 'Spreadek ettől',
+      support: 'Támogatás',
+      avgReturns: 'Átl. hozam',
+      happyClients: 'Elégedett ügyfelek'
+    },
+    featureCards: {
+      fastExecution: {
+        title: 'Gyors végrehajtás',
+        desc: 'Villámgyors megbízás-végrehajtás minimális késleltetéssel'
+      },
+      secureTrading: {
+        title: 'Biztonságos kereskedés',
+        desc: 'Banki szintű biztonság és pénzeszköz védelem'
+      },
+      advancedTools: {
+        title: 'Fejlett eszközök',
+        desc: 'Professzionális kereskedési eszközök és indikátorok'
+      },
+      globalMarkets: {
+        title: 'Globális piacok',
+        desc: 'Hozzáférés a világ piacaihoz 24/5'
+      },
+      awardWinning: {
+        title: 'Díjnyertes',
+        desc: 'Elismert kiválóság az iparágban'
+      },
+      support247: {
+        title: '24/7 támogatás',
+        desc: 'Non-stop többnyelvű ügyfélszolgálat'
+      }
+    },
+    homePlatforms: {
+      mt4Desc: 'A világ legnépszerűbb kereskedési platformja',
+      mt5Desc: 'Következő generációs multi-eszköz platform',
+      ctraderDesc: 'Professzionális kereskedési platform',
+      edgeDesc: 'Saját kereskedési platformunk',
+      multipleTimeframes: 'Több időkeret',
+      economicCalendar: 'Gazdasági naptár',
+      depthOfMarket: 'Piaci mélység',
+      levelIIPricing: 'II. szintű árazás',
+      cAlgoAutomation: 'cAlgo automatizálás',
+      intuitiveInterface: 'Intuitív felület',
+      realTimeData: 'Valós idejű adatok'
+    },
+    guides: {
+      title: 'Kereskedési útmutatók',
+      subtitle: 'Átfogó útmutatók a kereskedési stratégiák és piaci elemzés elsajátításához',
+      beginner: 'Kezdő',
+      intermediate: 'Középhaladó',
+      allLevels: 'Minden szint',
+      minutes: 'perc',
+      startReading: 'Olvasás megkezdése',
+      guide1Title: 'Forex kereskedési kezdő útmutató',
+      guide1Desc: 'Tanulja meg a forex kereskedés alapjait, a valutapárokat és a piaci elemzést',
+      guide2Title: 'Technikai elemzés alapjai',
+      guide2Desc: 'Sajátítsa el a grafikon mintákat, indikátorokat és technikai kereskedési stratégiákat',
+      guide3Title: 'Kockázatkezelési stratégiák',
+      guide3Desc: 'Tanulja meg, hogyan védje tőkéjét és kezelje hatékonyan a kereskedési kockázatokat',
+      guide4Title: 'Kereskedési pszichológia',
+      guide4Desc: 'Fejlessze ki a sikeres kereskedéshez szükséges mentális fegyelmet'
+    },
+    riskWarning: {
+      title: 'Kockázati figyelmeztetés',
+      paragraph1: 'A Forex, CFD-k és egyéb tőkeáttételes termékek kereskedése jelentős veszteségi kockázattal jár, és nem minden befektető számára megfelelő. Befektetési döntések meghozatala előtt alaposan mérlegelje befektetési céljait, tapasztalati szintjét és kockázatvállalási hajlandóságát.',
+      paragraph2: 'A Forex és CFD kereskedésben elérhető magas tőkeáttétel mind Ön ellen, mind Ön mellett működhet. Devizakereskedelemről vagy bármely más pénzügyi eszközről szóló döntés előtt alaposan mérlegelje befektetési céljait, tapasztalati szintjét és kockázatvállalási hajlandóságát. Legyen tisztában a margin kereskedéssel kapcsolatos összes kockázattal, és kérjen tanácsot független pénzügyi tanácsadótól, ha kétségei vannak.',
+      paragraph3: 'A múltbeli teljesítmény nem jelzi a jövőbeli eredményeket. Fennáll a lehetőség, hogy kezdeti befektetésének egy részét vagy egészét elveszíti, ezért ne fektessen be olyan pénzt, amelyet nem engedhet meg magának, hogy elveszítsen. Legyen tisztában a kereskedéssel kapcsolatos összes kockázattal, és szükség esetén kérjen tanácsot független pénzügyi tanácsadótól.',
+      regulatory: 'Szabályozási információk: Az SMH Markets az SMH Capital Advisors LLC és az SMH Finance LLP kereskedelmi neve. Az SMH Capital Advisors LLC-t az illetékes pénzügyi hatóságok engedélyezték és szabályozzák. Minden ügyfél pénzeszköze elkülönített számlákon van tartva első osztályú bankoknál a maximális biztonság érdekében.',
+      jurisdiction: 'A weboldalon található információk nem irányulnak olyan joghatóságok lakosaira, ahol az ilyen terjesztés vagy használat ellentétes lenne a helyi törvényekkel vagy szabályozásokkal. A teljes feltételekért kérjük, tekintse meg jogi dokumentumainkat.'
+    },
+    accountFeatures: {
+      instantExecution: 'Azonnali végrehajtás',
+      noCommission: 'Nincs jutalék',
+      swapFree: 'Swap-mentes opció',
+      support247: '24/7 támogatás',
+      mobileTrading: 'Mobil kereskedés',
+      demoAccount: 'Demo számla',
+      lowSpreads: 'Alacsony spreadek',
+      prioritySupport: 'Elsőbbségi támogatás',
+      advancedTools: 'Fejlett eszközök',
+      dedicatedManager: 'Dedikált menedzser',
+      premiumAnalytics: 'Prémium elemzések',
+      personalAdvisor: 'Személyes tanácsadó',
+      virtualFunds: 'Virtuális pénzeszközök',
+      riskFreePractice: 'Kockázatmentes gyakorlás',
+      allPlatforms: 'Minden platform',
+      fullFeatures: 'Teljes funkciók',
+      rawSpreads: 'Nyers spreadek',
+      vipSupport: 'VIP támogatás',
+      leverageUpTo200: 'Akár 1:200',
+      leverageUpTo500: 'Akár 1:500',
+      spreadsFrom12: '1,2 piptől',
+      spreadsFrom15: '1,5 piptől',
+      spreadsFrom06: '0,6 piptől',
+      spreadsFrom00: '0,0 piptől'
+    },
+    advancedTools: {
+      title: 'Fejlett eszközök',
+      advancedCharting: 'Fejlett grafikonok',
+      advancedChartingDesc: 'Professzionális grafikon eszközök 30+ indikátorral',
+      expertAdvisors: 'Szakértő tanácsadók',
+      expertAdvisorsDesc: 'Automatizálja kereskedési stratégiáit EA-kkal',
+      mobileTrading: 'Mobil kereskedés',
+      mobileTradingDesc: 'Kereskedjen útközben iOS és Android alkalmazásokkal',
+      customIndicators: 'Egyéni indikátorok',
+      customIndicatorsDesc: 'Hozzon létre és használjon egyéni technikai indikátorokat',
+      oneClickTrading: 'Egy kattintásos kereskedés',
+      oneClickTradingDesc: 'Azonnal végrehajtja a kereskedéseket egy kattintással',
+      marketAnalysis: 'Piaci elemzés',
+      marketAnalysisDesc: 'Átfogó piaci elemző eszközök',
+      fastExecution: 'Gyors végrehajtás',
+      fastExecutionDesc: 'Villámgyors megbízás-végrehajtás',
+      advancedCharts: 'Fejlett grafikonok',
+      advancedChartsDesc: 'Professzionális grafikon eszközök',
+      cAlgoSupport: 'cAlgo támogatás',
+      cAlgoSupportDesc: 'Algoritmikus kereskedési automatizálás',
+      learnMore: 'Tudjon meg többet'
     }
   }
 };
