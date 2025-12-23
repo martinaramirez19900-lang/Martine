@@ -2636,7 +2636,7 @@ export const translations = {
       ctaDescription: 'Reuters\'ten - dünyanın önde gelen finansal haber kaynağından - son dakika haberleri, uzman analizi ve canlı güncellemelerle küresel piyasaların kapsamlı kapsamını alın',
       viewOnReuters: 'Reuters Markets\'ta Canlı Haberleri Görüntüleyin',
       importantNote: 'Önemli Not',
-      disclaimer: 'Piyasa haberleri hızlı fiyat hareketlerine neden olabilir. borsa kararları vermeden önce her zaman bilgileri birden fazla kaynaktan doğrulayın ve daha geniş piyasa bağlamını düşünün. Habere dayalı borsa hızlı karar verme ve uygun risk yönetimi gerektirir.'
+      disclaimer: 'Piyasa haberleri hızlı fiyat hareketlerine neden olabilir. işlem kararları vermeden önce her zaman bilgileri birden fazla kaynaktan doğrulayın ve daha geniş piyasa bağlamını düşünün. Habere dayalı işlem hızlı karar verme ve uygun risk yönetimi gerektirir.'
     },
     pamm: {
       title: 'PAMM Hesapları',
@@ -2663,16 +2663,16 @@ export const translations = {
     },
     featureCards: {
       fastExecution: {
-        title: 'Hızlı borsa',
+        title: 'Hızlı İşlem',
         desc: 'Minimum gecikme ile yıldırım hızında emir gerçekleştirme'
       },
       secureTrading: {
-        title: 'Güvenli borsa',
+        title: 'Güvenli İşlem',
         desc: 'Banka düzeyinde güvenlik ve fon koruması'
       },
       advancedTools: {
         title: 'Gelişmiş Araçlar',
-        desc: 'Profesyonel borsa araçları ve göstergeler'
+        desc: 'Profesyonel işlem araçları ve göstergeler'
       },
       globalMarkets: {
         title: 'Küresel Piyasalar',
@@ -2744,7 +2744,7 @@ export const translations = {
       grandSlam: 'Grand Slam Ünvanları',
       atpTitles: 'ATP Ünvanları',
       ranking: 'ATP Sıralaması',
-      tradeLikeChampion: 'Şampiyon gibi borsa yap'
+      tradeLikeChampion: 'Şampiyon gibi işlem yap'
     },
     sponsor: {
       title: 'Resmi Sponsorlar',
@@ -2757,7 +2757,7 @@ export const translations = {
       learnPartnership: 'Ortaklık hakkında daha fazla bilgi'
     },
     tradingExperience: {
-      title: 'Profesyonel borsa Deneyimi',
+      title: 'Profesyonel İşlem Deneyimi',
       subtitle: 'Modern yatırımcılar için gelişmiş araçlar ve teknoloji',
       advancedAnalytics: 'Gelişmiş Analitik',
       advancedAnalyticsDesc: 'Gerçek zamanlı piyasa verileri ve teknik analiz',
@@ -2780,7 +2780,7 @@ export const translations = {
       expertSupport: 'Uzman Desteği',
       expertSupportDesc: 'Tüm müşteriler için 7/24 çok dilli müşteri desteği',
       readyToGetStarted: 'Başlamaya hazır mısınız?',
-      openAccountToday: 'Bugün borsa hesabınızı açın ve binlerce memnun yatırımcıya katılın',
+      openAccountToday: 'Bugün işlem hesabınızı açın ve binlerce memnun yatırımcıya katılın',
       openAccountNow: 'Şimdi Hesap Aç'
     },
     comparisonTable: {
@@ -2798,13 +2798,13 @@ export const translations = {
     },
     joinTraders: {
       title: 'Başarılı yatırımcılara katılın',
-      whyTradeTitle: 'SMH Markets ile neden borsa yapmalısınız?',
+      whyTradeTitle: 'SMH Markets ile neden işlem yapmalısınız?',
       regulatedBroker: 'Düzenlenmiş broker',
       regulatedBrokerDesc: 'Üst düzey otoriteler tarafından lisanslanmış ve düzenlenmiştir',
       fastOpening: 'Hızlı hesap açma',
-      fastOpeningDesc: '24 saatten kısa sürede borsa yapmaya başlayın',
+      fastOpeningDesc: '24 saatten kısa sürede işlem yapmaya başlayın',
       lowDeposit: 'Düşük minimum depozito',
-      lowDepositDesc: '$250\'dan itibaren borsa yapmaya başlayın'
+      lowDepositDesc: '$250\'dan itibaren işlem yapmaya başlayın'
     },
     advancedTools: {
       title: 'Gelişmiş araçlar',
@@ -2825,7 +2825,7 @@ export const translations = {
       advancedCharts: 'Gelişmiş grafikler',
       advancedChartsDesc: 'Profesyonel grafik araçları',
       cAlgoSupport: 'cAlgo desteği',
-      cAlgoSupportDesc: 'Algoritmik borsa otomasyonu',
+      cAlgoSupportDesc: 'Algoritmik işlem otomasyonu',
       learnMore: 'Daha fazla bilgi'
     },
     homePlatforms: {
@@ -2848,8 +2848,8 @@ export const translations = {
     riskWarning: {
       title: 'Risk Uyarısı',
       paragraph1: 'Forex, CFD ve diğer kaldıraçlı ürünlerle işlem yapmak önemli kayıp riski taşır ve tüm yatırımcılar için uygun olmayabilir. Herhangi bir yatırım kararı vermeden önce yatırım hedeflerinizi, deneyim seviyenizi ve risk iştahınızı dikkatlice değerlendirmelisiniz.',
-      paragraph2: 'Forex ve CFD işlemlerinde mevcut olan yüksek kaldıraç derecesi sizin lehinize olduğu kadar aleyhinize de çalışabilir. Döviz veya başka bir finansal araçla borsa yapmaya karar vermeden önce, yatırım hedeflerinizi, deneyim seviyenizi ve risk iştahınızı dikkatlice değerlendirmelisiniz. Marj üzerinden borsa yapmayla ilgili tüm risklerden haberdar olmalı ve herhangi bir şüpheniz varsa bağımsız bir finansal danışmandan tavsiye almalısınız.',
-      paragraph3: 'Geçmiş performans gelecekteki sonuçların göstergesi değildir. Başlangıç yatırımınızın bir kısmını veya tamamını kaybetme olasılığı vardır ve bu nedenle kaybetmeyi göze alamayacağınız parayı yatırmamalısınız. borsa yapmayla ilgili tüm risklerden haberdar olmalı ve gerekirse bağımsız bir finansal danışmandan tavsiye almalısınız.',
+      paragraph2: 'Forex ve CFD işlemlerinde mevcut olan yüksek kaldıraç derecesi sizin lehinize olduğu kadar aleyhinize de çalışabilir. Döviz veya başka bir finansal araçla işlem yapmaya karar vermeden önce, yatırım hedeflerinizi, deneyim seviyenizi ve risk iştahınızı dikkatlice değerlendirmelisiniz. Marj üzerinden işlem yapmayla ilgili tüm risklerden haberdar olmalı ve herhangi bir şüpheniz varsa bağımsız bir finansal danışmandan tavsiye almalısınız.',
+      paragraph3: 'Geçmiş performans gelecekteki sonuçların göstergesi değildir. Başlangıç yatırımınızın bir kısmını veya tamamını kaybetme olasılığı vardır ve bu nedenle kaybetmeyi göze alamayacağınız parayı yatırmamalısınız. işlem yapmayla ilgili tüm risklerden haberdar olmalı ve gerekirse bağımsız bir finansal danışmandan tavsiye almalısınız.',
       regulatory: 'Düzenleyici Bilgiler: SMH Markets, SMH Capital Advisors LLC ve SMH Finance LLP\'nin ticari adıdır. SMH Capital Advisors LLC, ilgili finans otoriteleri tarafından yetkilendirilmiş ve düzenlenmiştir. Tüm müşteri fonları maksimum güvenlik için birinci sınıf bankalarda segrege hesaplarda tutulmaktadır.',
       jurisdiction: 'Bu web sitesindeki bilgiler, bu tür dağıtım veya kullanımın yerel yasa veya düzenlemeye aykırı olacağı belirli yetki alanlarının sakinlerine yönelik değildir. Tam şartlar ve koşullar için lütfen yasal belgelerimize bakın.'
     },
@@ -2866,19 +2866,19 @@ export const translations = {
       guide2Title: 'Teknik Analiz Temelleri',
       guide2Desc: 'Grafik kalıplarını, göstergeleri ve teknik işlem stratejilerini öğrenin',
       guide3Title: 'Risk Yönetimi Stratejileri',
-      guide3Desc: 'Sermayenizi nasıl koruyacağınızı ve borsa risklerini etkili şekilde nasıl yöneteceğinizi öğrenin',
-      guide4Title: 'borsa Psikolojisi',
-      guide4Desc: 'Başarılı borsa için gerekli zihinsel disiplini geliştirin'
+      guide3Desc: 'Sermayenizi nasıl koruyacağınızı ve işlem risklerini etkili şekilde nasıl yöneteceğinizi öğrenin',
+      guide4Title: 'İşlem Psikolojisi',
+      guide4Desc: 'Başarılı işlem için gerekli zihinsel disiplini geliştirin'
     },
     webinars: {
       title: 'Canlı İşlem Webinarları',
-      subtitle: 'Canlı piyasa analizi ve soru-cevap oturumları için uzman borsacilerimize katılın',
+      subtitle: 'Canlı piyasa analizi ve soru-cevap oturumları için uzman işlemcilerimize katılın',
       upcomingWebinars: 'Yaklaşan Webinarlar',
       registerNow: 'Şimdi Kayıt Olun',
       everyMonday: 'Her Pazartesi, 10:00 GMT',
       everyWednesday: 'Her Çarşamba, 14:00 GMT',
       everyFriday: 'Her Cuma, 11:00 GMT',
-      webinar1Title: 'Piyasa Analizi ve borsa Stratejileri',
+      webinar1Title: 'Piyasa Analizi ve İşlem Stratejileri',
       webinar1Desc: 'Canlı piyasa analizi ve mevcut işlem fırsatlarının tartışılması',
       webinar2Title: 'Teknik Analiz Ustalık Sınıfı',
       webinar2Desc: 'Gelişmiş teknik analiz tekniklerine derinlemesine dalış',
@@ -2903,7 +2903,7 @@ export const translations = {
     },
     mobileApp: {
       appCapabilities: 'Uygulama yetenekleri',
-      realTimeTrading: 'Gerçek zamanlı borsa',
+      realTimeTrading: 'Gerçek zamanlı işlem',
       realTimeTradingDesc: 'Canlı piyasa verileri ile gerçek zamanlı işlem yapın',
       pushNotifications: 'Push bildirimleri',
       pushNotificationsDesc: 'Piyasa hareketleri ve emirler için anında uyarılar alın',
@@ -2912,7 +2912,7 @@ export const translations = {
       multiPlatformSync: 'Çoklu platform senkronizasyonu',
       multiPlatformSyncDesc: 'Tüm cihazlarınızda sorunsuz senkronizasyon',
       intuitiveInterface: 'Sezgisel arayüz',
-      intuitiveInterfaceDesc: 'Hareket halinde borsa için kullanımı kolay tasarım',
+      intuitiveInterfaceDesc: 'Hareket halinde işlem için kullanımı kolay tasarım',
       offlineCharts: 'Çevrimdışı grafikler',
       offlineChartsDesc: 'İnternetsiz bile kaydedilmiş grafikleri görüntüleyin',
       fullTradingFunctionality: 'Tam işlem işlevselliği',
