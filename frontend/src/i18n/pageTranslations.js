@@ -959,6 +959,38 @@ export const pageTranslations = {
       desktopDesc: 'Professzionális kereskedési platform Windows és Mac rendszerre',
       webPlatformDesc: 'Kereskedjen közvetlenül böngészőjéből',
       mobileDesc: 'Kereskedjen bárhonnan iOS és Android alkalmazásokkal'
+    },
+    pricing: {
+      title: 'Átlátható árazás',
+      subtitle: 'Nincs rejtett díj, versenyképes spreadek',
+      spreadsTitle: 'Spreadek 0.0 pip-től (VIP)',
+      spreadsDesc: 'A legalacsonyabb spreadek VIP számlákon 0.0 pip-től, Pro számlákon 0.6 pip-től',
+      noFeesTitle: 'Nincs rejtett díj',
+      noFeesDesc: 'Amit lát, azt kapja',
+      swapsTitle: 'Versenyképes swapok',
+      swapsDesc: 'Iparágvezető swap ráták',
+      spreadsAndCommissions: 'Spreadek és jutalékok',
+      otherFees: 'Egyéb díjak',
+      inactivityFee: 'Inaktivitási díj',
+      inactivityFeeDesc: '10$/hó 12 hónap inaktivitás után',
+      withdrawalFee: 'Kifizetési díj',
+      withdrawalFeeDesc: 'Ingyenes kifizetések'
+    },
+    funding: {
+      title: 'Befizetés és kifizetés',
+      subtitle: 'Gyors, biztonságos és kényelmes fizetési módok',
+      creditCard: 'Hitel/betéti kártyák',
+      creditCardDesc: 'Azonnali befizetések, Visa, Mastercard',
+      bankTransfer: 'Banki átutalás',
+      bankTransferDesc: '1-3 munkanap',
+      eWallets: 'E-pénztárcák',
+      eWalletsDesc: 'Azonnali befizetések és kifizetések',
+      crypto: 'Kripto',
+      cryptoDesc: 'Bitcoin, USDT befizetések',
+      depositTitle: 'Hogyan fizessen be',
+      withdrawalTitle: 'Hogyan vegyen ki pénzt',
+      instantProcessing: 'Azonnali feldolgozás',
+      secureTransactions: 'Biztonságos tranzakciók'
     }
   }
 };
